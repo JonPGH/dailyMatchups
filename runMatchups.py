@@ -370,8 +370,16 @@ with col2:
    st.dataframe(styled_df,hide_index=True,width=1500)
 
 
-st.markdown(f"<center><h1>{selected_pitcher_opp} vs. {pname}</h1></center>", unsafe_allow_html=True)
-st.markdown(f"<center><h3>Team Stats</center>", unsafe_allow_html=True)
+col1, col2 = st.columns([1,10])
+with col1:
+   checkbox_state = st.checkbox("Show Team Stats", value=False)
+
+with col2: 
+   st.markdown(f"<center><h1>{selected_pitcher_opp} vs. {pname}</h1></center>", unsafe_allow_html=True)
+
+
+if checkbox_state:
+   st.markdown(f"<center><h3>Team Stats</center>", unsafe_allow_html=True)
 
 col1, col2, col3 = st.columns([1, 4, 1])  # Same centering technique
 with col2:
@@ -401,7 +409,8 @@ with col2:
       'AB': '{:.0f}',
       'H': '{:.0f}'
       })
-   st.dataframe(styled_df, width=1000, hide_index=True)
+   if checkbox_state:
+      st.dataframe(styled_df, width=1000, hide_index=True)
 
    # Get unique hitter options and add "All" as the first option
    hitter_options = ['All'] + list(filtered_h[filtered_h['Team'] == selected_pitcher_opp]['Player'].unique())
