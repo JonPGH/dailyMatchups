@@ -12,7 +12,7 @@ def dropUnnamed(df):
 
 # Data Load
 base_dir = os.path.dirname(__file__)
-file_path = os.path.join(base_dir, 'files')
+file_path = os.path.join(base_dir, 'Data')
 hdata = pd.read_csv('{}/matchups_hitterdata.csv'.format(file_path))
 hdata = dropUnnamed(hdata)
 pdata = pd.read_csv('{}/matchups_pitcherdata.csv'.format(file_path))
