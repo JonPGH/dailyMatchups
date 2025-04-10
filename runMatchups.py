@@ -18,6 +18,13 @@ hdata = dropUnnamed(hdata)
 pdata = pd.read_csv('{}/matchups_pitcherdata.csv'.format(file_path))
 pdata = dropUnnamed(pdata)
 pdata = pdata.sort_values(by='%',ascending=False)
+
+playerinfo = pd.read_csv('{}/MLBPlayerInfo.csv'.format(file_path))
+hitter_hand_dict = dict(zip(playerinfo.Player,playerinfo.BatSide))
+
+hdata['Stand'] = hdata['Player'].map(hitter_hand_dict)
+hdata['Stand'] = hdata['Stand'].fillna('R')
+
 pname_dict = {'FF': 'Four-Seam', 'SL': 'Slider', 'FC': 'Cutter', 'FS': 'Split-Finger', 'CU': 'Curveball',
  'SI': 'Sinker', 'CH': 'Changeup', 'ST': 'Sweeper', 'SV': 'Slurve', 'EP': 'Eephus',
  'PO': 'Pitch Out', 'FO': 'Forkball', 'CS': 'Slow Curve'}
@@ -36,7 +43,7 @@ with col2:
    selected_pitcher = st.selectbox('Select a Pitcher', pitcher_options)
 selected_pitcher_team = pdata[pdata['player_name']==selected_pitcher]['Team'].iloc[0]
 selected_pitcher_opp = pdata[pdata['player_name']==selected_pitcher]['Opp'].iloc[0]
-
+selected_pitcher_hand = pdata[pdata['player_name']==selected_pitcher]['p_throws'].iloc[0]
 filtered_p = pdata[(pdata['Game'] == selected_game)&(pdata['player_name']==selected_pitcher)]
 pname = filtered_p['player_name'].iloc[0]
 filtered_h = hdata[(hdata['Game'] == selected_game)&(hdata['Team']==selected_pitcher_opp)]
@@ -326,9 +333,9 @@ col1, col2 = st.columns([1,1])
 with col1:
    st.markdown(f"<center><h3>{pname} vs. RHB</h3></center>", unsafe_allow_html=True)
    filtered_p_vr = filtered_p[filtered_p['stand']=='R']
-   pitch_ordering = filtered_p_vr[['pitch_type']]
-   pitch_ordering['Num'] = range(0,len(pitch_ordering))
-   pitch_order_dict = dict(zip(pitch_ordering.pitch_type,pitch_ordering.Num))
+   pitch_ordering_vr = filtered_p_vr[['pitch_type']]
+   pitch_ordering_vr['Num'] = range(0,len(pitch_ordering_vr))
+   pitch_order_dict_vr = dict(zip(pitch_ordering_vr.pitch_type,pitch_ordering_vr.Num))
    filtered_p_vr = filtered_p_vr[['player_name','pitch_type','PitchesThrown','%','SwStr%','AVG','Hard%','GB%','FB%','Brl%','launch_speed']]
    filtered_p_vr = filtered_p_vr.rename({'PitchesThrown':'PC','launch_speed':'EV'},axis=1)
    styled_df = filtered_p_vr.style.apply(
@@ -350,6 +357,9 @@ with col1:
 with col2:
    st.markdown(f"<center><h3>{pname} vs. LHB</h3></center>", unsafe_allow_html=True)
    filtered_p_vl = filtered_p[filtered_p['stand']=='L']
+   pitch_ordering_vl = filtered_p_vl[['pitch_type']]
+   pitch_ordering_vl['Num'] = range(0,len(pitch_ordering_vl))
+   pitch_order_dict_vl = dict(zip(pitch_ordering_vl.pitch_type,pitch_ordering_vl.Num))
    filtered_p_vl = filtered_p_vl[['player_name','pitch_type','PitchesThrown','%','SwStr%','AVG','Hard%','GB%','FB%','Brl%','launch_speed']]
    filtered_p_vl = filtered_p_vl.rename({'PitchesThrown':'PC','launch_speed':'EV'},axis=1)
    styled_df = filtered_p_vl.style.apply(
@@ -385,7 +395,7 @@ col1, col2, col3 = st.columns([1, 4, 1])  # Same centering technique
 with col2:
 
    team_df = filtered_h.groupby('pitch_type',as_index=False)[['AVG','wOBA','OPS','ISO','EV','Air Hard%','Brl%','Hard%','LD%','FB%','K%','BB%']].mean()
-   team_df['Order'] = team_df['pitch_type'].map(pitch_order_dict)
+   team_df['Order'] = team_df['pitch_type'].map(pitch_order_dict_vr)
    team_df = team_df.sort_values(by='Order')
    team_df = team_df.drop(['Order'],axis=1)
 
@@ -413,8 +423,17 @@ with col2:
       st.dataframe(styled_df, width=1000, hide_index=True)
 
    # Get unique hitter options and add "All" as the first option
-   hitter_options = ['All'] + list(filtered_h[filtered_h['Team'] == selected_pitcher_opp]['Player'].unique())
-   selected_hitter = st.selectbox('Select a Hitter', hitter_options)
+   #st.dataframe(filtered_h.head(2))
+   col1, col2, col3 = st.columns([3,1,1])
+   with col1: 
+      hitter_options = ['All'] + list(filtered_h[filtered_h['Team'] == selected_pitcher_opp]['Player'].unique())
+      selected_hitter = st.selectbox('Select a Hitter', hitter_options)
+   with col2:
+      pitch_name_options = ['All'] + list(filtered_h[filtered_h['Team'] == selected_pitcher_opp]['pitch_type'].unique())
+      selected_pitch = st.selectbox('Select a Pitch', pitch_name_options)
+   with col3:
+      hitter_hand_options = ['All'] + list(filtered_h[filtered_h['Team'] == selected_pitcher_opp]['Stand'].unique())
+      selected_hitter_hand = st.selectbox('Hitter Hand', hitter_hand_options)
 
    # Filter dataframe based on selection
    if selected_hitter == 'All':
@@ -424,13 +443,55 @@ with col2:
    else:
       # Filter to the selected hitter
       filtered_h_final = filtered_h[filtered_h['Player'] == selected_hitter]
+      hitter_stand = filtered_h_final['Stand'].iloc[0]
+      if hitter_stand == 'L':
+         filtered_h_final['Order'] = filtered_h_final['pitch_type'].map(pitch_order_dict_vl)
+         filtered_h_final = filtered_h_final.sort_values(by='Order')
+         filtered_h_final = filtered_h_final.drop(['Order'],axis=1)
+
+   if selected_hitter_hand == 'All':
+      pass
+   else:
+      filtered_h_final = filtered_h_final[filtered_h_final['Stand']==selected_hitter_hand]
+      if selected_hitter_hand == 'L':
+         filtered_h_final['Order'] = filtered_h_final['pitch_type'].map(pitch_order_dict_vl)
+         filtered_h_final = filtered_h_final.sort_values(by='Order')
+         filtered_h_final = filtered_h_final.drop(['Order'],axis=1)
+      else:
+         filtered_h_final['Order'] = filtered_h_final['pitch_type'].map(pitch_order_dict_vr)
+         filtered_h_final = filtered_h_final.sort_values(by='Order')
+         filtered_h_final = filtered_h_final.drop(['Order'],axis=1)
+
+   if selected_pitch == 'All':
+      pass
+   else:
+      filtered_h_final = filtered_h_final[filtered_h_final['pitch_type']==selected_pitch]
+
 
    filtered_h_final = filtered_h_final.drop(['HID','p_throws','batter','Game','Team','Opp'],axis=1)
 
-   filtered_h_final['Order'] = filtered_h_final['pitch_type'].map(pitch_order_dict)
-   filtered_h_final = filtered_h_final.sort_values(by='Order')
-   filtered_h_final = filtered_h_final.drop(['Order'],axis=1)
+   if len(filtered_h_final)<12:
+      # get hand
+      user_selected_hand = filtered_h_final['Stand'].iloc[0]
+      if user_selected_hand == 'R':
+         filtered_h_final['Order'] = filtered_h_final['pitch_type'].map(pitch_order_dict_vr)
+         filtered_h_final = filtered_h_final.sort_values(by='Order')
+         filtered_h_final = filtered_h_final.drop(['Order'],axis=1)
+      elif user_selected_hand == 'L':
+         filtered_h_final['Order'] = filtered_h_final['pitch_type'].map(pitch_order_dict_vl)
+         filtered_h_final = filtered_h_final.sort_values(by='Order')
+         filtered_h_final = filtered_h_final.drop(['Order'],axis=1)
+      elif user_selected_hand == 'S':
+         if selected_pitcher_hand == 'R':
+            filtered_h_final['Order'] = filtered_h_final['pitch_type'].map(pitch_order_dict_vl)
+            filtered_h_final = filtered_h_final.sort_values(by='Order')
+            filtered_h_final = filtered_h_final.drop(['Order'],axis=1)
+         else:
+            filtered_h_final['Order'] = filtered_h_final['pitch_type'].map(pitch_order_dict_vr)
+            filtered_h_final = filtered_h_final.sort_values(by='Order')
+            filtered_h_final = filtered_h_final.drop(['Order'],axis=1)
 
+   filtered_h_final = filtered_h_final.drop(['Stand'],axis=1)
 
    styled_df = filtered_h_final.style.apply(
       color_cells_hit,
@@ -455,3 +516,4 @@ with col2:
       })
 
    st.dataframe(styled_df, hide_index=True, width=1550)
+
