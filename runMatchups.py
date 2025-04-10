@@ -48,6 +48,9 @@ filtered_p = pdata[(pdata['Game'] == selected_game)&(pdata['player_name']==selec
 pname = filtered_p['player_name'].iloc[0]
 filtered_h = hdata[(hdata['Game'] == selected_game)&(hdata['Team']==selected_pitcher_opp)]
 
+selected_pitcher_pitches_vr = list(pdata[(pdata['player_name']==selected_pitcher)&(pdata['stand']=='R')]['pitch_type'])
+selected_pitcher_pitches_vl = list(pdata[(pdata['player_name']==selected_pitcher)&(pdata['stand']=='L')]['pitch_type'])
+
 st.markdown(f"<center><h1>{pname} vs. {selected_pitcher_opp}</h1></center>", unsafe_allow_html=True)
 
 ## styling functions
@@ -393,7 +396,6 @@ if checkbox_state:
 
 col1, col2, col3 = st.columns([1, 4, 1])  # Same centering technique
 with col2:
-
    team_df = filtered_h.groupby('pitch_type',as_index=False)[['AVG','wOBA','OPS','ISO','EV','Air Hard%','Brl%','Hard%','LD%','FB%','K%','BB%']].mean()
    team_df['Order'] = team_df['pitch_type'].map(pitch_order_dict_vr)
    team_df = team_df.sort_values(by='Order')
@@ -477,19 +479,23 @@ with col2:
          filtered_h_final['Order'] = filtered_h_final['pitch_type'].map(pitch_order_dict_vr)
          filtered_h_final = filtered_h_final.sort_values(by='Order')
          filtered_h_final = filtered_h_final.drop(['Order'],axis=1)
+         filtered_h_final = filtered_h_final[filtered_h_final['pitch_type'].isin(selected_pitcher_pitches_vr)]
       elif user_selected_hand == 'L':
          filtered_h_final['Order'] = filtered_h_final['pitch_type'].map(pitch_order_dict_vl)
          filtered_h_final = filtered_h_final.sort_values(by='Order')
          filtered_h_final = filtered_h_final.drop(['Order'],axis=1)
+         filtered_h_final = filtered_h_final[filtered_h_final['pitch_type'].isin(selected_pitcher_pitches_vl)]
       elif user_selected_hand == 'S':
          if selected_pitcher_hand == 'R':
             filtered_h_final['Order'] = filtered_h_final['pitch_type'].map(pitch_order_dict_vl)
             filtered_h_final = filtered_h_final.sort_values(by='Order')
             filtered_h_final = filtered_h_final.drop(['Order'],axis=1)
+            filtered_h_final = filtered_h_final[filtered_h_final['pitch_type'].isin(selected_pitcher_pitches_vl)]
          else:
             filtered_h_final['Order'] = filtered_h_final['pitch_type'].map(pitch_order_dict_vr)
             filtered_h_final = filtered_h_final.sort_values(by='Order')
             filtered_h_final = filtered_h_final.drop(['Order'],axis=1)
+            filtered_h_final = filtered_h_final[filtered_h_final['pitch_type'].isin(selected_pitcher_pitches_vr)]
 
    filtered_h_final = filtered_h_final.drop(['Stand'],axis=1)
 
