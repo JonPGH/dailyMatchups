@@ -308,7 +308,7 @@ def applyColor_H(val,column):
          return 'background-color: yellow'
       elif (val < .22) & (val >= .19):
          return 'background-color: springgreen'
-      elif val > .19 :
+      elif val < .19 :
          return 'background-color: lime'
       else:
          return 'background-color: azure'
