@@ -27,6 +27,9 @@ def load_data():
    hdata['Stand'] = hdata['Player'].map(hitter_hand_dict)
    hdata['Stand'] = hdata['Stand'].fillna('R')
 
+   hdata['Stand'] = np.where((hdata['Player']=='Max Muncy')&(hdata['Team']=='OAK'), 'R', hdata['Stand'])
+   hdata['Stand'] = np.where((hdata['Player']=='Max Muncy')&(hdata['Team']=='LAD'), 'L', hdata['Stand'])
+
    pname_dict = {'FF': 'Four-Seam', 'SL': 'Slider', 'FC': 'Cutter', 'FS': 'Split-Finger', 'CU': 'Curveball',
    'SI': 'Sinker', 'CH': 'Changeup', 'ST': 'Sweeper', 'SV': 'Slurve', 'EP': 'Eephus',
    'PO': 'Pitch Out', 'FO': 'Forkball', 'CS': 'Slow Curve'}
@@ -393,8 +396,11 @@ with col2:
 col1, col2 = st.columns([1,10])
 with col1:
    checkbox_state = st.checkbox("Show Team Stats", value=False)
-   team_hand_opt = ['All','R','L']
-   selected_team_hand = st.selectbox('Filter to Team Hand', team_hand_opt)
+   if checkbox_state:
+      team_hand_opt = ['All','R','L']
+      selected_team_hand = st.selectbox('Filter to Team Hand', team_hand_opt)
+   else:
+      selected_team_hand = 'All'
 
 #st.write(selected_team_hand)
 
