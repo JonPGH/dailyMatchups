@@ -9,29 +9,36 @@ def dropUnnamed(df):
   df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
   return(df)
 
+@st.cache_data
+def load_data():
+   # Data Load
+   base_dir = os.path.dirname(__file__)
+   file_path = os.path.join(base_dir, 'Data')
+   hdata = pd.read_csv('{}/matchups_hitterdata.csv'.format(file_path))
+   hdata = dropUnnamed(hdata)
+   pdata = pd.read_csv('{}/matchups_pitcherdata.csv'.format(file_path))
+   pdata = dropUnnamed(pdata)
+   pdata = pdata.sort_values(by='%',ascending=False)
 
-# Data Load
-base_dir = os.path.dirname(__file__)
-file_path = os.path.join(base_dir, 'Data')
-hdata = pd.read_csv('{}/matchups_hitterdata.csv'.format(file_path))
-hdata = dropUnnamed(hdata)
-pdata = pd.read_csv('{}/matchups_pitcherdata.csv'.format(file_path))
-pdata = dropUnnamed(pdata)
-pdata = pdata.sort_values(by='%',ascending=False)
+   playerinfo = pd.read_csv('{}/MLBPlayerInfo.csv'.format(file_path))
+   playerinfo = playerinfo[playerinfo['ID']!=699041]
+   hitter_hand_dict = dict(zip(playerinfo.Player,playerinfo.BatSide))
 
-playerinfo = pd.read_csv('{}/MLBPlayerInfo.csv'.format(file_path))
-hitter_hand_dict = dict(zip(playerinfo.Player,playerinfo.BatSide))
+   hdata['Stand'] = hdata['Player'].map(hitter_hand_dict)
+   hdata['Stand'] = hdata['Stand'].fillna('R')
 
-hdata['Stand'] = hdata['Player'].map(hitter_hand_dict)
-hdata['Stand'] = hdata['Stand'].fillna('R')
+   pname_dict = {'FF': 'Four-Seam', 'SL': 'Slider', 'FC': 'Cutter', 'FS': 'Split-Finger', 'CU': 'Curveball',
+   'SI': 'Sinker', 'CH': 'Changeup', 'ST': 'Sweeper', 'SV': 'Slurve', 'EP': 'Eephus',
+   'PO': 'Pitch Out', 'FO': 'Forkball', 'CS': 'Slow Curve'}
 
-pname_dict = {'FF': 'Four-Seam', 'SL': 'Slider', 'FC': 'Cutter', 'FS': 'Split-Finger', 'CU': 'Curveball',
- 'SI': 'Sinker', 'CH': 'Changeup', 'ST': 'Sweeper', 'SV': 'Slurve', 'EP': 'Eephus',
- 'PO': 'Pitch Out', 'FO': 'Forkball', 'CS': 'Slow Curve'}
+   pdata['pitch_type'] = pdata['pitch_type'].replace(pname_dict)
+   hdata['pitch_type'] = hdata['pitch_type'].replace(pname_dict)
+   hdata = hdata.sort_values(by='BIP',ascending=False)
+   return(hdata,pdata,playerinfo)
 
-pdata['pitch_type'] = pdata['pitch_type'].replace(pname_dict)
-hdata['pitch_type'] = hdata['pitch_type'].replace(pname_dict)
-hdata = hdata.sort_values(by='BIP',ascending=False)
+hdata, pdata, playerinfo = load_data()
+
+
 # Get unique game options
 game_options = pdata['Game'].unique().tolist()
 
@@ -386,6 +393,10 @@ with col2:
 col1, col2 = st.columns([1,10])
 with col1:
    checkbox_state = st.checkbox("Show Team Stats", value=False)
+   team_hand_opt = ['All','R','L']
+   selected_team_hand = st.selectbox('Filter to Team Hand', team_hand_opt)
+
+#st.write(selected_team_hand)
 
 with col2: 
    st.markdown(f"<center><h1>{selected_pitcher_opp} vs. {pname}</h1></center>", unsafe_allow_html=True)
@@ -394,12 +405,28 @@ with col2:
 if checkbox_state:
    st.markdown(f"<center><h3>Team Stats</center>", unsafe_allow_html=True)
 
-col1, col2, col3 = st.columns([1, 4, 1])  # Same centering technique
+filtered_h['Stand'] = np.where((filtered_h['Stand']=='S')&(filtered_h['p_throws']=='R'), 'L', 
+                               np.where((filtered_h['Stand']=='S')&(filtered_h['p_throws']=='L'), 'R', filtered_h['Stand'] ))
+
+col1, col2, col3 = st.columns([1, 5, 1])  # Same centering technique
 with col2:
-   team_df = filtered_h.groupby('pitch_type',as_index=False)[['AVG','wOBA','OPS','ISO','EV','Air Hard%','Brl%','Hard%','LD%','FB%','K%','BB%']].mean()
-   team_df['Order'] = team_df['pitch_type'].map(pitch_order_dict_vr)
-   team_df = team_df.sort_values(by='Order')
-   team_df = team_df.drop(['Order'],axis=1)
+   if selected_team_hand == 'All':
+      team_df = filtered_h.groupby('pitch_type',as_index=False)[['AVG','wOBA','OPS','ISO','EV','Air Hard%','Brl%','Hard%','LD%','FB%','K%','BB%']].mean()
+      team_df['Order'] = team_df['pitch_type'].map(pitch_order_dict_vr)
+      team_df = team_df.sort_values(by='Order')
+      team_df = team_df.drop(['Order'],axis=1)
+   elif selected_team_hand == 'R':
+      team_df = filtered_h[filtered_h['Stand']=='R'].groupby('pitch_type',as_index=False)[['AVG','wOBA','OPS','ISO','EV','Air Hard%','Brl%','Hard%','LD%','FB%','K%','BB%']].mean()
+      team_df['Order'] = team_df['pitch_type'].map(pitch_order_dict_vr)
+      team_df = team_df.sort_values(by='Order')
+      team_df = team_df.drop(['Order'],axis=1)
+   elif selected_team_hand == 'L':
+      team_df = filtered_h[filtered_h['Stand']=='L'].groupby('pitch_type',as_index=False)[['AVG','wOBA','OPS','ISO','EV','Air Hard%','Brl%','Hard%','LD%','FB%','K%','BB%']].mean()
+      team_df['Order'] = team_df['pitch_type'].map(pitch_order_dict_vl)
+      team_df = team_df.sort_values(by='Order')
+      team_df = team_df.drop(['Order'],axis=1)
+
+   #st.write(team_df)
 
    styled_df = team_df.style.apply(
       color_cells_hit,
@@ -422,7 +449,7 @@ with col2:
       'H': '{:.0f}'
       })
    if checkbox_state:
-      st.dataframe(styled_df, width=1000, hide_index=True)
+      st.dataframe(styled_df, width=1300, hide_index=True)
 
    # Get unique hitter options and add "All" as the first option
    #st.dataframe(filtered_h.head(2))
