@@ -45,11 +45,16 @@ hdata, pdata, playerinfo = load_data()
 # Get unique game options
 game_options = pdata['Game'].unique().tolist()
 
-col1, col2 = st.columns([1,1])
+col1, col2, col3 = st.columns([1,4,4])
 with col1:
-   selected_game = st.selectbox('Select a Game', game_options)
-pitcher_options = list(pdata[pdata['Game']==selected_game]['player_name'].unique())
+   if st.button("Refresh Data"):
+      hdata, pdata, playerinfo = load_data()
+
 with col2:
+   selected_game = st.selectbox('Select a Game', game_options)
+
+pitcher_options = list(pdata[pdata['Game']==selected_game]['player_name'].unique())
+with col3:
    selected_pitcher = st.selectbox('Select a Pitcher', pitcher_options)
 selected_pitcher_team = pdata[pdata['player_name']==selected_pitcher]['Team'].iloc[0]
 selected_pitcher_opp = pdata[pdata['player_name']==selected_pitcher]['Opp'].iloc[0]
