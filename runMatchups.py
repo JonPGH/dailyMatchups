@@ -73,9 +73,9 @@ def applyColor_P(val,column):
       elif (val < .12) & (val >= .11):
          return 'background-color: yellow'
       elif (val < .11) & (val >= .10):
-         return 'background-color: springgreen'
+         return 'background-color: palegreen'
       elif val < .10 :
-         return 'background-color: lime'
+         return 'background-color: springgreen'
       else:
          return 'background-color: azure'
       
@@ -87,9 +87,9 @@ def applyColor_P(val,column):
       elif (val > .25) & (val <= .275):
          return 'background-color: yellow'
       elif (val > .275) & (val <= .3):
-         return 'background-color: springgreen'
+         return 'background-color: palegreen'
       elif val > .30 :
-         return 'background-color: lime'
+         return 'background-color: springgreen'
       else:
          return 'background-color: azure'
       
@@ -101,9 +101,9 @@ def applyColor_P(val,column):
       elif (val > .35) & (val <= .45):
          return 'background-color: yellow'
       elif (val > .45) & (val <= .55):
-         return 'background-color: springgreen'
+         return 'background-color: palegreen'
       elif val > .55 :
-         return 'background-color: lime'
+         return 'background-color: springgreen'
       else:
          return 'background-color: azure'
    
@@ -115,17 +115,17 @@ def applyColor_P(val,column):
       elif (val > .35) & (val <= .45):
          return 'background-color: yellow'
       elif (val > .25) & (val <= .35):
-         return 'background-color: springgreen'
+         return 'background-color: palegreen'
       elif val < .25 :
-         return 'background-color: lime'
+         return 'background-color: springgreen'
       else:
          return 'background-color: azure'
       
    if column=='FB%':
       if val > .35:
-         return 'background-color: lime'
-      elif (val > .30 ) & (val <= .35):
          return 'background-color: springgreen'
+      elif (val > .30 ) & (val <= .35):
+         return 'background-color: palegreen'
       elif (val > .25) & (val <= .3):
          return 'background-color: yellow'
       elif (val > .2) & (val <= .25):
@@ -143,9 +143,9 @@ def applyColor_P(val,column):
       elif (val > .07) & (val <= .09):
          return 'background-color: yellow'
       elif (val > .09) & (val <= .12):
-         return 'background-color: springgreen'
+         return 'background-color: palegreen'
       elif val > .12 :
-         return 'background-color: lime'
+         return 'background-color: springgreen'
       else:
          return 'background-color: azure'
       
@@ -157,9 +157,9 @@ def applyColor_P(val,column):
       elif (val > 88) & (val <= 91):
          return 'background-color: yellow'
       elif (val > 91) & (val <= 95):
-         return 'background-color: springgreen'
+         return 'background-color: palegreen'
       elif val > 95 :
-         return 'background-color: lime'
+         return 'background-color: springgreen'
       else:
          return 'background-color: azure'
 
@@ -173,9 +173,9 @@ def applyColor_H(val,column):
       elif (val < .25) & (val >= .225):
          return 'background-color: yellow'
       elif (val < .270) & (val >= .25):
-         return 'background-color: springgreen'
+         return 'background-color: palegreen'
       elif val >= .270 :
-         return 'background-color: lime'
+         return 'background-color: springgreen'
       else:
          return 'background-color: azure'
    elif column=='wOBA':
@@ -186,9 +186,9 @@ def applyColor_H(val,column):
       elif (val < .35) & (val >= .320):
          return 'background-color: yellow'
       elif (val < .38) & (val >= .35):
-         return 'background-color: springgreen'
+         return 'background-color: palegreen'
       elif val > .38 :
-         return 'background-color: lime'
+         return 'background-color: springgreen'
       else:
          return 'background-color: azure'
    
@@ -200,9 +200,9 @@ def applyColor_H(val,column):
       elif (val < .75) & (val >= .7):
          return 'background-color: yellow'
       elif (val < .85) & (val >= .75):
-         return 'background-color: springgreen'
+         return 'background-color: palegreen'
       elif val > .85 :
-         return 'background-color: lime'
+         return 'background-color: springgreen'
       else:
          return 'background-color: azure'
    elif column=='ISO':
@@ -213,9 +213,9 @@ def applyColor_H(val,column):
       elif (val < .165) & (val >= .12):
          return 'background-color: yellow'
       elif (val < .195) & (val >= .165):
-         return 'background-color: springgreen'
+         return 'background-color: palegreen'
       elif val > .195 :
-         return 'background-color: lime'
+         return 'background-color: springgreen'
       else:
          return 'background-color: azure'
    elif column=='EV':
@@ -226,9 +226,9 @@ def applyColor_H(val,column):
       elif (val < 90) & (val >= 88):
          return 'background-color: yellow'
       elif (val < 93) & (val >= 90):
-         return 'background-color: springgreen'
+         return 'background-color: palegreen'
       elif val > 93 :
-         return 'background-color: lime'
+         return 'background-color: springgreen'
       else:
          return 'background-color: azure'
    elif column=='Air Hard%':
@@ -239,9 +239,9 @@ def applyColor_H(val,column):
       elif (val < .4) & (val >= .35):
          return 'background-color: yellow'
       elif (val < .45) & (val >= .4):
-         return 'background-color: springgreen'
+         return 'background-color: palegreen'
       elif val > .45 :
-         return 'background-color: lime'
+         return 'background-color: springgreen'
       else:
          return 'background-color: azure'
    elif column=='Brl%':
@@ -252,9 +252,9 @@ def applyColor_H(val,column):
       elif (val < .075) & (val >= .055):
          return 'background-color: yellow'
       elif (val < .1) & (val >= .075):
-         return 'background-color: springgreen'
+         return 'background-color: palegreen'
       elif val > .1:
-         return 'background-color: lime'
+         return 'background-color: springgreen'
       else:
          return 'background-color: azure'
    elif column=='Hard%':
@@ -265,9 +265,9 @@ def applyColor_H(val,column):
       elif (val < .4) & (val >= .35):
          return 'background-color: yellow'
       elif (val < .45) & (val >= .4):
-         return 'background-color: springgreen'
+         return 'background-color: palegreen'
       elif val > .45 :
-         return 'background-color: lime'
+         return 'background-color: springgreen'
       else:
          return 'background-color: azure'
    elif column=='LD%':
@@ -278,9 +278,9 @@ def applyColor_H(val,column):
       elif (val < .26) & (val >= .2):
          return 'background-color: yellow'
       elif (val < .3) & (val >= .26):
-         return 'background-color: springgreen'
+         return 'background-color: palegreen'
       elif val > .3 :
-         return 'background-color: lime'
+         return 'background-color: springgreen'
       else:
          return 'background-color: azure'
    elif column=='FB%':
@@ -291,9 +291,9 @@ def applyColor_H(val,column):
       elif (val < .28) & (val >= .22):
          return 'background-color: yellow'
       elif (val < .32) & (val >= .28):
-         return 'background-color: springgreen'
+         return 'background-color: palegreen'
       elif val > .32 :
-         return 'background-color: lime'
+         return 'background-color: springgreen'
       else:
          return 'background-color: azure'
    elif column=='GB%':
@@ -304,9 +304,9 @@ def applyColor_H(val,column):
       elif (val < .5) & (val >= .44):
          return 'background-color: yellow'
       elif (val < .44) & (val >= .38):
-         return 'background-color: springgreen'
+         return 'background-color: palegreen'
       elif val > .38 :
-         return 'background-color: lime'
+         return 'background-color: springgreen'
       else:
          return 'background-color: azure'
    elif column=='K%':
@@ -317,9 +317,9 @@ def applyColor_H(val,column):
       elif (val < .25) & (val >= .2):
          return 'background-color: yellow'
       elif (val < .22) & (val >= .19):
-         return 'background-color: springgreen'
+         return 'background-color: palegreen'
       elif val < .19 :
-         return 'background-color: lime'
+         return 'background-color: springgreen'
       else:
          return 'background-color: azure'
    elif column=='BB%':
@@ -330,9 +330,9 @@ def applyColor_H(val,column):
       elif (val < .1) & (val >= .06):
          return 'background-color: yellow'
       elif (val < .12) & (val >= .1):
-         return 'background-color: springgreen'
+         return 'background-color: palegreen'
       elif val > .12:
-         return 'background-color: lime'
+         return 'background-color: springgreen'
       else:
          return 'background-color: azure'
 
