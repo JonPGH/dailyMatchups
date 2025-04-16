@@ -47,7 +47,11 @@ game_options = pdata['Game'].unique().tolist()
 
 col1, col2, col3 = st.columns([1,4,4])
 with col1:
-   if st.button("Refresh Data"):
+   if "reload" not in st.session_state:
+      st.session_state.reload = False
+   if st.button("Reload Data"):
+      st.session_state.reload = True
+      st.cache_data.clear()  # Clear cache to force reload
       hdata, pdata, playerinfo = load_data()
 
 with col2:
