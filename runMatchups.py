@@ -52,7 +52,7 @@ with col1:
    if st.button("Reload Data"):
       st.session_state.reload = True
       st.cache_data.clear()  # Clear cache to force reload
-      hdata, pdata, playerinfo = load_data()
+#hdata, pdata, playerinfo = load_data()
 
 with col2:
    selected_game = st.selectbox('Select a Game', game_options)
