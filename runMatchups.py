@@ -9,7 +9,7 @@ def dropUnnamed(df):
   df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
   return(df)
 
-@st.cache_data
+#@st.cache_data
 def load_data():
    # Data Load
    base_dir = os.path.dirname(__file__)
