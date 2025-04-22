@@ -40,12 +40,11 @@ def load_data():
    return(hdata,pdata,playerinfo)
 
 hdata, pdata, playerinfo = load_data()
-hdata = hdata[['Player','pitch_type','AB','BIP','H','1B','2B','3B','HR','AVG','wOBA','OPS','ISO','EV','Air Hard%','Brl%','Hard%','LD%','FB%','K%','BB%','Game','Team','Opp','Stand','HID','p_throws','batter']]
+hdata = hdata[['Player','pitch_type','AB','BIP','H','1B','2B','3B','HR','AVG','wOBA','OPS','ISO','EV','Air Hard%','GB%','SwStr%','Brl%','Hard%','LD%','FB%','K%','BB%','Game','Team','Opp','Stand','HID','p_throws','batter']]
 pdata['1B%'] = round(pdata['1B']/pdata['H'],3)
 pdata['2B%'] = round(pdata['2B']/pdata['H'],3)
 pdata['3B%'] = round(pdata['3B']/pdata['H'],3)
 pdata['HR%'] = round(pdata['HR']/pdata['H'],3)
-#st.dataframe(pdata)
 
 tab = st.sidebar.radio("Select View", ["Game by Game", "All Matchups"]) 
 
@@ -636,50 +635,69 @@ if tab == 'Game by Game':
       st.dataframe(styled_df, hide_index=True, width=1550)
 
 if tab == 'All Matchups':
-   #st.write(hdata[hdata['Game']=='PHI@NYM'].sort_values(by='Player'))
- 
-   #st.write(pdata[pdata['Game']=='PHI@NYM'].sort_values(by='player_name'))
+   st.markdown("<h1><center>Matchup Scores</center></h2>", unsafe_allow_html=True)
+   col1, col2 = st.columns([1,1])
+   with col1:
+      st.markdown("<h2>Best Matchups for Hitters</h2>", unsafe_allow_html=True)
 
-   #st.markdown("<hr>",unsafe_allow_html=True)
+      pcut = pdata[['Game','Team','Opp','player_name','p_throws','stand','pitch_type','%','SwStr%','Hard%','GB%','launch_speed']]
+      pcut.columns=['Game','Team','Opp','Pitcher','P Hand','B Hand', 'Pitch','Pitcher %','Pitcher SwStr%','Pitcher Hard%','Pitcher GB%','Pitcher EV']
 
-   # hittable matchups
-   hittable_pitches = pdata[(pdata['PitchesThrown']>49)&(pdata['SwStr%']<.1)&(pdata['Hard%']>=.4)&(pdata['GB%']<.42)]
-   loop_data = hittable_pitches[['player_name','p_throws','pitch_type','stand','Game','Team','Opp','Brl%']].reset_index(drop=True)
-   
-   hitter_boom = pd.DataFrame()
-   for x in range(len(loop_data)):
-      therow = loop_data.iloc[x]
-      the_pitcher = therow.loc['player_name']
-      the_game = therow.loc['Game']
-      the_pitch = therow.loc['pitch_type']
-      the_team = therow.loc['Team']
-      the_opp = therow.loc['Opp']
-      the_stand = therow.loc['stand']
-      the_p_brl = therow.loc['Brl%']
+      hcut = hdata[['Game','Opp','Player','p_throws','Stand','pitch_type','SwStr%','Hard%','GB%','EV']]
+      hcut.columns=['Game','Team','Batter','P Hand','B Hand','Pitch','Batter SwStr%','Batter Hard%','Batter GB%','Batter EV']
+
+      merge_matchups = pd.merge(pcut, hcut, on=['Game','Team','Pitch','P Hand', 'B Hand'],how='left')
+      matchupsdf = merge_matchups.groupby(['Game','Pitcher','Batter'],as_index=False)[['Pitcher SwStr%','Batter SwStr%','Pitcher GB%','Batter GB%','Pitcher EV','Batter EV']].mean()
+      matchupsdf['Whiff Score'] = (matchupsdf['Pitcher SwStr%']+matchupsdf['Batter SwStr%'])/2
+      matchupsdf['GB Score'] = (matchupsdf['Pitcher GB%']+matchupsdf['Batter GB%'])/2
+      matchupsdf['EV Score'] = (matchupsdf['Pitcher EV']+matchupsdf['Batter EV'])/2
+      matchupsdf = matchupsdf[['Game','Pitcher','Batter','Pitcher SwStr%','Whiff Score','GB Score','EV Score']]
+      matchupsdf['Whiffs Pct'] = 1-matchupsdf['Whiff Score'].rank()/len(matchupsdf)
+      matchupsdf['GB Pct'] = 1-matchupsdf['GB Score'].rank()/len(matchupsdf)
+      matchupsdf['EV Pct'] = matchupsdf['EV Score'].rank()/len(matchupsdf)
+      matchupsdf['Matchup Score'] = round((matchupsdf['Whiffs Pct']+matchupsdf['GB Pct']+matchupsdf['EV Pct'])/3,3)
+      matchupsdf = matchupsdf[['Game','Batter','Pitcher','Matchup Score']].sort_values(by='Matchup Score',ascending=False)
       
-      # find hitters that meet this
-      these_hitters = hdata[(hdata['Game']==the_game)&(hdata['Team']==the_opp)&(hdata['pitch_type']==the_pitch)&(hdata['Stand']==the_stand)&(hdata['wOBA']>=.340)]
+      st.dataframe(matchupsdf, hide_index=True,width=500,height=900)
+   
+   with col2:
+      hittable_pitches = pdata[(pdata['PitchesThrown']>49)&(pdata['SwStr%']<.1)&(pdata['Hard%']>=.4)&(pdata['GB%']<.42)]
+      loop_data = hittable_pitches[['player_name','p_throws','pitch_type','stand','Game','Team','Opp','Brl%']].reset_index(drop=True)
+      
+      hitter_boom = pd.DataFrame()
+      for x in range(len(loop_data)):
+         therow = loop_data.iloc[x]
+         the_pitcher = therow.loc['player_name']
+         the_game = therow.loc['Game']
+         the_pitch = therow.loc['pitch_type']
+         the_team = therow.loc['Team']
+         the_opp = therow.loc['Opp']
+         the_stand = therow.loc['stand']
+         the_p_brl = therow.loc['Brl%']
+         
+         # find hitters that meet this
+         these_hitters = hdata[(hdata['Game']==the_game)&(hdata['Team']==the_opp)&(hdata['pitch_type']==the_pitch)&(hdata['Stand']==the_stand)&(hdata['wOBA']>=.340)]
 
-      if len(these_hitters)>0:
-         for z in range (len(these_hitters)):
-            hitter_row = these_hitters.iloc[z]
-            hitter_name = hitter_row.loc['Player']
-            pitch_name =  hitter_row.loc['pitch_type']
-            woba_value =  hitter_row.loc['wOBA']
-            brl_value =  hitter_row.loc['Brl%']
-            row_to_add = pd.DataFrame({'Hitter': hitter_name, 'Pitcher': the_pitcher, 'Pitch': pitch_name, 'Hitter Brl%': brl_value,
-                                       'Pitcher Brl%': the_p_brl}, index=[0])
-            hitter_boom = pd.concat([hitter_boom,row_to_add])
+         if len(these_hitters)>0:
+            for z in range (len(these_hitters)):
+               hitter_row = these_hitters.iloc[z]
+               hitter_name = hitter_row.loc['Player']
+               pitch_name =  hitter_row.loc['pitch_type']
+               woba_value =  hitter_row.loc['wOBA']
+               brl_value =  hitter_row.loc['Brl%']
+               row_to_add = pd.DataFrame({'Hitter': hitter_name, 'Pitcher': the_pitcher, 'Pitch': pitch_name, 'Hitter Brl%': brl_value,
+                                          'Pitcher Brl%': the_p_brl}, index=[0])
+               hitter_boom = pd.concat([hitter_boom,row_to_add])
 
-   hitter_boom['Avg Brl%'] = (hitter_boom['Hitter Brl%'] + hitter_boom['Pitcher Brl%'])/2
-   hitter_boom= hitter_boom.sort_values(by='Avg Brl%',ascending=False)
-   st.markdown("<h2>Best Matchups for Hitters Barrels</h2>", unsafe_allow_html=True)
-   styled_df = hitter_boom.style.format({'Hitter Brl%': '{:.1%}','Pitcher Brl%': '{:.1%}','Avg Brl%': '{:.1%}'})
-   if len(hitter_boom)>9:
-      st.dataframe(styled_df,hide_index=True, height=750)
-   else:
-      st.dataframe(styled_df,hide_index=True)
-   #st.write(hdata[hdata['Game']=='PHI@NYM'].sort_values(by='Player'))
+      hitter_boom['Avg Brl%'] = (hitter_boom['Hitter Brl%'] + hitter_boom['Pitcher Brl%'])/2
+      hitter_boom= hitter_boom.sort_values(by='Avg Brl%',ascending=False)
+      st.markdown("<h2>Best Matchups for Hitters Barrels</h2>", unsafe_allow_html=True)
+      styled_df = hitter_boom.style.format({'Hitter Brl%': '{:.1%}','Pitcher Brl%': '{:.1%}','Avg Brl%': '{:.1%}'})
+      if len(hitter_boom)>9:
+         st.dataframe(styled_df,hide_index=True, height=750)
+      else:
+         st.dataframe(styled_df,hide_index=True)
+      #st.write(hdata[hdata['Game']=='PHI@NYM'].sort_values(by='Player'))
 
 
 
