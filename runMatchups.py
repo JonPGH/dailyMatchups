@@ -8,6 +8,66 @@ st.set_page_config(
 def dropUnnamed(df):
   df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
   return(df)
+   # Function to calculate background color based on strikepct
+
+def get_background_color(strikepct):
+    try:
+        # Parse strikepct (e.g., "3/4" -> 0.75) or use directly if it's a percentage
+        percentage = strikepct  # Assuming strikepct is already a percentage (0-100)
+        # If strikepct is a fraction like "3/4", uncomment the following:
+        # numerator, denominator = map(int, strikepct.split('/'))
+        # percentage = (numerator / denominator) * 100
+    except (ValueError, ZeroDivisionError):
+        percentage = 0  # Fallback to 0% if parsing fails
+
+    # Clamp percentage between 0 and 100
+    percentage = max(0, min(100, percentage))
+    
+    # Linear interpolation between soft red (#FF9999) for 0, light gray (#D3D3D3) for 50, and soft green (#99FF99) for 100
+    if percentage <= 50:
+        # Interpolate from red (#FF9999) to gray (#D3D3D3)
+        r_start, g_start, b_start = 255, 153, 153  # Soft red (#FF9999)
+        r_mid, g_mid, b_mid = 211, 211, 211  # Light gray (#D3D3D3)
+        t = percentage / 50  # Normalize to [0,1] for 0-50 range
+        r = int(r_start + (r_mid - r_start) * t)
+        g = int(g_start + (g_mid - g_start) * t)
+        b = int(b_start + (b_mid - b_start) * t)
+    else:
+        # Interpolate from gray (#D3D3D3) to green (#99FF99)
+        r_mid, g_mid, b_mid = 211, 211, 211  # Light gray (#D3D3D3)
+        r_end, g_end, b_end = 153, 255, 153  # Soft green (#99FF99)
+        t = (percentage - 50) / 50  # Normalize to [0,1] for 50-100 range
+        r = int(r_mid + (r_end - r_mid) * t)
+        g = int(g_mid + (g_end - g_mid) * t)
+        b = int(b_mid + (b_end - b_mid) * t)
+    
+    return f"rgb({r},{g},{b})"
+
+def get_background_color_h(pct):
+    # Linear interpolation between soft red (#FF9999) for 0, light gray (#D3D3D3) for 50, and soft green (#99FF99) for 100
+    if pd.isna(pct):
+        return ""
+    pct = max(0, min(100, pct))  # Clamp between 0 and 100
+    
+    # Define color points
+    if pct <= 50:
+        # Interpolate from red (#FF9999) to gray (#D3D3D3)
+        r_start, g_start, b_start = 255, 153, 153  # Soft red (#FF9999)
+        r_mid, g_mid, b_mid = 211, 211, 211  # Light gray (#D3D3D3)
+        t = pct / 50  # Normalize to [0,1] for 0-50 range
+        r = int(r_start + (r_mid - r_start) * t)
+        g = int(g_start + (g_mid - g_start) * t)
+        b = int(b_start + (b_mid - b_start) * t)
+    else:
+        # Interpolate from gray (#D3D3D3) to green (#99FF99)
+        r_mid, g_mid, b_mid = 211, 211, 211  # Light gray (#D3D3D3)
+        r_end, g_end, b_end = 153, 255, 153  # Soft green (#99FF99)
+        t = (pct - 50) / 50  # Normalize to [0,1] for 50-100 range
+        r = int(r_mid + (r_end - r_mid) * t)
+        g = int(g_mid + (g_end - g_mid) * t)
+        b = int(b_mid + (b_end - b_mid) * t)  # Fixed interpolation for blue
+    
+    return f"rgb({r},{g},{b})"
 
 #@st.cache_data
 def load_data():
@@ -20,9 +80,14 @@ def load_data():
    pdata = dropUnnamed(pdata)
    pdata = pdata.sort_values(by='%',ascending=False)
 
+   pa_hdata = pd.read_csv('{}/pa_app_hitterdata.csv'.format(file_path))
+   pa_pdata = pd.read_csv('{}/pa_app_pitcherdata.csv'.format(file_path))
+
    playerinfo = pd.read_csv('{}/MLBPlayerInfo.csv'.format(file_path))
    playerinfo = playerinfo[playerinfo['ID']!=699041]
    hitter_hand_dict = dict(zip(playerinfo.Player,playerinfo.BatSide))
+
+   bvp = pd.read_csv('{}/pa_app_bvp.csv'.format(file_path))
 
    hdata['Stand'] = hdata['Player'].map(hitter_hand_dict)
    hdata['Stand'] = hdata['Stand'].fillna('R')
@@ -37,16 +102,36 @@ def load_data():
    pdata['pitch_type'] = pdata['pitch_type'].replace(pname_dict)
    hdata['pitch_type'] = hdata['pitch_type'].replace(pname_dict)
    hdata = hdata.sort_values(by='BIP',ascending=False)
-   return(hdata,pdata,playerinfo)
+   return(hdata,pdata,playerinfo,pa_hdata,pa_pdata, bvp)
 
-hdata, pdata, playerinfo = load_data()
-hdata = hdata[['Player','pitch_type','AB','BIP','H','1B','2B','3B','HR','AVG','wOBA','OPS','ISO','EV','Air Hard%','GB%','SwStr%','Brl%','Hard%','LD%','FB%','K%','BB%','Game','Team','Opp','Stand','HID','p_throws','batter']]
+hdata, pdata, playerinfo, pa_hdata, pa_pdata, bvp = load_data()
+hdata = hdata[['Player','pitch_type','AB','BIP','H','1B','2B','3B','HR','AVG','wOBA','OPS','ISO','EV','Air Hard%','GB%','SwStr%','Brl%','Hard%','LD%','FB%','K%','BB%','Game','Team','Opp','Stand','HID','p_throws','batter','Spot']]
 pdata['1B%'] = round(pdata['1B']/pdata['H'],3)
 pdata['2B%'] = round(pdata['2B']/pdata['H'],3)
 pdata['3B%'] = round(pdata['3B']/pdata['H'],3)
 pdata['HR%'] = round(pdata['HR']/pdata['H'],3)
 
-tab = st.sidebar.radio("Select View", ["Game by Game", "All Matchups"]) 
+pa_pdata = pa_pdata[pa_pdata['PitchesThrown']>249]
+pa_pdata['Strike% Pct'] = round(pa_pdata['Strike%'].rank() / len(pa_pdata) * 100,0)
+pa_pdata['Ball% Pct'] = round(pa_pdata['Ball%'].rank() / len(pa_pdata) * 100,0)
+pa_pdata['Ball In Play% Pct'] = round(pa_pdata['Ball In Play%'].rank() / len(pa_pdata) * 100,0)
+pa_pdata['Foul Ball% Pct'] = round(pa_pdata['Foul Ball%'].rank() / len(pa_pdata) * 100,0)
+pa_pdata['Called Strike% Pct'] = round(pa_pdata['Called Strike%'].rank() / len(pa_pdata) * 100,0)
+pa_pdata['Contact% Pct'] = 100 - round(pa_pdata['Contact%'].rank() / len(pa_pdata) * 100,0)
+pa_pdata['Pitches Per PA Pct'] = 100 - round(pa_pdata['Pitches Per PA'].rank() / len(pa_pdata) * 100,0)
+
+pa_hdata = pa_hdata[pa_hdata['PitchesThrown']>49]
+pa_hdata['Strike% Pct'] = 100 - round(pa_hdata['Strike%'].rank() / len(pa_hdata) * 100,0)
+pa_hdata['Ball In Play% Pct'] = 100 - round(pa_hdata['Ball In Play%'].rank() / len(pa_hdata) * 100,0)
+pa_hdata['SwStr% Pct'] = 100 - round(pa_hdata['SwStr%'].rank() / len(pa_hdata) * 100,0)
+pa_hdata['Ball% Pct'] = 100 - round(pa_hdata['Ball%'].rank() / len(pa_hdata) * 100,0)
+pa_hdata['Looking Strike% Pct'] = 100 - round(pa_hdata['Looking Strike%'].rank() / len(pa_hdata) * 100,0)
+pa_hdata['Foul Ball% Pct'] = 100 - round(pa_hdata['Foul Ball%'].rank() / len(pa_hdata) * 100,0)
+pa_hdata['Swing% Pct'] = 100 - round(pa_hdata['Swing%'].rank() / len(pa_hdata) * 100,0)
+pa_hdata['Pitches Per PA Pct'] =  round(pa_hdata['Pitches Per PA'].rank() / len(pa_hdata) * 100,0)
+pa_hdata = pa_hdata.rename({'AB_flag': 'AB'},axis=1)
+
+tab = st.sidebar.radio("Select View", ["Game by Game", "All Matchups","PA Project"]) 
 
 if tab == 'Game by Game':
 
@@ -71,6 +156,9 @@ if tab == 'Game by Game':
    selected_pitcher_team = pdata[pdata['player_name']==selected_pitcher]['Team'].iloc[0]
    selected_pitcher_opp = pdata[pdata['player_name']==selected_pitcher]['Opp'].iloc[0]
    selected_pitcher_hand = pdata[pdata['player_name']==selected_pitcher]['p_throws'].iloc[0]
+   
+   selected_pitcher_id = pdata[pdata['player_name']==selected_pitcher]['pitcher'].iloc[0]
+
    filtered_p = pdata[(pdata['Game'] == selected_game)&(pdata['player_name']==selected_pitcher)]
    pname = filtered_p['player_name'].iloc[0]
    filtered_h = hdata[(hdata['Game'] == selected_game)&(hdata['Team']==selected_pitcher_opp)]
@@ -699,14 +787,248 @@ if tab == 'All Matchups':
          st.dataframe(styled_df,hide_index=True)
       #st.write(hdata[hdata['Game']=='PHI@NYM'].sort_values(by='Player'))
 
+if tab == "PA Project":
+   st.markdown("<h2><center>Pitcher vs. Hitter Matchups</center></h2>", unsafe_allow_html=True)
+
+   # Get unique game options
+   game_options = pdata['Game'].unique().tolist()
+   
+   p_opp_dict = dict(zip(pdata.player_name, pdata.Opp))
+
+   selected_game = st.selectbox('Select a Game', game_options)
+
+   pitcher_options = list(pdata[pdata['Game'] == selected_game]['player_name'].unique())
+
+   col1, col2 = st.columns([3, 1])
+   with col1:
+      selected_pitcher = st.selectbox('Select a Pitcher', pitcher_options)
+   with col2:
+      selected_split = st.selectbox('Select Split', ['All', 'vs. RHB', 'vs. LHB'])
+   
+   selected_pitcher_data = pa_pdata[pa_pdata['player_name'] == selected_pitcher]
+   if len(selected_pitcher_data)<1:
+      st.markdown(f"<h3><i>Not enough data for {selected_pitcher}", unsafe_allow_html=True)
+   else:
+      selected_pitcher_id = selected_pitcher_data['pitcher'].iloc[0]
+      pitcher_team_opp = p_opp_dict.get(selected_pitcher)
+
+      if selected_split == 'All':
+         base_p_data = selected_pitcher_data[selected_pitcher_data['Split'] == 'All']
+      elif selected_split == 'vs. LHB':
+         base_p_data = selected_pitcher_data[selected_pitcher_data['Split'] == 'vs LHB']
+      elif selected_split == 'vs. RHB':
+         base_p_data = selected_pitcher_data[selected_pitcher_data['Split'] == 'vs RHB']
+      
+      st.markdown(f"<h1><center>{selected_pitcher} vs. {pitcher_team_opp}</center></h1>", unsafe_allow_html=True)
+      
+      # Format numbers for display
+      bf = int(base_p_data['PA_flag'].iloc[0])
+      strikerate = f"{base_p_data['Strike%'].iloc[0] * 100:.1f}"
+      strikepct = int(base_p_data['Strike% Pct'].iloc[0])
+      strike_bg_color = get_background_color(strikepct)
+      
+      ballrate = f"{base_p_data['Ball%'].iloc[0] * 100:.1f}"
+      ballpct = int(base_p_data['Ball% Pct'].iloc[0])
+      ball_bg_color = get_background_color(ballpct)
+      
+      biprate = f"{base_p_data['Ball In Play%'].iloc[0] * 100:.1f}"
+      bippct = int(base_p_data['Ball In Play% Pct'].iloc[0])
+      bip_bg_color = get_background_color(bippct)
+      
+      foulrate = f"{base_p_data['Foul Ball%'].iloc[0] * 100:.1f}"
+      foulpct = int(base_p_data['Foul Ball% Pct'].iloc[0])
+      foul_bg_color = get_background_color(foulpct)
+      
+      calledkrate = f"{base_p_data['Called Strike%'].iloc[0] * 100:.1f}"
+      calledkpct = int(base_p_data['Called Strike% Pct'].iloc[0])
+      calledk_bg_color = get_background_color(calledkpct)
+      
+      contactrate = f"{base_p_data['Contact%'].iloc[0] * 100:.1f}"
+      contactpct = int(base_p_data['Contact% Pct'].iloc[0])
+      contact_bg_color = get_background_color(contactpct)
+      
+      ppa_rate = f"{base_p_data['Pitches Per PA'].iloc[0]:.2f}"
+      ppa_pct = int(base_p_data['Pitches Per PA Pct'].iloc[0])
+      ppa_bg_color = get_background_color(ppa_pct)
+
+      col1, col2, col3, col4, col5, col6, col7, col8 = st.columns([1, 1, 1, 1, 1, 1, 1, 1])
+
+      with col1:
+         st.markdown(
+            f"""
+            <div style='border: 2px solid black; padding: 10px; width: 200px; height: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center;'>
+                  <b><font size=5>Batters Faced</font></b>
+                  <b><font size=4><center>{bf}</center></font></b>
+            </div>
+            """,
+            unsafe_allow_html=True
+         )
+      with col2:
+         st.markdown(
+            f"""
+            <div style='border: 2px solid black; padding: 10px; width: 200px; height: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: {strike_bg_color};'>
+                  <b><font size=5>Strike%</font></b>
+                  <b><font size=4><center>{strikerate}% ({strikepct})</center></font></b>
+            </div>
+            """,
+            unsafe_allow_html=True
+         )
+      with col3:
+         st.markdown(
+            f"""
+            <div style='border: 2px solid black; padding: 10px; width: 200px; height: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: {ball_bg_color};'>
+                  <b><font size=5>Ball%</font></b>
+                  <b><font size=4><center>{ballrate}% ({ballpct})</center></font></b>
+            </div>
+            """,
+            unsafe_allow_html=True
+         )
+      with col4:
+         st.markdown(
+            f"""
+            <div style='border: 2px solid black; padding: 10px; width: 200px; height: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: {bip_bg_color};'>
+                  <b><font size=5>BIP%</font></b>
+                  <b><font size=4><center>{biprate}% ({bippct})</center></font></b>
+            </div>
+            """,
+            unsafe_allow_html=True
+         )
+      with col5:
+         st.markdown(
+            f"""
+            <div style='border: 2px solid black; padding: 10px; width: 200px; height: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: {foul_bg_color}'>
+                  <b><font size=5>Foul Ball%</font></b>
+                  <b><font size=4><center>{foulrate}% ({foulpct})</center></font></b>
+            </div>
+            """,
+            unsafe_allow_html=True
+         )
+      with col6:
+         st.markdown(
+            f"""
+            <div style='border: 2px solid black; padding: 10px; width: 200px; height: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: {calledk_bg_color}'>
+                  <b><font size=5>Called Strike%</font></b>
+                  <b><font size=4><center>{calledkrate}% ({calledkpct})</center></font></b>
+            </div>
+            """,
+            unsafe_allow_html=True
+         )
+      with col7:
+         st.markdown(
+            f"""
+            <div style='border: 2px solid black; padding: 10px; width: 200px; height: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: {contact_bg_color}'>
+                  <b><font size=5>Contact%</font></b>
+                  <b><font size=4><center>{contactrate}% ({contactpct})</center></font></b>
+            </div>
+            """,
+            unsafe_allow_html=True
+         )
+      with col8:
+         st.markdown(
+            f"""
+            <div style='border: 2px solid black; padding: 10px; width: 200px; height: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: {ppa_bg_color}'>
+                  <b><font size=5>Pitches / PA</font></b>
+                  <b><font size=4><center>{ppa_rate} ({ppa_pct})</center></font></b>
+            </div>
+            """,
+            unsafe_allow_html=True
+         )
+      
+      st.markdown("\n<hr>\n", unsafe_allow_html=True)
+      col1, col2 = st.columns([1, 9])
+      
+      pitcher_hand = playerinfo[playerinfo['Player'] == selected_pitcher]['PitchSide'].iloc[0]
+      with col1:
+         stat_show_options = st.selectbox('Stats to Show', ['All', 'Splits'])
+      
+      with col2:
+         st.markdown(f"<h2><center>{pitcher_team_opp} Lineup vs. {pitcher_hand}HP</center></h2>", unsafe_allow_html=True)
+
+      opp_hdata = hdata[hdata['Team'] == pitcher_team_opp]
+      opp_hids = list(opp_hdata['HID'].unique())
+      
+      team_lineup = opp_hdata[['Player', 'HID', 'Spot']].drop_duplicates().sort_values(by='Spot')
+
+      columns_to_use = ['batter', 'AB', 'Strike%', 'Strike% Pct', 'Ball%', 'Ball% Pct',
+                        'Ball In Play%', 'Ball In Play% Pct', 
+                     'SwStr%', 'SwStr% Pct', 'Looking Strike%', 'Looking Strike% Pct',
+                     'Foul Ball%', 'Foul Ball% Pct', 'Swing%', 'Swing% Pct', 'Pitches Per PA', 'Pitches Per PA Pct']
+
+      # Merge lineup with hitter data based on stat_show_options
+      if stat_show_options == 'All':
+         team_lineup = pd.merge(team_lineup, pa_hdata[pa_hdata['Split'] == 'All'][columns_to_use], 
+                              left_on='HID', right_on='batter', how='left')
+      elif stat_show_options == 'Splits':
+         if pitcher_hand == 'L':
+            team_lineup = pd.merge(team_lineup, pa_hdata[pa_hdata['Split'] == 'vs. LHP'][columns_to_use], 
+                                    left_on='HID', right_on='batter', how='left')
+         elif pitcher_hand == 'R':
+            team_lineup = pd.merge(team_lineup, pa_hdata[pa_hdata['Split'] == 'vs. RHP'][columns_to_use], 
+                                    left_on='HID', right_on='batter', how='left')
+
+      # Format the DataFrame for display
+      display_df = team_lineup.copy()
+      display_df['AB'] = display_df['AB'].fillna(0).astype(int)
+
+      # Combine stat and percentile columns, using original stat names
+      stat_pairs = [
+         ('Strike%', 'Strike% Pct', 'Strike%'),
+         ('Ball%', 'Ball% Pct', 'Ball%'),
+         ('Ball In Play%', 'Ball In Play% Pct', 'BIP%'),
+         ('SwStr%', 'SwStr% Pct', 'SwStr%'),
+         ('Looking Strike%', 'Looking Strike% Pct', 'Looking Strike%'),
+         ('Foul Ball%', 'Foul Ball% Pct', 'Foul Ball%'),
+         ('Swing%', 'Swing% Pct', 'Swing%'),
+         ('Pitches Per PA', 'Pitches Per PA Pct', 'Pitches Per PA')
+      ]
+
+      for stat_col, pct_col, new_col in stat_pairs:
+         if stat_col == 'Pitches Per PA':
+            # Format Pitches Per PA without percentage
+            display_df[new_col] = display_df.apply(
+                  lambda x: f"{x[stat_col]:.2f} ({int(x[pct_col])})" if pd.notna(x[stat_col]) and pd.notna(x[pct_col]) else 'N/A',
+                  axis=1
+            )
+         else:
+            # Format percentages
+            display_df[new_col] = display_df.apply(
+                  lambda x: f"{x[stat_col] * 100:.1f}% ({int(x[pct_col])})" if pd.notna(x[stat_col]) and pd.notna(x[pct_col]) else 'N/A',
+                  axis=1
+            )
+
+      # Drop the original stat and percentile columns
+      columns_to_drop = [col for pair in stat_pairs for col in pair[:2] if col not in [pair[2] for pair in stat_pairs]]
+      display_df = display_df.drop(columns=columns_to_drop)
+
+      # Define styling function for combined columns
+      def style_combined_columns(df):
+         styles = pd.DataFrame('', index=df.index, columns=df.columns)
+         stat_columns = [pair[2] for pair in stat_pairs]
+         for col in stat_columns:
+            # Extract percentile from the combined column (e.g., "43.4% (90)" -> 90)
+            styles[col] = df[col].apply(
+                  lambda x: f'background-color: {get_background_color_h(int(x.split("(")[1].split(")")[0]))}' if x != 'N/A' else ''
+            )
+         return styles
+
+      # Display the DataFrame with combined columns
+      hitter_list = display_df['Player'].unique()
+
+      styled_df = display_df[['Player', 'Spot', 'AB'] + [pair[2] for pair in stat_pairs]]
+      col1, col2, col3 = st.columns([2,5,2])
+      with col2:
+         st.dataframe(styled_df.style.apply(style_combined_columns, axis=None), use_container_width=False, width=950, hide_index=True)
 
 
+         this_bvp = bvp[(bvp['batter'].isin(opp_hids))&(bvp['pitcher']==selected_pitcher_id)]
 
-
-
-
-
-
+         this_bvp = this_bvp[['BatterName','PA_flag','PitchesThrown','IsHomer','Swing%','IsStrike','IsBall','IsFoul','IsBIP','Pitches Per PA']]
+         this_bvp.columns=['Player','PA','Pitches','HR','Swing%','Strikes','Balls','Fouls','BIP','PPA']
+         st.markdown(f"<h2 style='text-align:center;margin:0'>Head to Head Matchup Data</h2><center><i>{pitcher_team_opp} vs. {selected_pitcher}</i></center>", unsafe_allow_html=True)
+         styled_df = this_bvp.style.format({
+         'Swing%': '{:.1%}','PA': '{:.0f}',
+         'PPA': '{:.3}'})
+         st.dataframe(styled_df,hide_index=True,width=950)
 
 
 
