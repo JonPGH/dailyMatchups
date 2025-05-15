@@ -131,9 +131,15 @@ pa_hdata['Swing% Pct'] = 100 - round(pa_hdata['Swing%'].rank() / len(pa_hdata) *
 pa_hdata['Pitches Per PA Pct'] =  round(pa_hdata['Pitches Per PA'].rank() / len(pa_hdata) * 100,0)
 pa_hdata = pa_hdata.rename({'AB_flag': 'AB'},axis=1)
 
-tab = st.sidebar.radio("Select View", ["Game by Game", "All Matchups","PA Project"]) 
+tab = st.sidebar.radio("Select View", ["Game by Game", "All Matchups","PA Project", "All BVP"]) 
 
 if tab == 'Game by Game':
+   all_team_data = hdata.groupby(['Team','pitch_type'],as_index=False)[['H','AB']].sum()
+   all_team_data = all_team_data[all_team_data['pitch_type']!='Pitch Out']
+   all_team_data['AVG'] = round(all_team_data['H']/all_team_data['AB'],3)
+   all_team_data['Rank'] = all_team_data.groupby('pitch_type')['AVG'].rank(ascending=False, method='dense')
+   teams_on_slate = len(all_team_data['Team'].unique())
+   all_team_data['AVG Rank'] = all_team_data['Rank'].astype(int).astype(str) + '/' + str(teams_on_slate)
 
    # Get unique game options
    game_options = pdata['Game'].unique().tolist()
@@ -568,8 +574,6 @@ if tab == 'Game by Game':
       else:
          selected_team_hand = 'All'
 
-   #st.write(selected_team_hand)
-
    with col2: 
       st.markdown(f"<center><h1>{selected_pitcher_opp} vs. {pname}</h1></center>", unsafe_allow_html=True)
 
@@ -598,7 +602,9 @@ if tab == 'Game by Game':
          team_df = team_df.sort_values(by='Order')
          team_df = team_df.drop(['Order'],axis=1)
 
-      #st.write(team_df)
+      team_df['Team'] = selected_pitcher_opp
+      team_df = pd.merge(team_df, all_team_data[['Team','pitch_type','AVG Rank']], on=['Team','pitch_type'])
+      team_df = team_df[['pitch_type','AVG','AVG Rank','wOBA','OPS','ISO','EV', 'Air Hard%','Brl%','Hard%','LD%','FB%','K%','BB%']]
 
       styled_df = team_df.style.apply(
          color_cells_hit,
@@ -700,7 +706,7 @@ if tab == 'Game by Game':
 
       styled_df = filtered_h_final.style.apply(
          color_cells_hit,
-         subset=['AVG','wOBA','OPS','ISO','EV','Air Hard%','Brl%','Hard%','LD%','FB%','K%','BB%'],
+         subset=['AVG','wOBA','OPS','ISO','EV','Air Hard%','Brl%','Hard%','LD%','GB%','SwStr%','FB%','K%','BB%'],
          axis=1)
 
       styled_df = styled_df.format({
@@ -712,6 +718,8 @@ if tab == 'Game by Game':
          'Air Hard%': '{:.1%}',
          'Brl%': '{:.1%}',
          'Hard%': '{:.1%}',
+         'GB%': '{:.1%}',
+         'SwStr%': '{:.1%}',
          'LD%': '{:.1%}',
          'FB%': '{:.1%}',
          'BB%': '{:.1%}',
@@ -1029,6 +1037,62 @@ if tab == "PA Project":
          'Swing%': '{:.1%}','PA': '{:.0f}',
          'PPA': '{:.3}'})
          st.dataframe(styled_df,hide_index=True,width=950)
+if tab == 'All BVP':
+   st.markdown(f"<center><h1>Today's Batter vs. Pitcher Full Data</h1></center>", unsafe_allow_html=True)
+
+   p_matchups_bvp = pdata[['player_name', 'Opp']]
+   p_matchups_bvp.columns = ['Pitcher', 'Team']
+   h_list = hdata[['Team', 'Player']]
+   h_list.columns = ['Team', 'Hitter']
+
+   p_matchups_bvp = pd.merge(p_matchups_bvp, h_list, on='Team')
+   p_matchups_bvp = p_matchups_bvp.drop_duplicates(subset=['Pitcher', 'Hitter'])
+   p_matchups_bvp['Keys'] = p_matchups_bvp['Pitcher'] + ' ' + p_matchups_bvp['Hitter']
+   todaykeylist = list(p_matchups_bvp['Keys'])
+   bvp['Keys'] = bvp['player_name'] + ' ' + bvp['BatterName']
+   today_bvp = bvp[bvp['Keys'].isin(todaykeylist)]
+    
+   this_bvp = today_bvp[['player_name', 'BatterName', 'PA_flag', 'PitchesThrown', 'IsHomer', 'Swing%', 'IsStrike', 'IsBall', 'IsFoul', 'IsBIP', 'Pitches Per PA']]
+   this_bvp.columns = ['Pitcher', 'Hitter', 'PA', 'Pitches', 'HR', 'Swing%', 'Strikes', 'Balls', 'Fouls', 'BIP', 'PPA']
+   this_bvp = this_bvp.sort_values(by='Pitcher')
+
+   # Add sliders for filtering
+   st.markdown("### Filter Matchup Data")
+   col1, col2, col3 = st.columns([4,1,4])
+
+   with col1:
+        # PA slider
+        min_pa = int(this_bvp['PA'].min())
+        max_pa = int(this_bvp['PA'].max())
+        pa_range = st.slider("Plate Appearances (PA)", min_pa, max_pa, (min_pa, max_pa))
+
+        # Pitches slider
+        min_pitches = int(this_bvp['Pitches'].min())
+        max_pitches = int(this_bvp['Pitches'].max())
+        pitches_range = st.slider("Pitches Thrown", min_pitches, max_pitches, (min_pitches, max_pitches))
+
+   with col3:
+      min_hr = int(this_bvp['HR'].min())
+      max_hr = int(this_bvp['HR'].max())
+      hr_range = st.slider("Home Runs (HR)", min_hr, max_hr, (min_hr, max_hr))
+
+      min_ppa = float(this_bvp['PPA'].min())
+      max_ppa = float(this_bvp['PPA'].max())
+      ppa_range = st.slider("Pitches Per PA (PPA)", min_ppa, max_ppa, (min_ppa, max_ppa), step=0.01)
+
+      filtered_bvp = this_bvp[(this_bvp['PA'].between(pa_range[0], pa_range[1])) &
+                              (this_bvp['Pitches'].between(pitches_range[0], pitches_range[1])) &
+                              (this_bvp['HR'].between(hr_range[0], hr_range[1])) &
+                              (this_bvp['PPA'].between(ppa_range[0], ppa_range[1]))]
+
+   styled_df = filtered_bvp.style.format({
+      'Swing%': '{:.1%}',
+      'PA': '{:.0f}',
+      'Pitches': '{:.0f}',
+      'HR': '{:.0f}',
+      'PPA': '{:.3f}'
+   })
+   st.dataframe(styled_df, hide_index=True, height=875, width=950)
 
 
 
