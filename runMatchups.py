@@ -140,7 +140,6 @@ if tab == 'Game by Game':
    all_team_data['AVG'] = round(all_team_data['H']/all_team_data['AB'],3)
    all_team_data['Rank'] = all_team_data.groupby('pitch_type')['AVG'].rank(ascending=False, method='dense')
    teams_on_slate = len(all_team_data['Team'].unique())
-   st.write(all_team_data)
    all_team_data['AVG Rank'] = all_team_data['Rank'].astype(int).astype(str) + '/' + str(teams_on_slate)
 
    # Get unique game options
