@@ -96,7 +96,7 @@ def load_data():
    hdata['Stand'] = np.where((hdata['Player']=='Max Muncy')&(hdata['Team']=='LAD'), 'L', hdata['Stand'])
 
    pname_dict = {'FF': 'Four-Seam', 'SL': 'Slider', 'FC': 'Cutter', 'FS': 'Split-Finger', 'CU': 'Curveball',
-   'SI': 'Sinker', 'CH': 'Changeup', 'ST': 'Sweeper', 'SV': 'Slurve', 'EP': 'Eephus',
+   'SI': 'Sinker', 'CH': 'Changeup', 'ST': 'Sweeper', 'SV': 'Slurve', 'EP': 'Eephus', 'FO': 'Split-Finger',
    'PO': 'Pitch Out', 'FO': 'Forkball', 'CS': 'Slow Curve'}
 
    pdata['pitch_type'] = pdata['pitch_type'].replace(pname_dict)
@@ -105,7 +105,7 @@ def load_data():
    return(hdata,pdata,playerinfo,pa_hdata,pa_pdata, bvp)
 
 hdata, pdata, playerinfo, pa_hdata, pa_pdata, bvp = load_data()
-hdata['pitch_type'] = hdata['pitch_type'].replace({'Slow Curve': 'Curveball'})
+hdata['pitch_type'] = hdata['pitch_type'].replace({'Slow Curve': 'Curveball', 'Forkball': 'Split-Finger'})
 hdata = hdata[['Player','pitch_type','AB','BIP','H','1B','2B','3B','HR','AVG','wOBA','OPS','ISO','EV','Air Hard%','GB%','SwStr%','Brl%','Hard%','LD%','FB%','K%','BB%','Game','Team','Opp','Stand','HID','p_throws','batter','Spot']]
 pdata['1B%'] = round(pdata['1B']/pdata['H'],3)
 pdata['2B%'] = round(pdata['2B']/pdata['H'],3)
@@ -138,8 +138,10 @@ if tab == 'Game by Game':
    all_team_data = hdata.groupby(['Team','pitch_type'],as_index=False)[['H','AB']].sum()
    all_team_data = all_team_data[all_team_data['pitch_type']!='Pitch Out']
    all_team_data['AVG'] = round(all_team_data['H']/all_team_data['AB'],3)
+   all_team_data = all_team_data[all_team_data['AVG']>0]
    all_team_data['Rank'] = all_team_data.groupby('pitch_type')['AVG'].rank(ascending=False, method='dense')
    teams_on_slate = len(all_team_data['Team'].unique())
+
    all_team_data['AVG Rank'] = all_team_data['Rank'].astype(int).astype(str) + '/' + str(teams_on_slate)
 
    # Get unique game options
