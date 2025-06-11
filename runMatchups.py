@@ -1041,6 +1041,8 @@ if tab == "PA Project":
          'PPA': '{:.3}'})
          st.dataframe(styled_df,hide_index=True,width=950)
 if tab == 'All BVP':
+   p_hand_df = pdata[['player_name','p_throws']]
+   p_hand_dict = dict(zip(p_hand_df.player_name,p_hand_df.p_throws))
    st.markdown(f"<center><h1>Today's Batter vs. Pitcher Full Data</h1></center>", unsafe_allow_html=True)
 
    p_matchups_bvp = pdata[['player_name', 'Opp']]
@@ -1088,12 +1090,22 @@ if tab == 'All BVP':
                               (this_bvp['HR'].between(hr_range[0], hr_range[1])) &
                               (this_bvp['PPA'].between(ppa_range[0], ppa_range[1]))]
 
+   filtered_bvp['p_throws'] = filtered_bvp['Pitcher'].map(p_hand_dict)
+   ppa_vr_df = pa_hdata[pa_hdata['Split']=='vs. RHP'][['BatterName','Pitches Per PA']]
+   ppa_vr_df.columns=['Hitter','PPAvR']
+   ppa_r_dict = dict(zip(ppa_vr_df.Hitter, ppa_vr_df.PPAvR))
+   ppa_vl_df = pa_hdata[pa_hdata['Split']=='vs. LHP'][['BatterName','Pitches Per PA']]
+   ppa_vl_df.columns=['Hitter','PPAvL']
+   ppa_l_dict = dict(zip(ppa_vl_df.Hitter, ppa_vl_df.PPAvL))
+   filtered_bvp['PPA Split'] = np.where(filtered_bvp['p_throws']=='R', filtered_bvp['Hitter'].map(ppa_r_dict),
+                                        np.where(filtered_bvp['p_throws']=='L', filtered_bvp['Hitter'].map(ppa_l_dict),0))
    styled_df = filtered_bvp.style.format({
       'Swing%': '{:.1%}',
       'PA': '{:.0f}',
       'Pitches': '{:.0f}',
       'HR': '{:.0f}',
-      'PPA': '{:.3f}'
+      'PPA': '{:.3f}',
+      'PPA Split': '{:.3f}'
    })
    st.dataframe(styled_df, hide_index=True, height=875, width=950)
 
