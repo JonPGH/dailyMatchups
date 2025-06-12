@@ -1178,5 +1178,5 @@ if tab == "Pitch Mix Matchups":
          this_match=this_match.rename({'PitchesThrown': 'PC'},axis=1)
 
          styled_df = this_match.style.format({'%': '{:.1%}'})
-         st.dataframe(styled_df, hide_index=True)
+         st.dataframe(styled_df, hide_index=True, width=550)
       
