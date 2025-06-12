@@ -102,9 +102,11 @@ def load_data():
    pdata['pitch_type'] = pdata['pitch_type'].replace(pname_dict)
    hdata['pitch_type'] = hdata['pitch_type'].replace(pname_dict)
    hdata = hdata.sort_values(by='BIP',ascending=False)
-   return(hdata,pdata,playerinfo,pa_hdata,pa_pdata, bvp)
 
-hdata, pdata, playerinfo, pa_hdata, pa_pdata, bvp = load_data()
+   pmc = pd.read_csv('{}/pmix_comp_data.csv'.format(file_path))
+   return(hdata,pdata,playerinfo,pa_hdata,pa_pdata, bvp,pmc)
+
+hdata, pdata, playerinfo, pa_hdata, pa_pdata, bvp, pmc = load_data()
 hdata['pitch_type'] = hdata['pitch_type'].replace({'Slow Curve': 'Curveball', 'Forkball': 'Split-Finger'})
 hdata = hdata[['Player','pitch_type','AB','BIP','H','1B','2B','3B','HR','AVG','wOBA','OPS','ISO','EV','Air Hard%','GB%','SwStr%','Brl%','Hard%','LD%','FB%','K%','BB%','Game','Team','Opp','Stand','HID','p_throws','batter','Spot']]
 pdata['1B%'] = round(pdata['1B']/pdata['H'],3)
@@ -132,7 +134,7 @@ pa_hdata['Swing% Pct'] = 100 - round(pa_hdata['Swing%'].rank() / len(pa_hdata) *
 pa_hdata['Pitches Per PA Pct'] =  round(pa_hdata['Pitches Per PA'].rank() / len(pa_hdata) * 100,0)
 pa_hdata = pa_hdata.rename({'AB_flag': 'AB'},axis=1)
 
-tab = st.sidebar.radio("Select View", ["Game by Game", "All Matchups","PA Project", "All BVP"]) 
+tab = st.sidebar.radio("Select View", ["Game by Game", "All Matchups","PA Project", "All BVP", "Pitch Mix Matchups"]) 
 
 if tab == 'Game by Game':
    all_team_data = hdata.groupby(['Team','pitch_type'],as_index=False)[['H','AB']].sum()
@@ -1091,6 +1093,7 @@ if tab == 'All BVP':
                               (this_bvp['PPA'].between(ppa_range[0], ppa_range[1]))]
 
    filtered_bvp['p_throws'] = filtered_bvp['Pitcher'].map(p_hand_dict)
+   #st.write(pa_hdata[pa_hdata['BatterName']=='Xavier Edwards'])
    ppa_vr_df = pa_hdata[pa_hdata['Split']=='vs. RHP'][['BatterName','Pitches Per PA']]
    ppa_vr_df.columns=['Hitter','PPAvR']
    ppa_r_dict = dict(zip(ppa_vr_df.Hitter, ppa_vr_df.PPAvR))
@@ -1110,4 +1113,70 @@ if tab == 'All BVP':
    st.dataframe(styled_df, hide_index=True, height=875, width=950)
 
 
+if tab == "Pitch Mix Matchups":
+   st.markdown("<h2><center>Pitch Mixes and Matchups</center></h2>", unsafe_allow_html=True)
 
+   # Get unique game options
+   game_options = pdata['Game'].unique().tolist()
+   
+   p_opp_dict = dict(zip(pdata.player_name, pdata.Opp))
+   col1, col2, col3 = st.columns([2,3,5])
+   with col1:
+      selected_game = st.selectbox('Select a Game', game_options)
+      pitcher_options = list(pdata[pdata['Game'] == selected_game]['player_name'].unique())
+
+   with col2:
+      selected_pitcher = st.selectbox('Select a Pitcher', pitcher_options)
+   
+   selected_pitcher_data = bvp[bvp['player_name'] == selected_pitcher]
+   if len(selected_pitcher_data)<1:
+      st.markdown(f"<h3><i>Not enough data for {selected_pitcher}", unsafe_allow_html=True)
+   else:
+      selected_pitcher_id = selected_pitcher_data['pitcher'].iloc[0]
+      pitcher_team_opp = p_opp_dict.get(selected_pitcher)
+   
+   # Display Pitcher's Overall Mixes
+   pitcher_pmc = pmc[pmc['player_name']==selected_pitcher]
+   pitcher_pmc_vr = pitcher_pmc[pitcher_pmc['BatterName']=='R'][['pitch_type','PitchesThrown','%']].sort_values(by='%',ascending=False)
+   pitcher_pmc_vr = pitcher_pmc_vr.rename({'PitchesThrown': 'PC'},axis=1)
+   pitcher_pmc_vl = pitcher_pmc[pitcher_pmc['BatterName']=='L'][['pitch_type','PitchesThrown','%']].sort_values(by='%',ascending=False)
+   pitcher_pmc_vl = pitcher_pmc_vl.rename({'PitchesThrown': 'PC'},axis=1)
+
+   col1, col2 = st.columns([1,5])
+   with col1:
+      st.markdown(f"<b> {selected_pitcher} vs. RHB</b>", unsafe_allow_html=True)
+      styled_df = pitcher_pmc_vr.style.format({'%': '{:.1%}'})
+      st.dataframe(styled_df, hide_index=True)
+   
+      st.markdown(f"<b> {selected_pitcher} vs. LHB</b>", unsafe_allow_html=True)
+      styled_df = pitcher_pmc_vl.style.format({'%': '{:.1%}'})
+      st.dataframe(styled_df, hide_index=True)
+   with col2:
+      p_matchups_bvp = pdata[['player_name', 'Opp']]
+      p_matchups_bvp.columns = ['Pitcher', 'Team']
+      h_list = hdata[['Team', 'Player']]
+      h_list.columns = ['Team', 'Hitter']
+
+      p_matchups_bvp = pd.merge(p_matchups_bvp, h_list, on='Team')
+      p_matchups_bvp = p_matchups_bvp.drop_duplicates(subset=['Pitcher', 'Hitter'])
+      p_matchups_bvp = p_matchups_bvp[p_matchups_bvp['Pitcher']==selected_pitcher]
+      m_hitter_list = list(p_matchups_bvp['Hitter'].unique())
+
+      col1, col2 = st.columns([1,3])
+      with col1:
+         selected_hitter = st.selectbox('Select a Hitter', m_hitter_list)
+
+      this_match = pmc[(pmc['player_name']==selected_pitcher)&(pmc['BatterName']==selected_hitter)]
+      if len(this_match)<1:
+         st.write(f'{selected_pitcher} has never faced {selected_hitter}')
+      else:
+         selected_hitter_hand = this_match['stand'].iloc[0]
+
+         total_pitches = np.sum(this_match['PitchesThrown'])
+         st.write(f'{selected_pitcher} has thrown {total_pitches} pitches   to {selected_hitter} ({selected_hitter_hand}HB)')
+         this_match = this_match[['player_name','BatterName','stand','pitch_type','PitchesThrown','%']].sort_values(by='%',ascending=False)
+         this_match=this_match.rename({'PitchesThrown': 'PC'},axis=1)
+
+         styled_df = this_match.style.format({'%': '{:.1%}'})
+         st.dataframe(styled_df, hide_index=True)
+      
