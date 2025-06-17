@@ -1077,6 +1077,12 @@ if tab == 'All BVP':
         min_pitches = int(this_bvp['Pitches'].min())
         max_pitches = int(this_bvp['Pitches'].max())
         pitches_range = st.slider("Pitches Thrown", min_pitches, max_pitches, (min_pitches, max_pitches))
+        
+        # Strikes slider
+        min_strikes = int(this_bvp['Strikes'].min())
+        max_strikes = int(this_bvp['Strikes'].max())
+        strikes_range = st.slider("Strikes", min_strikes, max_strikes, (min_pitches, max_pitches))
+
 
    with col3:
       min_hr = int(this_bvp['HR'].min())
@@ -1087,10 +1093,18 @@ if tab == 'All BVP':
       max_ppa = float(this_bvp['PPA'].max())
       ppa_range = st.slider("Pitches Per PA (PPA)", min_ppa, max_ppa, (min_ppa, max_ppa), step=0.01)
 
+      min_balls = int(this_bvp['Balls'].min())
+      max_balls = int(this_bvp['Balls'].max())
+      balls_range = st.slider("Balls", min_balls, max_balls, (min_pitches, max_pitches))
+
+
+
       filtered_bvp = this_bvp[(this_bvp['PA'].between(pa_range[0], pa_range[1])) &
                               (this_bvp['Pitches'].between(pitches_range[0], pitches_range[1])) &
                               (this_bvp['HR'].between(hr_range[0], hr_range[1])) &
-                              (this_bvp['PPA'].between(ppa_range[0], ppa_range[1]))]
+                              (this_bvp['PPA'].between(ppa_range[0], ppa_range[1]))&
+                              (this_bvp['Strikes'].between(strikes_range[0], strikes_range[1]))&
+                              (this_bvp['Balls'].between(balls_range[0], balls_range[1]))]
 
    filtered_bvp['p_throws'] = filtered_bvp['Pitcher'].map(p_hand_dict)
    #st.write(pa_hdata[pa_hdata['BatterName']=='Xavier Edwards'])
