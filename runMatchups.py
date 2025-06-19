@@ -1225,11 +1225,17 @@ if tab == "Pitch Mix Matchups":
    cut_pmc = all_pmc[all_pmc['MatchupKey'].isin(todays_matchups)]
    cut_pmc = cut_pmc[['player_name','BatterName','pitch_type','PitchesThrown','%']]
 
-   my_new_df = pd.merge(cut_pmc, bvp_ballrates[['player_name','BatterName','pitch_type','Ball%']], how='left')
-   my_new_df.columns=['Pitcher', 'Hitter','Pitch','PC','Usage','Ball%']
+   b_hand_dict = dict(zip(hdata.Player,hdata.Stand))
+   p_hand_dict = dict(zip(pdata.player_name,pdata.p_throws))
+
+   cut_pmc['stand'] = cut_pmc['BatterName'].map(b_hand_dict)
+   
+   my_new_df = pd.merge(cut_pmc, bvp_ballrates[['player_name','stand','pitch_type','Ball%']], how='left')
+   my_new_df.columns=['Pitcher','Hitter','Pitch','PC','Usage','stand','Ball%']
+   my_new_df = my_new_df.drop(['stand'],axis=1)
     
    # Filters and Displays
-   col, col2, col3, col4 = st.columns([1,2,2,1])
+   col, col2, col3, col4 = st.columns([1,3,3,1])
    with col2:
       usage_filter = st.slider('Minimum Usage %', min_value=0, max_value=100, value=25, step=1)
    with col3: 
@@ -1242,7 +1248,7 @@ if tab == "Pitch Mix Matchups":
 
 
    styled_df = my_new_df.style.format({'Ball%': '{:.1%}','Usage': '{:.1%}'})
-   col1, col2, col3 = st.columns([1,2,1])
+   col1, col2, col3 = st.columns([1,3,1])
    with col2:
       st.dataframe(styled_df, hide_index=True, width=550)
    
