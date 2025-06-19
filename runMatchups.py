@@ -80,6 +80,8 @@ def load_data():
    pdata = dropUnnamed(pdata)
    pdata = pdata.sort_values(by='%',ascending=False)
 
+   bvp_ballrates = pd.read_csv('{}/pa_app_bvp_pitchballrates.csv'.format(file_path))
+   
    pa_hdata = pd.read_csv('{}/pa_app_hitterdata.csv'.format(file_path))
    pa_pdata = pd.read_csv('{}/pa_app_pitcherdata.csv'.format(file_path))
 
@@ -104,9 +106,9 @@ def load_data():
    hdata = hdata.sort_values(by='BIP',ascending=False)
 
    pmc = pd.read_csv('{}/pmix_comp_data.csv'.format(file_path))
-   return(hdata,pdata,playerinfo,pa_hdata,pa_pdata, bvp,pmc)
+   return(hdata,pdata,playerinfo,pa_hdata,pa_pdata, bvp,pmc,bvp_ballrates)
 
-hdata, pdata, playerinfo, pa_hdata, pa_pdata, bvp, pmc = load_data()
+hdata, pdata, playerinfo, pa_hdata, pa_pdata, bvp, pmc, bvp_ballrates = load_data()
 hdata['pitch_type'] = hdata['pitch_type'].replace({'Slow Curve': 'Curveball', 'Forkball': 'Split-Finger'})
 hdata = hdata[['Player','pitch_type','AB','BIP','H','1B','2B','3B','HR','AVG','wOBA','OPS','ISO','EV','Air Hard%','GB%','SwStr%','Brl%','Hard%','LD%','FB%','K%','BB%','Game','Team','Opp','Stand','HID','p_throws','batter','Spot']]
 pdata['1B%'] = round(pdata['1B']/pdata['H'],3)
@@ -1193,4 +1195,54 @@ if tab == "Pitch Mix Matchups":
 
          styled_df = this_match.style.format({'%': '{:.1%}'})
          st.dataframe(styled_df, hide_index=True, width=550)
-      
+   
+   st.write('---')
+   p_hand_df = pdata[['player_name','p_throws']]
+   p_hand_dict = dict(zip(p_hand_df.player_name,p_hand_df.p_throws))
+   st.markdown(f"<center><h3>Best Ball% Matchups</h3></center>", unsafe_allow_html=True)
+
+   p_matchups_bvp = pdata[['player_name', 'Opp']]
+   p_matchups_bvp.columns = ['Pitcher', 'Team']
+   h_list = hdata[['Team', 'Player']]
+   h_list.columns = ['Team', 'Hitter']
+
+   p_matchups_bvp = pd.merge(p_matchups_bvp, h_list, on='Team')
+   p_matchups_bvp = p_matchups_bvp.drop_duplicates(subset=['Pitcher', 'Hitter'])
+   p_matchups_bvp['Keys'] = p_matchups_bvp['Pitcher'] + ' ' + p_matchups_bvp['Hitter']
+   todaykeylist = list(p_matchups_bvp['Keys'])
+   bvp['Keys'] = bvp['player_name'] + ' ' + bvp['BatterName']
+   today_bvp = bvp[bvp['Keys'].isin(todaykeylist)]
+    
+   this_bvp = today_bvp[['player_name', 'BatterName', 'PA_flag', 'PitchesThrown', 'IsHomer', 'Swing%', 'IsStrike', 'IsBall', 'IsFoul', 'IsBIP', 'Pitches Per PA']]
+   this_bvp.columns = ['Pitcher', 'Hitter', 'PA', 'Pitches', 'HR', 'Swing%', 'Strikes', 'Balls', 'Fouls', 'BIP', 'PPA']
+   this_bvp = this_bvp.sort_values(by='Pitcher')
+
+   all_pmc = pmc[(pmc['BatterName']!='L')&(pmc['BatterName']!='R')]
+   all_pmc['MatchupKey'] = all_pmc['player_name'] + ' ' + all_pmc['BatterName']
+   this_bvp['MatchupKey'] = this_bvp['Pitcher'] + ' ' + this_bvp['Hitter']
+   todays_matchups = list(this_bvp['MatchupKey'].unique())
+
+   cut_pmc = all_pmc[all_pmc['MatchupKey'].isin(todays_matchups)]
+   cut_pmc = cut_pmc[['player_name','BatterName','pitch_type','PitchesThrown','%']]
+
+   my_new_df = pd.merge(cut_pmc, bvp_ballrates[['player_name','BatterName','pitch_type','Ball%']], how='left')
+   my_new_df.columns=['Pitcher', 'Hitter','Pitch','PC','Usage','Ball%']
+    
+   # Filters and Displays
+   col, col2, col3, col4 = st.columns([1,2,2,1])
+   with col2:
+      usage_filter = st.slider('Minimum Usage %', min_value=0, max_value=100, value=25, step=1)
+   with col3: 
+      ball_filter = st.slider('Minimum Ball %', min_value=0, max_value=100, value=38, step=1)
+
+   selected_usage = usage_filter/100
+   selected_ballrate = ball_filter/100
+
+   my_new_df = my_new_df[(my_new_df['Usage']>selected_usage)&(my_new_df['Ball%']>selected_ballrate)]
+
+
+   styled_df = my_new_df.style.format({'Ball%': '{:.1%}','Usage': '{:.1%}'})
+   col1, col2, col3 = st.columns([1,2,1])
+   with col2:
+      st.dataframe(styled_df, hide_index=True, width=550)
+   
