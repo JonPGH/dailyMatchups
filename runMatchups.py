@@ -85,6 +85,11 @@ def load_data():
    pa_hdata = pd.read_csv('{}/pa_app_hitterdata.csv'.format(file_path))
    pa_pdata = pd.read_csv('{}/pa_app_pitcherdata.csv'.format(file_path))
 
+   nrfi_p = pd.read_csv('{}/NRFI_Pitchers.csv'.format(file_path))
+   nrfi_team = pd.read_csv('{}/NRFI_Teams.csv'.format(file_path))
+   nrfi_team3 = pd.read_csv('{}/NRFI_Teams_F3.csv'.format(file_path))
+   nrfi_team5 = pd.read_csv('{}/NRFI_Teams_F5.csv'.format(file_path))
+
    playerinfo = pd.read_csv('{}/MLBPlayerInfo.csv'.format(file_path))
    playerinfo = playerinfo[playerinfo['ID']!=699041]
    hitter_hand_dict = dict(zip(playerinfo.Player,playerinfo.BatSide))
@@ -106,9 +111,9 @@ def load_data():
    hdata = hdata.sort_values(by='BIP',ascending=False)
 
    pmc = pd.read_csv('{}/pmix_comp_data.csv'.format(file_path))
-   return(hdata,pdata,playerinfo,pa_hdata,pa_pdata, bvp,pmc,bvp_ballrates)
+   return(hdata,pdata,playerinfo,pa_hdata,pa_pdata, bvp,pmc,bvp_ballrates,nrfi_p,nrfi_team,nrfi_team3,nrfi_team5)
 
-hdata, pdata, playerinfo, pa_hdata, pa_pdata, bvp, pmc, bvp_ballrates = load_data()
+hdata, pdata, playerinfo, pa_hdata, pa_pdata, bvp, pmc, bvp_ballrates,nrfi_p,nrfi_team,nrfi_team3,nrfi_team5 = load_data()
 hdata['pitch_type'] = hdata['pitch_type'].replace({'Slow Curve': 'Curveball', 'Forkball': 'Split-Finger'})
 hdata = hdata[['Player','pitch_type','AB','BIP','H','1B','2B','3B','HR','AVG','wOBA','OPS','ISO','EV','Air Hard%','GB%','SwStr%','Brl%','Hard%','LD%','FB%','K%','BB%','Game','Team','Opp','Stand','HID','p_throws','batter','Spot']]
 pdata['1B%'] = round(pdata['1B']/pdata['H'],3)
@@ -136,7 +141,7 @@ pa_hdata['Swing% Pct'] = 100 - round(pa_hdata['Swing%'].rank() / len(pa_hdata) *
 pa_hdata['Pitches Per PA Pct'] =  round(pa_hdata['Pitches Per PA'].rank() / len(pa_hdata) * 100,0)
 pa_hdata = pa_hdata.rename({'AB_flag': 'AB'},axis=1)
 
-tab = st.sidebar.radio("Select View", ["Game by Game", "All Matchups","PA Project", "All BVP", "Pitch Mix Matchups"]) 
+tab = st.sidebar.radio("Select View", ["Game by Game", "All Matchups","PA Project", "All BVP", "Pitch Mix Matchups","NRFI"]) 
 
 if tab == 'Game by Game':
    all_team_data = hdata.groupby(['Team','pitch_type'],as_index=False)[['H','AB']].sum()
@@ -1252,3 +1257,201 @@ if tab == "Pitch Mix Matchups":
    with col2:
       st.dataframe(styled_df, hide_index=True, width=550)
    
+if tab == "NRFI":
+   st.markdown("<center><h1>NRFI Data</h1></center>",unsafe_allow_html=True)
+
+   nrfi_p = nrfi_p.rename({'NRA%': '%'},axis=1)
+   nrfi_team = nrfi_team.rename({'NRA%': '%'},axis=1)
+
+   # Get unique game options
+   game_options = pdata['Game'].unique().tolist()
+   year_options = ['2025','2024','2023','2023-2025']
+   p_opp_dict = dict(zip(pdata.player_name, pdata.Opp))
+
+   col1, col2, col3 = st.columns([2,3,5])
+   with col1:
+      selected_game = st.selectbox('Select a Game', game_options)
+      #pitcher_options = list(pdata[pdata['Game'] == selected_game]['player_name'].unique())
+   with col2:
+      selected_samp = st.selectbox('Select a Year', year_options)
+   
+   game_pitchers = list(pdata[pdata['Game']==selected_game]['pitcher'].unique())
+
+   col1, col2 = st.columns([1,1])
+   pname = pdata[pdata['pitcher']==game_pitchers[0]]['player_name'].iloc[0]
+
+   st.markdown(f"<h3>{pname}", unsafe_allow_html=True)
+   
+   col1, col2 = st.columns([1,4])
+   with col1:
+      selected_split = st.selectbox(f'Select Split for {pname}',['Total','Home','Road'])
+
+   nrfi_p_filt = nrfi_p[(nrfi_p['pitcher']==game_pitchers[0])&(nrfi_p['Year']==selected_samp)&(nrfi_p['Split']==selected_split)].sort_values(by=['player_name','inning'])
+   
+   # Create the pivot table
+   piv1 = nrfi_p_filt.pivot_table(index='player_name', columns='inning', values=['YRA', 'NRA', '%'])
+   piv1 = piv1.rename({'YRA':'Y','NRA':'N'},axis=1)
+
+
+   # Swap levels to put 'inning' at the top
+   piv1.columns = piv1.columns.swaplevel(0, 1)
+
+   # Sort the columns by inning for clarity
+   piv1 = piv1.sort_index(axis=1, level=0)
+
+   # Format NRA% to 0.0% for each inning
+   for inning in piv1.columns.levels[0]:
+      piv1[inning, '%'] = piv1[inning, '%'].apply(lambda x: f'{x * 100:.1f}%' if pd.notna(x) else 'N/A')
+
+   # Display the pivot table
+   piv1 = piv1.rename({1: '1st inning',2: '2nd inning',3: '3rd inning',4: '4th inning',5: '5th inning',6: '6th inning',7: '7th inning', 8: '8th inning',9: '9th inning'},axis=1)
+   st.write(piv1)
+
+   ## second pitcher
+   pname2 = pdata[pdata['pitcher']==game_pitchers[1]]['player_name'].iloc[0]
+
+   st.markdown(f"<h3>{pname2}", unsafe_allow_html=True)
+   
+   col1, col2 = st.columns([1,4])
+   with col1:
+      selected_split2 = st.selectbox(f'Select Split for {pname2}',['Total','Home','Road'])
+
+   nrfi_p_filt2 = nrfi_p[(nrfi_p['pitcher']==game_pitchers[1])&(nrfi_p['Year']==selected_samp)&(nrfi_p['Split']==selected_split2)].sort_values(by=['player_name','inning'])
+   
+   # Create the pivot table
+   piv2 = nrfi_p_filt2.pivot_table(index='player_name', columns='inning', values=['YRA', 'NRA', '%'])
+   piv2 = piv2.rename({'YRA':'Y','NRA':'N'},axis=1)
+
+   # Swap levels to put 'inning' at the top
+   piv2.columns = piv2.columns.swaplevel(0, 1)
+
+   # Sort the columns by inning for clarity
+   piv2 = piv2.sort_index(axis=1, level=0)
+
+   # Format NRA% to 0.0% for each inning
+   for inning in piv2.columns.levels[0]:
+      piv2[inning, '%'] = piv2[inning, '%'].apply(lambda x: f'{x * 100:.1f}%' if pd.notna(x) else 'N/A')
+
+   # Display the pivot table
+   piv2 = piv2.rename({1: '1st inning',2: '2nd inning',3: '3rd inning',4: '4th inning',5: '5th inning',6: '6th inning',7: '7th inning', 8: '8th inning',9: '9th inning'},axis=1)
+   
+   st.dataframe(piv2)
+
+   ### TEAM 
+   st.markdown("<hr>", unsafe_allow_html=True)
+
+   team1=selected_game.split('@')[0]
+   team2=selected_game.split('@')[1]
+
+   team1_nrfi = nrfi_team[nrfi_team['BatterTeam']==team1]
+   team2_nrfi = nrfi_team[nrfi_team['BatterTeam']==team2]
+   
+   st.markdown(f"<h3>{team1}", unsafe_allow_html=True)
+
+   col1, col2 = st.columns([1,4])
+   with col1:
+      selected_split3 = st.selectbox(f'Select Split for {team1}',['Total','Home','Road'])
+
+   team1_nrfi_filt = team1_nrfi[team1_nrfi['Split']==selected_split3]
+   
+   # Create the pivot table
+   piv3 = team1_nrfi_filt.pivot_table(index='BatterTeam', columns='inning', values=['YRA', 'NRA', '%'])
+   piv3 = piv3.rename({'YRA':'Y','NRA':'N'},axis=1)
+
+   # Swap levels to put 'inning' at the top
+   piv3.columns = piv3.columns.swaplevel(0, 1)
+
+   # Sort the columns by inning for clarity
+   piv3 = piv3.sort_index(axis=1, level=0)
+
+   # Format NRA% to 0.0% for each inning
+   for inning in piv3.columns.levels[0]:
+      piv3[inning, '%'] = piv3[inning, '%'].apply(lambda x: f'{x * 100:.1f}%' if pd.notna(x) else 'N/A')
+
+   # Display the pivot table
+   piv3 = piv3.rename({1: '1st inning',2: '2nd inning',3: '3rd inning',4: '4th inning',5: '5th inning',6: '6th inning',7: '7th inning', 8: '8th inning',9: '9th inning'},axis=1)
+   
+   st.markdown(
+    """
+    <style>
+    .stDataFrame {
+        overflow-x: hidden !important;
+        max-width: 100% !important;
+    }
+    </style>
+    """,unsafe_allow_html=True)
+
+   st.dataframe(piv3, use_container_width=True)
+
+   col1,col2,col3 = st.columns([1,1,1])
+   with col1:
+      st.markdown('<b>First 3 innings</b>',unsafe_allow_html=True)
+      show_team1_f3 = nrfi_team3[(nrfi_team3['Split']==selected_split3)&(nrfi_team3['BatterTeam']==team1)]
+      show_team1_f3 = show_team1_f3[['Split','YRA','NRA','NRA%']]
+      show_team1_f3.columns=['Split','Y','N','%']
+      styled_showteam1_f3 = show_team1_f3.style.format({'%': '{:.1%}'})
+      st.dataframe(styled_showteam1_f3,hide_index=True)
+   with col2:
+      st.markdown('<b>First 5 innings</b>',unsafe_allow_html=True)
+      show_team1_f5 = nrfi_team5[(nrfi_team5['Split']==selected_split3)&(nrfi_team5['BatterTeam']==team1)]
+      show_team1_f5 = show_team1_f5[['Split','YRA','NRA','NRA%']]
+      show_team1_f5.columns=['Split','Y','N','%']
+      styled_showteam1_f5 = show_team1_f5.style.format({'%': '{:.1%}'})
+      st.dataframe(styled_showteam1_f5,hide_index=True)
+
+   ### OFFENSE 2 ###
+   st.markdown(f"<h3>{team2}", unsafe_allow_html=True)
+
+   col1,col2=st.columns([1,4])
+   with col1:
+      selected_split4 = st.selectbox(f'Select Split for {team2}',['Total','Home','Road'])
+
+   team2_nrfi_filt = team2_nrfi[team2_nrfi['Split']==selected_split4]
+   
+   # Create the pivot table
+   piv4 = team2_nrfi_filt.pivot_table(index='BatterTeam', columns='inning', values=['YRA', 'NRA', '%'])
+   piv4 = piv4.rename({'YRA':'Y','NRA':'N'},axis=1)
+
+   # Swap levels to put 'inning' at the top
+   piv4.columns = piv4.columns.swaplevel(0, 1)
+
+   # Sort the columns by inning for clarity
+   piv4 = piv4.sort_index(axis=1, level=0)
+
+   # Format NRA% to 0.0% for each inning
+   for inning in piv4.columns.levels[0]:
+      piv4[inning, '%'] = piv4[inning, '%'].apply(lambda x: f'{x * 100:.1f}%' if pd.notna(x) else 'N/A')
+
+   # Display the pivot table
+   piv4 = piv4.rename({1: '1st inning',2: '2nd inning',3: '3rd inning',4: '4th inning',5: '5th inning',6: '6th inning',7: '7th inning', 8: '8th inning',9: '9th inning'},axis=1)
+   
+   st.markdown(
+    """
+    <style>
+    .stDataFrame {
+        overflow-x: hidden !important;
+        max-width: 100% !important;
+    }
+    </style>
+    """,unsafe_allow_html=True)
+
+   st.dataframe(piv4, use_container_width=True)
+
+   col1,col2,col3 = st.columns([1,1,1])
+   with col1:
+      st.markdown('<b>First 3 innings</b>',unsafe_allow_html=True)
+      show_team2_f3 = nrfi_team3[(nrfi_team3['Split']==selected_split4)&(nrfi_team3['BatterTeam']==team2)]
+      show_team2_f3 = show_team2_f3[['Split','YRA','NRA','NRA%']]
+      show_team2_f3.columns=['Split','Y','N','%']
+      styled_showteam2_f3 = show_team2_f3.style.format({'%': '{:.1%}'})
+      st.dataframe(styled_showteam2_f3,hide_index=True)
+   with col2:
+      st.markdown('<b>First 5 innings</b>',unsafe_allow_html=True)
+      show_team2_f5 = nrfi_team5[(nrfi_team5['Split']==selected_split4)&(nrfi_team5['BatterTeam']==team2)]
+      show_team2_f5 = show_team2_f5[['Split','YRA','NRA','NRA%']]
+      show_team2_f5.columns=['Split','Y','N','%']
+      styled_showteam2_f5 = show_team2_f5.style.format({'%': '{:.1%}'})
+      st.dataframe(styled_showteam2_f5,hide_index=True)
+
+
+
