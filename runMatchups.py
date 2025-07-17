@@ -1256,7 +1256,36 @@ if tab == "Pitch Mix Matchups":
    col1, col2, col3 = st.columns([1,3,1])
    with col2:
       st.dataframe(styled_df, hide_index=True, width=550)
-   
+
+
+def color_percent(val):
+    if pd.isna(val) or val == 'N/A':
+        return 'color: black'
+    percent = float(val.strip('%'))  # Convert string like '70.0%' to 70.0
+    if percent < 50:
+        color = 'red'
+    elif percent >= 80:
+        color = 'green'
+    else:
+        color = 'black'  # Neutral color for 50-79%
+    return f'color: {color}'
+
+# Function to apply background color based on percentage
+def background_color(val):
+    if pd.isna(val) or val == 'N/A':
+        return ''
+    percent = float(val.strip('%'))  # Convert string like '70.0%' to 70.0
+    if percent < 67:
+        return 'background-color: lightcoral'
+    elif percent < 72:
+        return 'background-color: lightcoral'
+    elif percent < 75:
+        return 'background-color: yellow'
+    elif percent < 78:
+        return 'background-color: palegreen'
+    else:
+        return 'background-color: springgreen'  # Neutral background for 50-79%
+
 if tab == "NRFI":
    st.markdown("<center><h1>NRFI Data</h1></center>",unsafe_allow_html=True)
 
@@ -1292,7 +1321,6 @@ if tab == "NRFI":
    piv1 = nrfi_p_filt.pivot_table(index='player_name', columns='inning', values=['YRA', 'NRA', '%'])
    piv1 = piv1.rename({'YRA':'Y','NRA':'N'},axis=1)
 
-
    # Swap levels to put 'inning' at the top
    piv1.columns = piv1.columns.swaplevel(0, 1)
 
@@ -1301,11 +1329,16 @@ if tab == "NRFI":
 
    # Format NRA% to 0.0% for each inning
    for inning in piv1.columns.levels[0]:
+      piv1[inning, 'Y'] = piv1[inning, 'Y'].apply(lambda x: int(x) if pd.notna(x) else 'N/A')
+      piv1[inning, 'N'] = piv1[inning, 'N'].apply(lambda x: int(x) if pd.notna(x) else 'N/A')
       piv1[inning, '%'] = piv1[inning, '%'].apply(lambda x: f'{x * 100:.1f}%' if pd.notna(x) else 'N/A')
 
    # Display the pivot table
    piv1 = piv1.rename({1: '1st inning',2: '2nd inning',3: '3rd inning',4: '4th inning',5: '5th inning',6: '6th inning',7: '7th inning', 8: '8th inning',9: '9th inning'},axis=1)
-   st.write(piv1)
+   #st.dataframe(piv1)
+
+   styled_piv1 = piv1.style.applymap(background_color, subset=pd.IndexSlice[:, (slice(None), '%')])
+   st.dataframe(styled_piv1)
 
    ## second pitcher
    pname2 = pdata[pdata['pitcher']==game_pitchers[1]]['player_name'].iloc[0]
@@ -1330,12 +1363,16 @@ if tab == "NRFI":
 
    # Format NRA% to 0.0% for each inning
    for inning in piv2.columns.levels[0]:
+      piv2[inning, 'Y'] = piv2[inning, 'Y'].apply(lambda x: int(x) if pd.notna(x) else 'N/A')
+      piv2[inning, 'N'] = piv2[inning, 'N'].apply(lambda x: int(x) if pd.notna(x) else 'N/A')
       piv2[inning, '%'] = piv2[inning, '%'].apply(lambda x: f'{x * 100:.1f}%' if pd.notna(x) else 'N/A')
 
    # Display the pivot table
    piv2 = piv2.rename({1: '1st inning',2: '2nd inning',3: '3rd inning',4: '4th inning',5: '5th inning',6: '6th inning',7: '7th inning', 8: '8th inning',9: '9th inning'},axis=1)
    
-   st.dataframe(piv2)
+   styled_piv2 = piv2.style.applymap(background_color, subset=pd.IndexSlice[:, (slice(None), '%')])
+   st.dataframe(styled_piv2)
+
 
    ### TEAM 
    st.markdown("<hr>", unsafe_allow_html=True)
@@ -1366,6 +1403,8 @@ if tab == "NRFI":
 
    # Format NRA% to 0.0% for each inning
    for inning in piv3.columns.levels[0]:
+      piv3[inning, 'Y'] = piv3[inning, 'Y'].apply(lambda x: int(x) if pd.notna(x) else 'N/A')
+      piv3[inning, 'N'] = piv3[inning, 'N'].apply(lambda x: int(x) if pd.notna(x) else 'N/A')
       piv3[inning, '%'] = piv3[inning, '%'].apply(lambda x: f'{x * 100:.1f}%' if pd.notna(x) else 'N/A')
 
    # Display the pivot table
@@ -1381,7 +1420,11 @@ if tab == "NRFI":
     </style>
     """,unsafe_allow_html=True)
 
-   st.dataframe(piv3, use_container_width=True)
+   #st.dataframe(piv3, use_container_width=True)
+
+   styled_piv3 = piv3.style.applymap(background_color, subset=pd.IndexSlice[:, (slice(None), '%')])
+   st.dataframe(styled_piv3)
+
 
    col1,col2,col3 = st.columns([1,1,1])
    with col1:
@@ -1420,6 +1463,8 @@ if tab == "NRFI":
 
    # Format NRA% to 0.0% for each inning
    for inning in piv4.columns.levels[0]:
+      piv4[inning, 'Y'] = piv4[inning, 'Y'].apply(lambda x: int(x) if pd.notna(x) else 'N/A')
+      piv4[inning, 'N'] = piv4[inning, 'N'].apply(lambda x: int(x) if pd.notna(x) else 'N/A')
       piv4[inning, '%'] = piv4[inning, '%'].apply(lambda x: f'{x * 100:.1f}%' if pd.notna(x) else 'N/A')
 
    # Display the pivot table
@@ -1435,7 +1480,8 @@ if tab == "NRFI":
     </style>
     """,unsafe_allow_html=True)
 
-   st.dataframe(piv4, use_container_width=True)
+   styled_piv4 = piv4.style.applymap(background_color, subset=pd.IndexSlice[:, (slice(None), '%')])
+   st.dataframe(styled_piv4)
 
    col1,col2,col3 = st.columns([1,1,1])
    with col1:
