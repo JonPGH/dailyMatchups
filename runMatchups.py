@@ -198,10 +198,22 @@ if tab == 'Game by Game':
          elif (val < .11) & (val >= .10):
             return 'background-color: palegreen'
          elif val < .10 :
-            return 'background-color: springgreen'
+            return 'background-color: indianred'
          else:
             return 'background-color: azure'
-      
+      if column=='Ball%':
+         if val >= .4:
+            return 'background-color: azure'
+         elif (val < .4) & (val >= .38):
+            return 'background-color: indianred'
+         elif (val < .38) & (val >= .35):
+            return 'background-color: yellow'
+         elif (val < .35) & (val >= .32):
+            return 'background-color: palegreen'
+         elif val < .32 :
+            return 'background-color: indianred'
+         else:
+            return 'background-color: lightcoral'    
       if column=='1B%':
          if val >= .8:
             return 'background-color: lightcoral'
@@ -525,14 +537,15 @@ if tab == 'Game by Game':
       pitch_ordering_vr = filtered_p_vr[['pitch_type']]
       pitch_ordering_vr['Num'] = range(0,len(pitch_ordering_vr))
       pitch_order_dict_vr = dict(zip(pitch_ordering_vr.pitch_type,pitch_ordering_vr.Num))
-      filtered_p_vr = filtered_p_vr[['player_name','pitch_type','PitchesThrown','%','SwStr%','AVG','1B%','2B%','3B%','HR%','Hard%','GB%','FB%','Brl%','launch_speed']]
+      filtered_p_vr = filtered_p_vr[['player_name','pitch_type','PitchesThrown','%','SwStr%','Ball%','AVG','1B%','2B%','3B%','HR%','Hard%','GB%','FB%','Brl%','launch_speed']]
       filtered_p_vr = filtered_p_vr.rename({'PitchesThrown':'PC','launch_speed':'EV'},axis=1)
       styled_df = filtered_p_vr.style.apply(
          color_cells,
-         subset=['SwStr%', 'AVG', 'Hard%','GB%','FB%','Brl%','EV','1B%','2B%','3B%','HR%'],
+         subset=['SwStr%', 'AVG', 'Ball%', 'Hard%','GB%','FB%','Brl%','EV','1B%','2B%','3B%','HR%'],
          axis=1)
       styled_df = styled_df.format({
       'SwStr%': '{:.1%}',
+      'Ball%': '{:.1%}',
       '%': '{:.1%}',
       'AVG': '{:.3f}',
       'Hard%': '{:.1%}',
@@ -745,6 +758,10 @@ if tab == 'Game by Game':
 if tab == 'All Matchups':
    st.markdown("<h1><center>Matchup Scores</center></h2>", unsafe_allow_html=True)
    col1, col2 = st.columns([1,1])
+
+   p_split_usage = pdata[['player_name','stand','pitch_type','%']]
+   p_split_usage.columns=['Pitcher','stand','Pitch','%']
+
    with col1:
       st.markdown("<h2>Best Matchups for Hitters</h2>", unsafe_allow_html=True)
 
@@ -797,10 +814,26 @@ if tab == 'All Matchups':
                                           'Pitcher Brl%': the_p_brl}, index=[0])
                hitter_boom = pd.concat([hitter_boom,row_to_add])
 
+      h_hands = hdata[['Player','Stand']]
+      h_hands.columns=['Hitter','stand']
       hitter_boom['Avg Brl%'] = (hitter_boom['Hitter Brl%'] + hitter_boom['Pitcher Brl%'])/2
       hitter_boom= hitter_boom.sort_values(by='Avg Brl%',ascending=False)
+      hitter_boom = pd.merge(hitter_boom,h_hands,how='left',on='Hitter')
+      hitter_boom = pd.merge(hitter_boom,p_split_usage,how='left',on=['Pitcher','Pitch','stand'])
+      hitter_boom = hitter_boom.drop_duplicates()
+      hitter_boom = hitter_boom[['Hitter','Pitcher','Pitch','%','Hitter Brl%','Pitcher Brl%','Avg Brl%']]
+      #st.write(p_split_usage)
       st.markdown("<h2>Best Matchups for Hitters Barrels</h2>", unsafe_allow_html=True)
-      styled_df = hitter_boom.style.format({'Hitter Brl%': '{:.1%}','Pitcher Brl%': '{:.1%}','Avg Brl%': '{:.1%}'})
+      # Whiffs slider
+      min_use = float(hitter_boom['%'].min())
+      max_use = float(hitter_boom['%'].max())
+      col1,col2,col3 = st.columns([2,1,1])
+      with col1:
+         use_range = st.slider("Pitch Usage", min_use, max_use, (min_use, max_use))
+
+      hitter_boom = hitter_boom[(hitter_boom['%']>=use_range[0])&(hitter_boom['%']<=use_range[1])]
+
+      styled_df = hitter_boom.style.format({'Hitter Brl%': '{:.1%}','Pitcher Brl%': '{:.1%}','%': '{:.1%}','Avg Brl%': '{:.1%}'})
       if len(hitter_boom)>9:
          st.dataframe(styled_df,hide_index=True, height=750)
       else:
@@ -1066,8 +1099,8 @@ if tab == 'All BVP':
    bvp['Keys'] = bvp['player_name'] + ' ' + bvp['BatterName']
    today_bvp = bvp[bvp['Keys'].isin(todaykeylist)]
     
-   this_bvp = today_bvp[['player_name', 'BatterName', 'PA_flag', 'PitchesThrown', 'IsHomer', 'Swing%', 'IsStrike', 'IsBall', 'IsFoul', 'IsBIP', 'Pitches Per PA']]
-   this_bvp.columns = ['Pitcher', 'Hitter', 'PA', 'Pitches', 'HR', 'Swing%', 'Strikes', 'Balls', 'Fouls', 'BIP', 'PPA']
+   this_bvp = today_bvp[['player_name', 'BatterName', 'PA_flag', 'PitchesThrown', 'IsHomer', 'Swing%', 'IsSwStr','SwStr%','IsStrike', 'IsBall', 'IsFoul', 'IsBIP', 'Pitches Per PA']]
+   this_bvp.columns = ['Pitcher', 'Hitter', 'PA', 'Pitches', 'HR', 'Swing%', 'Whiffs', 'SwStr%', 'Strikes', 'Balls', 'Fouls', 'BIP', 'PPA']
    this_bvp = this_bvp.sort_values(by='Pitcher')
 
    # Add sliders for filtering
@@ -1088,8 +1121,12 @@ if tab == 'All BVP':
         # Strikes slider
         min_strikes = int(this_bvp['Strikes'].min())
         max_strikes = int(this_bvp['Strikes'].max())
-        strikes_range = st.slider("Strikes", min_strikes, max_strikes, (min_pitches, max_pitches))
-
+        strikes_range = st.slider("Strikes", min_strikes, max_strikes, (min_strikes, max_strikes))
+        
+        # Whiffs slider
+        min_swstr = int(this_bvp['Whiffs'].min())
+        max_swstr = int(this_bvp['Whiffs'].max())
+        swstr_range = st.slider("Whiffs", min_swstr, max_swstr, (min_swstr, max_swstr))
 
    with col3:
       min_hr = int(this_bvp['HR'].min())
@@ -1105,13 +1142,13 @@ if tab == 'All BVP':
       balls_range = st.slider("Balls", min_balls, max_balls, (min_pitches, max_pitches))
 
 
-
       filtered_bvp = this_bvp[(this_bvp['PA'].between(pa_range[0], pa_range[1])) &
                               (this_bvp['Pitches'].between(pitches_range[0], pitches_range[1])) &
                               (this_bvp['HR'].between(hr_range[0], hr_range[1])) &
                               (this_bvp['PPA'].between(ppa_range[0], ppa_range[1]))&
                               (this_bvp['Strikes'].between(strikes_range[0], strikes_range[1]))&
-                              (this_bvp['Balls'].between(balls_range[0], balls_range[1]))]
+                              (this_bvp['Balls'].between(balls_range[0], balls_range[1]))&
+                              (this_bvp['Whiffs'].between(swstr_range[0], swstr_range[1]))]
 
    filtered_bvp['p_throws'] = filtered_bvp['Pitcher'].map(p_hand_dict)
    #st.write(pa_hdata[pa_hdata['BatterName']=='Xavier Edwards'])
@@ -1127,11 +1164,12 @@ if tab == 'All BVP':
       'Swing%': '{:.1%}',
       'PA': '{:.0f}',
       'Pitches': '{:.0f}',
+      'SwStr%':  '{:.1%}',
       'HR': '{:.0f}',
       'PPA': '{:.3f}',
       'PPA Split': '{:.3f}'
    })
-   st.dataframe(styled_df, hide_index=True, height=875, width=950)
+   st.dataframe(styled_df, hide_index=True, height=875, width=1000)
 
 
 if tab == "Pitch Mix Matchups":
@@ -1499,5 +1537,31 @@ if tab == "NRFI":
       styled_showteam2_f5 = show_team2_f5.style.format({'%': '{:.1%}'})
       st.dataframe(styled_showteam2_f5,hide_index=True)
 
+   st.markdown("<h1><hr>Full Table for All Probables</h1>", unsafe_allow_html=True)
+
+   all_nrfi_table = nrfi_p.copy()#[(nrfi_p['pitcher']==game_pitchers[1])&(nrfi_p['Year']==selected_samp)&(nrfi_p['Split']==selected_split2)].sort_values(by=['player_name','inning'])
+   p_filt_list = list(pdata['player_name'].unique())
+   all_nrfi_table = all_nrfi_table[all_nrfi_table['player_name'].isin(p_filt_list)]
+   # Create the pivot table
+   piv2 = all_nrfi_table.pivot_table(index='player_name', columns='inning', values=['YRA', 'NRA', '%'])
+   piv2 = piv2.rename({'YRA':'Y','NRA':'N'},axis=1)
+
+   # Swap levels to put 'inning' at the top
+   piv2.columns = piv2.columns.swaplevel(0, 1)
+
+   # Sort the columns by inning for clarity
+   piv2 = piv2.sort_index(axis=1, level=0)
+
+   # Format NRA% to 0.0% for each inning
+   for inning in piv2.columns.levels[0]:
+      piv2[inning, 'Y'] = piv2[inning, 'Y'].apply(lambda x: int(x) if pd.notna(x) else 'N/A')
+      piv2[inning, 'N'] = piv2[inning, 'N'].apply(lambda x: int(x) if pd.notna(x) else 'N/A')
+      piv2[inning, '%'] = piv2[inning, '%'].apply(lambda x: f'{x * 100:.1f}%' if pd.notna(x) else 'N/A')
+
+   # Display the pivot table
+   piv2 = piv2.rename({1: '1st inning',2: '2nd inning',3: '3rd inning',4: '4th inning',5: '5th inning',6: '6th inning',7: '7th inning', 8: '8th inning',9: '9th inning'},axis=1)
+   
+   styled_piv2 = piv2.style.applymap(background_color, subset=pd.IndexSlice[:, (slice(None), '%')])
+   st.dataframe(styled_piv2)
 
 
