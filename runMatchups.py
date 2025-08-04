@@ -566,11 +566,11 @@ if tab == 'Game by Game':
       pitch_ordering_vl = filtered_p_vl[['pitch_type']]
       pitch_ordering_vl['Num'] = range(0,len(pitch_ordering_vl))
       pitch_order_dict_vl = dict(zip(pitch_ordering_vl.pitch_type,pitch_ordering_vl.Num))
-      filtered_p_vl = filtered_p_vl[['player_name','pitch_type','PitchesThrown','%','SwStr%','AVG','1B%','2B%','3B%','HR%','Hard%','GB%','FB%','Brl%','launch_speed']]
+      filtered_p_vl = filtered_p_vl[['player_name','pitch_type','PitchesThrown','%','SwStr%','Ball%','AVG','1B%','2B%','3B%','HR%','Hard%','GB%','FB%','Brl%','launch_speed']]
       filtered_p_vl = filtered_p_vl.rename({'PitchesThrown':'PC','launch_speed':'EV'},axis=1)
       styled_df = filtered_p_vl.style.apply(
          color_cells,
-         subset=['SwStr%', 'AVG', 'Hard%','GB%','FB%','Brl%','EV','1B%','2B%','3B%','HR%'],
+         subset=['SwStr%', 'AVG', 'Ball%', 'Hard%','GB%','FB%','Brl%','EV','1B%','2B%','3B%','HR%'],
          axis=1)
       
       styled_df = styled_df.format({
@@ -579,6 +579,7 @@ if tab == 'Game by Game':
       'AVG': '{:.3f}',
       'Hard%': '{:.1%}',
       'GB%': '{:.1%}',
+      'Ball%': '{:.1%}',
       'FB%': '{:.1%}',
       'Brl%': '{:.1%}',
       'EV': '{:.1f}',
