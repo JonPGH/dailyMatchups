@@ -1100,8 +1100,8 @@ if tab == 'All BVP':
    bvp['Keys'] = bvp['player_name'] + ' ' + bvp['BatterName']
    today_bvp = bvp[bvp['Keys'].isin(todaykeylist)]
     
-   this_bvp = today_bvp[['player_name', 'BatterName', 'PA_flag', 'PitchesThrown', 'IsHomer', 'Swing%', 'IsSwStr','SwStr%','IsStrike', 'IsBall', 'IsFoul', 'IsBIP', 'Pitches Per PA']]
-   this_bvp.columns = ['Pitcher', 'Hitter', 'PA', 'Pitches', 'HR', 'Swing%', 'Whiffs', 'SwStr%', 'Strikes', 'Balls', 'Fouls', 'BIP', 'PPA']
+   this_bvp = today_bvp[['player_name', 'BatterName', 'PA_flag', 'PitchesThrown', 'IsHomer', 'Swing%', 'IsSwStr','SwStr%','Zone%','IsStrike', 'IsBall', 'IsFoul', 'IsBIP', 'Pitches Per PA']]
+   this_bvp.columns = ['Pitcher', 'Hitter', 'PA', 'Pitches', 'HR', 'Swing%', 'Whiffs', 'SwStr%','Zone%', 'Strikes', 'Balls', 'Fouls', 'BIP', 'PPA']
    this_bvp = this_bvp.sort_values(by='Pitcher')
 
    # Add sliders for filtering
@@ -1166,6 +1166,7 @@ if tab == 'All BVP':
       'PA': '{:.0f}',
       'Pitches': '{:.0f}',
       'SwStr%':  '{:.1%}',
+      'Zone%':  '{:.1%}',
       'HR': '{:.0f}',
       'PPA': '{:.3f}',
       'PPA Split': '{:.3f}'
