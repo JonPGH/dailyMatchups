@@ -1083,6 +1083,7 @@ if tab == "PA Project":
          'Swing%': '{:.1%}','PA': '{:.0f}',
          'PPA': '{:.3}'})
          st.dataframe(styled_df,hide_index=True,width=950)
+
 if tab == 'All BVP':
    p_hand_df = pdata[['player_name','p_throws']]
    p_hand_dict = dict(zip(p_hand_df.player_name,p_hand_df.p_throws))
@@ -1101,6 +1102,7 @@ if tab == 'All BVP':
    today_bvp = bvp[bvp['Keys'].isin(todaykeylist)]
     
    this_bvp = today_bvp[['player_name', 'BatterName', 'PA_flag', 'PitchesThrown', 'IsHomer', 'Swing%', 'IsSwStr','SwStr%','Zone%','IsStrike', 'IsBall', 'IsFoul', 'IsBIP', 'Pitches Per PA']]
+   this_bvp = this_bvp[this_bvp['PA_flag']>0]
    this_bvp.columns = ['Pitcher', 'Hitter', 'PA', 'Pitches', 'HR', 'Swing%', 'Whiffs', 'SwStr%','Zone%', 'Strikes', 'Balls', 'Fouls', 'BIP', 'PPA']
    this_bvp = this_bvp.sort_values(by='Pitcher')
 
