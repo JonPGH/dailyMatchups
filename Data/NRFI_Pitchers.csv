@@ -67,7 +67,7 @@
 740,Chris Bassitt,605135,Home,1,1,15,0.938,2025,16
 755,Chris Devenski,606965,Home,1,0,1,1.0,2025,1
 761,Chris Paddack,663978,Home,1,4,8,0.667,2025,12
-777,Chris Sale,519242,Home,1,2,6,0.75,2025,8
+777,Chris Sale,519242,Home,1,3,6,0.667,2025,9
 794,Clarke Schmidt,657376,Home,1,2,6,0.75,2025,8
 809,Clay Holmes,605280,Home,1,4,11,0.733,2025,15
 823,Clayton Kershaw,477132,Home,1,6,4,0.4,2025,10
@@ -166,7 +166,7 @@
 1899,Justin Hagenman,663795,Home,1,1,0,0.0,2025,1
 1904,Justin Steele,657006,Home,1,0,2,1.0,2025,2
 1918,Justin Sterner,686993,Home,1,1,0,0.0,2025,1
-1920,Justin Verlander,434378,Home,1,2,13,0.867,2025,15
+1920,Justin Verlander,434378,Home,1,2,14,0.875,2025,16
 1940,Kai-Wei Teng,678906,Home,1,0,1,1.0,2025,1
 1948,Keegan Akin,669211,Home,1,0,1,1.0,2025,1
 1951,Keider Montero,672456,Home,1,1,5,0.833,2025,6
@@ -228,7 +228,7 @@
 2667,Nestor Cortes,641482,Home,1,2,2,0.5,2025,4
 2678,Nick Lodolo,666157,Home,1,5,7,0.583,2025,12
 2693,Nick Martinez,607259,Home,1,3,10,0.769,2025,13
-2709,Nick Pivetta,601713,Home,1,5,11,0.688,2025,16
+2709,Nick Pivetta,601713,Home,1,5,12,0.706,2025,17
 2723,Noah Cameron,702070,Home,1,4,8,0.667,2025,12
 2737,Nolan McLean,690997,Home,1,1,3,0.75,2025,4
 2752,Osvaldo Bido,674370,Home,1,2,3,0.6,2025,5
@@ -428,7 +428,7 @@
 1225,Framber Valdez,664285,Road,1,6,9,0.6,2025,15
 1239,Frankie Montas,593423,Road,1,1,2,0.667,2025,3
 1245,Fraser Ellard,686642,Road,1,0,2,1.0,2025,2
-1255,Freddy Peralta,642547,Road,1,3,12,0.8,2025,15
+1255,Freddy Peralta,642547,Road,1,4,12,0.75,2025,16
 1271,Garrett Crochet,676979,Road,1,3,14,0.824,2025,17
 1286,Gavin Williams,668909,Road,1,3,12,0.8,2025,15
 1302,George Kirby,669923,Road,1,3,8,0.727,2025,11
@@ -520,7 +520,7 @@
 2276,Luis L. Ortiz,682847,Road,1,3,6,0.667,2025,9
 2289,Luis Morales,806960,Road,1,0,4,1.0,2025,4
 2302,Luis Severino,622663,Road,1,4,10,0.714,2025,14
-2317,MacKenzie Gore,669022,Road,1,5,11,0.688,2025,16
+2317,MacKenzie Gore,669022,Road,1,6,11,0.647,2025,17
 2328,Marcus Stroman,573186,Road,1,1,2,0.667,2025,3
 2341,Martin Perez,527048,Road,1,2,3,0.6,2025,5
 2353,Mason Barnett,686930,Road,1,2,0,0.0,2025,2
@@ -534,7 +534,7 @@
 2458,Merrill Kelly,518876,Road,1,7,8,0.533,2025,15
 2474,Michael King,650633,Road,1,1,4,0.8,2025,5
 2488,Michael Lorenzen,547179,Road,1,1,13,0.929,2025,14
-2503,Michael McGreevy,700241,Road,1,2,4,0.667,2025,6
+2503,Michael McGreevy,700241,Road,1,3,4,0.571,2025,7
 2516,Michael Soroka,647336,Road,1,3,6,0.667,2025,9
 2529,Michael Wacha,608379,Road,1,3,10,0.769,2025,13
 2543,Mick Abel,690953,Road,1,0,3,1.0,2025,3
@@ -729,7 +729,7 @@
 427,Chris Devenski,606965,Total,1,0,1,1.0,2025,1
 429,Chris Flexen,623167,Total,1,0,1,1.0,2025,1
 433,Chris Paddack,663978,Total,1,11,16,0.593,2025,27
-441,Chris Sale,519242,Total,1,4,15,0.789,2025,19
+441,Chris Sale,519242,Total,1,5,15,0.75,2025,20
 450,Clarke Schmidt,657376,Total,1,4,10,0.714,2025,14
 458,Clay Holmes,605280,Total,1,7,23,0.767,2025,30
 465,Clayton Kershaw,477132,Total,1,10,11,0.524,2025,21
@@ -772,7 +772,7 @@
 682,Framber Valdez,664285,Total,1,11,19,0.633,2025,30
 691,Frankie Montas,593423,Total,1,1,6,0.857,2025,7
 697,Fraser Ellard,686642,Total,1,0,2,1.0,2025,2
-699,Freddy Peralta,642547,Total,1,4,27,0.871,2025,31
+699,Freddy Peralta,642547,Total,1,5,27,0.844,2025,32
 707,Garrett Crochet,676979,Total,1,6,25,0.806,2025,31
 716,Gavin Williams,668909,Total,1,8,22,0.733,2025,30
 725,George Kirby,669923,Total,1,4,18,0.818,2025,22
@@ -835,7 +835,7 @@
 1057,Justin Steele,657006,Total,1,2,2,0.5,2025,4
 1064,Justin Sterner,686993,Total,1,1,0,0.0,2025,1
 1065,Justin Topa,623437,Total,1,1,0,0.0,2025,1
-1066,Justin Verlander,434378,Total,1,5,22,0.815,2025,27
+1066,Justin Verlander,434378,Total,1,5,23,0.821,2025,28
 1073,Justin Wrobleski,680736,Total,1,1,1,0.5,2025,2
 1079,Kai-Wei Teng,678906,Total,1,4,3,0.429,2025,7
 1085,Keegan Akin,669211,Total,1,0,3,1.0,2025,3
@@ -869,7 +869,7 @@
 1259,Luis L. Ortiz,682847,Total,1,4,12,0.75,2025,16
 1266,Luis Morales,806960,Total,1,2,6,0.75,2025,8
 1273,Luis Severino,622663,Total,1,8,20,0.714,2025,28
-1281,MacKenzie Gore,669022,Total,1,11,18,0.621,2025,29
+1281,MacKenzie Gore,669022,Total,1,12,18,0.6,2025,30
 1288,Marcus Stroman,573186,Total,1,4,5,0.556,2025,9
 1294,Martin Perez,527048,Total,1,4,6,0.6,2025,10
 1301,Mason Barnett,686930,Total,1,2,2,0.5,2025,4
@@ -885,7 +885,7 @@
 1359,Merrill Kelly,518876,Total,1,13,19,0.594,2025,32
 1367,Michael King,650633,Total,1,4,10,0.714,2025,14
 1376,Michael Lorenzen,547179,Total,1,4,21,0.84,2025,25
-1384,Michael McGreevy,700241,Total,1,5,9,0.643,2025,14
+1384,Michael McGreevy,700241,Total,1,6,9,0.6,2025,15
 1391,Michael Soroka,647336,Total,1,3,14,0.824,2025,17
 1397,Michael Wacha,608379,Total,1,4,26,0.867,2025,30
 1405,Mick Abel,690953,Total,1,1,6,0.857,2025,7
@@ -901,7 +901,7 @@
 1473,Nestor Cortes,641482,Total,1,5,3,0.375,2025,8
 1479,Nick Lodolo,666157,Total,1,9,18,0.667,2025,27
 1488,Nick Martinez,607259,Total,1,7,19,0.731,2025,26
-1497,Nick Pivetta,601713,Total,1,8,22,0.733,2025,30
+1497,Nick Pivetta,601713,Total,1,8,23,0.742,2025,31
 1504,Noah Cameron,702070,Total,1,7,16,0.696,2025,23
 1511,Nolan McLean,690997,Total,1,2,5,0.714,2025,7
 1519,Osvaldo Bido,674370,Total,1,4,6,0.6,2025,10
@@ -1075,7 +1075,7 @@
 741,Chris Bassitt,605135,Home,2,4,12,0.75,2025,16
 756,Chris Devenski,606965,Home,2,0,1,1.0,2025,1
 762,Chris Paddack,663978,Home,2,3,9,0.75,2025,12
-778,Chris Sale,519242,Home,2,1,7,0.875,2025,8
+778,Chris Sale,519242,Home,2,1,8,0.889,2025,9
 795,Clarke Schmidt,657376,Home,2,0,8,1.0,2025,8
 810,Clay Holmes,605280,Home,2,2,13,0.867,2025,15
 824,Clayton Kershaw,477132,Home,2,2,8,0.8,2025,10
@@ -1166,7 +1166,7 @@
 1890,Jose Urena,570632,Home,2,1,2,0.667,2025,3
 1900,Justin Hagenman,663795,Home,2,0,1,1.0,2025,1
 1905,Justin Steele,657006,Home,2,1,1,0.5,2025,2
-1921,Justin Verlander,434378,Home,2,3,12,0.8,2025,15
+1921,Justin Verlander,434378,Home,2,3,13,0.812,2025,16
 1941,Kai-Wei Teng,678906,Home,2,1,0,0.0,2025,1
 1952,Keider Montero,672456,Home,2,1,5,0.833,2025,6
 1966,Kevin Gausman,592332,Home,2,3,11,0.786,2025,14
@@ -1226,7 +1226,7 @@
 2668,Nestor Cortes,641482,Home,2,0,4,1.0,2025,4
 2679,Nick Lodolo,666157,Home,2,6,6,0.5,2025,12
 2694,Nick Martinez,607259,Home,2,5,8,0.615,2025,13
-2710,Nick Pivetta,601713,Home,2,0,16,1.0,2025,16
+2710,Nick Pivetta,601713,Home,2,1,16,0.941,2025,17
 2724,Noah Cameron,702070,Home,2,1,11,0.917,2025,12
 2738,Nolan McLean,690997,Home,2,1,3,0.75,2025,4
 2753,Osvaldo Bido,674370,Home,2,0,5,1.0,2025,5
@@ -1414,7 +1414,7 @@
 1226,Framber Valdez,664285,Road,2,5,10,0.667,2025,15
 1240,Frankie Montas,593423,Road,2,1,2,0.667,2025,3
 1246,Fraser Ellard,686642,Road,2,0,2,1.0,2025,2
-1256,Freddy Peralta,642547,Road,2,2,13,0.867,2025,15
+1256,Freddy Peralta,642547,Road,2,2,14,0.875,2025,16
 1272,Garrett Crochet,676979,Road,2,5,12,0.706,2025,17
 1287,Gavin Williams,668909,Road,2,2,13,0.867,2025,15
 1303,George Kirby,669923,Road,2,3,8,0.727,2025,11
@@ -1500,7 +1500,7 @@
 2277,Luis L. Ortiz,682847,Road,2,3,6,0.667,2025,9
 2290,Luis Morales,806960,Road,2,1,3,0.75,2025,4
 2303,Luis Severino,622663,Road,2,1,13,0.929,2025,14
-2318,MacKenzie Gore,669022,Road,2,5,11,0.688,2025,16
+2318,MacKenzie Gore,669022,Road,2,6,11,0.647,2025,17
 2329,Marcus Stroman,573186,Road,2,0,3,1.0,2025,3
 2342,Martin Perez,527048,Road,2,1,4,0.8,2025,5
 2354,Mason Barnett,686930,Road,2,1,1,0.5,2025,2
@@ -1514,7 +1514,7 @@
 2459,Merrill Kelly,518876,Road,2,2,13,0.867,2025,15
 2475,Michael King,650633,Road,2,1,4,0.8,2025,5
 2489,Michael Lorenzen,547179,Road,2,5,9,0.643,2025,14
-2504,Michael McGreevy,700241,Road,2,3,3,0.5,2025,6
+2504,Michael McGreevy,700241,Road,2,3,4,0.571,2025,7
 2517,Michael Soroka,647336,Road,2,2,7,0.778,2025,9
 2530,Michael Wacha,608379,Road,2,1,12,0.923,2025,13
 2544,Mick Abel,690953,Road,2,2,1,0.333,2025,3
@@ -1698,7 +1698,7 @@
 428,Chris Devenski,606965,Total,2,0,1,1.0,2025,1
 430,Chris Flexen,623167,Total,2,0,1,1.0,2025,1
 434,Chris Paddack,663978,Total,2,8,19,0.704,2025,27
-442,Chris Sale,519242,Total,2,2,17,0.895,2025,19
+442,Chris Sale,519242,Total,2,2,18,0.9,2025,20
 451,Clarke Schmidt,657376,Total,2,0,14,1.0,2025,14
 459,Clay Holmes,605280,Total,2,6,24,0.8,2025,30
 466,Clayton Kershaw,477132,Total,2,4,17,0.81,2025,21
@@ -1739,7 +1739,7 @@
 683,Framber Valdez,664285,Total,2,9,21,0.7,2025,30
 692,Frankie Montas,593423,Total,2,3,4,0.571,2025,7
 698,Fraser Ellard,686642,Total,2,0,2,1.0,2025,2
-700,Freddy Peralta,642547,Total,2,4,27,0.871,2025,31
+700,Freddy Peralta,642547,Total,2,4,28,0.875,2025,32
 708,Garrett Crochet,676979,Total,2,8,23,0.742,2025,31
 717,Gavin Williams,668909,Total,2,5,25,0.833,2025,30
 726,George Kirby,669923,Total,2,6,16,0.727,2025,22
@@ -1795,7 +1795,7 @@
 1048,Jose Urena,570632,Total,2,1,5,0.833,2025,6
 1053,Justin Hagenman,663795,Total,2,0,1,1.0,2025,1
 1058,Justin Steele,657006,Total,2,2,2,0.5,2025,4
-1067,Justin Verlander,434378,Total,2,6,21,0.778,2025,27
+1067,Justin Verlander,434378,Total,2,6,22,0.786,2025,28
 1074,Justin Wrobleski,680736,Total,2,2,0,0.0,2025,2
 1080,Kai-Wei Teng,678906,Total,2,1,6,0.857,2025,7
 1086,Keegan Akin,669211,Total,2,0,1,1.0,2025,1
@@ -1828,7 +1828,7 @@
 1260,Luis L. Ortiz,682847,Total,2,7,9,0.562,2025,16
 1267,Luis Morales,806960,Total,2,3,5,0.625,2025,8
 1274,Luis Severino,622663,Total,2,4,24,0.857,2025,28
-1282,MacKenzie Gore,669022,Total,2,8,21,0.724,2025,29
+1282,MacKenzie Gore,669022,Total,2,9,21,0.7,2025,30
 1289,Marcus Stroman,573186,Total,2,1,7,0.875,2025,8
 1295,Martin Perez,527048,Total,2,1,9,0.9,2025,10
 1302,Mason Barnett,686930,Total,2,3,1,0.25,2025,4
@@ -1843,7 +1843,7 @@
 1360,Merrill Kelly,518876,Total,2,5,27,0.844,2025,32
 1368,Michael King,650633,Total,2,2,12,0.857,2025,14
 1377,Michael Lorenzen,547179,Total,2,7,18,0.72,2025,25
-1385,Michael McGreevy,700241,Total,2,4,10,0.714,2025,14
+1385,Michael McGreevy,700241,Total,2,4,11,0.733,2025,15
 1392,Michael Soroka,647336,Total,2,7,10,0.588,2025,17
 1398,Michael Wacha,608379,Total,2,9,21,0.7,2025,30
 1406,Mick Abel,690953,Total,2,4,3,0.429,2025,7
@@ -1859,7 +1859,7 @@
 1474,Nestor Cortes,641482,Total,2,2,6,0.75,2025,8
 1480,Nick Lodolo,666157,Total,2,8,19,0.704,2025,27
 1489,Nick Martinez,607259,Total,2,9,17,0.654,2025,26
-1498,Nick Pivetta,601713,Total,2,2,28,0.933,2025,30
+1498,Nick Pivetta,601713,Total,2,3,28,0.903,2025,31
 1505,Noah Cameron,702070,Total,2,4,19,0.826,2025,23
 1512,Nolan McLean,690997,Total,2,2,5,0.714,2025,7
 1520,Osvaldo Bido,674370,Total,2,2,8,0.8,2025,10
@@ -2019,7 +2019,7 @@
 739,Chayce McDermott,694646,Home,3,0,1,1.0,2025,1
 742,Chris Bassitt,605135,Home,3,3,13,0.812,2025,16
 763,Chris Paddack,663978,Home,3,2,10,0.833,2025,12
-779,Chris Sale,519242,Home,3,2,6,0.75,2025,8
+779,Chris Sale,519242,Home,3,2,7,0.778,2025,9
 796,Clarke Schmidt,657376,Home,3,1,7,0.875,2025,8
 811,Clay Holmes,605280,Home,3,4,11,0.733,2025,15
 825,Clayton Kershaw,477132,Home,3,4,6,0.6,2025,10
@@ -2104,7 +2104,7 @@
 1891,Jose Urena,570632,Home,3,1,2,0.667,2025,3
 1901,Justin Hagenman,663795,Home,3,0,1,1.0,2025,1
 1906,Justin Steele,657006,Home,3,1,1,0.5,2025,2
-1922,Justin Verlander,434378,Home,3,6,9,0.6,2025,15
+1922,Justin Verlander,434378,Home,3,7,9,0.562,2025,16
 1953,Keider Montero,672456,Home,3,1,5,0.833,2025,6
 1967,Kevin Gausman,592332,Home,3,4,10,0.714,2025,14
 1984,Kodai Senga,673540,Home,3,4,8,0.667,2025,12
@@ -2163,7 +2163,7 @@
 2669,Nestor Cortes,641482,Home,3,1,3,0.75,2025,4
 2680,Nick Lodolo,666157,Home,3,3,9,0.75,2025,12
 2695,Nick Martinez,607259,Home,3,5,8,0.615,2025,13
-2711,Nick Pivetta,601713,Home,3,2,14,0.875,2025,16
+2711,Nick Pivetta,601713,Home,3,2,15,0.882,2025,17
 2725,Noah Cameron,702070,Home,3,2,10,0.833,2025,12
 2739,Nolan McLean,690997,Home,3,0,4,1.0,2025,4
 2754,Osvaldo Bido,674370,Home,3,4,1,0.2,2025,5
@@ -2342,7 +2342,7 @@
 1211,Eury Perez,691587,Road,3,3,8,0.727,2025,11
 1227,Framber Valdez,664285,Road,3,3,12,0.8,2025,15
 1241,Frankie Montas,593423,Road,3,1,2,0.667,2025,3
-1257,Freddy Peralta,642547,Road,3,5,10,0.667,2025,15
+1257,Freddy Peralta,642547,Road,3,5,11,0.688,2025,16
 1273,Garrett Crochet,676979,Road,3,6,11,0.647,2025,17
 1288,Gavin Williams,668909,Road,3,4,11,0.733,2025,15
 1304,George Kirby,669923,Road,3,1,9,0.9,2025,10
@@ -2420,7 +2420,7 @@
 2278,Luis L. Ortiz,682847,Road,3,2,7,0.778,2025,9
 2291,Luis Morales,806960,Road,3,1,3,0.75,2025,4
 2304,Luis Severino,622663,Road,3,5,9,0.643,2025,14
-2319,MacKenzie Gore,669022,Road,3,5,11,0.688,2025,16
+2319,MacKenzie Gore,669022,Road,3,5,12,0.706,2025,17
 2330,Marcus Stroman,573186,Road,3,1,2,0.667,2025,3
 2343,Martin Perez,527048,Road,3,1,4,0.8,2025,5
 2355,Mason Barnett,686930,Road,3,0,2,1.0,2025,2
@@ -2434,7 +2434,7 @@
 2460,Merrill Kelly,518876,Road,3,5,10,0.667,2025,15
 2476,Michael King,650633,Road,3,1,4,0.8,2025,5
 2490,Michael Lorenzen,547179,Road,3,5,9,0.643,2025,14
-2505,Michael McGreevy,700241,Road,3,2,4,0.667,2025,6
+2505,Michael McGreevy,700241,Road,3,2,5,0.714,2025,7
 2518,Michael Soroka,647336,Road,3,2,7,0.778,2025,9
 2531,Michael Wacha,608379,Road,3,3,10,0.769,2025,13
 2545,Mick Abel,690953,Road,3,0,3,1.0,2025,3
@@ -2606,7 +2606,7 @@
 421,Chris Bassitt,605135,Total,3,4,27,0.871,2025,31
 431,Chris Flexen,623167,Total,3,1,0,0.0,2025,1
 435,Chris Paddack,663978,Total,3,8,19,0.704,2025,27
-443,Chris Sale,519242,Total,3,6,13,0.684,2025,19
+443,Chris Sale,519242,Total,3,6,14,0.7,2025,20
 452,Clarke Schmidt,657376,Total,3,4,10,0.714,2025,14
 460,Clay Holmes,605280,Total,3,9,21,0.7,2025,30
 467,Clayton Kershaw,477132,Total,3,4,16,0.8,2025,20
@@ -2643,7 +2643,7 @@
 677,Eury Perez,691587,Total,3,4,14,0.778,2025,18
 684,Framber Valdez,664285,Total,3,6,24,0.8,2025,30
 693,Frankie Montas,593423,Total,3,3,4,0.571,2025,7
-701,Freddy Peralta,642547,Total,3,7,24,0.774,2025,31
+701,Freddy Peralta,642547,Total,3,7,25,0.781,2025,32
 709,Garrett Crochet,676979,Total,3,7,24,0.774,2025,31
 718,Gavin Williams,668909,Total,3,4,25,0.862,2025,29
 727,George Kirby,669923,Total,3,3,18,0.857,2025,21
@@ -2693,7 +2693,7 @@
 1049,Jose Urena,570632,Total,3,1,5,0.833,2025,6
 1054,Justin Hagenman,663795,Total,3,0,1,1.0,2025,1
 1059,Justin Steele,657006,Total,3,2,2,0.5,2025,4
-1068,Justin Verlander,434378,Total,3,9,18,0.667,2025,27
+1068,Justin Verlander,434378,Total,3,10,18,0.643,2025,28
 1075,Justin Wrobleski,680736,Total,3,0,2,1.0,2025,2
 1081,Kai-Wei Teng,678906,Total,3,0,6,1.0,2025,6
 1089,Keider Montero,672456,Total,3,2,9,0.818,2025,11
@@ -2724,7 +2724,7 @@
 1261,Luis L. Ortiz,682847,Total,3,4,12,0.75,2025,16
 1268,Luis Morales,806960,Total,3,1,7,0.875,2025,8
 1275,Luis Severino,622663,Total,3,11,17,0.607,2025,28
-1283,MacKenzie Gore,669022,Total,3,8,21,0.724,2025,29
+1283,MacKenzie Gore,669022,Total,3,8,22,0.733,2025,30
 1290,Marcus Stroman,573186,Total,3,2,6,0.75,2025,8
 1296,Martin Perez,527048,Total,3,2,8,0.8,2025,10
 1303,Mason Barnett,686930,Total,3,2,2,0.5,2025,4
@@ -2739,7 +2739,7 @@
 1361,Merrill Kelly,518876,Total,3,8,24,0.75,2025,32
 1369,Michael King,650633,Total,3,4,10,0.714,2025,14
 1378,Michael Lorenzen,547179,Total,3,7,18,0.72,2025,25
-1386,Michael McGreevy,700241,Total,3,5,9,0.643,2025,14
+1386,Michael McGreevy,700241,Total,3,5,10,0.667,2025,15
 1393,Michael Soroka,647336,Total,3,3,13,0.812,2025,16
 1399,Michael Wacha,608379,Total,3,6,24,0.8,2025,30
 1407,Mick Abel,690953,Total,3,2,4,0.667,2025,6
@@ -2755,7 +2755,7 @@
 1475,Nestor Cortes,641482,Total,3,2,6,0.75,2025,8
 1481,Nick Lodolo,666157,Total,3,4,22,0.846,2025,26
 1490,Nick Martinez,607259,Total,3,8,18,0.692,2025,26
-1499,Nick Pivetta,601713,Total,3,7,23,0.767,2025,30
+1499,Nick Pivetta,601713,Total,3,7,24,0.774,2025,31
 1506,Noah Cameron,702070,Total,3,4,19,0.826,2025,23
 1513,Nolan McLean,690997,Total,3,1,6,0.857,2025,7
 1521,Osvaldo Bido,674370,Total,3,6,3,0.333,2025,9
@@ -2903,7 +2903,7 @@
 721,Chase Dollander,801403,Home,4,3,6,0.667,2025,9
 743,Chris Bassitt,605135,Home,4,7,9,0.562,2025,16
 764,Chris Paddack,663978,Home,4,6,6,0.5,2025,12
-780,Chris Sale,519242,Home,4,2,6,0.75,2025,8
+780,Chris Sale,519242,Home,4,3,6,0.667,2025,9
 797,Clarke Schmidt,657376,Home,4,3,5,0.625,2025,8
 812,Clay Holmes,605280,Home,4,8,7,0.467,2025,15
 826,Clayton Kershaw,477132,Home,4,2,8,0.8,2025,10
@@ -2985,7 +2985,7 @@
 1892,Jose Urena,570632,Home,4,0,2,1.0,2025,2
 1902,Justin Hagenman,663795,Home,4,1,0,0.0,2025,1
 1907,Justin Steele,657006,Home,4,1,1,0.5,2025,2
-1923,Justin Verlander,434378,Home,4,5,9,0.643,2025,14
+1923,Justin Verlander,434378,Home,4,6,9,0.6,2025,15
 1954,Keider Montero,672456,Home,4,1,4,0.8,2025,5
 1968,Kevin Gausman,592332,Home,4,3,11,0.786,2025,14
 1985,Kodai Senga,673540,Home,4,4,7,0.636,2025,11
@@ -3044,7 +3044,7 @@
 2670,Nestor Cortes,641482,Home,4,0,3,1.0,2025,3
 2681,Nick Lodolo,666157,Home,4,4,8,0.667,2025,12
 2696,Nick Martinez,607259,Home,4,3,8,0.727,2025,11
-2712,Nick Pivetta,601713,Home,4,2,14,0.875,2025,16
+2712,Nick Pivetta,601713,Home,4,2,15,0.882,2025,17
 2726,Noah Cameron,702070,Home,4,2,10,0.833,2025,12
 2740,Nolan McLean,690997,Home,4,0,4,1.0,2025,4
 2755,Osvaldo Bido,674370,Home,4,0,4,1.0,2025,4
@@ -3211,7 +3211,7 @@
 1212,Eury Perez,691587,Road,4,2,8,0.8,2025,10
 1228,Framber Valdez,664285,Road,4,4,11,0.733,2025,15
 1242,Frankie Montas,593423,Road,4,0,3,1.0,2025,3
-1258,Freddy Peralta,642547,Road,4,5,10,0.667,2025,15
+1258,Freddy Peralta,642547,Road,4,5,11,0.688,2025,16
 1274,Garrett Crochet,676979,Road,4,4,13,0.765,2025,17
 1289,Gavin Williams,668909,Road,4,4,10,0.714,2025,14
 1305,George Kirby,669923,Road,4,2,8,0.8,2025,10
@@ -3300,7 +3300,7 @@
 2461,Merrill Kelly,518876,Road,4,2,13,0.867,2025,15
 2477,Michael King,650633,Road,4,2,3,0.6,2025,5
 2491,Michael Lorenzen,547179,Road,4,6,7,0.538,2025,13
-2506,Michael McGreevy,700241,Road,4,1,5,0.833,2025,6
+2506,Michael McGreevy,700241,Road,4,2,5,0.714,2025,7
 2519,Michael Soroka,647336,Road,4,3,6,0.667,2025,9
 2532,Michael Wacha,608379,Road,4,2,11,0.846,2025,13
 2546,Mick Abel,690953,Road,4,0,2,1.0,2025,2
@@ -3458,7 +3458,7 @@
 422,Chris Bassitt,605135,Total,4,9,20,0.69,2025,29
 432,Chris Flexen,623167,Total,4,0,1,1.0,2025,1
 436,Chris Paddack,663978,Total,4,9,18,0.667,2025,27
-444,Chris Sale,519242,Total,4,4,15,0.789,2025,19
+444,Chris Sale,519242,Total,4,5,15,0.75,2025,20
 453,Clarke Schmidt,657376,Total,4,5,8,0.615,2025,13
 461,Clay Holmes,605280,Total,4,11,19,0.633,2025,30
 468,Clayton Kershaw,477132,Total,4,4,15,0.789,2025,19
@@ -3492,7 +3492,7 @@
 678,Eury Perez,691587,Total,4,2,15,0.882,2025,17
 685,Framber Valdez,664285,Total,4,5,25,0.833,2025,30
 694,Frankie Montas,593423,Total,4,1,6,0.857,2025,7
-702,Freddy Peralta,642547,Total,4,7,24,0.774,2025,31
+702,Freddy Peralta,642547,Total,4,7,25,0.781,2025,32
 710,Garrett Crochet,676979,Total,4,7,24,0.774,2025,31
 719,Gavin Williams,668909,Total,4,5,22,0.815,2025,27
 728,George Kirby,669923,Total,4,6,15,0.714,2025,21
@@ -3541,7 +3541,7 @@
 1050,Jose Urena,570632,Total,4,0,4,1.0,2025,4
 1055,Justin Hagenman,663795,Total,4,1,0,0.0,2025,1
 1060,Justin Steele,657006,Total,4,2,2,0.5,2025,4
-1069,Justin Verlander,434378,Total,4,6,18,0.75,2025,24
+1069,Justin Verlander,434378,Total,4,7,18,0.72,2025,25
 1076,Justin Wrobleski,680736,Total,4,1,1,0.5,2025,2
 1082,Kai-Wei Teng,678906,Total,4,0,5,1.0,2025,5
 1090,Keider Montero,672456,Total,4,1,9,0.9,2025,10
@@ -3587,7 +3587,7 @@
 1362,Merrill Kelly,518876,Total,4,6,26,0.812,2025,32
 1370,Michael King,650633,Total,4,3,9,0.75,2025,12
 1379,Michael Lorenzen,547179,Total,4,9,15,0.625,2025,24
-1387,Michael McGreevy,700241,Total,4,5,9,0.643,2025,14
+1387,Michael McGreevy,700241,Total,4,6,9,0.6,2025,15
 1394,Michael Soroka,647336,Total,4,5,11,0.688,2025,16
 1400,Michael Wacha,608379,Total,4,4,25,0.862,2025,29
 1408,Mick Abel,690953,Total,4,1,3,0.75,2025,4
@@ -3603,7 +3603,7 @@
 1476,Nestor Cortes,641482,Total,4,0,6,1.0,2025,6
 1482,Nick Lodolo,666157,Total,4,7,19,0.731,2025,26
 1491,Nick Martinez,607259,Total,4,7,17,0.708,2025,24
-1500,Nick Pivetta,601713,Total,4,4,25,0.862,2025,29
+1500,Nick Pivetta,601713,Total,4,4,26,0.867,2025,30
 1507,Noah Cameron,702070,Total,4,4,19,0.826,2025,23
 1514,Nolan McLean,690997,Total,4,1,6,0.857,2025,7
 1522,Osvaldo Bido,674370,Total,4,1,7,0.875,2025,8
@@ -3742,7 +3742,7 @@
 722,Chase Dollander,801403,Home,5,3,3,0.5,2025,6
 744,Chris Bassitt,605135,Home,5,3,13,0.812,2025,16
 765,Chris Paddack,663978,Home,5,2,9,0.818,2025,11
-781,Chris Sale,519242,Home,5,2,6,0.75,2025,8
+781,Chris Sale,519242,Home,5,3,6,0.667,2025,9
 798,Clarke Schmidt,657376,Home,5,1,7,0.875,2025,8
 813,Clay Holmes,605280,Home,5,2,11,0.846,2025,13
 827,Clayton Kershaw,477132,Home,5,2,7,0.778,2025,9
@@ -3823,7 +3823,7 @@
 1893,Jose Urena,570632,Home,5,0,1,1.0,2025,1
 1903,Justin Hagenman,663795,Home,5,0,1,1.0,2025,1
 1908,Justin Steele,657006,Home,5,0,1,1.0,2025,1
-1924,Justin Verlander,434378,Home,5,3,10,0.769,2025,13
+1924,Justin Verlander,434378,Home,5,4,10,0.714,2025,14
 1955,Keider Montero,672456,Home,5,2,3,0.6,2025,5
 1969,Kevin Gausman,592332,Home,5,4,10,0.714,2025,14
 1986,Kodai Senga,673540,Home,5,1,8,0.889,2025,9
@@ -3877,7 +3877,7 @@
 2671,Nestor Cortes,641482,Home,5,0,3,1.0,2025,3
 2682,Nick Lodolo,666157,Home,5,1,11,0.917,2025,12
 2697,Nick Martinez,607259,Home,5,2,9,0.818,2025,11
-2713,Nick Pivetta,601713,Home,5,4,11,0.733,2025,15
+2713,Nick Pivetta,601713,Home,5,4,12,0.75,2025,16
 2727,Noah Cameron,702070,Home,5,0,12,1.0,2025,12
 2741,Nolan McLean,690997,Home,5,0,4,1.0,2025,4
 2756,Osvaldo Bido,674370,Home,5,3,1,0.25,2025,4
@@ -4036,7 +4036,7 @@
 1213,Eury Perez,691587,Road,5,1,6,0.857,2025,7
 1229,Framber Valdez,664285,Road,5,8,7,0.467,2025,15
 1243,Frankie Montas,593423,Road,5,1,1,0.5,2025,2
-1259,Freddy Peralta,642547,Road,5,2,13,0.867,2025,15
+1259,Freddy Peralta,642547,Road,5,3,13,0.812,2025,16
 1275,Garrett Crochet,676979,Road,5,2,14,0.875,2025,16
 1290,Gavin Williams,668909,Road,5,1,10,0.909,2025,11
 1306,George Kirby,669923,Road,5,4,5,0.556,2025,9
@@ -4124,7 +4124,7 @@
 2462,Merrill Kelly,518876,Road,5,0,13,1.0,2025,13
 2478,Michael King,650633,Road,5,0,4,1.0,2025,4
 2492,Michael Lorenzen,547179,Road,5,6,6,0.5,2025,12
-2507,Michael McGreevy,700241,Road,5,0,6,1.0,2025,6
+2507,Michael McGreevy,700241,Road,5,1,6,0.857,2025,7
 2520,Michael Soroka,647336,Road,5,2,4,0.667,2025,6
 2533,Michael Wacha,608379,Road,5,4,9,0.692,2025,13
 2547,Mick Abel,690953,Road,5,0,2,1.0,2025,2
@@ -4269,7 +4269,7 @@
 410,Chase Dollander,801403,Total,5,6,9,0.6,2025,15
 423,Chris Bassitt,605135,Total,5,4,25,0.862,2025,29
 437,Chris Paddack,663978,Total,5,4,19,0.826,2025,23
-445,Chris Sale,519242,Total,5,3,16,0.842,2025,19
+445,Chris Sale,519242,Total,5,4,16,0.8,2025,20
 454,Clarke Schmidt,657376,Total,5,1,11,0.917,2025,12
 462,Clay Holmes,605280,Total,5,4,23,0.852,2025,27
 469,Clayton Kershaw,477132,Total,5,3,15,0.833,2025,18
@@ -4303,7 +4303,7 @@
 679,Eury Perez,691587,Total,5,3,11,0.786,2025,14
 686,Framber Valdez,664285,Total,5,12,18,0.6,2025,30
 695,Frankie Montas,593423,Total,5,2,4,0.667,2025,6
-703,Freddy Peralta,642547,Total,5,4,26,0.867,2025,30
+703,Freddy Peralta,642547,Total,5,5,26,0.839,2025,31
 711,Garrett Crochet,676979,Total,5,4,26,0.867,2025,30
 720,Gavin Williams,668909,Total,5,5,19,0.792,2025,24
 729,George Kirby,669923,Total,5,8,11,0.579,2025,19
@@ -4352,7 +4352,7 @@
 1051,Jose Urena,570632,Total,5,0,2,1.0,2025,2
 1056,Justin Hagenman,663795,Total,5,0,1,1.0,2025,1
 1061,Justin Steele,657006,Total,5,0,3,1.0,2025,3
-1070,Justin Verlander,434378,Total,5,7,16,0.696,2025,23
+1070,Justin Verlander,434378,Total,5,8,16,0.667,2025,24
 1077,Justin Wrobleski,680736,Total,5,1,1,0.5,2025,2
 1083,Kai-Wei Teng,678906,Total,5,0,2,1.0,2025,2
 1091,Keider Montero,672456,Total,5,2,8,0.8,2025,10
@@ -4395,7 +4395,7 @@
 1363,Merrill Kelly,518876,Total,5,5,25,0.833,2025,30
 1371,Michael King,650633,Total,5,0,11,1.0,2025,11
 1380,Michael Lorenzen,547179,Total,5,8,14,0.636,2025,22
-1388,Michael McGreevy,700241,Total,5,1,12,0.923,2025,13
+1388,Michael McGreevy,700241,Total,5,2,12,0.857,2025,14
 1395,Michael Soroka,647336,Total,5,3,10,0.769,2025,13
 1401,Michael Wacha,608379,Total,5,9,19,0.679,2025,28
 1409,Mick Abel,690953,Total,5,0,3,1.0,2025,3
@@ -4410,7 +4410,7 @@
 1477,Nestor Cortes,641482,Total,5,0,5,1.0,2025,5
 1483,Nick Lodolo,666157,Total,5,5,20,0.8,2025,25
 1492,Nick Martinez,607259,Total,5,4,20,0.833,2025,24
-1501,Nick Pivetta,601713,Total,5,10,17,0.63,2025,27
+1501,Nick Pivetta,601713,Total,5,10,18,0.643,2025,28
 1508,Noah Cameron,702070,Total,5,0,23,1.0,2025,23
 1515,Nolan McLean,690997,Total,5,0,7,1.0,2025,7
 1523,Osvaldo Bido,674370,Total,5,4,4,0.5,2025,8
@@ -4658,7 +4658,7 @@
 2672,Nestor Cortes,641482,Home,6,0,3,1.0,2025,3
 2683,Nick Lodolo,666157,Home,6,1,7,0.875,2025,8
 2698,Nick Martinez,607259,Home,6,1,8,0.889,2025,9
-2714,Nick Pivetta,601713,Home,6,3,11,0.786,2025,14
+2714,Nick Pivetta,601713,Home,6,3,12,0.8,2025,15
 2728,Noah Cameron,702070,Home,6,2,5,0.714,2025,7
 2742,Nolan McLean,690997,Home,6,0,3,1.0,2025,3
 2757,Osvaldo Bido,674370,Home,6,1,2,0.667,2025,3
@@ -5141,7 +5141,7 @@
 1478,Nestor Cortes,641482,Total,6,0,3,1.0,2025,3
 1484,Nick Lodolo,666157,Total,6,2,17,0.895,2025,19
 1493,Nick Martinez,607259,Total,6,5,14,0.737,2025,19
-1502,Nick Pivetta,601713,Total,6,5,19,0.792,2025,24
+1502,Nick Pivetta,601713,Total,6,5,20,0.8,2025,25
 1509,Noah Cameron,702070,Total,6,2,14,0.875,2025,16
 1516,Nolan McLean,690997,Total,6,0,6,1.0,2025,6
 1524,Osvaldo Bido,674370,Total,6,1,4,0.8,2025,5
@@ -18344,7 +18344,7 @@
 1204,Chris Devenski,606965,Home,1,0,1,1.0,2023-2025,1
 1206,Chris Flexen,623167,Home,1,10,17,0.63,2023-2025,27
 1220,Chris Paddack,663978,Home,1,6,15,0.714,2023-2025,21
-1236,Chris Sale,519242,Home,1,7,24,0.774,2023-2025,31
+1236,Chris Sale,519242,Home,1,8,24,0.75,2023-2025,32
 1253,Christian Scott,681035,Home,1,0,4,1.0,2023-2025,4
 1267,Clarke Schmidt,657376,Home,1,10,23,0.697,2023-2025,33
 1283,Clay Holmes,605280,Home,1,4,11,0.733,2023-2025,15
@@ -18531,7 +18531,7 @@
 3385,Justin Hagenman,663795,Home,1,1,0,0.0,2023-2025,1
 3390,Justin Steele,657006,Home,1,5,27,0.844,2023-2025,32
 3407,Justin Sterner,686993,Home,1,1,0,0.0,2023-2025,1
-3409,Justin Verlander,434378,Home,1,9,26,0.743,2023-2025,35
+3409,Justin Verlander,434378,Home,1,9,27,0.75,2023-2025,36
 3426,Justin Wrobleski,680736,Home,1,0,2,1.0,2023-2025,2
 3437,Kai-Wei Teng,678906,Home,1,0,1,1.0,2023-2025,1
 3445,Kaleb Ort,672391,Home,1,1,1,0.5,2023-2025,2
@@ -18633,7 +18633,7 @@
 4629,Nick Lodolo,666157,Home,1,11,17,0.607,2023-2025,28
 4645,Nick Martinez,607259,Home,1,6,19,0.76,2023-2025,25
 4662,Nick Nastrini,680897,Home,1,0,4,1.0,2023-2025,4
-4672,Nick Pivetta,601713,Home,1,9,27,0.75,2023-2025,36
+4672,Nick Pivetta,601713,Home,1,9,28,0.757,2023-2025,37
 4687,Nick Robertson,687798,Home,1,0,1,1.0,2023-2025,1
 4688,Nick Sandlin,680704,Home,1,0,1,1.0,2023-2025,1
 4689,Noah Cameron,702070,Home,1,4,8,0.667,2023-2025,12
@@ -18973,7 +18973,7 @@
 2073,Framber Valdez,664285,Road,1,10,31,0.756,2023-2025,41
 2090,Frankie Montas,593423,Road,1,4,15,0.789,2023-2025,19
 2097,Fraser Ellard,686642,Road,1,0,2,1.0,2023-2025,2
-2107,Freddy Peralta,642547,Road,1,13,31,0.705,2023-2025,44
+2107,Freddy Peralta,642547,Road,1,14,31,0.689,2023-2025,45
 2114,Freddy Tarnok,676206,Road,1,1,0,0.0,2023-2025,1
 2126,Garrett Crochet,676979,Road,1,6,26,0.812,2023-2025,32
 2141,Garrett Whitlock,676477,Road,1,3,5,0.625,2023-2025,8
@@ -19140,7 +19140,7 @@
 4042,Luis Severino,622663,Road,1,9,30,0.769,2023-2025,39
 4058,Luke Weaver,596133,Road,1,10,4,0.286,2023-2025,14
 4069,Lyon Richardson,680689,Road,1,0,1,1.0,2023-2025,1
-4081,MacKenzie Gore,669022,Road,1,11,33,0.75,2023-2025,44
+4081,MacKenzie Gore,669022,Road,1,12,33,0.733,2023-2025,45
 4093,Madison Bumgarner,518516,Road,1,2,1,0.333,2023-2025,3
 4105,Marco Gonzales,594835,Road,1,4,5,0.556,2023-2025,9
 4120,Marcus Stroman,573186,Road,1,7,20,0.741,2023-2025,27
@@ -19165,7 +19165,7 @@
 4359,Michael King,650633,Road,1,8,19,0.704,2023-2025,27
 4375,Michael Kopech,656629,Road,1,6,7,0.538,2023-2025,13
 4391,Michael Lorenzen,547179,Road,1,7,33,0.825,2023-2025,40
-4406,Michael McGreevy,700241,Road,1,2,6,0.75,2023-2025,8
+4406,Michael McGreevy,700241,Road,1,3,6,0.667,2023-2025,9
 4414,Michael Mercado,675650,Road,1,0,2,1.0,2023-2025,2
 4419,Michael Plassmeyer,674681,Road,1,0,1,1.0,2023-2025,1
 4429,Michael Soroka,647336,Road,1,5,13,0.722,2023-2025,18
@@ -19478,7 +19478,7 @@
 673,Chris Devenski,606965,Total,1,0,1,1.0,2023-2025,1
 675,Chris Flexen,623167,Total,1,16,31,0.66,2023-2025,47
 682,Chris Paddack,663978,Total,1,16,28,0.636,2023-2025,44
-690,Chris Sale,519242,Total,1,17,51,0.75,2023-2025,68
+690,Chris Sale,519242,Total,1,18,51,0.739,2023-2025,69
 699,Christian Scott,681035,Total,1,1,8,0.889,2023-2025,9
 706,Clarke Schmidt,657376,Total,1,20,42,0.677,2023-2025,62
 714,Clay Holmes,605280,Total,1,7,23,0.767,2023-2025,30
@@ -19565,7 +19565,7 @@
 1161,Francisco Perez,660906,Total,1,1,0,0.0,2023-2025,1
 1162,Frankie Montas,593423,Total,1,8,29,0.784,2023-2025,37
 1169,Fraser Ellard,686642,Total,1,0,2,1.0,2023-2025,2
-1171,Freddy Peralta,642547,Total,1,21,72,0.774,2023-2025,93
+1171,Freddy Peralta,642547,Total,1,22,72,0.766,2023-2025,94
 1179,Freddy Tarnok,676206,Total,1,1,0,0.0,2023-2025,1
 1182,Garrett Crochet,676979,Total,1,11,52,0.825,2023-2025,63
 1191,Garrett Whitlock,676477,Total,1,4,10,0.714,2023-2025,14
@@ -19693,7 +19693,7 @@
 1888,Justin Steele,657006,Total,1,12,46,0.793,2023-2025,58
 1897,Justin Sterner,686993,Total,1,1,0,0.0,2023-2025,1
 1898,Justin Topa,623437,Total,1,1,0,0.0,2023-2025,1
-1899,Justin Verlander,434378,Total,1,23,48,0.676,2023-2025,71
+1899,Justin Verlander,434378,Total,1,23,49,0.681,2023-2025,72
 1908,Justin Wrobleski,680736,Total,1,1,7,0.875,2023-2025,8
 1914,Kai-Wei Teng,678906,Total,1,4,3,0.429,2023-2025,7
 1920,Kaleb Ort,672391,Total,1,1,1,0.5,2023-2025,2
@@ -19750,7 +19750,7 @@
 2244,Luke Little,681432,Total,1,0,1,1.0,2023-2025,1
 2245,Luke Weaver,596133,Total,1,15,10,0.4,2023-2025,25
 2252,Lyon Richardson,680689,Total,1,1,3,0.75,2023-2025,4
-2257,MacKenzie Gore,669022,Total,1,23,65,0.739,2023-2025,88
+2257,MacKenzie Gore,669022,Total,1,24,65,0.73,2023-2025,89
 2264,Madison Bumgarner,518516,Total,1,3,1,0.25,2023-2025,4
 2269,Marco Gonzales,594835,Total,1,5,12,0.706,2023-2025,17
 2276,Marcus Stroman,573186,Total,1,19,43,0.694,2023-2025,62
@@ -19781,7 +19781,7 @@
 2410,Michael King,650633,Total,1,13,40,0.755,2023-2025,53
 2419,Michael Kopech,656629,Total,1,8,19,0.704,2023-2025,27
 2427,Michael Lorenzen,547179,Total,1,16,58,0.784,2023-2025,74
-2436,Michael McGreevy,700241,Total,1,5,12,0.706,2023-2025,17
+2436,Michael McGreevy,700241,Total,1,6,12,0.667,2023-2025,18
 2444,Michael Mercado,675650,Total,1,0,2,1.0,2023-2025,2
 2449,Michael Plassmeyer,674681,Total,1,0,1,1.0,2023-2025,1
 2453,Michael Soroka,647336,Total,1,6,26,0.812,2023-2025,32
@@ -19804,7 +19804,7 @@
 2564,Nick Lodolo,666157,Total,1,19,36,0.655,2023-2025,55
 2573,Nick Martinez,607259,Total,1,13,38,0.745,2023-2025,51
 2582,Nick Nastrini,680897,Total,1,2,6,0.75,2023-2025,8
-2588,Nick Pivetta,601713,Total,1,18,54,0.75,2023-2025,72
+2588,Nick Pivetta,601713,Total,1,18,55,0.753,2023-2025,73
 2596,Nick Robertson,687798,Total,1,0,1,1.0,2023-2025,1
 2597,Nick Sandlin,680704,Total,1,0,1,1.0,2023-2025,1
 2598,Noah Cameron,702070,Total,1,7,16,0.696,2023-2025,23
@@ -20085,7 +20085,7 @@
 1205,Chris Devenski,606965,Home,2,0,1,1.0,2023-2025,1
 1207,Chris Flexen,623167,Home,2,8,19,0.704,2023-2025,27
 1221,Chris Paddack,663978,Home,2,5,16,0.762,2023-2025,21
-1237,Chris Sale,519242,Home,2,4,27,0.871,2023-2025,31
+1237,Chris Sale,519242,Home,2,4,28,0.875,2023-2025,32
 1254,Christian Scott,681035,Home,2,1,3,0.75,2023-2025,4
 1268,Clarke Schmidt,657376,Home,2,4,29,0.879,2023-2025,33
 1284,Clay Holmes,605280,Home,2,2,13,0.867,2023-2025,15
@@ -20253,7 +20253,7 @@
 3371,Julio Urias,628711,Home,2,4,7,0.636,2023-2025,11
 3386,Justin Hagenman,663795,Home,2,0,1,1.0,2023-2025,1
 3391,Justin Steele,657006,Home,2,5,27,0.844,2023-2025,32
-3410,Justin Verlander,434378,Home,2,6,29,0.829,2023-2025,35
+3410,Justin Verlander,434378,Home,2,6,30,0.833,2023-2025,36
 3427,Justin Wrobleski,680736,Home,2,0,2,1.0,2023-2025,2
 3438,Kai-Wei Teng,678906,Home,2,1,0,0.0,2023-2025,1
 3446,Kaleb Ort,672391,Home,2,1,1,0.5,2023-2025,2
@@ -20351,7 +20351,7 @@
 4630,Nick Lodolo,666157,Home,2,11,17,0.607,2023-2025,28
 4646,Nick Martinez,607259,Home,2,7,18,0.72,2023-2025,25
 4663,Nick Nastrini,680897,Home,2,1,3,0.75,2023-2025,4
-4673,Nick Pivetta,601713,Home,2,5,31,0.861,2023-2025,36
+4673,Nick Pivetta,601713,Home,2,6,31,0.838,2023-2025,37
 4690,Noah Cameron,702070,Home,2,1,11,0.917,2023-2025,12
 4704,Noah Davis,663562,Home,2,1,1,0.5,2023-2025,2
 4714,Noah Syndergaard,592789,Home,2,4,5,0.556,2023-2025,9
@@ -20669,7 +20669,7 @@
 2074,Framber Valdez,664285,Road,2,13,28,0.683,2023-2025,41
 2091,Frankie Montas,593423,Road,2,2,17,0.895,2023-2025,19
 2098,Fraser Ellard,686642,Road,2,0,2,1.0,2023-2025,2
-2108,Freddy Peralta,642547,Road,2,9,35,0.795,2023-2025,44
+2108,Freddy Peralta,642547,Road,2,9,36,0.8,2023-2025,45
 2115,Freddy Tarnok,676206,Road,2,1,0,0.0,2023-2025,1
 2127,Garrett Crochet,676979,Road,2,7,25,0.781,2023-2025,32
 2142,Garrett Whitlock,676477,Road,2,4,3,0.429,2023-2025,7
@@ -20826,7 +20826,7 @@
 4043,Luis Severino,622663,Road,2,10,29,0.744,2023-2025,39
 4059,Luke Weaver,596133,Road,2,4,10,0.714,2023-2025,14
 4070,Lyon Richardson,680689,Road,2,1,0,0.0,2023-2025,1
-4082,MacKenzie Gore,669022,Road,2,13,31,0.705,2023-2025,44
+4082,MacKenzie Gore,669022,Road,2,14,31,0.689,2023-2025,45
 4094,Madison Bumgarner,518516,Road,2,0,3,1.0,2023-2025,3
 4106,Marco Gonzales,594835,Road,2,3,6,0.667,2023-2025,9
 4121,Marcus Stroman,573186,Road,2,9,18,0.667,2023-2025,27
@@ -20850,7 +20850,7 @@
 4360,Michael King,650633,Road,2,5,22,0.815,2023-2025,27
 4376,Michael Kopech,656629,Road,2,1,10,0.909,2023-2025,11
 4392,Michael Lorenzen,547179,Road,2,10,29,0.744,2023-2025,39
-4407,Michael McGreevy,700241,Road,2,3,5,0.625,2023-2025,8
+4407,Michael McGreevy,700241,Road,2,3,6,0.667,2023-2025,9
 4415,Michael Mercado,675650,Road,2,1,1,0.5,2023-2025,2
 4420,Michael Plassmeyer,674681,Road,2,1,0,0.0,2023-2025,1
 4430,Michael Soroka,647336,Road,2,6,12,0.667,2023-2025,18
@@ -21139,7 +21139,7 @@
 674,Chris Devenski,606965,Total,2,0,1,1.0,2023-2025,1
 676,Chris Flexen,623167,Total,2,15,32,0.681,2023-2025,47
 683,Chris Paddack,663978,Total,2,14,30,0.682,2023-2025,44
-691,Chris Sale,519242,Total,2,11,57,0.838,2023-2025,68
+691,Chris Sale,519242,Total,2,11,58,0.841,2023-2025,69
 700,Christian Scott,681035,Total,2,2,7,0.778,2023-2025,9
 707,Clarke Schmidt,657376,Total,2,9,53,0.855,2023-2025,62
 715,Clay Holmes,605280,Total,2,6,24,0.8,2023-2025,30
@@ -21218,7 +21218,7 @@
 1153,Framber Valdez,664285,Total,2,22,65,0.747,2023-2025,87
 1163,Frankie Montas,593423,Total,2,7,29,0.806,2023-2025,36
 1170,Fraser Ellard,686642,Total,2,0,2,1.0,2023-2025,2
-1172,Freddy Peralta,642547,Total,2,18,75,0.806,2023-2025,93
+1172,Freddy Peralta,642547,Total,2,18,76,0.809,2023-2025,94
 1180,Freddy Tarnok,676206,Total,2,1,0,0.0,2023-2025,1
 1183,Garrett Crochet,676979,Total,2,14,48,0.774,2023-2025,62
 1192,Garrett Whitlock,676477,Total,2,7,6,0.462,2023-2025,13
@@ -21333,7 +21333,7 @@
 1882,Justin Garza,621057,Total,2,0,1,1.0,2023-2025,1
 1884,Justin Hagenman,663795,Total,2,0,1,1.0,2023-2025,1
 1889,Justin Steele,657006,Total,2,10,48,0.828,2023-2025,58
-1900,Justin Verlander,434378,Total,2,13,58,0.817,2023-2025,71
+1900,Justin Verlander,434378,Total,2,13,59,0.819,2023-2025,72
 1909,Justin Wrobleski,680736,Total,2,5,3,0.375,2023-2025,8
 1915,Kai-Wei Teng,678906,Total,2,1,6,0.857,2023-2025,7
 1921,Kaleb Ort,672391,Total,2,1,1,0.5,2023-2025,2
@@ -21388,7 +21388,7 @@
 2236,Luis Severino,622663,Total,2,20,57,0.74,2023-2025,77
 2246,Luke Weaver,596133,Total,2,6,19,0.76,2023-2025,25
 2253,Lyon Richardson,680689,Total,2,2,2,0.5,2023-2025,4
-2258,MacKenzie Gore,669022,Total,2,28,60,0.682,2023-2025,88
+2258,MacKenzie Gore,669022,Total,2,29,60,0.674,2023-2025,89
 2265,Madison Bumgarner,518516,Total,2,1,3,0.75,2023-2025,4
 2270,Marco Gonzales,594835,Total,2,6,11,0.647,2023-2025,17
 2277,Marcus Stroman,573186,Total,2,15,46,0.754,2023-2025,61
@@ -21416,7 +21416,7 @@
 2411,Michael King,650633,Total,2,11,42,0.792,2023-2025,53
 2420,Michael Kopech,656629,Total,2,6,19,0.76,2023-2025,25
 2428,Michael Lorenzen,547179,Total,2,19,54,0.74,2023-2025,73
-2437,Michael McGreevy,700241,Total,2,4,13,0.765,2023-2025,17
+2437,Michael McGreevy,700241,Total,2,4,14,0.778,2023-2025,18
 2445,Michael Mercado,675650,Total,2,1,1,0.5,2023-2025,2
 2450,Michael Plassmeyer,674681,Total,2,1,0,0.0,2023-2025,1
 2454,Michael Soroka,647336,Total,2,12,20,0.625,2023-2025,32
@@ -21438,7 +21438,7 @@
 2565,Nick Lodolo,666157,Total,2,15,40,0.727,2023-2025,55
 2574,Nick Martinez,607259,Total,2,11,40,0.784,2023-2025,51
 2583,Nick Nastrini,680897,Total,2,4,4,0.5,2023-2025,8
-2589,Nick Pivetta,601713,Total,2,15,57,0.792,2023-2025,72
+2589,Nick Pivetta,601713,Total,2,16,57,0.781,2023-2025,73
 2599,Noah Cameron,702070,Total,2,4,19,0.826,2023-2025,23
 2606,Noah Davis,663562,Total,2,2,4,0.667,2023-2025,6
 2611,Noah Syndergaard,592789,Total,2,8,9,0.529,2023-2025,17
@@ -21691,7 +21691,7 @@
 1189,Chris Bassitt,605135,Home,3,13,38,0.745,2023-2025,51
 1208,Chris Flexen,623167,Home,3,9,18,0.667,2023-2025,27
 1222,Chris Paddack,663978,Home,3,5,16,0.762,2023-2025,21
-1238,Chris Sale,519242,Home,3,8,23,0.742,2023-2025,31
+1238,Chris Sale,519242,Home,3,8,24,0.75,2023-2025,32
 1255,Christian Scott,681035,Home,3,4,0,0.0,2023-2025,4
 1269,Clarke Schmidt,657376,Home,3,6,27,0.818,2023-2025,33
 1285,Clay Holmes,605280,Home,3,4,11,0.733,2023-2025,15
@@ -21846,7 +21846,7 @@
 3372,Julio Urias,628711,Home,3,2,9,0.818,2023-2025,11
 3387,Justin Hagenman,663795,Home,3,0,1,1.0,2023-2025,1
 3392,Justin Steele,657006,Home,3,8,23,0.742,2023-2025,31
-3411,Justin Verlander,434378,Home,3,14,21,0.6,2023-2025,35
+3411,Justin Verlander,434378,Home,3,15,21,0.583,2023-2025,36
 3428,Justin Wrobleski,680736,Home,3,0,2,1.0,2023-2025,2
 3447,Kaleb Ort,672391,Home,3,0,1,1.0,2023-2025,1
 3450,Karl Kauffmann,666154,Home,3,0,1,1.0,2023-2025,1
@@ -21939,7 +21939,7 @@
 4631,Nick Lodolo,666157,Home,3,11,17,0.607,2023-2025,28
 4647,Nick Martinez,607259,Home,3,7,18,0.72,2023-2025,25
 4664,Nick Nastrini,680897,Home,3,0,4,1.0,2023-2025,4
-4674,Nick Pivetta,601713,Home,3,8,28,0.778,2023-2025,36
+4674,Nick Pivetta,601713,Home,3,8,29,0.784,2023-2025,37
 4691,Noah Cameron,702070,Home,3,2,10,0.833,2023-2025,12
 4705,Noah Davis,663562,Home,3,1,0,0.0,2023-2025,1
 4715,Noah Syndergaard,592789,Home,3,4,5,0.556,2023-2025,9
@@ -22228,7 +22228,7 @@
 2054,Eury Perez,691587,Road,3,6,13,0.684,2023-2025,19
 2075,Framber Valdez,664285,Road,3,11,30,0.732,2023-2025,41
 2092,Frankie Montas,593423,Road,3,6,13,0.684,2023-2025,19
-2109,Freddy Peralta,642547,Road,3,8,36,0.818,2023-2025,44
+2109,Freddy Peralta,642547,Road,3,8,37,0.822,2023-2025,45
 2116,Freddy Tarnok,676206,Road,3,0,1,1.0,2023-2025,1
 2128,Garrett Crochet,676979,Road,3,10,21,0.677,2023-2025,31
 2143,Garrett Whitlock,676477,Road,3,2,5,0.714,2023-2025,7
@@ -22370,7 +22370,7 @@
 4044,Luis Severino,622663,Road,3,13,26,0.667,2023-2025,39
 4060,Luke Weaver,596133,Road,3,5,9,0.643,2023-2025,14
 4071,Lyon Richardson,680689,Road,3,0,1,1.0,2023-2025,1
-4083,MacKenzie Gore,669022,Road,3,13,31,0.705,2023-2025,44
+4083,MacKenzie Gore,669022,Road,3,13,32,0.711,2023-2025,45
 4095,Madison Bumgarner,518516,Road,3,1,2,0.667,2023-2025,3
 4107,Marco Gonzales,594835,Road,3,3,5,0.625,2023-2025,8
 4122,Marcus Stroman,573186,Road,3,6,21,0.778,2023-2025,27
@@ -22393,7 +22393,7 @@
 4361,Michael King,650633,Road,3,4,22,0.846,2023-2025,26
 4377,Michael Kopech,656629,Road,3,3,8,0.727,2023-2025,11
 4393,Michael Lorenzen,547179,Road,3,6,32,0.842,2023-2025,38
-4408,Michael McGreevy,700241,Road,3,3,5,0.625,2023-2025,8
+4408,Michael McGreevy,700241,Road,3,3,6,0.667,2023-2025,9
 4416,Michael Mercado,675650,Road,3,1,0,0.0,2023-2025,1
 4421,Michael Plassmeyer,674681,Road,3,1,0,0.0,2023-2025,1
 4431,Michael Soroka,647336,Road,3,5,13,0.722,2023-2025,18
@@ -22653,7 +22653,7 @@
 666,Chris Bassitt,605135,Total,3,26,68,0.723,2023-2025,94
 677,Chris Flexen,623167,Total,3,18,28,0.609,2023-2025,46
 684,Chris Paddack,663978,Total,3,15,29,0.659,2023-2025,44
-692,Chris Sale,519242,Total,3,18,50,0.735,2023-2025,68
+692,Chris Sale,519242,Total,3,18,51,0.739,2023-2025,69
 701,Christian Scott,681035,Total,3,4,5,0.556,2023-2025,9
 708,Clarke Schmidt,657376,Total,3,18,44,0.71,2023-2025,62
 716,Clay Holmes,605280,Total,3,9,21,0.7,2023-2025,30
@@ -22720,7 +22720,7 @@
 1151,Fernando Cruz,518585,Total,3,0,1,1.0,2023-2025,1
 1154,Framber Valdez,664285,Total,3,18,69,0.793,2023-2025,87
 1164,Frankie Montas,593423,Total,3,14,21,0.6,2023-2025,35
-1173,Freddy Peralta,642547,Total,3,20,73,0.785,2023-2025,93
+1173,Freddy Peralta,642547,Total,3,20,74,0.787,2023-2025,94
 1181,Freddy Tarnok,676206,Total,3,0,1,1.0,2023-2025,1
 1184,Garrett Crochet,676979,Total,3,16,44,0.733,2023-2025,60
 1193,Garrett Whitlock,676477,Total,3,2,11,0.846,2023-2025,13
@@ -22819,7 +22819,7 @@
 1876,Julio Urias,628711,Total,3,5,16,0.762,2023-2025,21
 1885,Justin Hagenman,663795,Total,3,0,1,1.0,2023-2025,1
 1890,Justin Steele,657006,Total,3,16,41,0.719,2023-2025,57
-1901,Justin Verlander,434378,Total,3,24,47,0.662,2023-2025,71
+1901,Justin Verlander,434378,Total,3,25,47,0.653,2023-2025,72
 1910,Justin Wrobleski,680736,Total,3,2,6,0.75,2023-2025,8
 1916,Kai-Wei Teng,678906,Total,3,0,6,1.0,2023-2025,6
 1922,Kaleb Ort,672391,Total,3,0,1,1.0,2023-2025,1
@@ -22870,7 +22870,7 @@
 2237,Luis Severino,622663,Total,3,27,50,0.649,2023-2025,77
 2247,Luke Weaver,596133,Total,3,8,17,0.68,2023-2025,25
 2254,Lyon Richardson,680689,Total,3,1,3,0.75,2023-2025,4
-2259,MacKenzie Gore,669022,Total,3,22,64,0.744,2023-2025,86
+2259,MacKenzie Gore,669022,Total,3,22,65,0.747,2023-2025,87
 2266,Madison Bumgarner,518516,Total,3,1,3,0.75,2023-2025,4
 2271,Marco Gonzales,594835,Total,3,3,13,0.812,2023-2025,16
 2278,Marcus Stroman,573186,Total,3,19,42,0.689,2023-2025,61
@@ -22895,7 +22895,7 @@
 2412,Michael King,650633,Total,3,10,42,0.808,2023-2025,52
 2421,Michael Kopech,656629,Total,3,6,18,0.75,2023-2025,24
 2429,Michael Lorenzen,547179,Total,3,15,57,0.792,2023-2025,72
-2438,Michael McGreevy,700241,Total,3,6,11,0.647,2023-2025,17
+2438,Michael McGreevy,700241,Total,3,6,12,0.667,2023-2025,18
 2446,Michael Mercado,675650,Total,3,1,0,0.0,2023-2025,1
 2451,Michael Plassmeyer,674681,Total,3,1,0,0.0,2023-2025,1
 2455,Michael Soroka,647336,Total,3,10,21,0.677,2023-2025,31
@@ -22916,7 +22916,7 @@
 2566,Nick Lodolo,666157,Total,3,12,42,0.778,2023-2025,54
 2575,Nick Martinez,607259,Total,3,14,37,0.725,2023-2025,51
 2584,Nick Nastrini,680897,Total,3,0,7,1.0,2023-2025,7
-2590,Nick Pivetta,601713,Total,3,19,53,0.736,2023-2025,72
+2590,Nick Pivetta,601713,Total,3,19,54,0.74,2023-2025,73
 2600,Noah Cameron,702070,Total,3,4,19,0.826,2023-2025,23
 2607,Noah Davis,663562,Total,3,2,3,0.6,2023-2025,5
 2612,Noah Syndergaard,592789,Total,3,7,10,0.588,2023-2025,17
@@ -23146,7 +23146,7 @@
 1190,Chris Bassitt,605135,Home,4,15,35,0.7,2023-2025,50
 1209,Chris Flexen,623167,Home,4,8,18,0.692,2023-2025,26
 1223,Chris Paddack,663978,Home,4,11,9,0.45,2023-2025,20
-1239,Chris Sale,519242,Home,4,6,24,0.8,2023-2025,30
+1239,Chris Sale,519242,Home,4,7,24,0.774,2023-2025,31
 1256,Christian Scott,681035,Home,4,1,3,0.75,2023-2025,4
 1270,Clarke Schmidt,657376,Home,4,12,21,0.636,2023-2025,33
 1286,Clay Holmes,605280,Home,4,8,7,0.467,2023-2025,15
@@ -23295,7 +23295,7 @@
 3373,Julio Urias,628711,Home,4,3,8,0.727,2023-2025,11
 3388,Justin Hagenman,663795,Home,4,1,0,0.0,2023-2025,1
 3393,Justin Steele,657006,Home,4,5,24,0.828,2023-2025,29
-3412,Justin Verlander,434378,Home,4,7,26,0.788,2023-2025,33
+3412,Justin Verlander,434378,Home,4,8,26,0.765,2023-2025,34
 3429,Justin Wrobleski,680736,Home,4,1,1,0.5,2023-2025,2
 3451,Karl Kauffmann,666154,Home,4,1,0,0.0,2023-2025,1
 3461,Keaton Winn,676775,Home,4,1,7,0.875,2023-2025,8
@@ -23385,7 +23385,7 @@
 4632,Nick Lodolo,666157,Home,4,9,18,0.667,2023-2025,27
 4648,Nick Martinez,607259,Home,4,7,16,0.696,2023-2025,23
 4665,Nick Nastrini,680897,Home,4,3,1,0.25,2023-2025,4
-4675,Nick Pivetta,601713,Home,4,7,29,0.806,2023-2025,36
+4675,Nick Pivetta,601713,Home,4,7,30,0.811,2023-2025,37
 4692,Noah Cameron,702070,Home,4,2,10,0.833,2023-2025,12
 4706,Noah Davis,663562,Home,4,0,1,1.0,2023-2025,1
 4716,Noah Syndergaard,592789,Home,4,3,6,0.667,2023-2025,9
@@ -23651,7 +23651,7 @@
 2055,Eury Perez,691587,Road,4,5,13,0.722,2023-2025,18
 2076,Framber Valdez,664285,Road,4,9,32,0.78,2023-2025,41
 2093,Frankie Montas,593423,Road,4,3,15,0.833,2023-2025,18
-2110,Freddy Peralta,642547,Road,4,11,32,0.744,2023-2025,43
+2110,Freddy Peralta,642547,Road,4,11,33,0.75,2023-2025,44
 2129,Garrett Crochet,676979,Road,4,7,24,0.774,2023-2025,31
 2144,Garrett Whitlock,676477,Road,4,1,6,0.857,2023-2025,7
 2158,Gavin Stone,694813,Road,4,3,9,0.75,2023-2025,12
@@ -23810,7 +23810,7 @@
 4362,Michael King,650633,Road,4,7,19,0.731,2023-2025,26
 4378,Michael Kopech,656629,Road,4,6,5,0.455,2023-2025,11
 4394,Michael Lorenzen,547179,Road,4,11,25,0.694,2023-2025,36
-4409,Michael McGreevy,700241,Road,4,1,7,0.875,2023-2025,8
+4409,Michael McGreevy,700241,Road,4,2,7,0.778,2023-2025,9
 4417,Michael Mercado,675650,Road,4,0,1,1.0,2023-2025,1
 4422,Michael Plassmeyer,674681,Road,4,1,0,0.0,2023-2025,1
 4432,Michael Soroka,647336,Road,4,5,13,0.722,2023-2025,18
@@ -24046,7 +24046,7 @@
 667,Chris Bassitt,605135,Total,4,24,66,0.733,2023-2025,90
 678,Chris Flexen,623167,Total,4,14,29,0.674,2023-2025,43
 685,Chris Paddack,663978,Total,4,16,27,0.628,2023-2025,43
-693,Chris Sale,519242,Total,4,13,54,0.806,2023-2025,67
+693,Chris Sale,519242,Total,4,14,54,0.794,2023-2025,68
 702,Christian Scott,681035,Total,4,3,6,0.667,2023-2025,9
 709,Clarke Schmidt,657376,Total,4,15,45,0.75,2023-2025,60
 717,Clay Holmes,605280,Total,4,11,19,0.633,2023-2025,30
@@ -24109,7 +24109,7 @@
 1145,Eury Perez,691587,Total,4,9,24,0.727,2023-2025,33
 1155,Framber Valdez,664285,Total,4,14,73,0.839,2023-2025,87
 1165,Frankie Montas,593423,Total,4,5,28,0.848,2023-2025,33
-1174,Freddy Peralta,642547,Total,4,21,70,0.769,2023-2025,91
+1174,Freddy Peralta,642547,Total,4,21,71,0.772,2023-2025,92
 1185,Garrett Crochet,676979,Total,4,13,45,0.776,2023-2025,58
 1194,Garrett Whitlock,676477,Total,4,2,11,0.846,2023-2025,13
 1201,Gavin Stone,694813,Total,4,6,20,0.769,2023-2025,26
@@ -24202,7 +24202,7 @@
 1877,Julio Urias,628711,Total,4,6,13,0.684,2023-2025,19
 1886,Justin Hagenman,663795,Total,4,1,0,0.0,2023-2025,1
 1891,Justin Steele,657006,Total,4,14,41,0.745,2023-2025,55
-1902,Justin Verlander,434378,Total,4,12,54,0.818,2023-2025,66
+1902,Justin Verlander,434378,Total,4,13,54,0.806,2023-2025,67
 1911,Justin Wrobleski,680736,Total,4,2,6,0.75,2023-2025,8
 1917,Kai-Wei Teng,678906,Total,4,0,5,1.0,2023-2025,5
 1926,Karl Kauffmann,666154,Total,4,3,0,0.0,2023-2025,3
@@ -24275,7 +24275,7 @@
 2413,Michael King,650633,Total,4,14,35,0.714,2023-2025,49
 2422,Michael Kopech,656629,Total,4,10,14,0.583,2023-2025,24
 2430,Michael Lorenzen,547179,Total,4,22,48,0.686,2023-2025,70
-2439,Michael McGreevy,700241,Total,4,5,12,0.706,2023-2025,17
+2439,Michael McGreevy,700241,Total,4,6,12,0.667,2023-2025,18
 2447,Michael Mercado,675650,Total,4,0,1,1.0,2023-2025,1
 2452,Michael Plassmeyer,674681,Total,4,1,0,0.0,2023-2025,1
 2456,Michael Soroka,647336,Total,4,8,22,0.733,2023-2025,30
@@ -24296,7 +24296,7 @@
 2567,Nick Lodolo,666157,Total,4,15,38,0.717,2023-2025,53
 2576,Nick Martinez,607259,Total,4,11,34,0.756,2023-2025,45
 2585,Nick Nastrini,680897,Total,4,4,3,0.429,2023-2025,7
-2591,Nick Pivetta,601713,Total,4,15,55,0.786,2023-2025,70
+2591,Nick Pivetta,601713,Total,4,15,56,0.789,2023-2025,71
 2601,Noah Cameron,702070,Total,4,4,19,0.826,2023-2025,23
 2608,Noah Davis,663562,Total,4,2,3,0.6,2023-2025,5
 2613,Noah Syndergaard,592789,Total,4,7,9,0.562,2023-2025,16
@@ -24509,7 +24509,7 @@
 1191,Chris Bassitt,605135,Home,5,9,40,0.816,2023-2025,49
 1210,Chris Flexen,623167,Home,5,6,17,0.739,2023-2025,23
 1224,Chris Paddack,663978,Home,5,3,16,0.842,2023-2025,19
-1240,Chris Sale,519242,Home,5,6,21,0.778,2023-2025,27
+1240,Chris Sale,519242,Home,5,7,21,0.75,2023-2025,28
 1257,Christian Scott,681035,Home,5,1,3,0.75,2023-2025,4
 1271,Clarke Schmidt,657376,Home,5,6,24,0.8,2023-2025,30
 1287,Clay Holmes,605280,Home,5,2,11,0.846,2023-2025,13
@@ -24653,7 +24653,7 @@
 3374,Julio Urias,628711,Home,5,2,9,0.818,2023-2025,11
 3389,Justin Hagenman,663795,Home,5,0,1,1.0,2023-2025,1
 3394,Justin Steele,657006,Home,5,9,17,0.654,2023-2025,26
-3413,Justin Verlander,434378,Home,5,11,21,0.656,2023-2025,32
+3413,Justin Verlander,434378,Home,5,12,21,0.636,2023-2025,33
 3430,Justin Wrobleski,680736,Home,5,1,1,0.5,2023-2025,2
 3452,Karl Kauffmann,666154,Home,5,1,0,0.0,2023-2025,1
 3462,Keaton Winn,676775,Home,5,2,5,0.714,2023-2025,7
@@ -24739,7 +24739,7 @@
 4633,Nick Lodolo,666157,Home,5,6,18,0.75,2023-2025,24
 4649,Nick Martinez,607259,Home,5,7,15,0.682,2023-2025,22
 4666,Nick Nastrini,680897,Home,5,2,2,0.5,2023-2025,4
-4676,Nick Pivetta,601713,Home,5,7,26,0.788,2023-2025,33
+4676,Nick Pivetta,601713,Home,5,7,27,0.794,2023-2025,34
 4693,Noah Cameron,702070,Home,5,0,12,1.0,2023-2025,12
 4707,Noah Davis,663562,Home,5,1,0,0.0,2023-2025,1
 4717,Noah Syndergaard,592789,Home,5,5,3,0.375,2023-2025,8
@@ -24990,7 +24990,7 @@
 2056,Eury Perez,691587,Road,5,3,12,0.8,2023-2025,15
 2077,Framber Valdez,664285,Road,5,11,28,0.718,2023-2025,39
 2094,Frankie Montas,593423,Road,5,5,11,0.688,2023-2025,16
-2111,Freddy Peralta,642547,Road,5,8,33,0.805,2023-2025,41
+2111,Freddy Peralta,642547,Road,5,9,33,0.786,2023-2025,42
 2130,Garrett Crochet,676979,Road,5,4,18,0.818,2023-2025,22
 2145,Garrett Whitlock,676477,Road,5,2,5,0.714,2023-2025,7
 2159,Gavin Stone,694813,Road,5,2,10,0.833,2023-2025,12
@@ -25142,7 +25142,7 @@
 4363,Michael King,650633,Road,5,0,22,1.0,2023-2025,22
 4379,Michael Kopech,656629,Road,5,2,7,0.778,2023-2025,9
 4395,Michael Lorenzen,547179,Road,5,11,23,0.676,2023-2025,34
-4410,Michael McGreevy,700241,Road,5,1,7,0.875,2023-2025,8
+4410,Michael McGreevy,700241,Road,5,2,7,0.778,2023-2025,9
 4418,Michael Mercado,675650,Road,5,0,1,1.0,2023-2025,1
 4433,Michael Soroka,647336,Road,5,3,10,0.769,2023-2025,13
 4447,Michael Wacha,608379,Road,5,11,25,0.694,2023-2025,36
@@ -25361,7 +25361,7 @@
 668,Chris Bassitt,605135,Total,5,14,71,0.835,2023-2025,85
 679,Chris Flexen,623167,Total,5,14,22,0.611,2023-2025,36
 686,Chris Paddack,663978,Total,5,6,32,0.842,2023-2025,38
-694,Chris Sale,519242,Total,5,12,51,0.81,2023-2025,63
+694,Chris Sale,519242,Total,5,13,51,0.797,2023-2025,64
 703,Christian Scott,681035,Total,5,2,5,0.714,2023-2025,7
 710,Clarke Schmidt,657376,Total,5,10,43,0.811,2023-2025,53
 718,Clay Holmes,605280,Total,5,4,23,0.852,2023-2025,27
@@ -25421,7 +25421,7 @@
 1146,Eury Perez,691587,Total,5,5,24,0.828,2023-2025,29
 1156,Framber Valdez,664285,Total,5,24,59,0.711,2023-2025,83
 1166,Frankie Montas,593423,Total,5,10,20,0.667,2023-2025,30
-1175,Freddy Peralta,642547,Total,5,17,71,0.807,2023-2025,88
+1175,Freddy Peralta,642547,Total,5,18,71,0.798,2023-2025,89
 1186,Garrett Crochet,676979,Total,5,6,41,0.872,2023-2025,47
 1195,Garrett Whitlock,676477,Total,5,4,8,0.667,2023-2025,12
 1202,Gavin Stone,694813,Total,5,6,18,0.75,2023-2025,24
@@ -25509,7 +25509,7 @@
 1878,Julio Urias,628711,Total,5,3,15,0.833,2023-2025,18
 1887,Justin Hagenman,663795,Total,5,0,1,1.0,2023-2025,1
 1892,Justin Steele,657006,Total,5,13,37,0.74,2023-2025,50
-1903,Justin Verlander,434378,Total,5,23,42,0.646,2023-2025,65
+1903,Justin Verlander,434378,Total,5,24,42,0.636,2023-2025,66
 1912,Justin Wrobleski,680736,Total,5,4,4,0.5,2023-2025,8
 1918,Kai-Wei Teng,678906,Total,5,0,2,1.0,2023-2025,2
 1927,Karl Kauffmann,666154,Total,5,2,0,0.0,2023-2025,2
@@ -25578,7 +25578,7 @@
 2414,Michael King,650633,Total,5,0,44,1.0,2023-2025,44
 2423,Michael Kopech,656629,Total,5,5,15,0.75,2023-2025,20
 2431,Michael Lorenzen,547179,Total,5,15,51,0.773,2023-2025,66
-2440,Michael McGreevy,700241,Total,5,2,14,0.875,2023-2025,16
+2440,Michael McGreevy,700241,Total,5,3,14,0.824,2023-2025,17
 2448,Michael Mercado,675650,Total,5,0,1,1.0,2023-2025,1
 2457,Michael Soroka,647336,Total,5,6,19,0.76,2023-2025,25
 2463,Michael Wacha,608379,Total,5,21,56,0.727,2023-2025,77
@@ -25597,7 +25597,7 @@
 2568,Nick Lodolo,666157,Total,5,12,37,0.755,2023-2025,49
 2577,Nick Martinez,607259,Total,5,11,33,0.75,2023-2025,44
 2586,Nick Nastrini,680897,Total,5,2,2,0.5,2023-2025,4
-2592,Nick Pivetta,601713,Total,5,17,47,0.734,2023-2025,64
+2592,Nick Pivetta,601713,Total,5,17,48,0.738,2023-2025,65
 2602,Noah Cameron,702070,Total,5,0,23,1.0,2023-2025,23
 2609,Noah Davis,663562,Total,5,1,3,0.75,2023-2025,4
 2614,Noah Syndergaard,592789,Total,5,5,8,0.615,2023-2025,13
@@ -25991,7 +25991,7 @@
 4634,Nick Lodolo,666157,Home,6,2,12,0.857,2023-2025,14
 4650,Nick Martinez,607259,Home,6,3,14,0.824,2023-2025,17
 4667,Nick Nastrini,680897,Home,6,0,1,1.0,2023-2025,1
-4677,Nick Pivetta,601713,Home,6,5,21,0.808,2023-2025,26
+4677,Nick Pivetta,601713,Home,6,5,22,0.815,2023-2025,27
 4694,Noah Cameron,702070,Home,6,2,5,0.714,2023-2025,7
 4718,Noah Syndergaard,592789,Home,6,1,6,0.857,2023-2025,7
 4731,Nolan McLean,690997,Home,6,0,3,1.0,2023-2025,3
@@ -26764,7 +26764,7 @@
 2569,Nick Lodolo,666157,Total,6,4,32,0.889,2023-2025,36
 2578,Nick Martinez,607259,Total,6,7,24,0.774,2023-2025,31
 2587,Nick Nastrini,680897,Total,6,0,1,1.0,2023-2025,1
-2593,Nick Pivetta,601713,Total,6,9,37,0.804,2023-2025,46
+2593,Nick Pivetta,601713,Total,6,9,38,0.809,2023-2025,47
 2603,Noah Cameron,702070,Total,6,2,14,0.875,2023-2025,16
 2615,Noah Syndergaard,592789,Total,6,2,8,0.8,2023-2025,10
 2622,Nolan McLean,690997,Total,6,0,6,1.0,2023-2025,6
