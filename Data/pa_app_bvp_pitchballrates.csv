@@ -1,17 +1,10 @@
 ,player_name,pitcher,stand,pitch_type,PitchesThrown,IsBall,Ball%
-1574,Carlos Rodriguez,692230,L,CH,71,30,0.423
-1575,Carlos Rodriguez,692230,L,CU,21,8,0.381
-1576,Carlos Rodriguez,692230,L,FC,28,12,0.429
-1577,Carlos Rodriguez,692230,L,FF,52,17,0.327
-1578,Carlos Rodriguez,692230,L,SI,21,3,0.143
-1579,Carlos Rodriguez,692230,L,SL,4,3,0.75
-1580,Carlos Rodriguez,692230,R,CH,12,5,0.417
-1581,Carlos Rodriguez,692230,R,CU,18,9,0.5
-1582,Carlos Rodriguez,692230,R,FC,57,21,0.368
-1583,Carlos Rodriguez,692230,R,FF,46,25,0.543
-1584,Carlos Rodriguez,692230,R,SI,40,22,0.55
-1585,Carlos Rodriguez,692230,R,SL,71,19,0.268
 2750,Drew Pomeranz,519141,L,CU,52,25,0.481
 2751,Drew Pomeranz,519141,L,FF,265,70,0.264
 2752,Drew Pomeranz,519141,R,CU,134,64,0.478
 2753,Drew Pomeranz,519141,R,FF,349,106,0.304
+8870,Trevor Megill,656730,L,CU,225,95,0.422
+8871,Trevor Megill,656730,L,FF,473,150,0.317
+8872,Trevor Megill,656730,R,CU,262,90,0.344
+8873,Trevor Megill,656730,R,FF,459,125,0.272
+8874,Trevor Megill,656730,R,SI,2,2,1.0
