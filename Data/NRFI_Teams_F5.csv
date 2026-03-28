@@ -1,224 +1,93 @@
 ,BatterTeam,Split,IsF5,YRA,NRA,NRA%,Year,Apps
 1,ARI,Home,1,68,13,0.16,2025,81
-3,ARI,Road,1,66,15,0.185,2025,81
-1,ARI,Total,1,134,28,0.173,2025,162
+3,ARI,Road,1,68,15,0.181,2025,83
+1,ARI,Total,1,136,28,0.171,2025,164
 5,ATH,Home,1,66,15,0.185,2025,81
 7,ATH,Road,1,63,18,0.222,2025,81
 3,ATH,Total,1,129,33,0.204,2025,162
-9,ATL,Home,1,61,20,0.247,2025,81
+9,ATL,Home,1,62,20,0.244,2025,82
 11,ATL,Road,1,59,22,0.272,2025,81
-5,ATL,Total,1,120,42,0.259,2025,162
-13,Arizona Diamondbacks,Home,1,0,18,1.0,2025,18
-15,Arizona Diamondbacks,Road,1,0,14,1.0,2025,14
-7,Arizona Diamondbacks,Total,1,0,32,1.0,2025,32
-17,Athletics,Home,1,0,18,1.0,2025,18
-19,Athletics,Road,1,0,14,1.0,2025,14
-9,Athletics,Total,1,0,32,1.0,2025,32
-21,Atlanta Braves,Home,1,0,16,1.0,2025,16
-23,Atlanta Braves,Road,1,0,15,1.0,2025,15
-11,Atlanta Braves,Total,1,0,31,1.0,2025,31
-25,BAL,Home,1,58,23,0.284,2025,81
-27,BAL,Road,1,65,16,0.198,2025,81
-13,BAL,Total,1,123,39,0.241,2025,162
-29,BOS,Home,1,69,12,0.148,2025,81
-31,BOS,Road,1,65,16,0.198,2025,81
-15,BOS,Total,1,134,28,0.173,2025,162
-33,Baltimore Orioles,Home,1,0,15,1.0,2025,15
-35,Baltimore Orioles,Road,1,0,15,1.0,2025,15
-17,Baltimore Orioles,Total,1,0,30,1.0,2025,30
-37,Boston Red Sox,Home,1,0,17,1.0,2025,17
-39,Boston Red Sox,Road,1,0,14,1.0,2025,14
-19,Boston Red Sox,Total,1,0,31,1.0,2025,31
-41,Brazil,Road,1,0,2,1.0,2025,2
-21,Brazil,Total,1,0,2,1.0,2025,2
-43,CHC,Home,1,76,5,0.062,2025,81
-45,CHC,Road,1,63,18,0.222,2025,81
-23,CHC,Total,1,139,23,0.142,2025,162
-47,CIN,Home,1,66,15,0.185,2025,81
-49,CIN,Road,1,59,22,0.272,2025,81
-25,CIN,Total,1,125,37,0.228,2025,162
-51,CLE,Home,1,61,20,0.247,2025,81
-53,CLE,Road,1,61,20,0.247,2025,81
-27,CLE,Total,1,122,40,0.247,2025,162
-55,COL,Home,1,73,8,0.099,2025,81
-57,COL,Road,1,48,33,0.407,2025,81
-29,COL,Total,1,121,41,0.253,2025,162
-59,CWS,Home,1,67,14,0.173,2025,81
-61,CWS,Road,1,64,17,0.21,2025,81
-31,CWS,Total,1,131,31,0.191,2025,162
-63,Canada,Road,1,0,2,1.0,2025,2
-33,Canada,Total,1,0,2,1.0,2025,2
-65,Chicago Cubs,Home,1,0,18,1.0,2025,18
-67,Chicago Cubs,Road,1,0,14,1.0,2025,14
-35,Chicago Cubs,Total,1,0,32,1.0,2025,32
-69,Chicago White Sox,Home,1,0,15,1.0,2025,15
-71,Chicago White Sox,Road,1,0,17,1.0,2025,17
-37,Chicago White Sox,Total,1,0,32,1.0,2025,32
-73,Cincinnati Reds,Home,1,0,14,1.0,2025,14
-75,Cincinnati Reds,Road,1,0,18,1.0,2025,18
-39,Cincinnati Reds,Total,1,0,32,1.0,2025,32
-77,Cleveland Guardians,Home,1,0,15,1.0,2025,15
-79,Cleveland Guardians,Road,1,0,16,1.0,2025,16
-41,Cleveland Guardians,Total,1,0,31,1.0,2025,31
-81,Colombia,Road,1,0,2,1.0,2025,2
-43,Colombia,Total,1,0,2,1.0,2025,2
-83,Colorado Rockies,Home,1,0,17,1.0,2025,17
-85,Colorado Rockies,Road,1,0,15,1.0,2025,15
-45,Colorado Rockies,Total,1,0,32,1.0,2025,32
-87,Cuba,Home,1,0,1,1.0,2025,1
-89,Cuba,Road,1,0,1,1.0,2025,1
-47,Cuba,Total,1,0,2,1.0,2025,2
-91,DET,Home,1,70,11,0.136,2025,81
-93,DET,Road,1,63,18,0.222,2025,81
-49,DET,Total,1,133,29,0.179,2025,162
-95,Detroit Tigers,Home,1,0,15,1.0,2025,15
-97,Detroit Tigers,Road,1,0,16,1.0,2025,16
-51,Detroit Tigers,Total,1,0,31,1.0,2025,31
-99,Dominican Republic,Home,1,0,2,1.0,2025,2
-53,Dominican Republic,Total,1,0,2,1.0,2025,2
-101,Great Britain,Road,1,0,2,1.0,2025,2
-55,Great Britain,Total,1,0,2,1.0,2025,2
-103,HOU,Home,1,59,22,0.272,2025,81
-105,HOU,Road,1,59,22,0.272,2025,81
-57,HOU,Total,1,118,44,0.272,2025,162
-107,Houston Astros,Home,1,0,17,1.0,2025,17
-109,Houston Astros,Road,1,0,14,1.0,2025,14
-59,Houston Astros,Total,1,0,31,1.0,2025,31
-111,Israel,Road,1,0,2,1.0,2025,2
-61,Israel,Total,1,0,2,1.0,2025,2
-113,Italy,Road,1,0,2,1.0,2025,2
-63,Italy,Total,1,0,2,1.0,2025,2
-115,KC,Home,1,58,23,0.284,2025,81
-117,KC,Road,1,64,17,0.21,2025,81
-65,KC,Total,1,122,40,0.247,2025,162
-119,Kansas City Royals,Home,1,0,15,1.0,2025,15
-121,Kansas City Royals,Road,1,0,17,1.0,2025,17
-67,Kansas City Royals,Total,1,0,32,1.0,2025,32
-123,Kingdom of the Netherlands,Road,1,0,2,1.0,2025,2
-69,Kingdom of the Netherlands,Total,1,0,2,1.0,2025,2
-125,LAA,Home,1,67,14,0.173,2025,81
-127,LAA,Road,1,65,16,0.198,2025,81
-71,LAA,Total,1,132,30,0.185,2025,162
-129,LAD,Home,1,65,16,0.198,2025,81
-131,LAD,Road,1,61,20,0.247,2025,81
-73,LAD,Total,1,126,36,0.222,2025,162
-133,Los Angeles Angels,Home,1,0,16,1.0,2025,16
-135,Los Angeles Angels,Road,1,0,18,1.0,2025,18
-75,Los Angeles Angels,Total,1,0,34,1.0,2025,34
-137,Los Angeles Dodgers,Home,1,0,17,1.0,2025,17
-139,Los Angeles Dodgers,Road,1,0,15,1.0,2025,15
-77,Los Angeles Dodgers,Total,1,0,32,1.0,2025,32
-141,MIA,Home,1,67,14,0.173,2025,81
-143,MIA,Road,1,62,19,0.235,2025,81
-79,MIA,Total,1,129,33,0.204,2025,162
-145,MIL,Home,1,69,12,0.148,2025,81
-147,MIL,Road,1,67,14,0.173,2025,81
-81,MIL,Total,1,136,26,0.16,2025,162
-149,MIN,Home,1,68,13,0.16,2025,81
-151,MIN,Road,1,64,17,0.21,2025,81
-83,MIN,Total,1,132,30,0.185,2025,162
-153,Mexico,Road,1,0,2,1.0,2025,2
-85,Mexico,Total,1,0,2,1.0,2025,2
-155,Miami Marlins,Home,1,0,15,1.0,2025,15
-157,Miami Marlins,Road,1,0,13,1.0,2025,13
-87,Miami Marlins,Total,1,0,28,1.0,2025,28
-159,Milwaukee Brewers,Home,1,0,17,1.0,2025,17
-161,Milwaukee Brewers,Road,1,0,14,1.0,2025,14
-89,Milwaukee Brewers,Total,1,0,31,1.0,2025,31
-163,Minnesota Golden Gophers,Road,1,0,1,1.0,2025,1
-91,Minnesota Golden Gophers,Total,1,0,1,1.0,2025,1
-165,Minnesota Twins,Home,1,0,17,1.0,2025,17
-167,Minnesota Twins,Road,1,0,15,1.0,2025,15
-93,Minnesota Twins,Total,1,0,32,1.0,2025,32
-169,NYM,Home,1,69,12,0.148,2025,81
-171,NYM,Road,1,62,19,0.235,2025,81
-95,NYM,Total,1,131,31,0.191,2025,162
-173,NYY,Home,1,65,16,0.198,2025,81
-175,NYY,Road,1,65,16,0.198,2025,81
-97,NYY,Total,1,130,32,0.198,2025,162
-177,New York Mets,Home,1,0,15,1.0,2025,15
-179,New York Mets,Road,1,0,14,1.0,2025,14
-99,New York Mets,Total,1,0,29,1.0,2025,29
-181,New York Yankees,Home,1,0,16,1.0,2025,16
-183,New York Yankees,Road,1,0,16,1.0,2025,16
-101,New York Yankees,Total,1,0,32,1.0,2025,32
-185,Nicaragua,Road,1,0,2,1.0,2025,2
-103,Nicaragua,Total,1,0,2,1.0,2025,2
-187,Northeastern Huskies,Road,1,0,1,1.0,2025,1
-105,Northeastern Huskies,Total,1,0,1,1.0,2025,1
-189,PHI,Home,1,73,8,0.099,2025,81
-191,PHI,Road,1,56,25,0.309,2025,81
-107,PHI,Total,1,129,33,0.204,2025,162
-193,PIT,Home,1,68,13,0.16,2025,81
-195,PIT,Road,1,55,26,0.321,2025,81
-109,PIT,Total,1,123,39,0.241,2025,162
-197,Panama,Road,1,0,2,1.0,2025,2
-111,Panama,Total,1,0,2,1.0,2025,2
-199,Philadelphia Phillies,Home,1,0,16,1.0,2025,16
-201,Philadelphia Phillies,Road,1,0,14,1.0,2025,14
-113,Philadelphia Phillies,Total,1,0,30,1.0,2025,30
-203,Pittsburgh Pirates,Home,1,0,16,1.0,2025,16
-205,Pittsburgh Pirates,Road,1,0,15,1.0,2025,15
-115,Pittsburgh Pirates,Total,1,0,31,1.0,2025,31
-207,Puerto Rico,Road,1,0,2,1.0,2025,2
-117,Puerto Rico,Total,1,0,2,1.0,2025,2
-209,SD,Home,1,68,13,0.16,2025,81
-211,SD,Road,1,63,18,0.222,2025,81
-119,SD,Total,1,131,31,0.191,2025,162
-213,SEA,Home,1,61,20,0.247,2025,81
-215,SEA,Road,1,65,16,0.198,2025,81
-121,SEA,Total,1,126,36,0.222,2025,162
-217,SF,Home,1,62,19,0.235,2025,81
-219,SF,Road,1,63,18,0.222,2025,81
-123,SF,Total,1,125,37,0.228,2025,162
-221,STL,Home,1,63,18,0.222,2025,81
-223,STL,Road,1,62,19,0.235,2025,81
-125,STL,Total,1,125,37,0.228,2025,162
-225,Sacramento River Cats,Home,1,0,1,1.0,2025,1
-127,Sacramento River Cats,Total,1,0,1,1.0,2025,1
-227,San Diego Padres,Home,1,0,16,1.0,2025,16
-229,San Diego Padres,Road,1,0,16,1.0,2025,16
-129,San Diego Padres,Total,1,0,32,1.0,2025,32
-231,San Francisco Giants,Home,1,0,18,1.0,2025,18
-233,San Francisco Giants,Road,1,0,15,1.0,2025,15
-131,San Francisco Giants,Total,1,0,33,1.0,2025,33
-235,Seattle Mariners,Home,1,0,16,1.0,2025,16
-237,Seattle Mariners,Road,1,0,15,1.0,2025,15
-133,Seattle Mariners,Total,1,0,31,1.0,2025,31
-239,Springfield Cardinals,Home,1,0,1,1.0,2025,1
-135,Springfield Cardinals,Total,1,0,1,1.0,2025,1
-241,St. Louis Cardinals,Home,1,0,15,1.0,2025,15
-243,St. Louis Cardinals,Road,1,0,15,1.0,2025,15
-137,St. Louis Cardinals,Total,1,0,30,1.0,2025,30
-245,Sugar Land Space Cowboys,Road,1,0,2,1.0,2025,2
-139,Sugar Land Space Cowboys,Total,1,0,2,1.0,2025,2
-247,Sultanes de Monterrey,Road,1,0,2,1.0,2025,2
-141,Sultanes de Monterrey,Total,1,0,2,1.0,2025,2
-249,TB,Home,1,65,16,0.198,2025,81
-251,TB,Road,1,66,15,0.185,2025,81
-143,TB,Total,1,131,31,0.191,2025,162
-253,TEX,Home,1,61,20,0.247,2025,81
-255,TEX,Road,1,67,14,0.173,2025,81
-145,TEX,Total,1,128,34,0.21,2025,162
-257,TOR,Home,1,62,19,0.235,2025,81
-259,TOR,Road,1,60,21,0.259,2025,81
-147,TOR,Total,1,122,40,0.247,2025,162
-261,Tampa Bay Rays,Home,1,0,14,1.0,2025,14
-263,Tampa Bay Rays,Road,1,0,17,1.0,2025,17
-149,Tampa Bay Rays,Total,1,0,31,1.0,2025,31
-265,Texas Rangers,Home,1,0,17,1.0,2025,17
-267,Texas Rangers,Road,1,0,14,1.0,2025,14
-151,Texas Rangers,Total,1,0,31,1.0,2025,31
-269,Toronto Blue Jays,Home,1,0,15,1.0,2025,15
-271,Toronto Blue Jays,Road,1,0,14,1.0,2025,14
-153,Toronto Blue Jays,Total,1,0,29,1.0,2025,29
-273,United States,Road,1,0,2,1.0,2025,2
-155,United States,Total,1,0,2,1.0,2025,2
-275,Venezuela,Road,1,0,2,1.0,2025,2
-157,Venezuela,Total,1,0,2,1.0,2025,2
-277,WSH,Home,1,60,21,0.259,2025,81
-279,WSH,Road,1,58,23,0.284,2025,81
-159,WSH,Total,1,118,44,0.272,2025,162
-281,Washington Nationals,Home,1,0,15,1.0,2025,15
-283,Washington Nationals,Road,1,0,14,1.0,2025,14
-161,Washington Nationals,Total,1,0,29,1.0,2025,29
+5,ATL,Total,1,121,42,0.258,2025,163
+13,BAL,Home,1,58,24,0.293,2025,82
+15,BAL,Road,1,65,16,0.198,2025,81
+7,BAL,Total,1,123,40,0.245,2025,163
+17,BOS,Home,1,69,12,0.148,2025,81
+19,BOS,Road,1,65,17,0.207,2025,82
+9,BOS,Total,1,134,29,0.178,2025,163
+21,CHC,Home,1,77,5,0.061,2025,82
+23,CHC,Road,1,63,18,0.222,2025,81
+11,CHC,Total,1,140,23,0.141,2025,163
+25,CIN,Home,1,66,16,0.195,2025,82
+27,CIN,Road,1,59,22,0.272,2025,81
+13,CIN,Total,1,125,38,0.233,2025,163
+29,CLE,Home,1,61,20,0.247,2025,81
+31,CLE,Road,1,63,20,0.241,2025,83
+15,CLE,Total,1,124,40,0.244,2025,164
+33,COL,Home,1,73,8,0.099,2025,81
+35,COL,Road,1,49,33,0.402,2025,82
+17,COL,Total,1,122,41,0.252,2025,163
+37,CWS,Home,1,67,14,0.173,2025,81
+39,CWS,Road,1,65,17,0.207,2025,82
+19,CWS,Total,1,132,31,0.19,2025,163
+41,DET,Home,1,70,11,0.136,2025,81
+43,DET,Road,1,64,19,0.229,2025,83
+21,DET,Total,1,134,30,0.183,2025,164
+45,HOU,Home,1,60,23,0.277,2025,83
+47,HOU,Road,1,59,22,0.272,2025,81
+23,HOU,Total,1,119,45,0.274,2025,164
+49,KC,Home,1,58,23,0.284,2025,81
+51,KC,Road,1,64,18,0.22,2025,82
+25,KC,Total,1,122,41,0.252,2025,163
+53,LAA,Home,1,67,14,0.173,2025,81
+55,LAA,Road,1,66,17,0.205,2025,83
+27,LAA,Total,1,133,31,0.189,2025,164
+57,LAD,Home,1,67,16,0.193,2025,83
+59,LAD,Road,1,61,20,0.247,2025,81
+29,LAD,Total,1,128,36,0.22,2025,164
+61,MIA,Home,1,68,14,0.171,2025,82
+63,MIA,Road,1,62,19,0.235,2025,81
+31,MIA,Total,1,130,33,0.202,2025,163
+65,MIL,Home,1,70,12,0.146,2025,82
+67,MIL,Road,1,67,14,0.173,2025,81
+33,MIL,Total,1,137,26,0.16,2025,163
+69,MIN,Home,1,68,13,0.16,2025,81
+71,MIN,Road,1,64,18,0.22,2025,82
+35,MIN,Total,1,132,31,0.19,2025,163
+73,NYM,Home,1,70,12,0.146,2025,82
+75,NYM,Road,1,62,19,0.235,2025,81
+37,NYM,Total,1,132,31,0.19,2025,163
+77,NYY,Home,1,65,16,0.198,2025,81
+79,NYY,Road,1,66,17,0.205,2025,83
+39,NYY,Total,1,131,33,0.201,2025,164
+81,OAK,Road,1,1,0,0.0,2025,1
+41,OAK,Total,1,1,0,0.0,2025,1
+83,PHI,Home,1,74,8,0.098,2025,82
+85,PHI,Road,1,56,25,0.309,2025,81
+43,PHI,Total,1,130,33,0.202,2025,163
+87,PIT,Home,1,68,13,0.16,2025,81
+89,PIT,Road,1,56,26,0.317,2025,82
+45,PIT,Total,1,124,39,0.239,2025,163
+91,SD,Home,1,69,14,0.169,2025,83
+93,SD,Road,1,63,18,0.222,2025,81
+47,SD,Total,1,132,32,0.195,2025,164
+95,SEA,Home,1,63,20,0.241,2025,83
+97,SEA,Road,1,65,16,0.198,2025,81
+49,SEA,Total,1,128,36,0.22,2025,164
+99,SF,Home,1,62,21,0.253,2025,83
+101,SF,Road,1,63,18,0.222,2025,81
+51,SF,Total,1,125,39,0.238,2025,164
+103,STL,Home,1,64,18,0.22,2025,82
+105,STL,Road,1,62,19,0.235,2025,81
+53,STL,Total,1,126,37,0.227,2025,163
+107,TB,Home,1,65,16,0.198,2025,81
+109,TB,Road,1,67,15,0.183,2025,82
+55,TB,Total,1,132,31,0.19,2025,163
+111,TEX,Home,1,61,20,0.247,2025,81
+113,TEX,Road,1,67,15,0.183,2025,82
+57,TEX,Total,1,128,35,0.215,2025,163
+115,TOR,Home,1,63,19,0.232,2025,82
+117,TOR,Road,1,60,21,0.259,2025,81
+59,TOR,Total,1,123,40,0.245,2025,163
+119,WSH,Home,1,60,21,0.259,2025,81
+121,WSH,Road,1,59,23,0.28,2025,82
+61,WSH,Total,1,119,44,0.27,2025,163
