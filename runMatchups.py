@@ -69,32 +69,49 @@ def get_background_color_h(pct):
     
     return f"rgb({r},{g},{b})"
 
-#@st.cache_data
-def load_data():
+@st.cache_data
+def load_data(selected_day='TODAY'):
    # Data Load
    base_dir = os.path.dirname(__file__)
    file_path = os.path.join(base_dir, 'Data')
-   hdata = pd.read_csv('{}/matchups_hitterdata.csv'.format(file_path))
+
+   tomorrow_enabled_files = {
+      'pmix_comp_data.csv',
+      'pa_app_bvp_pitchballrates.csv',
+      'matchups_pitcherdata.csv',
+      'matchups_hitterdata.csv'
+   }
+
+   def get_data_file(filename):
+      if selected_day == 'TOMORROW' and filename in tomorrow_enabled_files:
+         base_name, ext = os.path.splitext(filename)
+         tomorrow_filename = f"{base_name}_tomorrow{ext}"
+         tomorrow_path = os.path.join(file_path, tomorrow_filename)
+         if os.path.exists(tomorrow_path):
+            return tomorrow_path
+      return os.path.join(file_path, filename)
+
+   hdata = pd.read_csv(get_data_file('matchups_hitterdata.csv'))
    hdata = dropUnnamed(hdata)
-   pdata = pd.read_csv('{}/matchups_pitcherdata.csv'.format(file_path))
+   pdata = pd.read_csv(get_data_file('matchups_pitcherdata.csv'))
    pdata = dropUnnamed(pdata)
    pdata = pdata.sort_values(by='%',ascending=False)
 
-   bvp_ballrates = pd.read_csv('{}/pa_app_bvp_pitchballrates.csv'.format(file_path))
-   
-   pa_hdata = pd.read_csv('{}/pa_app_hitterdata.csv'.format(file_path))
-   pa_pdata = pd.read_csv('{}/pa_app_pitcherdata.csv'.format(file_path))
+   bvp_ballrates = pd.read_csv(get_data_file('pa_app_bvp_pitchballrates.csv'))
 
-   nrfi_p = pd.read_csv('{}/NRFI_Pitchers.csv'.format(file_path))
-   nrfi_team = pd.read_csv('{}/NRFI_Teams.csv'.format(file_path))
-   nrfi_team3 = pd.read_csv('{}/NRFI_Teams_F3.csv'.format(file_path))
-   nrfi_team5 = pd.read_csv('{}/NRFI_Teams_F5.csv'.format(file_path))
+   pa_hdata = pd.read_csv(get_data_file('pa_app_hitterdata.csv'))
+   pa_pdata = pd.read_csv(get_data_file('pa_app_pitcherdata.csv'))
 
-   playerinfo = pd.read_csv('{}/MLBPlayerInfo.csv'.format(file_path))
+   nrfi_p = pd.read_csv(get_data_file('NRFI_Pitchers.csv'))
+   nrfi_team = pd.read_csv(get_data_file('NRFI_Teams.csv'))
+   nrfi_team3 = pd.read_csv(get_data_file('NRFI_Teams_F3.csv'))
+   nrfi_team5 = pd.read_csv(get_data_file('NRFI_Teams_F5.csv'))
+
+   playerinfo = pd.read_csv(get_data_file('MLBPlayerInfo.csv'))
    playerinfo = playerinfo[playerinfo['ID']!=699041]
    hitter_hand_dict = dict(zip(playerinfo.Player,playerinfo.BatSide))
 
-   bvp = pd.read_csv('{}/pa_app_bvp.csv'.format(file_path))
+   bvp = pd.read_csv(get_data_file('pa_app_bvp.csv'))
 
    hdata['Stand'] = hdata['Player'].map(hitter_hand_dict)
    hdata['Stand'] = hdata['Stand'].fillna('R')
@@ -110,10 +127,13 @@ def load_data():
    hdata['pitch_type'] = hdata['pitch_type'].replace(pname_dict)
    hdata = hdata.sort_values(by='BIP',ascending=False)
 
-   pmc = pd.read_csv('{}/pmix_comp_data.csv'.format(file_path))
+   pmc = pd.read_csv(get_data_file('pmix_comp_data.csv'))
    return(hdata,pdata,playerinfo,pa_hdata,pa_pdata, bvp,pmc,bvp_ballrates,nrfi_p,nrfi_team,nrfi_team3,nrfi_team5)
 
-hdata, pdata, playerinfo, pa_hdata, pa_pdata, bvp, pmc, bvp_ballrates,nrfi_p,nrfi_team,nrfi_team3,nrfi_team5 = load_data()
+selected_day = st.sidebar.radio('Slate', ['TODAY', 'TOMORROW'], horizontal=False)
+day_label = selected_day.title()
+
+hdata, pdata, playerinfo, pa_hdata, pa_pdata, bvp, pmc, bvp_ballrates,nrfi_p,nrfi_team,nrfi_team3,nrfi_team5 = load_data(selected_day)
 hdata['pitch_type'] = hdata['pitch_type'].replace({'Slow Curve': 'Curveball', 'Forkball': 'Split-Finger'})
 hdata = hdata[['Player','pitch_type','AB','BIP','H','1B','2B','3B','HR','AVG','wOBA','OPS','ISO','EV','Air Hard%','GB%','SwStr%','Brl%','Hard%','LD%','FB%','K%','BB%','Game','Team','Opp','Stand','HID','p_throws','batter','Spot']]
 pdata['1B%'] = round(pdata['1B']/pdata['H'],3)
@@ -1116,7 +1136,7 @@ if tab == 'All BVP':
         max_pa = int(this_bvp['PA'].max())
         pa_range = st.slider("Plate Appearances (PA)", min_pa, max_pa, (min_pa, max_pa))
 
-        # Pitches slider
+        # Pitches slidert
         min_pitches = int(this_bvp['Pitches'].min())
         max_pitches = int(this_bvp['Pitches'].max())
         pitches_range = st.slider("Pitches Thrown", min_pitches, max_pitches, (min_pitches, max_pitches))
@@ -1200,6 +1220,7 @@ if tab == "Pitch Mix Matchups":
    
    # Display Pitcher's Overall Mixes
    pitcher_pmc = pmc[pmc['player_name']==selected_pitcher]
+
    pitcher_pmc_vr = pitcher_pmc[pitcher_pmc['BatterName']=='R'][['pitch_type','PitchesThrown','%']].sort_values(by='%',ascending=False)
    pitcher_pmc_vr = pitcher_pmc_vr.rename({'PitchesThrown': 'PC'},axis=1)
    pitcher_pmc_vl = pitcher_pmc[pitcher_pmc['BatterName']=='L'][['pitch_type','PitchesThrown','%']].sort_values(by='%',ascending=False)
