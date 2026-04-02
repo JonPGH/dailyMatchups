@@ -1,0 +1,6812 @@
+{
+  "draftGroupId": 144968,
+  "startDate": "2026-04-03T01:45:00.0000000Z",
+  "startDateEST": "2026-04-02T21:45:00.0000000",
+  "gameCount": 1,
+  "type": "Showdown",
+  "games": null,
+  "slateDetails": {
+    "draftGroup": {
+      "draftGroupId": 144968,
+      "contestType": {
+        "contestTypeId": 179,
+        "sport": "MLB",
+        "gameType": "SalaryCap"
+      },
+      "sportId": 2,
+      "startTimeSuffix": " (NYM @ SF Snake)",
+      "startTimeType": "Night",
+      "minStartTime": "2026-04-03T01:45:00.0000000Z",
+      "maxStartTime": "2026-04-03T01:45:00.0000000Z",
+      "draftGroupState": "Upcoming",
+      "allowUgc": false,
+      "leagues": [
+        {
+          "leagueId": 2,
+          "leagueName": "Major League Baseball",
+          "leagueAbbreviation": "MLB"
+        }
+      ],
+      "games": [
+        {
+          "gameId": 6158945,
+          "awayTeamId": 245,
+          "homeTeamId": 250,
+          "startDate": "2026-04-03T01:45:00.0000000Z",
+          "location": "AT&T Park",
+          "timeRemainingStatus": "Pre-Game",
+          "sport": "MLB",
+          "status": "Pre-Game",
+          "description": "NYM @ SF",
+          "sportSpecificData": {
+            "inning": "",
+            "inningStatus": ""
+          },
+          "league": "MLB",
+          "competitionStatus": "Upcoming",
+          "competitionStatusDetail": "",
+          "gameAttributes": [
+            {
+              "typeId": 9,
+              "value": "Pre-Game"
+            },
+            {
+              "typeId": 23,
+              "value": "2"
+            },
+            {
+              "typeId": 27,
+              "value": "False"
+            },
+            {
+              "typeId": 32,
+              "value": "MLBN"
+            },
+            {
+              "typeId": 55,
+              "value": "0"
+            },
+            {
+              "typeId": 56,
+              "value": "0"
+            },
+            {
+              "typeId": 57,
+              "value": "0"
+            },
+            {
+              "typeId": 58,
+              "value": "0"
+            }
+          ]
+        }
+      ],
+      "gameTypeId": 179,
+      "allTags": []
+    },
+    "responseStatus": {},
+    "errorStatus": {}
+  },
+  "draftables": [
+    {
+      "draftableId": 42492298,
+      "firstName": "Juan",
+      "lastName": "Soto",
+      "displayName": "Juan Soto",
+      "shortName": "J. Soto",
+      "playerId": 906282,
+      "playerDkId": 32822,
+      "position": "OF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Recent",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/32822.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/32822.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "9.7",
+          "sortValue": "9.7"
+        },
+        {
+          "id": -22,
+          "value": "L",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Left"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Left"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "906282-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492299,
+      "firstName": "Juan",
+      "lastName": "Soto",
+      "displayName": "Juan Soto",
+      "shortName": "J. Soto",
+      "playerId": 906282,
+      "playerDkId": 32822,
+      "position": "OF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Recent",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/32822.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/32822.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "9.7",
+          "sortValue": "9.7"
+        },
+        {
+          "id": -22,
+          "value": "L",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Left"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Left"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "906282-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492300,
+      "firstName": "Rafael",
+      "lastName": "Devers",
+      "displayName": "Rafael Devers",
+      "shortName": "R. Devers",
+      "playerId": 828312,
+      "playerDkId": 31525,
+      "position": "IF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Breaking",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/31525.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/31525.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "4.2",
+          "sortValue": "4.2"
+        },
+        {
+          "id": -22,
+          "value": "L",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Left"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "828312-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492301,
+      "firstName": "Rafael",
+      "lastName": "Devers",
+      "displayName": "Rafael Devers",
+      "shortName": "R. Devers",
+      "playerId": 828312,
+      "playerDkId": 31525,
+      "position": "IF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Breaking",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/31525.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/31525.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "4.2",
+          "sortValue": "4.2"
+        },
+        {
+          "id": -22,
+          "value": "L",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Left"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "828312-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492302,
+      "firstName": "Francisco",
+      "lastName": "Lindor",
+      "displayName": "Francisco Lindor",
+      "shortName": "F. Lindor",
+      "playerId": 597754,
+      "playerDkId": 31706,
+      "position": "IF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Breaking",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/31706.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/31706.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "7.5",
+          "sortValue": "7.5"
+        },
+        {
+          "id": -22,
+          "value": "S",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Switch"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "597754-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492303,
+      "firstName": "Francisco",
+      "lastName": "Lindor",
+      "displayName": "Francisco Lindor",
+      "shortName": "F. Lindor",
+      "playerId": 597754,
+      "playerDkId": 31706,
+      "position": "IF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Breaking",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/31706.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/31706.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "7.5",
+          "sortValue": "7.5"
+        },
+        {
+          "id": -22,
+          "value": "S",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Switch"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "597754-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492304,
+      "firstName": "Luis",
+      "lastName": "Robert Jr.",
+      "displayName": "Luis Robert Jr.",
+      "shortName": "L. Robert Jr.",
+      "playerId": 1051903,
+      "playerDkId": 110692,
+      "position": "OF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Recent",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/110692.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/110692.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "8.5",
+          "sortValue": "8.5"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "1051903-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492305,
+      "firstName": "Luis",
+      "lastName": "Robert Jr.",
+      "displayName": "Luis Robert Jr.",
+      "shortName": "L. Robert Jr.",
+      "playerId": 1051903,
+      "playerDkId": 110692,
+      "position": "OF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Recent",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/110692.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/110692.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "8.5",
+          "sortValue": "8.5"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "1051903-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492306,
+      "firstName": "Bo",
+      "lastName": "Bichette",
+      "displayName": "Bo Bichette",
+      "shortName": "B. Bichette",
+      "playerId": 917949,
+      "playerDkId": 31996,
+      "position": "IF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Breaking",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/31996.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/31996.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "3.2",
+          "sortValue": "3.2"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "917949-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492307,
+      "firstName": "Bo",
+      "lastName": "Bichette",
+      "displayName": "Bo Bichette",
+      "shortName": "B. Bichette",
+      "playerId": 917949,
+      "playerDkId": 31996,
+      "position": "IF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Breaking",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/31996.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/31996.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "3.2",
+          "sortValue": "3.2"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "917949-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492308,
+      "firstName": "Willy",
+      "lastName": "Adames",
+      "displayName": "Willy Adames",
+      "shortName": "W. Adames",
+      "playerId": 736655,
+      "playerDkId": 31686,
+      "position": "IF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Recent",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/31686.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/31686.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "5.8",
+          "sortValue": "5.8"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "736655-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492309,
+      "firstName": "Willy",
+      "lastName": "Adames",
+      "displayName": "Willy Adames",
+      "shortName": "W. Adames",
+      "playerId": 736655,
+      "playerDkId": 31686,
+      "position": "IF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Recent",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/31686.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/31686.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "5.8",
+          "sortValue": "5.8"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "736655-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492310,
+      "firstName": "Matt",
+      "lastName": "Chapman",
+      "displayName": "Matt Chapman",
+      "shortName": "M. Chapman",
+      "playerId": 828672,
+      "playerDkId": 32651,
+      "position": "IF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Recent",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/32651.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/32651.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "5.8",
+          "sortValue": "5.8"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "828672-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492311,
+      "firstName": "Matt",
+      "lastName": "Chapman",
+      "displayName": "Matt Chapman",
+      "shortName": "M. Chapman",
+      "playerId": 828672,
+      "playerDkId": 32651,
+      "position": "IF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Recent",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/32651.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/32651.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "5.8",
+          "sortValue": "5.8"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "828672-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492312,
+      "firstName": "Luis",
+      "lastName": "Arraez",
+      "displayName": "Luis Arraez",
+      "shortName": "L. Arraez",
+      "playerId": 828153,
+      "playerDkId": 32414,
+      "position": "IF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Recent",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/32414.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/32414.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "6.5",
+          "sortValue": "6.5"
+        },
+        {
+          "id": -22,
+          "value": "L",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Left"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "828153-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492313,
+      "firstName": "Luis",
+      "lastName": "Arraez",
+      "displayName": "Luis Arraez",
+      "shortName": "L. Arraez",
+      "playerId": 828153,
+      "playerDkId": 32414,
+      "position": "IF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Recent",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/32414.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/32414.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "6.5",
+          "sortValue": "6.5"
+        },
+        {
+          "id": -22,
+          "value": "L",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Left"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "828153-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492314,
+      "firstName": "Heliot",
+      "lastName": "Ramos",
+      "displayName": "Heliot Ramos",
+      "shortName": "H. Ramos",
+      "playerId": 1054992,
+      "playerDkId": 112445,
+      "position": "OF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Breaking",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/112445.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/112445.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "4.0",
+          "sortValue": "4.0"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "1054992-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492315,
+      "firstName": "Heliot",
+      "lastName": "Ramos",
+      "displayName": "Heliot Ramos",
+      "shortName": "H. Ramos",
+      "playerId": 1054992,
+      "playerDkId": 112445,
+      "position": "OF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Breaking",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/112445.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/112445.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "4.0",
+          "sortValue": "4.0"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "1054992-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492316,
+      "firstName": "Jorge",
+      "lastName": "Polanco",
+      "displayName": "Jorge Polanco",
+      "shortName": "J. Polanco",
+      "playerId": 548087,
+      "playerDkId": 32329,
+      "position": "IF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Recent",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/32329.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/32329.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "6.4",
+          "sortValue": "6.4"
+        },
+        {
+          "id": -22,
+          "value": "S",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Switch"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "548087-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492317,
+      "firstName": "Jorge",
+      "lastName": "Polanco",
+      "displayName": "Jorge Polanco",
+      "shortName": "J. Polanco",
+      "playerId": 548087,
+      "playerDkId": 32329,
+      "position": "IF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Recent",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/32329.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/32329.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "6.4",
+          "sortValue": "6.4"
+        },
+        {
+          "id": -22,
+          "value": "S",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Switch"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "548087-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492318,
+      "firstName": "Jung Hoo",
+      "lastName": "Lee",
+      "displayName": "Jung Hoo Lee",
+      "shortName": "J. Lee",
+      "playerId": 976572,
+      "playerDkId": 486319,
+      "position": "OF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Recent",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/486319.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/486319.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "5.7",
+          "sortValue": "5.7"
+        },
+        {
+          "id": -22,
+          "value": "L",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Left"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "976572-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492319,
+      "firstName": "Jung Hoo",
+      "lastName": "Lee",
+      "displayName": "Jung Hoo Lee",
+      "shortName": "J. Lee",
+      "playerId": 976572,
+      "playerDkId": 486319,
+      "position": "OF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Recent",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/486319.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/486319.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "5.7",
+          "sortValue": "5.7"
+        },
+        {
+          "id": -22,
+          "value": "L",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Left"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "976572-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492320,
+      "firstName": "Francisco",
+      "lastName": "Alvarez",
+      "displayName": "Francisco Alvarez",
+      "shortName": "F. Alvarez",
+      "playerId": 1157240,
+      "playerDkId": 112068,
+      "position": "IF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Recent",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/112068.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/112068.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "5.3",
+          "sortValue": "5.3"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "1157240-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492321,
+      "firstName": "Francisco",
+      "lastName": "Alvarez",
+      "displayName": "Francisco Alvarez",
+      "shortName": "F. Alvarez",
+      "playerId": 1157240,
+      "playerDkId": 112068,
+      "position": "IF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Recent",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/112068.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/112068.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "5.3",
+          "sortValue": "5.3"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "1157240-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492322,
+      "firstName": "Brett",
+      "lastName": "Baty",
+      "displayName": "Brett Baty",
+      "shortName": "B. Baty",
+      "playerId": 1169583,
+      "playerDkId": 459845,
+      "position": "IF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Recent",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/459845.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/459845.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "6.2",
+          "sortValue": "6.2"
+        },
+        {
+          "id": -22,
+          "value": "L",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Left"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "1169583-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492323,
+      "firstName": "Brett",
+      "lastName": "Baty",
+      "displayName": "Brett Baty",
+      "shortName": "B. Baty",
+      "playerId": 1169583,
+      "playerDkId": 459845,
+      "position": "IF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Recent",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/459845.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/459845.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "6.2",
+          "sortValue": "6.2"
+        },
+        {
+          "id": -22,
+          "value": "L",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Left"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "1169583-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492324,
+      "firstName": "Jerar",
+      "lastName": "Encarnacion",
+      "displayName": "Jerar Encarnacion",
+      "shortName": "J. Encarnacion",
+      "playerId": 943817,
+      "playerDkId": 459817,
+      "position": "OF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/459817.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/459817.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "0.0",
+          "sortValue": "0.0"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "943817-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492325,
+      "firstName": "Jerar",
+      "lastName": "Encarnacion",
+      "displayName": "Jerar Encarnacion",
+      "shortName": "J. Encarnacion",
+      "playerId": 943817,
+      "playerDkId": 459817,
+      "position": "OF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/459817.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/459817.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "0.0",
+          "sortValue": "0.0"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "943817-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492326,
+      "firstName": "Carson",
+      "lastName": "Benge",
+      "displayName": "Carson Benge",
+      "shortName": "C. Benge",
+      "playerId": 1519326,
+      "playerDkId": 806151,
+      "position": "OF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Recent",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/806151.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/806151.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "6.3",
+          "sortValue": "6.3"
+        },
+        {
+          "id": -22,
+          "value": "L",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Left"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "1519326-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492327,
+      "firstName": "Carson",
+      "lastName": "Benge",
+      "displayName": "Carson Benge",
+      "shortName": "C. Benge",
+      "playerId": 1519326,
+      "playerDkId": 806151,
+      "position": "OF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Recent",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/806151.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/806151.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "6.3",
+          "sortValue": "6.3"
+        },
+        {
+          "id": -22,
+          "value": "L",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Left"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "1519326-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492328,
+      "firstName": "Harrison",
+      "lastName": "Bader",
+      "displayName": "Harrison Bader",
+      "shortName": "H. Bader",
+      "playerId": 857218,
+      "playerDkId": 32384,
+      "position": "OF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Recent",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/32384.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/32384.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "5.2",
+          "sortValue": "5.2"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "857218-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492329,
+      "firstName": "Harrison",
+      "lastName": "Bader",
+      "displayName": "Harrison Bader",
+      "shortName": "H. Bader",
+      "playerId": 857218,
+      "playerDkId": 32384,
+      "position": "OF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Recent",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/32384.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/32384.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "5.2",
+          "sortValue": "5.2"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "857218-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492330,
+      "firstName": "Marcus",
+      "lastName": "Semien",
+      "displayName": "Marcus Semien",
+      "shortName": "M. Semien",
+      "playerId": 546772,
+      "playerDkId": 32620,
+      "position": "IF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Recent",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/32620.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/32620.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "3.3",
+          "sortValue": "3.3"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "546772-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492331,
+      "firstName": "Marcus",
+      "lastName": "Semien",
+      "displayName": "Marcus Semien",
+      "shortName": "M. Semien",
+      "playerId": 546772,
+      "playerDkId": 32620,
+      "position": "IF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Recent",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/32620.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/32620.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "3.3",
+          "sortValue": "3.3"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "546772-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492332,
+      "firstName": "Casey",
+      "lastName": "Schmitt",
+      "displayName": "Casey Schmitt",
+      "shortName": "C. Schmitt",
+      "playerId": 1177559,
+      "playerDkId": 495673,
+      "position": "IF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Breaking",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/495673.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/495673.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "3.7",
+          "sortValue": "3.7"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "1177559-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492333,
+      "firstName": "Casey",
+      "lastName": "Schmitt",
+      "displayName": "Casey Schmitt",
+      "shortName": "C. Schmitt",
+      "playerId": 1177559,
+      "playerDkId": 495673,
+      "position": "IF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "Breaking",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/495673.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/495673.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "3.7",
+          "sortValue": "3.7"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "1177559-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492334,
+      "firstName": "Mark",
+      "lastName": "Vientos",
+      "displayName": "Mark Vientos",
+      "shortName": "M. Vientos",
+      "playerId": 1055052,
+      "playerDkId": 112064,
+      "position": "IF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/112064.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/112064.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "2.7",
+          "sortValue": "2.7"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "1055052-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492335,
+      "firstName": "Mark",
+      "lastName": "Vientos",
+      "displayName": "Mark Vientos",
+      "shortName": "M. Vientos",
+      "playerId": 1055052,
+      "playerDkId": 112064,
+      "position": "IF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/112064.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/112064.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "2.7",
+          "sortValue": "2.7"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "1055052-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492336,
+      "firstName": "Christian",
+      "lastName": "Koss",
+      "displayName": "Christian Koss",
+      "shortName": "C. Koss",
+      "playerId": 1054421,
+      "playerDkId": 469986,
+      "position": "IF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/469986.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/469986.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "0.0",
+          "sortValue": "0.0"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "1054421-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492337,
+      "firstName": "Christian",
+      "lastName": "Koss",
+      "displayName": "Christian Koss",
+      "shortName": "C. Koss",
+      "playerId": 1054421,
+      "playerDkId": 469986,
+      "position": "IF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/469986.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/469986.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "0.0",
+          "sortValue": "0.0"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "1054421-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492338,
+      "firstName": "Patrick",
+      "lastName": "Bailey",
+      "displayName": "Patrick Bailey",
+      "shortName": "P. Bailey",
+      "playerId": 1056107,
+      "playerDkId": 494663,
+      "position": "IF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/494663.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/494663.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "2.3",
+          "sortValue": "2.3"
+        },
+        {
+          "id": -22,
+          "value": "S",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Switch"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "1056107-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492339,
+      "firstName": "Patrick",
+      "lastName": "Bailey",
+      "displayName": "Patrick Bailey",
+      "shortName": "P. Bailey",
+      "playerId": 1056107,
+      "playerDkId": 494663,
+      "position": "IF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/494663.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/494663.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "2.3",
+          "sortValue": "2.3"
+        },
+        {
+          "id": -22,
+          "value": "S",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Switch"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "1056107-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492340,
+      "firstName": "Ronny",
+      "lastName": "Mauricio",
+      "displayName": "Ronny Mauricio",
+      "shortName": "R. Mauricio",
+      "playerId": 1120948,
+      "playerDkId": 112067,
+      "position": "IF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/112067.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/112067.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "-",
+          "sortValue": ""
+        },
+        {
+          "id": -22,
+          "value": "S",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Switch"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "1120948-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492341,
+      "firstName": "Ronny",
+      "lastName": "Mauricio",
+      "displayName": "Ronny Mauricio",
+      "shortName": "R. Mauricio",
+      "playerId": 1120948,
+      "playerDkId": 112067,
+      "position": "IF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/112067.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/112067.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "-",
+          "sortValue": ""
+        },
+        {
+          "id": -22,
+          "value": "S",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Switch"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "1120948-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492342,
+      "firstName": "Jared",
+      "lastName": "Young",
+      "displayName": "Jared Young",
+      "shortName": "J. Young",
+      "playerId": 1055396,
+      "playerDkId": 476358,
+      "position": "IF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/476358.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/476358.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "2.8",
+          "sortValue": "2.8"
+        },
+        {
+          "id": -22,
+          "value": "L",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Left"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "1055396-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492343,
+      "firstName": "Jared",
+      "lastName": "Young",
+      "displayName": "Jared Young",
+      "shortName": "J. Young",
+      "playerId": 1055396,
+      "playerDkId": 476358,
+      "position": "IF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/476358.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/476358.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "2.8",
+          "sortValue": "2.8"
+        },
+        {
+          "id": -22,
+          "value": "L",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Left"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "1055396-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492344,
+      "firstName": "Luis",
+      "lastName": "Torrens",
+      "displayName": "Luis Torrens",
+      "shortName": "L. Torrens",
+      "playerId": 739618,
+      "playerDkId": 62097,
+      "position": "IF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/62097.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/62097.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "2.7",
+          "sortValue": "2.7"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "739618-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492345,
+      "firstName": "Luis",
+      "lastName": "Torrens",
+      "displayName": "Luis Torrens",
+      "shortName": "L. Torrens",
+      "playerId": 739618,
+      "playerDkId": 62097,
+      "position": "IF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/62097.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/62097.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "2.7",
+          "sortValue": "2.7"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "739618-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492346,
+      "firstName": "Drew",
+      "lastName": "Gilbert",
+      "displayName": "Drew Gilbert",
+      "shortName": "D. Gilbert",
+      "playerId": 1170935,
+      "playerDkId": 656136,
+      "position": "OF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/656136.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/656136.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "-",
+          "sortValue": ""
+        },
+        {
+          "id": -22,
+          "value": "L",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Left"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Left"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "1170935-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492347,
+      "firstName": "Drew",
+      "lastName": "Gilbert",
+      "displayName": "Drew Gilbert",
+      "shortName": "D. Gilbert",
+      "playerId": 1170935,
+      "playerDkId": 656136,
+      "position": "OF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/656136.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/656136.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "-",
+          "sortValue": ""
+        },
+        {
+          "id": -22,
+          "value": "L",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Left"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Left"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "1170935-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492348,
+      "firstName": "Jared",
+      "lastName": "Oliva",
+      "displayName": "Jared Oliva",
+      "shortName": "J. Oliva",
+      "playerId": 915844,
+      "playerDkId": 112213,
+      "position": "OF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/112213.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/112213.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "3.5",
+          "sortValue": "3.5"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "915844-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492349,
+      "firstName": "Jared",
+      "lastName": "Oliva",
+      "displayName": "Jared Oliva",
+      "shortName": "J. Oliva",
+      "playerId": 915844,
+      "playerDkId": 112213,
+      "position": "OF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/112213.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/112213.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "3.5",
+          "sortValue": "3.5"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "915844-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492350,
+      "firstName": "Tyrone",
+      "lastName": "Taylor",
+      "displayName": "Tyrone Taylor",
+      "shortName": "T. Taylor",
+      "playerId": 657979,
+      "playerDkId": 31589,
+      "position": "OF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/31589.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/31589.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "0.0",
+          "sortValue": "0.0"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "657979-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492351,
+      "firstName": "Tyrone",
+      "lastName": "Taylor",
+      "displayName": "Tyrone Taylor",
+      "shortName": "T. Taylor",
+      "playerId": 657979,
+      "playerDkId": 31589,
+      "position": "OF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/31589.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/31589.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "0.0",
+          "sortValue": "0.0"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "657979-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492352,
+      "firstName": "MJ",
+      "lastName": "Melendez",
+      "displayName": "MJ Melendez",
+      "shortName": "M. Melendez",
+      "playerId": 1055022,
+      "playerDkId": 110909,
+      "position": "OF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/110909.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/110909.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "-",
+          "sortValue": ""
+        },
+        {
+          "id": -22,
+          "value": "L",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Left"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "1055022-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492353,
+      "firstName": "MJ",
+      "lastName": "Melendez",
+      "displayName": "MJ Melendez",
+      "shortName": "M. Melendez",
+      "playerId": 1055022,
+      "playerDkId": 110909,
+      "position": "OF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/110909.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/110909.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "-",
+          "sortValue": ""
+        },
+        {
+          "id": -22,
+          "value": "L",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Left"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "1055022-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492354,
+      "firstName": "Hayden",
+      "lastName": "Senger",
+      "displayName": "Hayden Senger",
+      "shortName": "H. Senger",
+      "playerId": 1119716,
+      "playerDkId": 554267,
+      "position": "IF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/554267.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/554267.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "-",
+          "sortValue": ""
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "1119716-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492355,
+      "firstName": "Hayden",
+      "lastName": "Senger",
+      "displayName": "Hayden Senger",
+      "shortName": "H. Senger",
+      "playerId": 1119716,
+      "playerDkId": 554267,
+      "position": "IF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/554267.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/554267.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "-",
+          "sortValue": ""
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "1119716-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492356,
+      "firstName": "Will",
+      "lastName": "Brennan",
+      "displayName": "Will Brennan",
+      "shortName": "W. Brennan",
+      "playerId": 1159716,
+      "playerDkId": 635573,
+      "position": "OF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/635573.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/635573.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "-",
+          "sortValue": ""
+        },
+        {
+          "id": -22,
+          "value": "L",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Left"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Left"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "1159716-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492357,
+      "firstName": "Will",
+      "lastName": "Brennan",
+      "displayName": "Will Brennan",
+      "shortName": "W. Brennan",
+      "playerId": 1159716,
+      "playerDkId": 635573,
+      "position": "OF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/635573.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/635573.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "-",
+          "sortValue": ""
+        },
+        {
+          "id": -22,
+          "value": "L",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Left"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Left"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "1159716-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492358,
+      "firstName": "Grant",
+      "lastName": "McCray",
+      "displayName": "Grant McCray",
+      "shortName": "G. McCray",
+      "playerId": 1169612,
+      "playerDkId": 459900,
+      "position": "OF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/459900.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/459900.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "-",
+          "sortValue": ""
+        },
+        {
+          "id": -22,
+          "value": "L",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Left"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "1169612-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492359,
+      "firstName": "Grant",
+      "lastName": "McCray",
+      "displayName": "Grant McCray",
+      "shortName": "G. McCray",
+      "playerId": 1169612,
+      "playerDkId": 459900,
+      "position": "OF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/459900.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/459900.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "-",
+          "sortValue": ""
+        },
+        {
+          "id": -22,
+          "value": "L",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Left"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "1169612-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492360,
+      "firstName": "Daniel",
+      "lastName": "Susac",
+      "displayName": "Daniel Susac",
+      "shortName": "D. Susac",
+      "playerId": 1312767,
+      "playerDkId": 658809,
+      "position": "IF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/658809.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/658809.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "0.0",
+          "sortValue": "0.0"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "1312767-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492361,
+      "firstName": "Daniel",
+      "lastName": "Susac",
+      "displayName": "Daniel Susac",
+      "shortName": "D. Susac",
+      "playerId": 1312767,
+      "playerDkId": 658809,
+      "position": "IF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/658809.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/658809.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "0.0",
+          "sortValue": "0.0"
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "1312767-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492362,
+      "firstName": "Jesus",
+      "lastName": "Rodriguez",
+      "displayName": "Jesus Rodriguez",
+      "shortName": "J. Rodriguez",
+      "playerId": 1389620,
+      "playerDkId": 698899,
+      "position": "IF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/698899.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/698899.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "-",
+          "sortValue": ""
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "1389620-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492363,
+      "firstName": "Jesus",
+      "lastName": "Rodriguez",
+      "displayName": "Jesus Rodriguez",
+      "shortName": "J. Rodriguez",
+      "playerId": 1389620,
+      "playerDkId": 698899,
+      "position": "IF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/698899.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/698899.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "-",
+          "sortValue": ""
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "1389620-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492364,
+      "firstName": "Nick",
+      "lastName": "Morabito",
+      "displayName": "Nick Morabito",
+      "shortName": "N. Morabito",
+      "playerId": 1396926,
+      "playerDkId": 658804,
+      "position": "IF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/658804.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/658804.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "-",
+          "sortValue": ""
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "1396926-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492365,
+      "firstName": "Nick",
+      "lastName": "Morabito",
+      "displayName": "Nick Morabito",
+      "shortName": "N. Morabito",
+      "playerId": 1396926,
+      "playerDkId": 658804,
+      "position": "IF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/658804.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/658804.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM",
+            "isEmphasized": true
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF"
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM",
+              "isEmphasized": true
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF"
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "-",
+          "sortValue": ""
+        },
+        {
+          "id": -22,
+          "value": "R",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Right"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Ray (L)"
+        }
+      ],
+      "teamId": 245,
+      "teamAbbreviation": "NYM",
+      "draftAlerts": [],
+      "playerGameHash": "1396926-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492366,
+      "firstName": "Bryce",
+      "lastName": "Eldridge",
+      "displayName": "Bryce Eldridge",
+      "shortName": "B. Eldridge",
+      "playerId": 1452098,
+      "playerDkId": 721270,
+      "position": "IF",
+      "rosterSlotId": 626,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/721270.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/721270.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "-",
+          "sortValue": ""
+        },
+        {
+          "id": -22,
+          "value": "L",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Left"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "1452098-6158945",
+      "externalRequirements": {}
+    },
+    {
+      "draftableId": 42492367,
+      "firstName": "Bryce",
+      "lastName": "Eldridge",
+      "displayName": "Bryce Eldridge",
+      "shortName": "B. Eldridge",
+      "playerId": 1452098,
+      "playerDkId": 721270,
+      "position": "IF",
+      "rosterSlotId": 627,
+      "status": "None",
+      "isSwappable": false,
+      "isDisabled": false,
+      "newsStatus": "None",
+      "playerImage50": "https://dkn.gs/sports/images/mlb/players/50/721270.png",
+      "playerImage160": "https://dkn.gs/sports/images/mlb/players/160/721270.png",
+      "altPlayerImage50": "",
+      "altPlayerImage160": "",
+      "competition": {
+        "competitionId": 6158945,
+        "name": "NYM @ SF",
+        "nameDisplay": [
+          {
+            "value": "NYM"
+          },
+          {
+            "value": " @ "
+          },
+          {
+            "value": "SF",
+            "isEmphasized": true
+          }
+        ],
+        "startTime": "2026-04-03T01:45:00.0000000Z"
+      },
+      "competitions": [
+        {
+          "competitionId": 6158945,
+          "name": "NYM @ SF",
+          "nameDisplay": [
+            {
+              "value": "NYM"
+            },
+            {
+              "value": " @ "
+            },
+            {
+              "value": "SF",
+              "isEmphasized": true
+            }
+          ],
+          "startTime": "2026-04-03T01:45:00.0000000Z"
+        }
+      ],
+      "draftStatAttributes": [
+        {
+          "id": 408,
+          "value": "-",
+          "sortValue": ""
+        },
+        {
+          "id": -22,
+          "value": "L",
+          "sortValue": ""
+        }
+      ],
+      "playerAttributes": [
+        {
+          "name": "Handedness",
+          "value": "Right"
+        },
+        {
+          "name": "Bat-Handedness",
+          "value": "Left"
+        }
+      ],
+      "teamLeagueSeasonAttributes": [],
+      "playerGameAttributes": [
+        {
+          "id": 112,
+          "value": "Peterson (L)"
+        }
+      ],
+      "teamId": 250,
+      "teamAbbreviation": "SF",
+      "draftAlerts": [],
+      "playerGameHash": "1452098-6158945",
+      "externalRequirements": {}
+    }
+  ],
+  "playerCount": 70,
+  "fetchTime": "2026-04-02T19:29:39.178194",
+  "contests": [
+    {
+      "uc": 0,
+      "ec": 0,
+      "mec": 1,
+      "fpp": 0,
+      "s": 2,
+      "n": "MLB Snake Showdown $5 3-Player (NYM @ SF Snake)",
+      "attr": {
+        "HideBrandedLogo": "true"
+      },
+      "nt": 1,
+      "m": 3,
+      "a": 5,
+      "po": 13.5,
+      "pd": {
+        "Cash": "$13.50"
+      },
+      "tix": false,
+      "sdstring": "Thu 9:45PM",
+      "sd": "/Date(1775180700000)/",
+      "id": 189361157,
+      "tmpl": 371990,
+      "pt": 1,
+      "so": 30020,
+      "fwt": false,
+      "isOwner": false,
+      "startTimeType": 2,
+      "dg": 144968,
+      "ulc": 0,
+      "cs": 1,
+      "gameType": "Snake Showdown",
+      "gameTypeId": 179,
+      "ssd": null,
+      "cso": 4990,
+      "ir": 0,
+      "rl": false,
+      "rlc": 0,
+      "rll": 1,
+      "sa": true,
+      "freeWithCrowns": false,
+      "crownAmount": 2750,
+      "isBonusFinalized": false,
+      "isSnakeDraft": true,
+      "payoutDescriptionMetadata": [
+        {
+          "PayoutDescriptionType": 1,
+          "Order": 1,
+          "PayoutDescription": "$13.50",
+          "Quantity": 1,
+          "Value": 0
+        }
+      ],
+      "crownsAwarded": 0
+    },
+    {
+      "uc": 0,
+      "ec": 0,
+      "mec": 1,
+      "fpp": 0,
+      "s": 2,
+      "n": "MLB Snake Showdown $50 3-Player (NYM @ SF Snake)",
+      "attr": {
+        "HideBrandedLogo": "true"
+      },
+      "nt": 1,
+      "m": 3,
+      "a": 50,
+      "po": 135.0,
+      "pd": {
+        "Cash": "$135"
+      },
+      "tix": false,
+      "sdstring": "Thu 9:45PM",
+      "sd": "/Date(1775180700000)/",
+      "id": 189361160,
+      "tmpl": 371996,
+      "pt": 1,
+      "so": 30040,
+      "fwt": false,
+      "isOwner": false,
+      "startTimeType": 2,
+      "dg": 144968,
+      "ulc": 0,
+      "cs": 1,
+      "gameType": "Snake Showdown",
+      "gameTypeId": 179,
+      "ssd": null,
+      "cso": 4991,
+      "ir": 0,
+      "rl": false,
+      "rlc": 0,
+      "rll": 99999,
+      "sa": true,
+      "freeWithCrowns": false,
+      "crownAmount": 27500,
+      "isBonusFinalized": false,
+      "isSnakeDraft": true,
+      "payoutDescriptionMetadata": [
+        {
+          "PayoutDescriptionType": 1,
+          "Order": 1,
+          "PayoutDescription": "$135",
+          "Quantity": 1,
+          "Value": 0
+        }
+      ],
+      "crownsAwarded": 0
+    },
+    {
+      "uc": 0,
+      "ec": 0,
+      "mec": 1,
+      "fpp": 0,
+      "s": 2,
+      "n": "MLB Snake Showdown $10 3-Player (NYM @ SF Snake)",
+      "attr": {
+        "HideBrandedLogo": "true"
+      },
+      "nt": 0,
+      "m": 3,
+      "a": 10,
+      "po": 27.0,
+      "pd": {
+        "Cash": "$27"
+      },
+      "tix": false,
+      "sdstring": "Thu 9:45PM",
+      "sd": "/Date(1775180700000)/",
+      "id": 189361158,
+      "tmpl": 371992,
+      "pt": 1,
+      "so": 30000,
+      "fwt": false,
+      "isOwner": false,
+      "startTimeType": 2,
+      "dg": 144968,
+      "ulc": 0,
+      "cs": 1,
+      "gameType": "Snake Showdown",
+      "gameTypeId": 179,
+      "ssd": null,
+      "cso": 4992,
+      "ir": 0,
+      "rl": false,
+      "rlc": 0,
+      "rll": 1,
+      "sa": true,
+      "freeWithCrowns": false,
+      "crownAmount": 5500,
+      "isBonusFinalized": false,
+      "isSnakeDraft": true,
+      "payoutDescriptionMetadata": [
+        {
+          "PayoutDescriptionType": 1,
+          "Order": 1,
+          "PayoutDescription": "$27",
+          "Quantity": 1,
+          "Value": 0
+        }
+      ],
+      "crownsAwarded": 0
+    },
+    {
+      "uc": 0,
+      "ec": 0,
+      "mec": 1,
+      "fpp": 0,
+      "s": 2,
+      "n": "MLB Snake Showdown $1 3-Player (NYM @ SF Snake)",
+      "attr": {
+        "HideBrandedLogo": "true"
+      },
+      "nt": 0,
+      "m": 3,
+      "a": 1,
+      "po": 2.7,
+      "pd": {
+        "Cash": "$2.70"
+      },
+      "tix": false,
+      "sdstring": "Thu 9:45PM",
+      "sd": "/Date(1775180700000)/",
+      "id": 189379921,
+      "tmpl": 371988,
+      "pt": 1,
+      "so": 30010,
+      "fwt": false,
+      "isOwner": false,
+      "startTimeType": 2,
+      "dg": 144968,
+      "ulc": 0,
+      "cs": 1,
+      "gameType": "Snake Showdown",
+      "gameTypeId": 179,
+      "ssd": null,
+      "cso": 4993,
+      "ir": 0,
+      "rl": false,
+      "rlc": 0,
+      "rll": 1,
+      "sa": true,
+      "freeWithCrowns": false,
+      "crownAmount": 550,
+      "isBonusFinalized": false,
+      "isSnakeDraft": true,
+      "payoutDescriptionMetadata": [
+        {
+          "PayoutDescriptionType": 1,
+          "Order": 1,
+          "PayoutDescription": "$2.70",
+          "Quantity": 1,
+          "Value": 0
+        }
+      ],
+      "crownsAwarded": 0
+    },
+    {
+      "uc": 0,
+      "ec": 0,
+      "mec": 1,
+      "fpp": 0,
+      "s": 2,
+      "n": "MLB Snake Showdown $1 3-Player (NYM @ SF Snake)",
+      "attr": {
+        "HideBrandedLogo": "true"
+      },
+      "nt": 0,
+      "m": 3,
+      "a": 1,
+      "po": 2.7,
+      "pd": {
+        "Cash": "$2.70"
+      },
+      "tix": false,
+      "sdstring": "Thu 9:45PM",
+      "sd": "/Date(1775180700000)/",
+      "id": 189384039,
+      "tmpl": 371988,
+      "pt": 1,
+      "so": 30010,
+      "fwt": false,
+      "isOwner": false,
+      "startTimeType": 2,
+      "dg": 144968,
+      "ulc": 0,
+      "cs": 1,
+      "gameType": "Snake Showdown",
+      "gameTypeId": 179,
+      "ssd": null,
+      "cso": 4994,
+      "ir": 0,
+      "rl": false,
+      "rlc": 0,
+      "rll": 1,
+      "sa": true,
+      "freeWithCrowns": false,
+      "crownAmount": 550,
+      "isBonusFinalized": false,
+      "isSnakeDraft": true,
+      "payoutDescriptionMetadata": [
+        {
+          "PayoutDescriptionType": 1,
+          "Order": 1,
+          "PayoutDescription": "$2.70",
+          "Quantity": 1,
+          "Value": 0
+        }
+      ],
+      "crownsAwarded": 0
+    },
+    {
+      "uc": 0,
+      "ec": 0,
+      "mec": 1,
+      "fpp": 0,
+      "s": 2,
+      "n": "MLB Snake Showdown $5 3-Player (NYM @ SF Snake)",
+      "attr": {
+        "HideBrandedLogo": "true"
+      },
+      "nt": 0,
+      "m": 3,
+      "a": 5,
+      "po": 13.5,
+      "pd": {
+        "Cash": "$13.50"
+      },
+      "tix": false,
+      "sdstring": "Thu 9:45PM",
+      "sd": "/Date(1775180700000)/",
+      "id": 189381903,
+      "tmpl": 371990,
+      "pt": 1,
+      "so": 30020,
+      "fwt": false,
+      "isOwner": false,
+      "startTimeType": 2,
+      "dg": 144968,
+      "ulc": 0,
+      "cs": 1,
+      "gameType": "Snake Showdown",
+      "gameTypeId": 179,
+      "ssd": null,
+      "cso": 4995,
+      "ir": 0,
+      "rl": false,
+      "rlc": 0,
+      "rll": 1,
+      "sa": true,
+      "freeWithCrowns": false,
+      "crownAmount": 2750,
+      "isBonusFinalized": false,
+      "isSnakeDraft": true,
+      "payoutDescriptionMetadata": [
+        {
+          "PayoutDescriptionType": 1,
+          "Order": 1,
+          "PayoutDescription": "$13.50",
+          "Quantity": 1,
+          "Value": 0
+        }
+      ],
+      "crownsAwarded": 0
+    },
+    {
+      "uc": 0,
+      "ec": 0,
+      "mec": 1,
+      "fpp": 0,
+      "s": 2,
+      "n": "MLB Snake Showdown $20 3-Player (NYM @ SF Snake)",
+      "attr": {
+        "HideBrandedLogo": "true"
+      },
+      "nt": 0,
+      "m": 3,
+      "a": 20,
+      "po": 54.0,
+      "pd": {
+        "Cash": "$54"
+      },
+      "tix": false,
+      "sdstring": "Thu 9:45PM",
+      "sd": "/Date(1775180700000)/",
+      "id": 189361159,
+      "tmpl": 371994,
+      "pt": 1,
+      "so": 30030,
+      "fwt": false,
+      "isOwner": false,
+      "startTimeType": 2,
+      "dg": 144968,
+      "ulc": 0,
+      "cs": 1,
+      "gameType": "Snake Showdown",
+      "gameTypeId": 179,
+      "ssd": null,
+      "cso": 4996,
+      "ir": 0,
+      "rl": false,
+      "rlc": 0,
+      "rll": 99999,
+      "sa": true,
+      "freeWithCrowns": false,
+      "crownAmount": 11000,
+      "isBonusFinalized": false,
+      "isSnakeDraft": true,
+      "payoutDescriptionMetadata": [
+        {
+          "PayoutDescriptionType": 1,
+          "Order": 1,
+          "PayoutDescription": "$54",
+          "Quantity": 1,
+          "Value": 0
+        }
+      ],
+      "crownsAwarded": 0
+    },
+    {
+      "uc": 0,
+      "ec": 0,
+      "mec": 1,
+      "fpp": 0,
+      "s": 2,
+      "n": "MLB Snake Showdown $109 3-Player (NYM @ SF Snake)",
+      "attr": {
+        "HideBrandedLogo": "true"
+      },
+      "nt": 0,
+      "m": 3,
+      "a": 109,
+      "po": 300.0,
+      "pd": {
+        "Cash": "$300"
+      },
+      "tix": false,
+      "sdstring": "Thu 9:45PM",
+      "sd": "/Date(1775180700000)/",
+      "id": 189361161,
+      "tmpl": 371998,
+      "pt": 1,
+      "so": 30050,
+      "fwt": false,
+      "isOwner": false,
+      "startTimeType": 2,
+      "dg": 144968,
+      "ulc": 0,
+      "cs": 1,
+      "gameType": "Snake Showdown",
+      "gameTypeId": 179,
+      "ssd": null,
+      "cso": 4997,
+      "ir": 0,
+      "rl": false,
+      "rlc": 0,
+      "rll": 99999,
+      "sa": true,
+      "freeWithCrowns": false,
+      "crownAmount": 59950,
+      "isBonusFinalized": false,
+      "isSnakeDraft": true,
+      "payoutDescriptionMetadata": [
+        {
+          "PayoutDescriptionType": 1,
+          "Order": 1,
+          "PayoutDescription": "$300",
+          "Quantity": 1,
+          "Value": 0
+        }
+      ],
+      "crownsAwarded": 0
+    },
+    {
+      "uc": 0,
+      "ec": 0,
+      "mec": 1,
+      "fpp": 0,
+      "s": 2,
+      "n": "MLB Snake Showdown $530 3-Player (NYM @ SF Snake)",
+      "attr": {
+        "HideBrandedLogo": "true"
+      },
+      "nt": 0,
+      "m": 3,
+      "a": 530,
+      "po": 1500.0,
+      "pd": {
+        "Cash": "$1,500"
+      },
+      "tix": false,
+      "sdstring": "Thu 9:45PM",
+      "sd": "/Date(1775180700000)/",
+      "id": 189361162,
+      "tmpl": 372000,
+      "pt": 1,
+      "so": 30060,
+      "fwt": false,
+      "isOwner": false,
+      "startTimeType": 2,
+      "dg": 144968,
+      "ulc": 0,
+      "cs": 1,
+      "gameType": "Snake Showdown",
+      "gameTypeId": 179,
+      "ssd": null,
+      "cso": 4998,
+      "ir": 0,
+      "rl": false,
+      "rlc": 0,
+      "rll": 99999,
+      "sa": true,
+      "freeWithCrowns": false,
+      "crownAmount": 291500,
+      "isBonusFinalized": false,
+      "isSnakeDraft": true,
+      "payoutDescriptionMetadata": [
+        {
+          "PayoutDescriptionType": 1,
+          "Order": 1,
+          "PayoutDescription": "$1,500",
+          "Quantity": 1,
+          "Value": 0
+        }
+      ],
+      "crownsAwarded": 0
+    }
+  ]
+}

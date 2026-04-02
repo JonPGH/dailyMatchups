@@ -1,0 +1,500 @@
+{
+  "draftGroupId": 144970,
+  "startDate": "2026-04-04T23:05:00.0000000Z",
+  "startDateEST": "2026-04-04T19:05:00.0000000",
+  "gameCount": 8,
+  "type": "Classic",
+  "games": null,
+  "slateDetails": {
+    "draftGroup": {
+      "draftGroupId": 144970,
+      "contestType": {
+        "contestTypeId": 28,
+        "sport": "MLB",
+        "gameType": "SalaryCap",
+        "allowLateSwap": true
+      },
+      "sportId": 2,
+      "startTimeType": "Normal",
+      "minStartTime": "2026-04-04T23:05:00.0000000Z",
+      "maxStartTime": "2026-04-05T01:38:00.0000000Z",
+      "draftGroupState": "Preliminary",
+      "leagues": [
+        {
+          "leagueId": 2,
+          "leagueName": "Major League Baseball",
+          "leagueAbbreviation": "MLB"
+        }
+      ],
+      "games": [
+        {
+          "gameId": 6156852,
+          "awayTeamId": 239,
+          "homeTeamId": 253,
+          "startDate": "2026-04-04T23:15:00.0000000Z",
+          "location": "Chase Field",
+          "timeRemainingStatus": "Pre-Game",
+          "sport": "MLB",
+          "status": "Pre-Game",
+          "description": "ATL @ ARI",
+          "sportSpecificData": {
+            "inning": "",
+            "inningStatus": ""
+          },
+          "league": "MLB",
+          "competitionStatus": "Upcoming",
+          "competitionStatusDetail": "",
+          "gameAttributes": [
+            {
+              "typeId": 9,
+              "value": "Pre-Game"
+            },
+            {
+              "typeId": 23,
+              "value": "2"
+            },
+            {
+              "typeId": 27,
+              "value": "False"
+            },
+            {
+              "typeId": 32,
+              "value": "FOX"
+            },
+            {
+              "typeId": 55,
+              "value": "0"
+            },
+            {
+              "typeId": 56,
+              "value": "0"
+            },
+            {
+              "typeId": 57,
+              "value": "0"
+            },
+            {
+              "typeId": 58,
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "gameId": 6157221,
+          "awayTeamId": 241,
+          "homeTeamId": 237,
+          "startDate": "2026-04-04T23:05:00.0000000Z",
+          "location": "Globe Life Field",
+          "timeRemainingStatus": "Pre-Game",
+          "sport": "MLB",
+          "status": "Pre-Game",
+          "description": "CIN @ TEX",
+          "sportSpecificData": {
+            "inning": "",
+            "inningStatus": ""
+          },
+          "league": "MLB",
+          "competitionStatus": "Upcoming",
+          "competitionStatusDetail": "",
+          "gameAttributes": [
+            {
+              "typeId": 9,
+              "value": "Pre-Game"
+            },
+            {
+              "typeId": 23,
+              "value": "2"
+            },
+            {
+              "typeId": 27,
+              "value": "False"
+            },
+            {
+              "typeId": 55,
+              "value": "0"
+            },
+            {
+              "typeId": 56,
+              "value": "0"
+            },
+            {
+              "typeId": 57,
+              "value": "0"
+            },
+            {
+              "typeId": 58,
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "gameId": 6157692,
+          "awayTeamId": 254,
+          "homeTeamId": 233,
+          "startDate": "2026-04-04T23:10:00.0000000Z",
+          "location": "Target Field",
+          "timeRemainingStatus": "Pre-Game",
+          "sport": "MLB",
+          "status": "Pre-Game",
+          "description": "TB @ MIN",
+          "sportSpecificData": {
+            "inning": "",
+            "inningStatus": ""
+          },
+          "league": "MLB",
+          "competitionStatus": "Upcoming",
+          "competitionStatusDetail": "",
+          "gameAttributes": [
+            {
+              "typeId": 9,
+              "value": "Pre-Game"
+            },
+            {
+              "typeId": 23,
+              "value": "2"
+            },
+            {
+              "typeId": 27,
+              "value": "False"
+            },
+            {
+              "typeId": 55,
+              "value": "0"
+            },
+            {
+              "typeId": 56,
+              "value": "0"
+            },
+            {
+              "typeId": 57,
+              "value": "0"
+            },
+            {
+              "typeId": 58,
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "gameId": 6157713,
+          "awayTeamId": 240,
+          "homeTeamId": 229,
+          "startDate": "2026-04-04T23:15:00.0000000Z",
+          "location": "Progressive Field",
+          "timeRemainingStatus": "Pre-Game",
+          "sport": "MLB",
+          "status": "Pre-Game",
+          "description": "CHC @ CLE",
+          "sportSpecificData": {
+            "inning": "",
+            "inningStatus": ""
+          },
+          "league": "MLB",
+          "competitionStatus": "Upcoming",
+          "competitionStatusDetail": "",
+          "gameAttributes": [
+            {
+              "typeId": 9,
+              "value": "Pre-Game"
+            },
+            {
+              "typeId": 23,
+              "value": "2"
+            },
+            {
+              "typeId": 27,
+              "value": "False"
+            },
+            {
+              "typeId": 32,
+              "value": "FOX"
+            },
+            {
+              "typeId": 55,
+              "value": "0"
+            },
+            {
+              "typeId": 56,
+              "value": "0"
+            },
+            {
+              "typeId": 57,
+              "value": "0"
+            },
+            {
+              "typeId": 58,
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "gameId": 6158018,
+          "awayTeamId": 246,
+          "homeTeamId": 251,
+          "startDate": "2026-04-05T00:10:00.0000000Z",
+          "location": "Coors Field",
+          "timeRemainingStatus": "Pre-Game",
+          "sport": "MLB",
+          "status": "Pre-Game",
+          "description": "PHI @ COL",
+          "sportSpecificData": {
+            "inning": "",
+            "inningStatus": ""
+          },
+          "league": "MLB",
+          "competitionStatus": "Upcoming",
+          "competitionStatusDetail": "",
+          "gameAttributes": [
+            {
+              "typeId": 9,
+              "value": "Pre-Game"
+            },
+            {
+              "typeId": 23,
+              "value": "2"
+            },
+            {
+              "typeId": 27,
+              "value": "False"
+            },
+            {
+              "typeId": 55,
+              "value": "0"
+            },
+            {
+              "typeId": 56,
+              "value": "0"
+            },
+            {
+              "typeId": 57,
+              "value": "0"
+            },
+            {
+              "typeId": 58,
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "gameId": 6158571,
+          "awayTeamId": 236,
+          "homeTeamId": 227,
+          "startDate": "2026-04-05T01:38:00.0000000Z",
+          "location": "Angel Stadium of Anaheim",
+          "timeRemainingStatus": "Pre-Game",
+          "sport": "MLB",
+          "status": "Pre-Game",
+          "description": "SEA @ LAA",
+          "sportSpecificData": {
+            "inning": "",
+            "inningStatus": ""
+          },
+          "league": "MLB",
+          "competitionStatus": "Upcoming",
+          "competitionStatusDetail": "",
+          "gameAttributes": [
+            {
+              "typeId": 9,
+              "value": "Pre-Game"
+            },
+            {
+              "typeId": 23,
+              "value": "2"
+            },
+            {
+              "typeId": 27,
+              "value": "False"
+            },
+            {
+              "typeId": 55,
+              "value": "0"
+            },
+            {
+              "typeId": 56,
+              "value": "0"
+            },
+            {
+              "typeId": 57,
+              "value": "0"
+            },
+            {
+              "typeId": 58,
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "gameId": 6158953,
+          "awayTeamId": 252,
+          "homeTeamId": 234,
+          "startDate": "2026-04-04T23:05:00.0000000Z",
+          "location": "Yankee Stadium",
+          "timeRemainingStatus": "Pre-Game",
+          "sport": "MLB",
+          "status": "Pre-Game",
+          "description": "MIA @ NYY",
+          "sportSpecificData": {
+            "inning": "",
+            "inningStatus": ""
+          },
+          "league": "MLB",
+          "competitionStatus": "Upcoming",
+          "competitionStatusDetail": "",
+          "gameAttributes": [
+            {
+              "typeId": 9,
+              "value": "Pre-Game"
+            },
+            {
+              "typeId": 23,
+              "value": "2"
+            },
+            {
+              "typeId": 27,
+              "value": "False"
+            },
+            {
+              "typeId": 55,
+              "value": "0"
+            },
+            {
+              "typeId": 56,
+              "value": "0"
+            },
+            {
+              "typeId": 57,
+              "value": "0"
+            },
+            {
+              "typeId": 58,
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "gameId": 6158960,
+          "awayTeamId": 245,
+          "homeTeamId": 250,
+          "startDate": "2026-04-05T01:05:00.0000000Z",
+          "location": "AT&T Park",
+          "timeRemainingStatus": "Pre-Game",
+          "sport": "MLB",
+          "status": "Pre-Game",
+          "description": "NYM @ SF",
+          "sportSpecificData": {
+            "inning": "",
+            "inningStatus": ""
+          },
+          "league": "MLB",
+          "competitionStatus": "Upcoming",
+          "competitionStatusDetail": "",
+          "gameAttributes": [
+            {
+              "typeId": 9,
+              "value": "Pre-Game"
+            },
+            {
+              "typeId": 23,
+              "value": "2"
+            },
+            {
+              "typeId": 27,
+              "value": "False"
+            },
+            {
+              "typeId": 55,
+              "value": "0"
+            },
+            {
+              "typeId": 56,
+              "value": "0"
+            },
+            {
+              "typeId": 57,
+              "value": "0"
+            },
+            {
+              "typeId": 58,
+              "value": "0"
+            }
+          ]
+        }
+      ],
+      "gameTypeId": 2,
+      "allTags": [
+        "Featured"
+      ]
+    },
+    "responseStatus": {},
+    "errorStatus": {}
+  },
+  "draftables": [],
+  "playerCount": 0,
+  "fetchTime": "2026-04-02T19:29:41.043619",
+  "contests": [
+    {
+      "uc": 0,
+      "ec": 0,
+      "mec": 150,
+      "fpp": 0,
+      "s": 2,
+      "n": "MLB $100K Baseball Pocket Cup mini-MAX Qualifier #32 [150 Entry Max]",
+      "attr": {
+        "IsGuaranteed": "true",
+        "IsQualifier": "true",
+        "IsStarred": "true"
+      },
+      "nt": 51,
+      "m": 5105,
+      "a": 0.25,
+      "po": 1073.33,
+      "pd": {
+        "Cash": "$740",
+        "ContestSeat": "1 Contest Seat"
+      },
+      "tix": false,
+      "sdstring": "Sat 7:05PM",
+      "sd": "/Date(1775343900000)/",
+      "id": 189361097,
+      "tmpl": 967905,
+      "pt": 1,
+      "so": -99999412,
+      "fwt": false,
+      "isOwner": false,
+      "startTimeType": 0,
+      "dg": 144970,
+      "ulc": 0,
+      "cs": 1,
+      "gameType": "Classic",
+      "gameTypeId": 2,
+      "ssd": null,
+      "cso": 587,
+      "ir": 0,
+      "rl": false,
+      "rlc": 0,
+      "rll": 99999,
+      "sa": true,
+      "freeWithCrowns": false,
+      "crownAmount": 138,
+      "isBonusFinalized": false,
+      "isSnakeDraft": false,
+      "payoutDescriptionMetadata": [
+        {
+          "PayoutDescriptionType": 1,
+          "Order": 1,
+          "PayoutDescription": "$740",
+          "Quantity": 1,
+          "Value": 0
+        },
+        {
+          "PayoutDescriptionType": 1,
+          "Order": 2,
+          "PayoutDescription": "1 Contest Seat",
+          "Quantity": 1,
+          "Value": 0
+        }
+      ],
+      "crownsAwarded": 0
+    }
+  ]
+}
