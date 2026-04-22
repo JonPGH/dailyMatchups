@@ -358,7 +358,7 @@
 77,Adrian Houser,605288,Road,1,9,7,0.438,2025,16
 85,Albert Suarez,544150,Road,1,0,1,1.0,2025,1
 88,Allan Winans,642216,Road,1,0,1,1.0,2025,1
-100,Andre Pallante,669467,Road,1,3,16,0.842,2025,19
+100,Andre Pallante,669467,Road,1,2,16,0.889,2025,18
 116,Andrew Abbott,671096,Road,1,4,11,0.733,2025,15
 131,Andrew Alvarez,674841,Road,1,1,2,0.667,2025,3
 144,Andrew Heaney,571760,Road,1,5,7,0.583,2025,12
@@ -713,7 +713,7 @@
 39,Adrian Houser,605288,Total,1,9,16,0.64,2025,25
 47,Albert Suarez,544150,Total,1,0,1,1.0,2025,1
 50,Allan Winans,642216,Total,1,0,1,1.0,2025,1
-55,Andre Pallante,669467,Total,1,11,25,0.694,2025,36
+55,Andre Pallante,669467,Total,1,10,25,0.714,2025,35
 63,Andrew Abbott,671096,Total,1,7,27,0.794,2025,34
 72,Andrew Alvarez,674841,Total,1,1,4,0.8,2025,5
 78,Andrew Heaney,571760,Total,1,9,14,0.609,2025,23
@@ -1444,7 +1444,7 @@
 78,Adrian Houser,605288,Road,2,3,13,0.812,2025,16
 86,Albert Suarez,544150,Road,2,0,1,1.0,2025,1
 89,Allan Winans,642216,Road,2,0,1,1.0,2025,1
-101,Andre Pallante,669467,Road,2,5,14,0.737,2025,19
+101,Andre Pallante,669467,Road,2,5,13,0.722,2025,18
 117,Andrew Abbott,671096,Road,2,3,12,0.8,2025,15
 132,Andrew Alvarez,674841,Road,2,1,2,0.667,2025,3
 145,Andrew Heaney,571760,Road,2,3,9,0.75,2025,12
@@ -1776,7 +1776,7 @@
 40,Adrian Houser,605288,Total,2,6,19,0.76,2025,25
 48,Albert Suarez,544150,Total,2,0,1,1.0,2025,1
 51,Allan Winans,642216,Total,2,0,1,1.0,2025,1
-56,Andre Pallante,669467,Total,2,11,25,0.694,2025,36
+56,Andre Pallante,669467,Total,2,11,24,0.686,2025,35
 64,Andrew Abbott,671096,Total,2,4,30,0.882,2025,34
 73,Andrew Alvarez,674841,Total,2,1,4,0.8,2025,5
 79,Andrew Heaney,571760,Total,2,5,18,0.783,2025,23
@@ -2458,7 +2458,7 @@
 79,Adrian Houser,605288,Road,3,3,13,0.812,2025,16
 87,Albert Suarez,544150,Road,3,1,0,0.0,2025,1
 90,Allan Winans,642216,Road,3,0,1,1.0,2025,1
-102,Andre Pallante,669467,Road,3,5,14,0.737,2025,19
+102,Andre Pallante,669467,Road,3,5,13,0.722,2025,18
 118,Andrew Abbott,671096,Road,3,8,7,0.467,2025,15
 133,Andrew Alvarez,674841,Road,3,1,2,0.667,2025,3
 146,Andrew Heaney,571760,Road,3,6,6,0.5,2025,12
@@ -2769,7 +2769,7 @@
 41,Adrian Houser,605288,Total,3,4,21,0.84,2025,25
 49,Albert Suarez,544150,Total,3,1,0,0.0,2025,1
 52,Allan Winans,642216,Total,3,0,1,1.0,2025,1
-57,Andre Pallante,669467,Total,3,8,27,0.771,2025,35
+57,Andre Pallante,669467,Total,3,8,26,0.765,2025,34
 65,Andrew Abbott,671096,Total,3,13,21,0.618,2025,34
 74,Andrew Alvarez,674841,Total,3,1,4,0.8,2025,5
 80,Andrew Heaney,571760,Total,3,8,15,0.652,2025,23
@@ -3399,7 +3399,7 @@
 67,Adam Mazur,800049,Road,4,1,2,0.667,2025,3
 80,Adrian Houser,605288,Road,4,1,15,0.938,2025,16
 91,Allan Winans,642216,Road,4,1,0,0.0,2025,1
-103,Andre Pallante,669467,Road,4,8,10,0.556,2025,18
+103,Andre Pallante,669467,Road,4,8,9,0.529,2025,17
 119,Andrew Abbott,671096,Road,4,2,13,0.867,2025,15
 134,Andrew Alvarez,674841,Road,4,1,2,0.667,2025,3
 147,Andrew Heaney,571760,Road,4,4,7,0.636,2025,11
@@ -3690,7 +3690,7 @@
 36,Adam Mazur,800049,Total,4,3,3,0.5,2025,6
 42,Adrian Houser,605288,Total,4,1,24,0.96,2025,25
 53,Allan Winans,642216,Total,4,1,0,0.0,2025,1
-58,Andre Pallante,669467,Total,4,15,19,0.559,2025,34
+58,Andre Pallante,669467,Total,4,15,18,0.545,2025,33
 66,Andrew Abbott,671096,Total,4,7,27,0.794,2025,34
 75,Andrew Alvarez,674841,Total,4,1,4,0.8,2025,5
 81,Andrew Heaney,571760,Total,4,6,16,0.727,2025,22
@@ -4283,7 +4283,7 @@
 68,Adam Mazur,800049,Road,5,0,1,1.0,2025,1
 81,Adrian Houser,605288,Road,5,6,9,0.6,2025,15
 92,Allan Winans,642216,Road,5,0,1,1.0,2025,1
-104,Andre Pallante,669467,Road,5,6,12,0.667,2025,18
+104,Andre Pallante,669467,Road,5,6,11,0.647,2025,17
 120,Andrew Abbott,671096,Road,5,2,10,0.833,2025,12
 135,Andrew Alvarez,674841,Road,5,0,2,1.0,2025,2
 148,Andrew Heaney,571760,Road,5,2,6,0.75,2025,8
@@ -4558,7 +4558,7 @@
 37,Adam Mazur,800049,Total,5,1,3,0.75,2025,4
 43,Adrian Houser,605288,Total,5,8,16,0.667,2025,24
 54,Allan Winans,642216,Total,5,0,1,1.0,2025,1
-59,Andre Pallante,669467,Total,5,9,24,0.727,2025,33
+59,Andre Pallante,669467,Total,5,9,23,0.719,2025,32
 67,Andrew Abbott,671096,Total,5,5,24,0.828,2025,29
 76,Andrew Alvarez,674841,Total,5,0,4,1.0,2025,4
 82,Andrew Heaney,571760,Total,5,4,14,0.778,2025,18
@@ -19213,7 +19213,7 @@
 180,Alex Faedo,656412,Road,1,0,3,1.0,2023-2025,3
 188,Alex Wood,622072,Road,1,3,1,0.25,2023-2025,4
 199,Allan Winans,642216,Road,1,0,1,1.0,2023-2025,1
-211,Andre Pallante,669467,Road,1,6,22,0.786,2023-2025,28
+211,Andre Pallante,669467,Road,1,5,22,0.815,2023-2025,27
 227,Andrew Abbott,671096,Road,1,9,19,0.679,2023-2025,28
 242,Andrew Alvarez,674841,Road,1,1,2,0.667,2023-2025,3
 255,Andrew Heaney,571760,Road,1,10,19,0.655,2023-2025,29
@@ -19696,7 +19696,7 @@
 96,Alex Faedo,656412,Total,1,1,5,0.833,2023-2025,6
 98,Alex Wood,622072,Total,1,5,4,0.444,2023-2025,9
 104,Allan Winans,642216,Total,1,2,1,0.333,2023-2025,3
-109,Andre Pallante,669467,Total,1,16,40,0.714,2023-2025,56
+109,Andre Pallante,669467,Total,1,15,40,0.727,2023-2025,55
 117,Andrew Abbott,671096,Total,1,15,44,0.746,2023-2025,59
 126,Andrew Alvarez,674841,Total,1,1,4,0.8,2023-2025,5
 132,Andrew Heaney,571760,Total,1,17,37,0.685,2023-2025,54
@@ -20677,7 +20677,7 @@
 181,Alex Faedo,656412,Road,2,0,2,1.0,2023-2025,2
 189,Alex Wood,622072,Road,2,3,1,0.25,2023-2025,4
 200,Allan Winans,642216,Road,2,0,1,1.0,2023-2025,1
-212,Andre Pallante,669467,Road,2,6,22,0.786,2023-2025,28
+212,Andre Pallante,669467,Road,2,6,21,0.778,2023-2025,27
 228,Andrew Abbott,671096,Road,2,6,22,0.786,2023-2025,28
 243,Andrew Alvarez,674841,Road,2,1,2,0.667,2023-2025,3
 256,Andrew Heaney,571760,Road,2,8,21,0.724,2023-2025,29
@@ -21128,7 +21128,7 @@
 97,Alex Faedo,656412,Total,2,0,4,1.0,2023-2025,4
 99,Alex Wood,622072,Total,2,4,5,0.556,2023-2025,9
 105,Allan Winans,642216,Total,2,1,2,0.667,2023-2025,3
-110,Andre Pallante,669467,Total,2,13,43,0.768,2023-2025,56
+110,Andre Pallante,669467,Total,2,13,42,0.764,2023-2025,55
 118,Andrew Abbott,671096,Total,2,10,49,0.831,2023-2025,59
 127,Andrew Alvarez,674841,Total,2,1,4,0.8,2023-2025,5
 133,Andrew Heaney,571760,Total,2,13,41,0.759,2023-2025,54
@@ -22040,7 +22040,7 @@
 175,Alex Cobb,502171,Road,3,0,1,1.0,2023-2025,1
 190,Alex Wood,622072,Road,3,0,3,1.0,2023-2025,3
 201,Allan Winans,642216,Road,3,0,1,1.0,2023-2025,1
-213,Andre Pallante,669467,Road,3,8,20,0.714,2023-2025,28
+213,Andre Pallante,669467,Road,3,8,19,0.704,2023-2025,27
 229,Andrew Abbott,671096,Road,3,12,16,0.571,2023-2025,28
 244,Andrew Alvarez,674841,Road,3,1,2,0.667,2023-2025,3
 257,Andrew Heaney,571760,Road,3,15,14,0.483,2023-2025,29
@@ -22461,7 +22461,7 @@
 91,Alex Cobb,502171,Total,3,0,3,1.0,2023-2025,3
 100,Alex Wood,622072,Total,3,2,6,0.75,2023-2025,8
 106,Allan Winans,642216,Total,3,2,1,0.333,2023-2025,3
-111,Andre Pallante,669467,Total,3,13,42,0.764,2023-2025,55
+111,Andre Pallante,669467,Total,3,13,41,0.759,2023-2025,54
 119,Andrew Abbott,671096,Total,3,22,37,0.627,2023-2025,59
 128,Andrew Alvarez,674841,Total,3,1,4,0.8,2023-2025,5
 134,Andrew Heaney,571760,Total,3,22,32,0.593,2023-2025,54
@@ -23302,7 +23302,7 @@
 176,Alex Cobb,502171,Road,4,0,1,1.0,2023-2025,1
 191,Alex Wood,622072,Road,4,0,3,1.0,2023-2025,3
 202,Allan Winans,642216,Road,4,1,0,0.0,2023-2025,1
-214,Andre Pallante,669467,Road,4,11,15,0.577,2023-2025,26
+214,Andre Pallante,669467,Road,4,11,14,0.56,2023-2025,25
 230,Andrew Abbott,671096,Road,4,2,26,0.929,2023-2025,28
 245,Andrew Alvarez,674841,Road,4,1,2,0.667,2023-2025,3
 258,Andrew Heaney,571760,Road,4,9,19,0.679,2023-2025,28
@@ -23694,7 +23694,7 @@
 92,Alex Cobb,502171,Total,4,1,2,0.667,2023-2025,3
 101,Alex Wood,622072,Total,4,3,5,0.625,2023-2025,8
 107,Allan Winans,642216,Total,4,1,1,0.5,2023-2025,2
-112,Andre Pallante,669467,Total,4,19,34,0.642,2023-2025,53
+112,Andre Pallante,669467,Total,4,19,33,0.635,2023-2025,52
 120,Andrew Abbott,671096,Total,4,10,49,0.831,2023-2025,59
 129,Andrew Alvarez,674841,Total,4,1,4,0.8,2023-2025,5
 135,Andrew Heaney,571760,Total,4,14,39,0.736,2023-2025,53
@@ -24478,7 +24478,7 @@
 177,Alex Cobb,502171,Road,5,0,1,1.0,2023-2025,1
 192,Alex Wood,622072,Road,5,1,1,0.5,2023-2025,2
 203,Allan Winans,642216,Road,5,0,1,1.0,2023-2025,1
-215,Andre Pallante,669467,Road,5,6,19,0.76,2023-2025,25
+215,Andre Pallante,669467,Road,5,6,18,0.75,2023-2025,24
 231,Andrew Abbott,671096,Road,5,5,20,0.8,2023-2025,25
 246,Andrew Alvarez,674841,Road,5,0,2,1.0,2023-2025,2
 259,Andrew Heaney,571760,Road,5,6,16,0.727,2023-2025,22
@@ -24846,7 +24846,7 @@
 93,Alex Cobb,502171,Total,5,0,3,1.0,2023-2025,3
 102,Alex Wood,622072,Total,5,2,3,0.6,2023-2025,5
 108,Allan Winans,642216,Total,5,0,2,1.0,2023-2025,2
-113,Andre Pallante,669467,Total,5,13,38,0.745,2023-2025,51
+113,Andre Pallante,669467,Total,5,13,37,0.74,2023-2025,50
 121,Andrew Abbott,671096,Total,5,10,43,0.811,2023-2025,53
 130,Andrew Alvarez,674841,Total,5,0,4,1.0,2023-2025,4
 136,Andrew Heaney,571760,Total,5,9,35,0.795,2023-2025,44
