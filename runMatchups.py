@@ -1350,6 +1350,149 @@ def background_color(val):
         return 'background-color: springgreen'  # Neutral background for 50-79%
 
 if tab == "NRFI":
+   st.markdown("<center><h1>NRFI Data</h1></center>", unsafe_allow_html=True)
+
+   # ── Prep data ─────────────────────────────────────────────────────────────
+   nrfi_p['Year'] = nrfi_p['Year'].astype(str)
+   nrfi_p = nrfi_p.rename({'NRA%': '%'}, axis=1)
+   nrfi_team['Year'] = nrfi_team['Year'].astype(str) if 'Year' in nrfi_team.columns else nrfi_team
+   nrfi_team = nrfi_team.rename({'NRA%': '%'}, axis=1)
+
+   # ── Helper: build & style pivot ───────────────────────────────────────────
+   def make_nrfi_pivot(df, index_col):
+      if df.empty:
+         st.warning("No data found for this selection.")
+         return None
+      if '%' not in df.columns:
+         st.warning("Missing '%' column — check that NRA% was renamed before calling.")
+         return None
+
+      piv = df.pivot_table(index=index_col, columns='inning', values=['YRA', 'NRA', '%'])
+      piv = piv.rename({'YRA': 'Y', 'NRA': 'N'}, axis=1)
+      piv.columns = piv.columns.swaplevel(0, 1)
+      piv = piv.sort_index(axis=1, level=0)
+
+      for inning in piv.columns.levels[0]:
+         piv[inning, 'Y'] = piv[inning, 'Y'].apply(lambda x: int(x) if pd.notna(x) else 'N/A')
+         piv[inning, 'N'] = piv[inning, 'N'].apply(lambda x: int(x) if pd.notna(x) else 'N/A')
+         piv[inning, '%'] = piv[inning, '%'].apply(lambda x: f'{x * 100:.1f}%' if pd.notna(x) else 'N/A')
+
+      piv = piv.rename({
+         1: '1st', 2: '2nd', 3: '3rd', 4: '4th', 5: '5th',
+         6: '6th', 7: '7th', 8: '8th', 9: '9th'
+      }, axis=1)
+
+      return piv.style.applymap(background_color, subset=pd.IndexSlice[:, (slice(None), '%')])
+
+   def show_pivot(df, index_col):
+      piv = make_nrfi_pivot(df, index_col)
+      if piv is not None:
+         st.dataframe(piv)
+
+   def show_inning_summary(team_df3, team_df5, split_val, team_name):
+      col1, col2, col3 = st.columns([1, 1, 1])
+      with col1:
+         st.markdown('<b>First 3 innings</b>', unsafe_allow_html=True)
+         f3 = team_df3[
+            (team_df3['Split'] == split_val) &
+            (team_df3['BatterTeam'] == team_name)
+         ][['Split', 'YRA', 'NRA', 'NRA%']].rename(columns={'YRA': 'Y', 'NRA': 'N', 'NRA%': '%'})
+         st.dataframe(f3.style.format({'%': '{:.1%}'}), hide_index=True)
+      with col2:
+         st.markdown('<b>First 5 innings</b>', unsafe_allow_html=True)
+         f5 = team_df5[
+            (team_df5['Split'] == split_val) &
+            (team_df5['BatterTeam'] == team_name)
+         ][['Split', 'YRA', 'NRA', 'NRA%']].rename(columns={'YRA': 'Y', 'NRA': 'N', 'NRA%': '%'})
+         st.dataframe(f5.style.format({'%': '{:.1%}'}), hide_index=True)
+
+   # ── Top controls ──────────────────────────────────────────────────────────
+   game_options = pdata['Game'].unique().tolist()
+   year_options = ['2026', '2025', '2024', '2024-2026']
+
+   col1, col2, col3 = st.columns([2, 3, 5])
+   with col1:
+      selected_game = st.selectbox('Select a Game', game_options)
+   with col2:
+      selected_samp = st.selectbox('Select a Year', year_options)
+
+   game_pitchers = list(pdata[pdata['Game'] == selected_game]['pitcher'].unique())
+
+   # ── Pitcher 1 ─────────────────────────────────────────────────────────────
+   pname = pdata[pdata['pitcher'] == game_pitchers[0]]['player_name'].iloc[0]
+   st.markdown(f"<h3>{pname}</h3>", unsafe_allow_html=True)
+
+   col1, col2 = st.columns([1, 4])
+   with col1:
+      split1 = st.selectbox(f'Split — {pname}', ['Total', 'Home', 'Road'])
+
+   filt1 = nrfi_p[
+      (nrfi_p['pitcher'] == game_pitchers[0]) &
+      (nrfi_p['Year'] == selected_samp) &
+      (nrfi_p['Split'] == split1)
+   ].sort_values(by=['player_name', 'inning'])
+   show_pivot(filt1, 'player_name')
+
+   # ── Pitcher 2 ─────────────────────────────────────────────────────────────
+   pname2 = pdata[pdata['pitcher'] == game_pitchers[1]]['player_name'].iloc[0]
+   st.markdown(f"<h3>{pname2}</h3>", unsafe_allow_html=True)
+
+   col1, col2 = st.columns([1, 4])
+   with col1:
+      split2 = st.selectbox(f'Split — {pname2}', ['Total', 'Home', 'Road'])
+
+   filt2 = nrfi_p[
+      (nrfi_p['pitcher'] == game_pitchers[1]) &
+      (nrfi_p['Year'] == selected_samp) &
+      (nrfi_p['Split'] == split2)
+   ].sort_values(by=['player_name', 'inning'])
+   show_pivot(filt2, 'player_name')
+
+   # ── Team section ──────────────────────────────────────────────────────────
+   st.markdown("<hr>", unsafe_allow_html=True)
+
+   team1 = selected_game.split('@')[0]
+   team2 = selected_game.split('@')[1]
+
+   # ── Offense 1 ─────────────────────────────────────────────────────────────
+   st.markdown(f"<h3>{team1} Offense</h3>", unsafe_allow_html=True)
+
+   col1, col2 = st.columns([1, 4])
+   with col1:
+      split3 = st.selectbox(f'Split — {team1}', ['Total', 'Home', 'Road'])
+
+   team1_filt = nrfi_team[
+      (nrfi_team['BatterTeam'] == team1) &
+      (nrfi_team['Split'] == split3)
+   ]
+   show_pivot(team1_filt, 'BatterTeam')
+   show_inning_summary(nrfi_team3, nrfi_team5, split3, team1)
+
+   # ── Offense 2 ─────────────────────────────────────────────────────────────
+   st.markdown(f"<h3>{team2} Offense</h3>", unsafe_allow_html=True)
+
+   col1, col2 = st.columns([1, 4])
+   with col1:
+      split4 = st.selectbox(f'Split — {team2}', ['Total', 'Home', 'Road'])
+
+   team2_filt = nrfi_team[
+      (nrfi_team['BatterTeam'] == team2) &
+      (nrfi_team['Split'] == split4)
+   ]
+   show_pivot(team2_filt, 'BatterTeam')
+   show_inning_summary(nrfi_team3, nrfi_team5, split4, team2)
+
+   # ── Full table for all probables ──────────────────────────────────────────
+   st.markdown("<hr><h1>Full Table for All Probables</h1>", unsafe_allow_html=True)
+
+   p_filt_list = list(pdata['player_name'].unique())
+   all_nrfi_table = nrfi_p[
+      (nrfi_p['player_name'].isin(p_filt_list)) &
+      (nrfi_p['Year'] == selected_samp) &
+      (nrfi_p['Split'] == 'Total')
+   ]
+   show_pivot(all_nrfi_table, 'player_name')
+if tab == "NRFI_ OLD":
    st.markdown("<center><h1>NRFI Data</h1></center>",unsafe_allow_html=True)
 
    nrfi_p = nrfi_p.rename({'NRA%': '%'},axis=1)
@@ -1358,6 +1501,8 @@ if tab == "NRFI":
    # Get unique game options
    game_options = pdata['Game'].unique().tolist()
    year_options = ['2025','2024','2023','2023-2025']
+
+
    p_opp_dict = dict(zip(pdata.player_name, pdata.Opp))
 
    col1, col2, col3 = st.columns([2,3,5])
