@@ -38,7 +38,7 @@ Casey Mize,663554,Home,1,0,5,1.0,2026,5
 Chad Patrick,694477,Home,1,1,3,0.75,2026,4
 Chase Burns,695505,Home,1,0,6,1.0,2026,6
 Chase Petty,695534,Home,1,0,1,1.0,2026,1
-Chris Bassitt,605135,Home,1,1,2,0.667,2026,3
+Chris Bassitt,605135,Home,1,1,3,0.75,2026,4
 Chris Paddack,663978,Home,1,2,2,0.5,2026,4
 Chris Sale,519242,Home,1,0,5,1.0,2026,5
 Christian Scott,681035,Home,1,2,0,0.0,2026,2
@@ -53,7 +53,7 @@ Cristian Javier,664299,Home,1,0,1,1.0,2026,1
 Cristopher Sanchez,650911,Home,1,1,7,0.875,2026,8
 David Peterson,656849,Home,1,3,1,0.25,2026,4
 David Sandlin,689818,Home,1,1,0,0.0,2026,1
-Davis Martin,663436,Home,1,1,3,0.75,2026,4
+Davis Martin,663436,Home,1,1,4,0.8,2026,5
 Dean Kremer,665152,Home,1,1,0,0.0,2026,1
 Drew Anderson,623454,Home,1,0,1,1.0,2026,1
 Drew Rasmussen,656876,Home,1,1,3,0.75,2026,4
@@ -87,7 +87,7 @@ Hunter Brown,686613,Home,1,0,2,1.0,2026,2
 Ian Seymour,693855,Home,1,0,1,1.0,2026,1
 J.T. Ginn,669372,Home,1,0,3,1.0,2026,3
 JR Ritchie,702275,Home,1,0,2,1.0,2026,2
-Jack Flaherty,656427,Home,1,2,3,0.6,2026,5
+Jack Flaherty,656427,Home,1,2,4,0.667,2026,6
 Jack Kochanowicz,686799,Home,1,1,4,0.8,2026,5
 Jack Leiter,683004,Home,1,1,4,0.8,2026,5
 Jacob Lopez,682052,Home,1,0,4,1.0,2026,4
@@ -155,7 +155,7 @@ Mick Abel,690953,Home,1,0,3,1.0,2026,3
 Mike Burrows,681347,Home,1,3,2,0.4,2026,5
 Miles Mikolas,571945,Home,1,0,3,1.0,2026,3
 Mitch Keller,656605,Home,1,1,5,0.833,2026,6
-Nathan Eovaldi,543135,Home,1,2,1,0.333,2026,3
+Nathan Eovaldi,543135,Home,1,3,1,0.25,2026,4
 Nick Lodolo,666157,Home,1,0,2,1.0,2026,2
 Nick Martinez,607259,Home,1,0,4,1.0,2026,4
 Nick Pivetta,601713,Home,1,1,2,0.667,2026,3
@@ -166,8 +166,8 @@ PJ Poulin,676571,Home,1,0,2,1.0,2026,2
 Parker Messick,800048,Home,1,0,6,1.0,2026,6
 Patrick Corbin,571578,Home,1,2,2,0.5,2026,4
 Paul Blackburn,621112,Home,1,0,1,1.0,2026,1
-Paul Skenes,694973,Home,1,2,4,0.667,2026,6
-Payton Tolle,801139,Home,1,1,2,0.667,2026,3
+Paul Skenes,694973,Home,1,2,5,0.714,2026,7
+Payton Tolle,801139,Home,1,1,3,0.75,2026,4
 Peter Lambert,663567,Home,1,1,3,0.75,2026,4
 Randy Vasquez,681190,Home,1,2,5,0.714,2026,7
 Ranger Suarez,624133,Home,1,1,5,0.833,2026,6
@@ -270,14 +270,14 @@ Chase Dollander,801403,Road,1,1,2,0.667,2026,3
 Chase Petty,695534,Road,1,0,1,1.0,2026,1
 Chris Bassitt,605135,Road,1,3,2,0.4,2026,5
 Chris Paddack,663978,Road,1,1,3,0.75,2026,4
-Chris Sale,519242,Road,1,2,3,0.6,2026,5
+Chris Sale,519242,Road,1,2,4,0.667,2026,6
 Christian Scott,681035,Road,1,1,3,0.75,2026,4
 Clay Holmes,605280,Road,1,2,3,0.6,2026,5
 Cody Bolton,675989,Road,1,1,2,0.667,2026,3
 Cole Ragans,666142,Road,1,3,2,0.4,2026,5
 Cole Sulser,642121,Road,1,0,1,1.0,2026,1
 Coleman Crow,689441,Road,1,0,2,1.0,2026,2
-Colin Rea,607067,Road,1,0,4,1.0,2026,4
+Colin Rea,607067,Road,1,0,5,1.0,2026,5
 Connelly Early,813349,Road,1,3,3,0.5,2026,6
 Connor Prielipp,687570,Road,1,3,1,0.25,2026,4
 Cristian Javier,664299,Road,1,1,1,0.5,2026,2
@@ -309,6 +309,7 @@ German Marquez,608566,Road,1,0,3,1.0,2026,3
 Gerrit Cole,543037,Road,1,0,1,1.0,2026,1
 Grant Holmes,656550,Road,1,2,2,0.5,2026,4
 Grant Taylor,691799,Road,1,0,1,1.0,2026,1
+Grayson Rodriguez,680570,Road,1,0,1,1.0,2026,1
 Griffin Canning,656288,Road,1,1,0,0.0,2026,1
 Griffin Jax,643377,Road,1,0,3,1.0,2026,3
 Huascar Brazoban,623211,Road,1,0,2,1.0,2026,2
@@ -390,7 +391,7 @@ Noah Schultz,702273,Road,1,2,3,0.6,2026,5
 Nolan McLean,690997,Road,1,1,4,0.8,2026,5
 PJ Poulin,676571,Road,1,1,4,0.8,2026,5
 Parker Messick,800048,Road,1,0,5,1.0,2026,5
-Patrick Corbin,571578,Road,1,1,4,0.8,2026,5
+Patrick Corbin,571578,Road,1,1,5,0.833,2026,6
 Paul Skenes,694973,Road,1,2,3,0.6,2026,5
 Payton Tolle,801139,Road,1,1,2,0.667,2026,3
 Pete Fairbanks,664126,Road,1,1,0,0.0,2026,1
@@ -419,10 +420,10 @@ Shane McClanahan,663556,Road,1,1,4,0.8,2026,5
 Shane Smith,681343,Road,1,1,1,0.5,2026,2
 Shohei Ohtani,660271,Road,1,0,4,1.0,2026,4
 Shota Imanaga,684007,Road,1,2,2,0.5,2026,4
-Simeon Woods Richardson,680573,Road,1,0,5,1.0,2026,5
+Simeon Woods Richardson,680573,Road,1,1,5,0.833,2026,6
 Slade Cecconi,677944,Road,1,3,5,0.625,2026,8
 Sonny Gray,543243,Road,1,2,2,0.5,2026,4
-Spencer Arrighetti,681293,Road,1,1,3,0.75,2026,4
+Spencer Arrighetti,681293,Road,1,1,4,0.8,2026,5
 Spencer Strider,675911,Road,1,2,2,0.5,2026,4
 Stephen Kolek,663568,Road,1,0,2,1.0,2026,2
 Steven Matz,571927,Road,1,1,4,0.8,2026,5
@@ -498,9 +499,9 @@ Chad Patrick,694477,Total,1,1,5,0.833,2026,6
 Chase Burns,695505,Total,1,0,11,1.0,2026,11
 Chase Dollander,801403,Total,1,1,2,0.667,2026,3
 Chase Petty,695534,Total,1,0,2,1.0,2026,2
-Chris Bassitt,605135,Total,1,4,4,0.5,2026,8
+Chris Bassitt,605135,Total,1,4,5,0.556,2026,9
 Chris Paddack,663978,Total,1,3,5,0.625,2026,8
-Chris Sale,519242,Total,1,2,8,0.8,2026,10
+Chris Sale,519242,Total,1,2,9,0.818,2026,11
 Christian Scott,681035,Total,1,3,3,0.5,2026,6
 Clay Holmes,605280,Total,1,2,7,0.778,2026,9
 Cody Bolton,675989,Total,1,1,2,0.667,2026,3
@@ -508,7 +509,7 @@ Cody Ponce,664074,Total,1,0,1,1.0,2026,1
 Cole Ragans,666142,Total,1,3,5,0.625,2026,8
 Cole Sulser,642121,Total,1,0,1,1.0,2026,1
 Coleman Crow,689441,Total,1,0,2,1.0,2026,2
-Colin Rea,607067,Total,1,2,6,0.75,2026,8
+Colin Rea,607067,Total,1,2,7,0.778,2026,9
 Colton Gordon,676467,Total,1,1,0,0.0,2026,1
 Connelly Early,813349,Total,1,4,7,0.636,2026,11
 Connor Prielipp,687570,Total,1,3,4,0.571,2026,7
@@ -517,7 +518,7 @@ Cristopher Sanchez,650911,Total,1,2,10,0.833,2026,12
 DL Hall,669084,Total,1,0,1,1.0,2026,1
 David Peterson,656849,Total,1,5,2,0.286,2026,7
 David Sandlin,689818,Total,1,1,0,0.0,2026,1
-Davis Martin,663436,Total,1,2,8,0.8,2026,10
+Davis Martin,663436,Total,1,2,9,0.818,2026,11
 Dean Kremer,665152,Total,1,1,1,0.5,2026,2
 Didier Fuentes,800311,Total,1,1,0,0.0,2026,1
 Drew Anderson,623454,Total,1,0,1,1.0,2026,1
@@ -544,7 +545,7 @@ German Marquez,608566,Total,1,2,4,0.667,2026,6
 Gerrit Cole,543037,Total,1,0,2,1.0,2026,2
 Grant Holmes,656550,Total,1,2,8,0.8,2026,10
 Grant Taylor,691799,Total,1,0,4,1.0,2026,4
-Grayson Rodriguez,680570,Total,1,0,2,1.0,2026,2
+Grayson Rodriguez,680570,Total,1,0,3,1.0,2026,3
 Griffin Canning,656288,Total,1,3,2,0.4,2026,5
 Griffin Jax,643377,Total,1,1,5,0.833,2026,6
 Huascar Brazoban,623211,Total,1,0,4,1.0,2026,4
@@ -553,7 +554,7 @@ Hunter Dobbins,690928,Total,1,0,1,1.0,2026,1
 Ian Seymour,693855,Total,1,0,1,1.0,2026,1
 J.T. Ginn,669372,Total,1,1,8,0.889,2026,9
 JR Ritchie,702275,Total,1,1,4,0.8,2026,5
-Jack Flaherty,656427,Total,1,3,8,0.727,2026,11
+Jack Flaherty,656427,Total,1,3,9,0.75,2026,12
 Jack Kochanowicz,686799,Total,1,2,9,0.818,2026,11
 Jack Leiter,683004,Total,1,4,7,0.636,2026,11
 Jacob Latz,656641,Total,1,0,1,1.0,2026,1
@@ -629,7 +630,7 @@ Mick Abel,690953,Total,1,0,3,1.0,2026,3
 Mike Burrows,681347,Total,1,5,6,0.545,2026,11
 Miles Mikolas,571945,Total,1,0,6,1.0,2026,6
 Mitch Keller,656605,Total,1,2,9,0.818,2026,11
-Nathan Eovaldi,543135,Total,1,5,5,0.5,2026,10
+Nathan Eovaldi,543135,Total,1,6,5,0.455,2026,11
 Nick Lodolo,666157,Total,1,1,3,0.75,2026,4
 Nick Martinez,607259,Total,1,0,10,1.0,2026,10
 Nick Pivetta,601713,Total,1,1,3,0.75,2026,4
@@ -638,10 +639,10 @@ Noah Schultz,702273,Total,1,3,5,0.625,2026,8
 Nolan McLean,690997,Total,1,3,8,0.727,2026,11
 PJ Poulin,676571,Total,1,1,6,0.857,2026,7
 Parker Messick,800048,Total,1,0,11,1.0,2026,11
-Patrick Corbin,571578,Total,1,3,6,0.667,2026,9
+Patrick Corbin,571578,Total,1,3,7,0.7,2026,10
 Paul Blackburn,621112,Total,1,0,1,1.0,2026,1
-Paul Skenes,694973,Total,1,4,7,0.636,2026,11
-Payton Tolle,801139,Total,1,2,4,0.667,2026,6
+Paul Skenes,694973,Total,1,4,8,0.667,2026,12
+Payton Tolle,801139,Total,1,2,5,0.714,2026,7
 Pete Fairbanks,664126,Total,1,1,0,0.0,2026,1
 Peter Lambert,663567,Total,1,1,6,0.857,2026,7
 Randy Vasquez,681190,Total,1,3,8,0.727,2026,11
@@ -671,10 +672,10 @@ Shane McClanahan,663556,Total,1,1,9,0.9,2026,10
 Shane Smith,681343,Total,1,1,2,0.667,2026,3
 Shohei Ohtani,660271,Total,1,0,9,1.0,2026,9
 Shota Imanaga,684007,Total,1,3,8,0.727,2026,11
-Simeon Woods Richardson,680573,Total,1,1,8,0.889,2026,9
+Simeon Woods Richardson,680573,Total,1,2,8,0.8,2026,10
 Slade Cecconi,677944,Total,1,4,7,0.636,2026,11
 Sonny Gray,543243,Total,1,3,6,0.667,2026,9
-Spencer Arrighetti,681293,Total,1,1,6,0.857,2026,7
+Spencer Arrighetti,681293,Total,1,1,7,0.875,2026,8
 Spencer Miles,693686,Total,1,0,1,1.0,2026,1
 Spencer Strider,675911,Total,1,2,3,0.6,2026,5
 Stephen Kolek,663568,Total,1,0,4,1.0,2026,4
@@ -749,7 +750,7 @@ Casey Mize,663554,Home,2,0,5,1.0,2026,5
 Chad Patrick,694477,Home,2,0,4,1.0,2026,4
 Chase Burns,695505,Home,2,1,5,0.833,2026,6
 Chase Petty,695534,Home,2,1,0,0.0,2026,1
-Chris Bassitt,605135,Home,2,2,1,0.333,2026,3
+Chris Bassitt,605135,Home,2,2,2,0.5,2026,4
 Chris Paddack,663978,Home,2,0,4,1.0,2026,4
 Chris Sale,519242,Home,2,0,5,1.0,2026,5
 Christian Scott,681035,Home,2,0,2,1.0,2026,2
@@ -764,7 +765,7 @@ Cristian Javier,664299,Home,2,0,1,1.0,2026,1
 Cristopher Sanchez,650911,Home,2,1,7,0.875,2026,8
 David Peterson,656849,Home,2,1,3,0.75,2026,4
 David Sandlin,689818,Home,2,0,1,1.0,2026,1
-Davis Martin,663436,Home,2,0,4,1.0,2026,4
+Davis Martin,663436,Home,2,0,5,1.0,2026,5
 Dean Kremer,665152,Home,2,0,1,1.0,2026,1
 Drew Anderson,623454,Home,2,0,1,1.0,2026,1
 Drew Rasmussen,656876,Home,2,1,3,0.75,2026,4
@@ -797,7 +798,7 @@ Hunter Brown,686613,Home,2,0,2,1.0,2026,2
 Ian Seymour,693855,Home,2,1,0,0.0,2026,1
 J.T. Ginn,669372,Home,2,1,2,0.667,2026,3
 JR Ritchie,702275,Home,2,1,1,0.5,2026,2
-Jack Flaherty,656427,Home,2,0,5,1.0,2026,5
+Jack Flaherty,656427,Home,2,0,6,1.0,2026,6
 Jack Kochanowicz,686799,Home,2,1,4,0.8,2026,5
 Jack Leiter,683004,Home,2,0,5,1.0,2026,5
 Jacob Lopez,682052,Home,2,0,4,1.0,2026,4
@@ -861,7 +862,7 @@ Mick Abel,690953,Home,2,1,2,0.667,2026,3
 Mike Burrows,681347,Home,2,2,3,0.6,2026,5
 Miles Mikolas,571945,Home,2,1,2,0.667,2026,3
 Mitch Keller,656605,Home,2,0,6,1.0,2026,6
-Nathan Eovaldi,543135,Home,2,0,3,1.0,2026,3
+Nathan Eovaldi,543135,Home,2,0,4,1.0,2026,4
 Nick Lodolo,666157,Home,2,2,0,0.0,2026,2
 Nick Martinez,607259,Home,2,1,3,0.75,2026,4
 Nick Pivetta,601713,Home,2,0,3,1.0,2026,3
@@ -871,8 +872,8 @@ Nolan McLean,690997,Home,2,1,5,0.833,2026,6
 PJ Poulin,676571,Home,2,0,1,1.0,2026,1
 Parker Messick,800048,Home,2,0,6,1.0,2026,6
 Patrick Corbin,571578,Home,2,0,4,1.0,2026,4
-Paul Skenes,694973,Home,2,0,6,1.0,2026,6
-Payton Tolle,801139,Home,2,1,2,0.667,2026,3
+Paul Skenes,694973,Home,2,0,7,1.0,2026,7
+Payton Tolle,801139,Home,2,1,3,0.75,2026,4
 Peter Lambert,663567,Home,2,1,3,0.75,2026,4
 Randy Vasquez,681190,Home,2,4,3,0.429,2026,7
 Ranger Suarez,624133,Home,2,0,6,1.0,2026,6
@@ -968,14 +969,14 @@ Chase Dollander,801403,Road,2,0,3,1.0,2026,3
 Chase Petty,695534,Road,2,0,1,1.0,2026,1
 Chris Bassitt,605135,Road,2,3,2,0.4,2026,5
 Chris Paddack,663978,Road,2,3,1,0.25,2026,4
-Chris Sale,519242,Road,2,2,3,0.6,2026,5
+Chris Sale,519242,Road,2,2,4,0.667,2026,6
 Christian Scott,681035,Road,2,1,3,0.75,2026,4
 Clay Holmes,605280,Road,2,1,4,0.8,2026,5
 Cody Bolton,675989,Road,2,0,3,1.0,2026,3
 Cole Ragans,666142,Road,2,1,3,0.75,2026,4
 Cole Sulser,642121,Road,2,0,1,1.0,2026,1
 Coleman Crow,689441,Road,2,0,2,1.0,2026,2
-Colin Rea,607067,Road,2,1,3,0.75,2026,4
+Colin Rea,607067,Road,2,1,4,0.8,2026,5
 Connelly Early,813349,Road,2,1,5,0.833,2026,6
 Connor Prielipp,687570,Road,2,1,3,0.75,2026,4
 Cristian Javier,664299,Road,2,1,0,0.0,2026,1
@@ -1007,6 +1008,7 @@ German Marquez,608566,Road,2,1,2,0.667,2026,3
 Gerrit Cole,543037,Road,2,0,1,1.0,2026,1
 Grant Holmes,656550,Road,2,2,2,0.5,2026,4
 Grant Taylor,691799,Road,2,0,1,1.0,2026,1
+Grayson Rodriguez,680570,Road,2,1,0,0.0,2026,1
 Griffin Canning,656288,Road,2,1,0,0.0,2026,1
 Griffin Jax,643377,Road,2,2,1,0.333,2026,3
 Huascar Brazoban,623211,Road,2,0,1,1.0,2026,1
@@ -1084,7 +1086,7 @@ Noah Schultz,702273,Road,2,2,3,0.6,2026,5
 Nolan McLean,690997,Road,2,2,3,0.6,2026,5
 PJ Poulin,676571,Road,2,1,1,0.5,2026,2
 Parker Messick,800048,Road,2,2,3,0.6,2026,5
-Patrick Corbin,571578,Road,2,0,5,1.0,2026,5
+Patrick Corbin,571578,Road,2,0,6,1.0,2026,6
 Paul Skenes,694973,Road,2,0,4,1.0,2026,4
 Payton Tolle,801139,Road,2,0,3,1.0,2026,3
 Peter Lambert,663567,Road,2,1,2,0.667,2026,3
@@ -1111,10 +1113,10 @@ Shane McClanahan,663556,Road,2,0,5,1.0,2026,5
 Shane Smith,681343,Road,2,2,0,0.0,2026,2
 Shohei Ohtani,660271,Road,2,1,3,0.75,2026,4
 Shota Imanaga,684007,Road,2,0,4,1.0,2026,4
-Simeon Woods Richardson,680573,Road,2,1,4,0.8,2026,5
+Simeon Woods Richardson,680573,Road,2,1,5,0.833,2026,6
 Slade Cecconi,677944,Road,2,1,7,0.875,2026,8
 Sonny Gray,543243,Road,2,1,3,0.75,2026,4
-Spencer Arrighetti,681293,Road,2,0,4,1.0,2026,4
+Spencer Arrighetti,681293,Road,2,1,4,0.8,2026,5
 Spencer Strider,675911,Road,2,0,4,1.0,2026,4
 Stephen Kolek,663568,Road,2,0,2,1.0,2026,2
 Steven Matz,571927,Road,2,1,4,0.8,2026,5
@@ -1185,9 +1187,9 @@ Chad Patrick,694477,Total,2,1,5,0.833,2026,6
 Chase Burns,695505,Total,2,1,10,0.909,2026,11
 Chase Dollander,801403,Total,2,0,3,1.0,2026,3
 Chase Petty,695534,Total,2,1,1,0.5,2026,2
-Chris Bassitt,605135,Total,2,5,3,0.375,2026,8
+Chris Bassitt,605135,Total,2,5,4,0.444,2026,9
 Chris Paddack,663978,Total,2,3,5,0.625,2026,8
-Chris Sale,519242,Total,2,2,8,0.8,2026,10
+Chris Sale,519242,Total,2,2,9,0.818,2026,11
 Christian Scott,681035,Total,2,1,5,0.833,2026,6
 Clay Holmes,605280,Total,2,1,8,0.889,2026,9
 Cody Bolton,675989,Total,2,0,3,1.0,2026,3
@@ -1195,7 +1197,7 @@ Cody Ponce,664074,Total,2,0,1,1.0,2026,1
 Cole Ragans,666142,Total,2,2,5,0.714,2026,7
 Cole Sulser,642121,Total,2,0,1,1.0,2026,1
 Coleman Crow,689441,Total,2,0,2,1.0,2026,2
-Colin Rea,607067,Total,2,1,7,0.875,2026,8
+Colin Rea,607067,Total,2,1,8,0.889,2026,9
 Colton Gordon,676467,Total,2,1,0,0.0,2026,1
 Connelly Early,813349,Total,2,3,8,0.727,2026,11
 Connor Prielipp,687570,Total,2,2,5,0.714,2026,7
@@ -1204,7 +1206,7 @@ Cristopher Sanchez,650911,Total,2,2,10,0.833,2026,12
 DL Hall,669084,Total,2,0,1,1.0,2026,1
 David Peterson,656849,Total,2,1,6,0.857,2026,7
 David Sandlin,689818,Total,2,0,1,1.0,2026,1
-Davis Martin,663436,Total,2,0,10,1.0,2026,10
+Davis Martin,663436,Total,2,0,11,1.0,2026,11
 Dean Kremer,665152,Total,2,0,2,1.0,2026,2
 Didier Fuentes,800311,Total,2,0,1,1.0,2026,1
 Drew Anderson,623454,Total,2,0,1,1.0,2026,1
@@ -1231,7 +1233,7 @@ German Marquez,608566,Total,2,2,4,0.667,2026,6
 Gerrit Cole,543037,Total,2,0,2,1.0,2026,2
 Grant Holmes,656550,Total,2,2,8,0.8,2026,10
 Grant Taylor,691799,Total,2,0,1,1.0,2026,1
-Grayson Rodriguez,680570,Total,2,1,1,0.5,2026,2
+Grayson Rodriguez,680570,Total,2,2,1,0.333,2026,3
 Griffin Canning,656288,Total,2,1,4,0.8,2026,5
 Griffin Jax,643377,Total,2,2,4,0.667,2026,6
 Huascar Brazoban,623211,Total,2,0,2,1.0,2026,2
@@ -1240,7 +1242,7 @@ Hunter Dobbins,690928,Total,2,0,1,1.0,2026,1
 Ian Seymour,693855,Total,2,1,0,0.0,2026,1
 J.T. Ginn,669372,Total,2,3,6,0.667,2026,9
 JR Ritchie,702275,Total,2,2,3,0.6,2026,5
-Jack Flaherty,656427,Total,2,3,8,0.727,2026,11
+Jack Flaherty,656427,Total,2,3,9,0.75,2026,12
 Jack Kochanowicz,686799,Total,2,4,7,0.636,2026,11
 Jack Leiter,683004,Total,2,0,11,1.0,2026,11
 Jacob Latz,656641,Total,2,0,1,1.0,2026,1
@@ -1310,7 +1312,7 @@ Mick Abel,690953,Total,2,1,2,0.667,2026,3
 Mike Burrows,681347,Total,2,4,7,0.636,2026,11
 Miles Mikolas,571945,Total,2,2,4,0.667,2026,6
 Mitch Keller,656605,Total,2,0,11,1.0,2026,11
-Nathan Eovaldi,543135,Total,2,1,9,0.9,2026,10
+Nathan Eovaldi,543135,Total,2,1,10,0.909,2026,11
 Nick Lodolo,666157,Total,2,2,2,0.5,2026,4
 Nick Martinez,607259,Total,2,3,7,0.7,2026,10
 Nick Pivetta,601713,Total,2,0,4,1.0,2026,4
@@ -1319,9 +1321,9 @@ Noah Schultz,702273,Total,2,2,6,0.75,2026,8
 Nolan McLean,690997,Total,2,3,8,0.727,2026,11
 PJ Poulin,676571,Total,2,1,2,0.667,2026,3
 Parker Messick,800048,Total,2,2,9,0.818,2026,11
-Patrick Corbin,571578,Total,2,0,9,1.0,2026,9
-Paul Skenes,694973,Total,2,0,10,1.0,2026,10
-Payton Tolle,801139,Total,2,1,5,0.833,2026,6
+Patrick Corbin,571578,Total,2,0,10,1.0,2026,10
+Paul Skenes,694973,Total,2,0,11,1.0,2026,11
+Payton Tolle,801139,Total,2,1,6,0.857,2026,7
 Peter Lambert,663567,Total,2,2,5,0.714,2026,7
 Randy Vasquez,681190,Total,2,5,6,0.545,2026,11
 Ranger Suarez,624133,Total,2,0,10,1.0,2026,10
@@ -1348,10 +1350,10 @@ Shane McClanahan,663556,Total,2,1,9,0.9,2026,10
 Shane Smith,681343,Total,2,2,1,0.333,2026,3
 Shohei Ohtani,660271,Total,2,2,7,0.778,2026,9
 Shota Imanaga,684007,Total,2,2,9,0.818,2026,11
-Simeon Woods Richardson,680573,Total,2,3,6,0.667,2026,9
+Simeon Woods Richardson,680573,Total,2,3,7,0.7,2026,10
 Slade Cecconi,677944,Total,2,1,10,0.909,2026,11
 Sonny Gray,543243,Total,2,1,8,0.889,2026,9
-Spencer Arrighetti,681293,Total,2,1,6,0.857,2026,7
+Spencer Arrighetti,681293,Total,2,2,6,0.75,2026,8
 Spencer Miles,693686,Total,2,0,1,1.0,2026,1
 Spencer Strider,675911,Total,2,0,5,1.0,2026,5
 Stephen Kolek,663568,Total,2,0,4,1.0,2026,4
@@ -1422,7 +1424,7 @@ Casey Mize,663554,Home,3,2,3,0.6,2026,5
 Chad Patrick,694477,Home,3,0,4,1.0,2026,4
 Chase Burns,695505,Home,3,2,4,0.667,2026,6
 Chase Petty,695534,Home,3,0,1,1.0,2026,1
-Chris Bassitt,605135,Home,3,0,3,1.0,2026,3
+Chris Bassitt,605135,Home,3,1,3,0.75,2026,4
 Chris Paddack,663978,Home,3,3,1,0.25,2026,4
 Chris Sale,519242,Home,3,0,5,1.0,2026,5
 Christian Scott,681035,Home,3,0,1,1.0,2026,1
@@ -1437,7 +1439,7 @@ Cristian Javier,664299,Home,3,1,0,0.0,2026,1
 Cristopher Sanchez,650911,Home,3,1,7,0.875,2026,8
 David Peterson,656849,Home,3,0,4,1.0,2026,4
 David Sandlin,689818,Home,3,0,1,1.0,2026,1
-Davis Martin,663436,Home,3,0,4,1.0,2026,4
+Davis Martin,663436,Home,3,0,5,1.0,2026,5
 Dean Kremer,665152,Home,3,1,0,0.0,2026,1
 Drew Anderson,623454,Home,3,0,1,1.0,2026,1
 Drew Rasmussen,656876,Home,3,1,3,0.75,2026,4
@@ -1468,7 +1470,7 @@ Griffin Jax,643377,Home,3,0,3,1.0,2026,3
 Hunter Brown,686613,Home,3,0,2,1.0,2026,2
 J.T. Ginn,669372,Home,3,1,2,0.667,2026,3
 JR Ritchie,702275,Home,3,1,1,0.5,2026,2
-Jack Flaherty,656427,Home,3,4,1,0.2,2026,5
+Jack Flaherty,656427,Home,3,4,2,0.333,2026,6
 Jack Kochanowicz,686799,Home,3,0,5,1.0,2026,5
 Jack Leiter,683004,Home,3,2,3,0.6,2026,5
 Jacob Lopez,682052,Home,3,2,2,0.5,2026,4
@@ -1531,7 +1533,7 @@ Mick Abel,690953,Home,3,1,2,0.667,2026,3
 Mike Burrows,681347,Home,3,1,4,0.8,2026,5
 Miles Mikolas,571945,Home,3,2,1,0.333,2026,3
 Mitch Keller,656605,Home,3,1,5,0.833,2026,6
-Nathan Eovaldi,543135,Home,3,0,3,1.0,2026,3
+Nathan Eovaldi,543135,Home,3,1,3,0.75,2026,4
 Nick Lodolo,666157,Home,3,1,1,0.5,2026,2
 Nick Martinez,607259,Home,3,1,3,0.75,2026,4
 Nick Pivetta,601713,Home,3,1,2,0.667,2026,3
@@ -1540,8 +1542,8 @@ Noah Schultz,702273,Home,3,1,2,0.667,2026,3
 Nolan McLean,690997,Home,3,2,4,0.667,2026,6
 Parker Messick,800048,Home,3,1,5,0.833,2026,6
 Patrick Corbin,571578,Home,3,1,3,0.75,2026,4
-Paul Skenes,694973,Home,3,1,5,0.833,2026,6
-Payton Tolle,801139,Home,3,1,2,0.667,2026,3
+Paul Skenes,694973,Home,3,1,6,0.857,2026,7
+Payton Tolle,801139,Home,3,1,3,0.75,2026,4
 Peter Lambert,663567,Home,3,2,2,0.5,2026,4
 Randy Vasquez,681190,Home,3,3,4,0.571,2026,7
 Ranger Suarez,624133,Home,3,1,5,0.833,2026,6
@@ -1630,13 +1632,13 @@ Chase Dollander,801403,Road,3,0,2,1.0,2026,2
 Chase Petty,695534,Road,3,0,1,1.0,2026,1
 Chris Bassitt,605135,Road,3,2,2,0.5,2026,4
 Chris Paddack,663978,Road,3,0,4,1.0,2026,4
-Chris Sale,519242,Road,3,1,4,0.8,2026,5
+Chris Sale,519242,Road,3,1,5,0.833,2026,6
 Christian Scott,681035,Road,3,2,2,0.5,2026,4
 Clay Holmes,605280,Road,3,1,4,0.8,2026,5
 Cody Bolton,675989,Road,3,0,2,1.0,2026,2
 Cole Ragans,666142,Road,3,1,3,0.75,2026,4
 Coleman Crow,689441,Road,3,0,2,1.0,2026,2
-Colin Rea,607067,Road,3,3,1,0.25,2026,4
+Colin Rea,607067,Road,3,3,2,0.4,2026,5
 Connelly Early,813349,Road,3,0,6,1.0,2026,6
 Connor Prielipp,687570,Road,3,1,3,0.75,2026,4
 Cristian Javier,664299,Road,3,1,0,0.0,2026,1
@@ -1666,6 +1668,7 @@ George Klassen,691946,Road,3,0,1,1.0,2026,1
 German Marquez,608566,Road,3,0,3,1.0,2026,3
 Gerrit Cole,543037,Road,3,0,1,1.0,2026,1
 Grant Holmes,656550,Road,3,0,4,1.0,2026,4
+Grayson Rodriguez,680570,Road,3,0,1,1.0,2026,1
 Griffin Jax,643377,Road,3,0,2,1.0,2026,2
 Hunter Dobbins,690928,Road,3,0,1,1.0,2026,1
 J.T. Ginn,669372,Road,3,0,6,1.0,2026,6
@@ -1738,7 +1741,7 @@ Noah Cameron,702070,Road,3,1,3,0.75,2026,4
 Noah Schultz,702273,Road,3,2,3,0.6,2026,5
 Nolan McLean,690997,Road,3,1,4,0.8,2026,5
 Parker Messick,800048,Road,3,0,5,1.0,2026,5
-Patrick Corbin,571578,Road,3,1,4,0.8,2026,5
+Patrick Corbin,571578,Road,3,1,5,0.833,2026,6
 Paul Skenes,694973,Road,3,0,4,1.0,2026,4
 Payton Tolle,801139,Road,3,0,3,1.0,2026,3
 Peter Lambert,663567,Road,3,0,3,1.0,2026,3
@@ -1764,10 +1767,10 @@ Shane McClanahan,663556,Road,3,1,4,0.8,2026,5
 Shane Smith,681343,Road,3,1,0,0.0,2026,1
 Shohei Ohtani,660271,Road,3,2,2,0.5,2026,4
 Shota Imanaga,684007,Road,3,0,4,1.0,2026,4
-Simeon Woods Richardson,680573,Road,3,3,2,0.4,2026,5
+Simeon Woods Richardson,680573,Road,3,4,2,0.333,2026,6
 Slade Cecconi,677944,Road,3,1,7,0.875,2026,8
 Sonny Gray,543243,Road,3,2,2,0.5,2026,4
-Spencer Arrighetti,681293,Road,3,1,3,0.75,2026,4
+Spencer Arrighetti,681293,Road,3,1,4,0.8,2026,5
 Spencer Strider,675911,Road,3,2,2,0.5,2026,4
 Stephen Kolek,663568,Road,3,0,2,1.0,2026,2
 Steven Matz,571927,Road,3,3,2,0.4,2026,5
@@ -1833,16 +1836,16 @@ Chad Patrick,694477,Total,3,0,6,1.0,2026,6
 Chase Burns,695505,Total,3,3,8,0.727,2026,11
 Chase Dollander,801403,Total,3,0,2,1.0,2026,2
 Chase Petty,695534,Total,3,0,2,1.0,2026,2
-Chris Bassitt,605135,Total,3,2,5,0.714,2026,7
+Chris Bassitt,605135,Total,3,3,5,0.625,2026,8
 Chris Paddack,663978,Total,3,3,5,0.625,2026,8
-Chris Sale,519242,Total,3,1,9,0.9,2026,10
+Chris Sale,519242,Total,3,1,10,0.909,2026,11
 Christian Scott,681035,Total,3,2,3,0.6,2026,5
 Clay Holmes,605280,Total,3,3,6,0.667,2026,9
 Cody Bolton,675989,Total,3,0,2,1.0,2026,2
 Cody Ponce,664074,Total,3,0,1,1.0,2026,1
 Cole Ragans,666142,Total,3,1,6,0.857,2026,7
 Coleman Crow,689441,Total,3,0,2,1.0,2026,2
-Colin Rea,607067,Total,3,4,4,0.5,2026,8
+Colin Rea,607067,Total,3,4,5,0.556,2026,9
 Colton Gordon,676467,Total,3,0,1,1.0,2026,1
 Connelly Early,813349,Total,3,1,10,0.909,2026,11
 Connor Prielipp,687570,Total,3,1,6,0.857,2026,7
@@ -1850,7 +1853,7 @@ Cristian Javier,664299,Total,3,2,0,0.0,2026,2
 Cristopher Sanchez,650911,Total,3,2,10,0.833,2026,12
 David Peterson,656849,Total,3,2,5,0.714,2026,7
 David Sandlin,689818,Total,3,0,1,1.0,2026,1
-Davis Martin,663436,Total,3,0,10,1.0,2026,10
+Davis Martin,663436,Total,3,0,11,1.0,2026,11
 Dean Kremer,665152,Total,3,1,1,0.5,2026,2
 Didier Fuentes,800311,Total,3,0,1,1.0,2026,1
 Drew Anderson,623454,Total,3,0,1,1.0,2026,1
@@ -1876,14 +1879,14 @@ George Klassen,691946,Total,3,0,2,1.0,2026,2
 German Marquez,608566,Total,3,2,4,0.667,2026,6
 Gerrit Cole,543037,Total,3,0,2,1.0,2026,2
 Grant Holmes,656550,Total,3,2,8,0.8,2026,10
-Grayson Rodriguez,680570,Total,3,0,2,1.0,2026,2
+Grayson Rodriguez,680570,Total,3,0,3,1.0,2026,3
 Griffin Canning,656288,Total,3,1,3,0.75,2026,4
 Griffin Jax,643377,Total,3,0,5,1.0,2026,5
 Hunter Brown,686613,Total,3,0,2,1.0,2026,2
 Hunter Dobbins,690928,Total,3,0,1,1.0,2026,1
 J.T. Ginn,669372,Total,3,1,8,0.889,2026,9
 JR Ritchie,702275,Total,3,1,4,0.8,2026,5
-Jack Flaherty,656427,Total,3,7,3,0.3,2026,10
+Jack Flaherty,656427,Total,3,7,4,0.364,2026,11
 Jack Kochanowicz,686799,Total,3,0,11,1.0,2026,11
 Jack Leiter,683004,Total,3,4,7,0.636,2026,11
 Jacob Latz,656641,Total,3,0,1,1.0,2026,1
@@ -1950,7 +1953,7 @@ Mick Abel,690953,Total,3,1,2,0.667,2026,3
 Mike Burrows,681347,Total,3,4,7,0.636,2026,11
 Miles Mikolas,571945,Total,3,3,3,0.5,2026,6
 Mitch Keller,656605,Total,3,3,8,0.727,2026,11
-Nathan Eovaldi,543135,Total,3,1,9,0.9,2026,10
+Nathan Eovaldi,543135,Total,3,2,9,0.818,2026,11
 Nick Lodolo,666157,Total,3,1,3,0.75,2026,4
 Nick Martinez,607259,Total,3,1,9,0.9,2026,10
 Nick Pivetta,601713,Total,3,1,3,0.75,2026,4
@@ -1958,9 +1961,9 @@ Noah Cameron,702070,Total,3,1,9,0.9,2026,10
 Noah Schultz,702273,Total,3,3,5,0.625,2026,8
 Nolan McLean,690997,Total,3,3,8,0.727,2026,11
 Parker Messick,800048,Total,3,1,10,0.909,2026,11
-Patrick Corbin,571578,Total,3,2,7,0.778,2026,9
-Paul Skenes,694973,Total,3,1,9,0.9,2026,10
-Payton Tolle,801139,Total,3,1,5,0.833,2026,6
+Patrick Corbin,571578,Total,3,2,8,0.8,2026,10
+Paul Skenes,694973,Total,3,1,10,0.909,2026,11
+Payton Tolle,801139,Total,3,1,6,0.857,2026,7
 Peter Lambert,663567,Total,3,2,5,0.714,2026,7
 Randy Vasquez,681190,Total,3,3,8,0.727,2026,11
 Ranger Suarez,624133,Total,3,2,8,0.8,2026,10
@@ -1986,10 +1989,10 @@ Shane McClanahan,663556,Total,3,2,8,0.8,2026,10
 Shane Smith,681343,Total,3,1,1,0.5,2026,2
 Shohei Ohtani,660271,Total,3,2,7,0.778,2026,9
 Shota Imanaga,684007,Total,3,1,10,0.909,2026,11
-Simeon Woods Richardson,680573,Total,3,4,5,0.556,2026,9
+Simeon Woods Richardson,680573,Total,3,5,5,0.5,2026,10
 Slade Cecconi,677944,Total,3,1,10,0.909,2026,11
 Sonny Gray,543243,Total,3,5,4,0.444,2026,9
-Spencer Arrighetti,681293,Total,3,1,6,0.857,2026,7
+Spencer Arrighetti,681293,Total,3,1,7,0.875,2026,8
 Spencer Miles,693686,Total,3,0,1,1.0,2026,1
 Spencer Strider,675911,Total,3,2,3,0.6,2026,5
 Stephen Kolek,663568,Total,3,0,4,1.0,2026,4
@@ -2052,7 +2055,7 @@ Casey Mize,663554,Home,4,1,4,0.8,2026,5
 Chad Patrick,694477,Home,4,2,2,0.5,2026,4
 Chase Burns,695505,Home,4,1,5,0.833,2026,6
 Chase Petty,695534,Home,4,0,1,1.0,2026,1
-Chris Bassitt,605135,Home,4,1,2,0.667,2026,3
+Chris Bassitt,605135,Home,4,1,3,0.75,2026,4
 Chris Paddack,663978,Home,4,3,0,0.0,2026,3
 Chris Sale,519242,Home,4,1,4,0.8,2026,5
 Christian Scott,681035,Home,4,0,1,1.0,2026,1
@@ -2066,7 +2069,7 @@ Cristian Javier,664299,Home,4,1,0,0.0,2026,1
 Cristopher Sanchez,650911,Home,4,1,7,0.875,2026,8
 David Peterson,656849,Home,4,2,2,0.5,2026,4
 David Sandlin,689818,Home,4,0,1,1.0,2026,1
-Davis Martin,663436,Home,4,1,3,0.75,2026,4
+Davis Martin,663436,Home,4,1,4,0.8,2026,5
 Dean Kremer,665152,Home,4,1,0,0.0,2026,1
 Drew Anderson,623454,Home,4,0,1,1.0,2026,1
 Drew Rasmussen,656876,Home,4,0,4,1.0,2026,4
@@ -2096,7 +2099,7 @@ Griffin Jax,643377,Home,4,0,1,1.0,2026,1
 Hunter Brown,686613,Home,4,0,2,1.0,2026,2
 J.T. Ginn,669372,Home,4,1,2,0.667,2026,3
 JR Ritchie,702275,Home,4,0,2,1.0,2026,2
-Jack Flaherty,656427,Home,4,1,4,0.8,2026,5
+Jack Flaherty,656427,Home,4,1,5,0.833,2026,6
 Jack Kochanowicz,686799,Home,4,2,3,0.6,2026,5
 Jack Leiter,683004,Home,4,3,2,0.4,2026,5
 Jacob Lopez,682052,Home,4,0,4,1.0,2026,4
@@ -2157,7 +2160,7 @@ Mick Abel,690953,Home,4,0,3,1.0,2026,3
 Mike Burrows,681347,Home,4,1,4,0.8,2026,5
 Miles Mikolas,571945,Home,4,1,1,0.5,2026,2
 Mitch Keller,656605,Home,4,1,5,0.833,2026,6
-Nathan Eovaldi,543135,Home,4,0,3,1.0,2026,3
+Nathan Eovaldi,543135,Home,4,0,4,1.0,2026,4
 Nick Lodolo,666157,Home,4,0,2,1.0,2026,2
 Nick Martinez,607259,Home,4,0,4,1.0,2026,4
 Nick Pivetta,601713,Home,4,0,2,1.0,2026,2
@@ -2166,8 +2169,8 @@ Noah Schultz,702273,Home,4,2,1,0.333,2026,3
 Nolan McLean,690997,Home,4,2,4,0.667,2026,6
 Parker Messick,800048,Home,4,0,6,1.0,2026,6
 Patrick Corbin,571578,Home,4,1,3,0.75,2026,4
-Paul Skenes,694973,Home,4,0,6,1.0,2026,6
-Payton Tolle,801139,Home,4,0,3,1.0,2026,3
+Paul Skenes,694973,Home,4,1,6,0.857,2026,7
+Payton Tolle,801139,Home,4,1,3,0.75,2026,4
 Peter Lambert,663567,Home,4,1,3,0.75,2026,4
 Randy Vasquez,681190,Home,4,2,5,0.714,2026,7
 Ranger Suarez,624133,Home,4,1,5,0.833,2026,6
@@ -2254,13 +2257,13 @@ Chase Dollander,801403,Road,4,0,2,1.0,2026,2
 Chase Petty,695534,Road,4,1,0,0.0,2026,1
 Chris Bassitt,605135,Road,4,1,3,0.75,2026,4
 Chris Paddack,663978,Road,4,0,4,1.0,2026,4
-Chris Sale,519242,Road,4,1,4,0.8,2026,5
+Chris Sale,519242,Road,4,2,4,0.667,2026,6
 Christian Scott,681035,Road,4,1,3,0.75,2026,4
 Clay Holmes,605280,Road,4,0,5,1.0,2026,5
 Cody Bolton,675989,Road,4,0,1,1.0,2026,1
 Cole Ragans,666142,Road,4,1,3,0.75,2026,4
 Coleman Crow,689441,Road,4,1,1,0.5,2026,2
-Colin Rea,607067,Road,4,2,2,0.5,2026,4
+Colin Rea,607067,Road,4,2,3,0.6,2026,5
 Connelly Early,813349,Road,4,1,5,0.833,2026,6
 Connor Prielipp,687570,Road,4,2,2,0.5,2026,4
 Cristian Javier,664299,Road,4,0,1,1.0,2026,1
@@ -2288,6 +2291,7 @@ George Kirby,669923,Road,4,2,3,0.6,2026,5
 German Marquez,608566,Road,4,0,3,1.0,2026,3
 Gerrit Cole,543037,Road,4,0,1,1.0,2026,1
 Grant Holmes,656550,Road,4,0,4,1.0,2026,4
+Grayson Rodriguez,680570,Road,4,0,1,1.0,2026,1
 Griffin Jax,643377,Road,4,0,2,1.0,2026,2
 Hunter Dobbins,690928,Road,4,1,0,0.0,2026,1
 J.T. Ginn,669372,Road,4,1,4,0.8,2026,5
@@ -2360,7 +2364,7 @@ Noah Cameron,702070,Road,4,1,3,0.75,2026,4
 Noah Schultz,702273,Road,4,0,5,1.0,2026,5
 Nolan McLean,690997,Road,4,2,3,0.6,2026,5
 Parker Messick,800048,Road,4,1,4,0.8,2026,5
-Patrick Corbin,571578,Road,4,3,2,0.4,2026,5
+Patrick Corbin,571578,Road,4,4,2,0.333,2026,6
 Paul Skenes,694973,Road,4,1,3,0.75,2026,4
 Payton Tolle,801139,Road,4,0,3,1.0,2026,3
 Peter Lambert,663567,Road,4,1,2,0.667,2026,3
@@ -2387,7 +2391,7 @@ Shota Imanaga,684007,Road,4,1,3,0.75,2026,4
 Simeon Woods Richardson,680573,Road,4,1,4,0.8,2026,5
 Slade Cecconi,677944,Road,4,3,5,0.625,2026,8
 Sonny Gray,543243,Road,4,1,3,0.75,2026,4
-Spencer Arrighetti,681293,Road,4,0,4,1.0,2026,4
+Spencer Arrighetti,681293,Road,4,0,5,1.0,2026,5
 Spencer Strider,675911,Road,4,1,3,0.75,2026,4
 Stephen Kolek,663568,Road,4,0,2,1.0,2026,2
 Steven Matz,571927,Road,4,1,3,0.75,2026,4
@@ -2448,15 +2452,15 @@ Chad Patrick,694477,Total,4,2,4,0.667,2026,6
 Chase Burns,695505,Total,4,1,10,0.909,2026,11
 Chase Dollander,801403,Total,4,0,2,1.0,2026,2
 Chase Petty,695534,Total,4,1,1,0.5,2026,2
-Chris Bassitt,605135,Total,4,2,5,0.714,2026,7
+Chris Bassitt,605135,Total,4,2,6,0.75,2026,8
 Chris Paddack,663978,Total,4,3,4,0.571,2026,7
-Chris Sale,519242,Total,4,2,8,0.8,2026,10
+Chris Sale,519242,Total,4,3,8,0.727,2026,11
 Christian Scott,681035,Total,4,1,4,0.8,2026,5
 Clay Holmes,605280,Total,4,1,8,0.889,2026,9
 Cody Bolton,675989,Total,4,0,1,1.0,2026,1
 Cole Ragans,666142,Total,4,2,4,0.667,2026,6
 Coleman Crow,689441,Total,4,1,1,0.5,2026,2
-Colin Rea,607067,Total,4,4,4,0.5,2026,8
+Colin Rea,607067,Total,4,4,5,0.556,2026,9
 Colton Gordon,676467,Total,4,1,0,0.0,2026,1
 Connelly Early,813349,Total,4,2,9,0.818,2026,11
 Connor Prielipp,687570,Total,4,3,4,0.571,2026,7
@@ -2464,7 +2468,7 @@ Cristian Javier,664299,Total,4,1,1,0.5,2026,2
 Cristopher Sanchez,650911,Total,4,2,10,0.833,2026,12
 David Peterson,656849,Total,4,2,5,0.714,2026,7
 David Sandlin,689818,Total,4,0,1,1.0,2026,1
-Davis Martin,663436,Total,4,4,6,0.6,2026,10
+Davis Martin,663436,Total,4,4,7,0.636,2026,11
 Dean Kremer,665152,Total,4,1,1,0.5,2026,2
 Drew Anderson,623454,Total,4,0,1,1.0,2026,1
 Drew Rasmussen,656876,Total,4,1,9,0.9,2026,10
@@ -2488,14 +2492,14 @@ George Kirby,669923,Total,4,3,8,0.727,2026,11
 German Marquez,608566,Total,4,0,5,1.0,2026,5
 Gerrit Cole,543037,Total,4,0,2,1.0,2026,2
 Grant Holmes,656550,Total,4,4,6,0.6,2026,10
-Grayson Rodriguez,680570,Total,4,2,0,0.0,2026,2
+Grayson Rodriguez,680570,Total,4,2,1,0.333,2026,3
 Griffin Canning,656288,Total,4,0,4,1.0,2026,4
 Griffin Jax,643377,Total,4,0,3,1.0,2026,3
 Hunter Brown,686613,Total,4,0,2,1.0,2026,2
 Hunter Dobbins,690928,Total,4,1,0,0.0,2026,1
 J.T. Ginn,669372,Total,4,2,6,0.75,2026,8
 JR Ritchie,702275,Total,4,2,3,0.6,2026,5
-Jack Flaherty,656427,Total,4,4,6,0.6,2026,10
+Jack Flaherty,656427,Total,4,4,7,0.636,2026,11
 Jack Kochanowicz,686799,Total,4,4,7,0.636,2026,11
 Jack Leiter,683004,Total,4,4,7,0.636,2026,11
 Jacob Latz,656641,Total,4,0,1,1.0,2026,1
@@ -2561,7 +2565,7 @@ Mick Abel,690953,Total,4,0,3,1.0,2026,3
 Mike Burrows,681347,Total,4,3,8,0.727,2026,11
 Miles Mikolas,571945,Total,4,3,2,0.4,2026,5
 Mitch Keller,656605,Total,4,4,7,0.636,2026,11
-Nathan Eovaldi,543135,Total,4,1,9,0.9,2026,10
+Nathan Eovaldi,543135,Total,4,1,10,0.909,2026,11
 Nick Lodolo,666157,Total,4,0,4,1.0,2026,4
 Nick Martinez,607259,Total,4,0,10,1.0,2026,10
 Nick Pivetta,601713,Total,4,0,3,1.0,2026,3
@@ -2569,9 +2573,9 @@ Noah Cameron,702070,Total,4,3,7,0.7,2026,10
 Noah Schultz,702273,Total,4,2,6,0.75,2026,8
 Nolan McLean,690997,Total,4,4,7,0.636,2026,11
 Parker Messick,800048,Total,4,1,10,0.909,2026,11
-Patrick Corbin,571578,Total,4,4,5,0.556,2026,9
-Paul Skenes,694973,Total,4,1,9,0.9,2026,10
-Payton Tolle,801139,Total,4,0,6,1.0,2026,6
+Patrick Corbin,571578,Total,4,5,5,0.5,2026,10
+Paul Skenes,694973,Total,4,2,9,0.818,2026,11
+Payton Tolle,801139,Total,4,1,6,0.857,2026,7
 Peter Lambert,663567,Total,4,2,5,0.714,2026,7
 Randy Vasquez,681190,Total,4,2,9,0.818,2026,11
 Ranger Suarez,624133,Total,4,1,9,0.9,2026,10
@@ -2599,7 +2603,7 @@ Shota Imanaga,684007,Total,4,2,9,0.818,2026,11
 Simeon Woods Richardson,680573,Total,4,4,5,0.556,2026,9
 Slade Cecconi,677944,Total,4,4,7,0.636,2026,11
 Sonny Gray,543243,Total,4,1,7,0.875,2026,8
-Spencer Arrighetti,681293,Total,4,0,7,1.0,2026,7
+Spencer Arrighetti,681293,Total,4,0,8,1.0,2026,8
 Spencer Strider,675911,Total,4,1,4,0.8,2026,5
 Stephen Kolek,663568,Total,4,1,3,0.75,2026,4
 Steven Matz,571927,Total,4,1,6,0.857,2026,7
@@ -2660,7 +2664,7 @@ Casey Mize,663554,Home,5,0,4,1.0,2026,4
 Chad Patrick,694477,Home,5,1,2,0.667,2026,3
 Chase Burns,695505,Home,5,2,4,0.667,2026,6
 Chase Petty,695534,Home,5,0,1,1.0,2026,1
-Chris Bassitt,605135,Home,5,0,3,1.0,2026,3
+Chris Bassitt,605135,Home,5,0,4,1.0,2026,4
 Chris Paddack,663978,Home,5,1,1,0.5,2026,2
 Chris Sale,519242,Home,5,0,5,1.0,2026,5
 Christian Scott,681035,Home,5,0,1,1.0,2026,1
@@ -2673,7 +2677,7 @@ Cristian Javier,664299,Home,5,1,0,0.0,2026,1
 Cristopher Sanchez,650911,Home,5,0,8,1.0,2026,8
 David Peterson,656849,Home,5,0,3,1.0,2026,3
 David Sandlin,689818,Home,5,0,1,1.0,2026,1
-Davis Martin,663436,Home,5,0,4,1.0,2026,4
+Davis Martin,663436,Home,5,1,4,0.8,2026,5
 Dean Kremer,665152,Home,5,0,1,1.0,2026,1
 Drew Anderson,623454,Home,5,0,1,1.0,2026,1
 Drew Rasmussen,656876,Home,5,2,2,0.5,2026,4
@@ -2703,7 +2707,7 @@ Griffin Jax,643377,Home,5,0,1,1.0,2026,1
 Hunter Brown,686613,Home,5,1,1,0.5,2026,2
 J.T. Ginn,669372,Home,5,0,3,1.0,2026,3
 JR Ritchie,702275,Home,5,0,2,1.0,2026,2
-Jack Flaherty,656427,Home,5,2,2,0.5,2026,4
+Jack Flaherty,656427,Home,5,3,2,0.4,2026,5
 Jack Kochanowicz,686799,Home,5,0,5,1.0,2026,5
 Jack Leiter,683004,Home,5,1,4,0.8,2026,5
 Jacob Lopez,682052,Home,5,4,0,0.0,2026,4
@@ -2759,7 +2763,7 @@ Mick Abel,690953,Home,5,0,2,1.0,2026,2
 Mike Burrows,681347,Home,5,3,2,0.4,2026,5
 Miles Mikolas,571945,Home,5,2,0,0.0,2026,2
 Mitch Keller,656605,Home,5,3,2,0.4,2026,5
-Nathan Eovaldi,543135,Home,5,2,1,0.333,2026,3
+Nathan Eovaldi,543135,Home,5,2,2,0.5,2026,4
 Nick Lodolo,666157,Home,5,0,1,1.0,2026,1
 Nick Martinez,607259,Home,5,1,3,0.75,2026,4
 Nick Pivetta,601713,Home,5,0,1,1.0,2026,1
@@ -2768,8 +2772,8 @@ Noah Schultz,702273,Home,5,0,3,1.0,2026,3
 Nolan McLean,690997,Home,5,0,5,1.0,2026,5
 Parker Messick,800048,Home,5,2,4,0.667,2026,6
 Patrick Corbin,571578,Home,5,1,2,0.667,2026,3
-Paul Skenes,694973,Home,5,2,3,0.6,2026,5
-Payton Tolle,801139,Home,5,1,2,0.667,2026,3
+Paul Skenes,694973,Home,5,2,4,0.667,2026,6
+Payton Tolle,801139,Home,5,1,3,0.75,2026,4
 Peter Lambert,663567,Home,5,1,3,0.75,2026,4
 Randy Vasquez,681190,Home,5,0,6,1.0,2026,6
 Ranger Suarez,624133,Home,5,1,4,0.8,2026,5
@@ -2849,13 +2853,13 @@ Chase Dollander,801403,Road,5,0,2,1.0,2026,2
 Chase Petty,695534,Road,5,0,1,1.0,2026,1
 Chris Bassitt,605135,Road,5,0,3,1.0,2026,3
 Chris Paddack,663978,Road,5,1,2,0.667,2026,3
-Chris Sale,519242,Road,5,1,4,0.8,2026,5
+Chris Sale,519242,Road,5,1,5,0.833,2026,6
 Christian Scott,681035,Road,5,0,3,1.0,2026,3
 Clay Holmes,605280,Road,5,0,5,1.0,2026,5
 Cody Bolton,675989,Road,5,0,1,1.0,2026,1
 Cole Ragans,666142,Road,5,2,1,0.333,2026,3
 Coleman Crow,689441,Road,5,0,2,1.0,2026,2
-Colin Rea,607067,Road,5,1,2,0.667,2026,3
+Colin Rea,607067,Road,5,1,3,0.75,2026,4
 Connelly Early,813349,Road,5,2,4,0.667,2026,6
 Connor Prielipp,687570,Road,5,1,1,0.5,2026,2
 Cristopher Sanchez,650911,Road,5,1,3,0.75,2026,4
@@ -2882,6 +2886,7 @@ George Kirby,669923,Road,5,2,3,0.6,2026,5
 German Marquez,608566,Road,5,0,3,1.0,2026,3
 Gerrit Cole,543037,Road,5,0,1,1.0,2026,1
 Grant Holmes,656550,Road,5,0,4,1.0,2026,4
+Grayson Rodriguez,680570,Road,5,0,1,1.0,2026,1
 Griffin Jax,643377,Road,5,0,1,1.0,2026,1
 Hunter Dobbins,690928,Road,5,0,1,1.0,2026,1
 J.T. Ginn,669372,Road,5,0,3,1.0,2026,3
@@ -2953,7 +2958,7 @@ Noah Cameron,702070,Road,5,2,1,0.333,2026,3
 Noah Schultz,702273,Road,5,0,4,1.0,2026,4
 Nolan McLean,690997,Road,5,0,4,1.0,2026,4
 Parker Messick,800048,Road,5,1,4,0.8,2026,5
-Patrick Corbin,571578,Road,5,1,3,0.75,2026,4
+Patrick Corbin,571578,Road,5,1,4,0.8,2026,5
 Paul Skenes,694973,Road,5,0,4,1.0,2026,4
 Payton Tolle,801139,Road,5,0,3,1.0,2026,3
 Peter Lambert,663567,Road,5,0,3,1.0,2026,3
@@ -2976,7 +2981,7 @@ Shota Imanaga,684007,Road,5,0,4,1.0,2026,4
 Simeon Woods Richardson,680573,Road,5,1,3,0.75,2026,4
 Slade Cecconi,677944,Road,5,3,4,0.571,2026,7
 Sonny Gray,543243,Road,5,0,2,1.0,2026,2
-Spencer Arrighetti,681293,Road,5,2,2,0.5,2026,4
+Spencer Arrighetti,681293,Road,5,2,3,0.6,2026,5
 Spencer Strider,675911,Road,5,0,3,1.0,2026,3
 Stephen Kolek,663568,Road,5,1,1,0.5,2026,2
 Steven Matz,571927,Road,5,1,3,0.75,2026,4
@@ -3037,22 +3042,22 @@ Chad Patrick,694477,Total,5,1,3,0.75,2026,4
 Chase Burns,695505,Total,5,2,9,0.818,2026,11
 Chase Dollander,801403,Total,5,0,2,1.0,2026,2
 Chase Petty,695534,Total,5,0,2,1.0,2026,2
-Chris Bassitt,605135,Total,5,0,6,1.0,2026,6
+Chris Bassitt,605135,Total,5,0,7,1.0,2026,7
 Chris Paddack,663978,Total,5,2,3,0.6,2026,5
-Chris Sale,519242,Total,5,1,9,0.9,2026,10
+Chris Sale,519242,Total,5,1,10,0.909,2026,11
 Christian Scott,681035,Total,5,0,4,1.0,2026,4
 Clay Holmes,605280,Total,5,0,9,1.0,2026,9
 Cody Bolton,675989,Total,5,0,1,1.0,2026,1
 Cole Ragans,666142,Total,5,2,3,0.6,2026,5
 Coleman Crow,689441,Total,5,0,2,1.0,2026,2
-Colin Rea,607067,Total,5,2,5,0.714,2026,7
+Colin Rea,607067,Total,5,2,6,0.75,2026,8
 Connelly Early,813349,Total,5,2,7,0.778,2026,9
 Connor Prielipp,687570,Total,5,2,3,0.6,2026,5
 Cristian Javier,664299,Total,5,1,0,0.0,2026,1
 Cristopher Sanchez,650911,Total,5,1,11,0.917,2026,12
 David Peterson,656849,Total,5,1,5,0.833,2026,6
 David Sandlin,689818,Total,5,0,1,1.0,2026,1
-Davis Martin,663436,Total,5,2,8,0.8,2026,10
+Davis Martin,663436,Total,5,3,8,0.727,2026,11
 Dean Kremer,665152,Total,5,1,1,0.5,2026,2
 Drew Anderson,623454,Total,5,0,1,1.0,2026,1
 Drew Rasmussen,656876,Total,5,3,6,0.667,2026,9
@@ -3076,14 +3081,14 @@ George Kirby,669923,Total,5,4,7,0.636,2026,11
 German Marquez,608566,Total,5,1,4,0.8,2026,5
 Gerrit Cole,543037,Total,5,0,2,1.0,2026,2
 Grant Holmes,656550,Total,5,3,5,0.625,2026,8
-Grayson Rodriguez,680570,Total,5,0,1,1.0,2026,1
+Grayson Rodriguez,680570,Total,5,0,2,1.0,2026,2
 Griffin Canning,656288,Total,5,2,2,0.5,2026,4
 Griffin Jax,643377,Total,5,0,2,1.0,2026,2
 Hunter Brown,686613,Total,5,1,1,0.5,2026,2
 Hunter Dobbins,690928,Total,5,0,1,1.0,2026,1
 J.T. Ginn,669372,Total,5,0,6,1.0,2026,6
 JR Ritchie,702275,Total,5,0,4,1.0,2026,4
-Jack Flaherty,656427,Total,5,2,4,0.667,2026,6
+Jack Flaherty,656427,Total,5,3,4,0.571,2026,7
 Jack Kochanowicz,686799,Total,5,4,7,0.636,2026,11
 Jack Leiter,683004,Total,5,5,5,0.5,2026,10
 Jacob Latz,656641,Total,5,0,1,1.0,2026,1
@@ -3144,7 +3149,7 @@ Mick Abel,690953,Total,5,0,2,1.0,2026,2
 Mike Burrows,681347,Total,5,4,7,0.636,2026,11
 Miles Mikolas,571945,Total,5,3,0,0.0,2026,3
 Mitch Keller,656605,Total,5,3,7,0.7,2026,10
-Nathan Eovaldi,543135,Total,5,4,6,0.6,2026,10
+Nathan Eovaldi,543135,Total,5,4,7,0.636,2026,11
 Nick Lodolo,666157,Total,5,0,3,1.0,2026,3
 Nick Martinez,607259,Total,5,2,8,0.8,2026,10
 Nick Pivetta,601713,Total,5,1,1,0.5,2026,2
@@ -3152,9 +3157,9 @@ Noah Cameron,702070,Total,5,3,6,0.667,2026,9
 Noah Schultz,702273,Total,5,0,7,1.0,2026,7
 Nolan McLean,690997,Total,5,0,9,1.0,2026,9
 Parker Messick,800048,Total,5,3,8,0.727,2026,11
-Patrick Corbin,571578,Total,5,2,5,0.714,2026,7
-Paul Skenes,694973,Total,5,2,7,0.778,2026,9
-Payton Tolle,801139,Total,5,1,5,0.833,2026,6
+Patrick Corbin,571578,Total,5,2,6,0.75,2026,8
+Paul Skenes,694973,Total,5,2,8,0.8,2026,10
+Payton Tolle,801139,Total,5,1,6,0.857,2026,7
 Peter Lambert,663567,Total,5,1,6,0.857,2026,7
 Randy Vasquez,681190,Total,5,0,10,1.0,2026,10
 Ranger Suarez,624133,Total,5,2,7,0.778,2026,9
@@ -3178,7 +3183,7 @@ Shota Imanaga,684007,Total,5,1,10,0.909,2026,11
 Simeon Woods Richardson,680573,Total,5,3,4,0.571,2026,7
 Slade Cecconi,677944,Total,5,4,5,0.556,2026,9
 Sonny Gray,543243,Total,5,1,4,0.8,2026,5
-Spencer Arrighetti,681293,Total,5,2,5,0.714,2026,7
+Spencer Arrighetti,681293,Total,5,2,6,0.75,2026,8
 Spencer Strider,675911,Total,5,0,4,1.0,2026,4
 Stephen Kolek,663568,Total,5,1,3,0.75,2026,4
 Steven Matz,571927,Total,5,1,5,0.833,2026,6
@@ -3233,7 +3238,7 @@ Casey Mize,663554,Home,6,0,4,1.0,2026,4
 Chad Patrick,694477,Home,6,0,1,1.0,2026,1
 Chase Burns,695505,Home,6,1,4,0.8,2026,5
 Chase Petty,695534,Home,6,0,1,1.0,2026,1
-Chris Bassitt,605135,Home,6,0,1,1.0,2026,1
+Chris Bassitt,605135,Home,6,0,2,1.0,2026,2
 Chris Sale,519242,Home,6,2,3,0.6,2026,5
 Clay Holmes,605280,Home,6,1,2,0.667,2026,3
 Cole Ragans,666142,Home,6,0,2,1.0,2026,2
@@ -3243,7 +3248,7 @@ Connor Prielipp,687570,Home,6,1,0,0.0,2026,1
 Cristopher Sanchez,650911,Home,6,0,8,1.0,2026,8
 David Peterson,656849,Home,6,0,2,1.0,2026,2
 David Sandlin,689818,Home,6,0,1,1.0,2026,1
-Davis Martin,663436,Home,6,1,3,0.75,2026,4
+Davis Martin,663436,Home,6,1,4,0.8,2026,5
 Drew Rasmussen,656876,Home,6,0,4,1.0,2026,4
 Dustin May,669160,Home,6,2,3,0.6,2026,5
 Dylan Cease,656302,Home,6,1,4,0.8,2026,5
@@ -3267,7 +3272,7 @@ Griffin Canning,656288,Home,6,0,1,1.0,2026,1
 Hunter Brown,686613,Home,6,0,1,1.0,2026,1
 J.T. Ginn,669372,Home,6,0,2,1.0,2026,2
 JR Ritchie,702275,Home,6,0,1,1.0,2026,1
-Jack Flaherty,656427,Home,6,0,2,1.0,2026,2
+Jack Flaherty,656427,Home,6,0,3,1.0,2026,3
 Jack Kochanowicz,686799,Home,6,1,4,0.8,2026,5
 Jack Leiter,683004,Home,6,0,2,1.0,2026,2
 Jacob Lopez,682052,Home,6,2,0,0.0,2026,2
@@ -3317,7 +3322,7 @@ Mick Abel,690953,Home,6,0,2,1.0,2026,2
 Mike Burrows,681347,Home,6,0,2,1.0,2026,2
 Miles Mikolas,571945,Home,6,0,1,1.0,2026,1
 Mitch Keller,656605,Home,6,1,4,0.8,2026,5
-Nathan Eovaldi,543135,Home,6,0,3,1.0,2026,3
+Nathan Eovaldi,543135,Home,6,0,4,1.0,2026,4
 Nick Lodolo,666157,Home,6,1,0,0.0,2026,1
 Nick Martinez,607259,Home,6,0,2,1.0,2026,2
 Noah Cameron,702070,Home,6,0,4,1.0,2026,4
@@ -3325,7 +3330,7 @@ Noah Schultz,702273,Home,6,0,1,1.0,2026,1
 Nolan McLean,690997,Home,6,1,3,0.75,2026,4
 Parker Messick,800048,Home,6,1,3,0.75,2026,4
 Patrick Corbin,571578,Home,6,1,0,0.0,2026,1
-Paul Skenes,694973,Home,6,1,3,0.75,2026,4
+Paul Skenes,694973,Home,6,1,4,0.8,2026,5
 Payton Tolle,801139,Home,6,0,2,1.0,2026,2
 Peter Lambert,663567,Home,6,0,3,1.0,2026,3
 Randy Vasquez,681190,Home,6,0,3,1.0,2026,3
@@ -3406,6 +3411,7 @@ Christian Scott,681035,Road,6,0,1,1.0,2026,1
 Clay Holmes,605280,Road,6,0,4,1.0,2026,4
 Cole Ragans,666142,Road,6,0,2,1.0,2026,2
 Coleman Crow,689441,Road,6,0,2,1.0,2026,2
+Colin Rea,607067,Road,6,1,0,0.0,2026,1
 Connelly Early,813349,Road,6,1,3,0.75,2026,4
 Cristopher Sanchez,650911,Road,6,0,4,1.0,2026,4
 Davis Martin,663436,Road,6,1,4,0.8,2026,5
@@ -3486,7 +3492,7 @@ Noah Cameron,702070,Road,6,0,3,1.0,2026,3
 Noah Schultz,702273,Road,6,1,1,0.5,2026,2
 Nolan McLean,690997,Road,6,0,4,1.0,2026,4
 Parker Messick,800048,Road,6,0,3,1.0,2026,3
-Patrick Corbin,571578,Road,6,0,3,1.0,2026,3
+Patrick Corbin,571578,Road,6,0,4,1.0,2026,4
 Paul Skenes,694973,Road,6,1,2,0.667,2026,3
 Payton Tolle,801139,Road,6,1,1,0.5,2026,2
 Peter Lambert,663567,Road,6,0,1,1.0,2026,1
@@ -3507,7 +3513,7 @@ Shohei Ohtani,660271,Road,6,0,3,1.0,2026,3
 Shota Imanaga,684007,Road,6,0,4,1.0,2026,4
 Slade Cecconi,677944,Road,6,2,4,0.667,2026,6
 Sonny Gray,543243,Road,6,0,1,1.0,2026,1
-Spencer Arrighetti,681293,Road,6,0,1,1.0,2026,1
+Spencer Arrighetti,681293,Road,6,0,2,1.0,2026,2
 Spencer Strider,675911,Road,6,0,3,1.0,2026,3
 Stephen Kolek,663568,Road,6,0,1,1.0,2026,1
 Steven Matz,571927,Road,6,0,3,1.0,2026,3
@@ -3560,20 +3566,20 @@ Chad Patrick,694477,Total,6,0,1,1.0,2026,1
 Chase Burns,695505,Total,6,3,7,0.7,2026,10
 Chase Dollander,801403,Total,6,1,1,0.5,2026,2
 Chase Petty,695534,Total,6,0,2,1.0,2026,2
-Chris Bassitt,605135,Total,6,1,1,0.5,2026,2
+Chris Bassitt,605135,Total,6,1,2,0.667,2026,3
 Chris Paddack,663978,Total,6,0,1,1.0,2026,1
 Chris Sale,519242,Total,6,3,6,0.667,2026,9
 Christian Scott,681035,Total,6,0,1,1.0,2026,1
 Clay Holmes,605280,Total,6,1,6,0.857,2026,7
 Cole Ragans,666142,Total,6,0,4,1.0,2026,4
 Coleman Crow,689441,Total,6,0,2,1.0,2026,2
-Colin Rea,607067,Total,6,0,4,1.0,2026,4
+Colin Rea,607067,Total,6,1,4,0.8,2026,5
 Connelly Early,813349,Total,6,2,5,0.714,2026,7
 Connor Prielipp,687570,Total,6,1,0,0.0,2026,1
 Cristopher Sanchez,650911,Total,6,0,12,1.0,2026,12
 David Peterson,656849,Total,6,0,2,1.0,2026,2
 David Sandlin,689818,Total,6,0,1,1.0,2026,1
-Davis Martin,663436,Total,6,2,7,0.778,2026,9
+Davis Martin,663436,Total,6,2,8,0.8,2026,10
 Dean Kremer,665152,Total,6,0,1,1.0,2026,1
 Drew Rasmussen,656876,Total,6,0,6,1.0,2026,6
 Dustin May,669160,Total,6,2,7,0.778,2026,9
@@ -3599,7 +3605,7 @@ Griffin Canning,656288,Total,6,0,1,1.0,2026,1
 Hunter Brown,686613,Total,6,0,1,1.0,2026,1
 J.T. Ginn,669372,Total,6,0,5,1.0,2026,5
 JR Ritchie,702275,Total,6,0,3,1.0,2026,3
-Jack Flaherty,656427,Total,6,0,3,1.0,2026,3
+Jack Flaherty,656427,Total,6,0,4,1.0,2026,4
 Jack Kochanowicz,686799,Total,6,1,7,0.875,2026,8
 Jack Leiter,683004,Total,6,1,5,0.833,2026,6
 Jacob Lopez,682052,Total,6,3,2,0.4,2026,5
@@ -3656,15 +3662,15 @@ Mick Abel,690953,Total,6,0,2,1.0,2026,2
 Mike Burrows,681347,Total,6,0,8,1.0,2026,8
 Miles Mikolas,571945,Total,6,0,1,1.0,2026,1
 Mitch Keller,656605,Total,6,1,9,0.9,2026,10
-Nathan Eovaldi,543135,Total,6,2,6,0.75,2026,8
+Nathan Eovaldi,543135,Total,6,2,7,0.778,2026,9
 Nick Lodolo,666157,Total,6,3,0,0.0,2026,3
 Nick Martinez,607259,Total,6,2,6,0.75,2026,8
 Noah Cameron,702070,Total,6,0,7,1.0,2026,7
 Noah Schultz,702273,Total,6,1,2,0.667,2026,3
 Nolan McLean,690997,Total,6,1,7,0.875,2026,8
 Parker Messick,800048,Total,6,1,6,0.857,2026,7
-Patrick Corbin,571578,Total,6,1,3,0.75,2026,4
-Paul Skenes,694973,Total,6,2,5,0.714,2026,7
+Patrick Corbin,571578,Total,6,1,4,0.8,2026,5
+Paul Skenes,694973,Total,6,2,6,0.75,2026,8
 Payton Tolle,801139,Total,6,1,3,0.75,2026,4
 Peter Lambert,663567,Total,6,0,4,1.0,2026,4
 Randy Vasquez,681190,Total,6,1,6,0.857,2026,7
@@ -3687,7 +3693,7 @@ Shota Imanaga,684007,Total,6,2,8,0.8,2026,10
 Simeon Woods Richardson,680573,Total,6,0,1,1.0,2026,1
 Slade Cecconi,677944,Total,6,2,5,0.714,2026,7
 Sonny Gray,543243,Total,6,0,4,1.0,2026,4
-Spencer Arrighetti,681293,Total,6,1,3,0.75,2026,4
+Spencer Arrighetti,681293,Total,6,1,4,0.8,2026,5
 Spencer Strider,675911,Total,6,0,4,1.0,2026,4
 Stephen Kolek,663568,Total,6,0,3,1.0,2026,3
 Steven Matz,571927,Total,6,0,4,1.0,2026,4
@@ -3773,7 +3779,7 @@ Michael Soroka,647336,Home,7,0,2,1.0,2026,2
 Michael Wacha,608379,Home,7,0,4,1.0,2026,4
 Mick Abel,690953,Home,7,0,1,1.0,2026,1
 Mitch Keller,656605,Home,7,0,2,1.0,2026,2
-Nathan Eovaldi,543135,Home,7,0,1,1.0,2026,1
+Nathan Eovaldi,543135,Home,7,0,2,1.0,2026,2
 Nick Martinez,607259,Home,7,0,1,1.0,2026,1
 Noah Cameron,702070,Home,7,0,1,1.0,2026,1
 Nolan McLean,690997,Home,7,1,2,0.667,2026,3
@@ -3974,7 +3980,7 @@ Michael Wacha,608379,Total,7,0,5,1.0,2026,5
 Mick Abel,690953,Total,7,0,1,1.0,2026,1
 Mike Burrows,681347,Total,7,0,2,1.0,2026,2
 Mitch Keller,656605,Total,7,0,3,1.0,2026,3
-Nathan Eovaldi,543135,Total,7,0,5,1.0,2026,5
+Nathan Eovaldi,543135,Total,7,0,6,1.0,2026,6
 Nick Martinez,607259,Total,7,0,2,1.0,2026,2
 Noah Cameron,702070,Total,7,0,1,1.0,2026,1
 Nolan McLean,690997,Total,7,1,3,0.75,2026,4
@@ -16421,7 +16427,7 @@ Chase Dollander,801403,Home,1,4,7,0.636,2024-2026,11
 Chase Petty,695534,Home,1,1,1,0.5,2024-2026,2
 Chase Silseth,681217,Home,1,0,1,1.0,2024-2026,1
 Chayce McDermott,694646,Home,1,1,0,0.0,2024-2026,1
-Chris Bassitt,605135,Home,1,8,29,0.784,2024-2026,37
+Chris Bassitt,605135,Home,1,8,30,0.789,2024-2026,38
 Chris Devenski,606965,Home,1,0,1,1.0,2024-2026,1
 Chris Flexen,623167,Home,1,6,11,0.647,2024-2026,17
 Chris Paddack,663978,Home,1,8,17,0.68,2024-2026,25
@@ -16461,7 +16467,7 @@ David Morgan,688158,Home,1,1,0,0.0,2024-2026,1
 David Peterson,656849,Home,1,6,22,0.786,2024-2026,28
 David Sandlin,689818,Home,1,1,0,0.0,2024-2026,1
 Davis Daniel,669721,Home,1,2,3,0.6,2024-2026,5
-Davis Martin,663436,Home,1,7,14,0.667,2024-2026,21
+Davis Martin,663436,Home,1,7,15,0.682,2024-2026,22
 Dean Kremer,665152,Home,1,5,19,0.792,2024-2026,24
 Didier Fuentes,800311,Home,1,1,0,0.0,2024-2026,1
 Dietrich Enns,608650,Home,1,1,1,0.5,2024-2026,2
@@ -16525,7 +16531,7 @@ JP Sears,676664,Home,1,6,22,0.786,2024-2026,28
 JR Ritchie,702275,Home,1,0,2,1.0,2024-2026,2
 JT Brubaker,664141,Home,1,0,1,1.0,2024-2026,1
 Jack Dreyer,676263,Home,1,3,0,0.0,2024-2026,3
-Jack Flaherty,656427,Home,1,7,27,0.794,2024-2026,34
+Jack Flaherty,656427,Home,1,7,28,0.8,2024-2026,35
 Jack Kochanowicz,686799,Home,1,8,12,0.6,2024-2026,20
 Jack Leiter,683004,Home,1,4,18,0.818,2024-2026,22
 Jack Perkins,678022,Home,1,0,2,1.0,2024-2026,2
@@ -16667,7 +16673,7 @@ Mitch Keller,656605,Home,1,7,31,0.816,2024-2026,38
 Mitch Spence,687765,Home,1,5,10,0.667,2024-2026,15
 Mitchell Parker,680730,Home,1,8,24,0.75,2024-2026,32
 Nabil Crismatt,622503,Home,1,0,1,1.0,2024-2026,1
-Nathan Eovaldi,543135,Home,1,6,24,0.8,2024-2026,30
+Nathan Eovaldi,543135,Home,1,7,24,0.774,2024-2026,31
 Nestor Cortes,641482,Home,1,3,16,0.842,2024-2026,19
 Nick Lodolo,666157,Home,1,9,17,0.654,2024-2026,26
 Nick Martinez,607259,Home,1,4,21,0.84,2024-2026,25
@@ -16685,8 +16691,8 @@ Parker Messick,800048,Home,1,2,7,0.778,2024-2026,9
 Patrick Corbin,571578,Home,1,6,28,0.824,2024-2026,34
 Patrick Sandoval,663776,Home,1,0,8,1.0,2024-2026,8
 Paul Blackburn,621112,Home,1,1,7,0.875,2024-2026,8
-Paul Skenes,694973,Home,1,6,27,0.818,2024-2026,33
-Payton Tolle,801139,Home,1,1,3,0.75,2024-2026,4
+Paul Skenes,694973,Home,1,6,28,0.824,2024-2026,34
+Payton Tolle,801139,Home,1,1,4,0.8,2024-2026,5
 Peter Lambert,663567,Home,1,1,5,0.833,2024-2026,6
 Pierson Ohl,701487,Home,1,1,1,0.5,2024-2026,2
 Quinn Priester,682990,Home,1,2,11,0.846,2024-2026,13
@@ -16923,7 +16929,7 @@ Chayce McDermott,694646,Road,1,0,1,1.0,2024-2026,1
 Chris Bassitt,605135,Road,1,14,19,0.576,2024-2026,33
 Chris Flexen,623167,Road,1,4,10,0.714,2024-2026,14
 Chris Paddack,663978,Road,1,12,16,0.571,2024-2026,28
-Chris Sale,519242,Road,1,9,22,0.71,2024-2026,31
+Chris Sale,519242,Road,1,9,23,0.719,2024-2026,32
 Christian Scott,681035,Road,1,2,7,0.778,2024-2026,9
 Clarke Schmidt,657376,Road,1,4,10,0.714,2024-2026,14
 Clay Holmes,605280,Road,1,5,16,0.762,2024-2026,21
@@ -16935,7 +16941,7 @@ Cole Irvin,608344,Road,1,0,7,1.0,2024-2026,7
 Cole Ragans,666142,Road,1,7,19,0.731,2024-2026,26
 Cole Sulser,642121,Road,1,0,2,1.0,2024-2026,2
 Coleman Crow,689441,Road,1,0,2,1.0,2024-2026,2
-Colin Rea,607067,Road,1,8,18,0.692,2024-2026,26
+Colin Rea,607067,Road,1,8,19,0.704,2024-2026,27
 Colton Gordon,676467,Road,1,3,4,0.571,2024-2026,7
 Connelly Early,813349,Road,1,4,4,0.5,2024-2026,8
 Connor Gillispie,687362,Road,1,3,0,0.0,2024-2026,3
@@ -16998,7 +17004,7 @@ Graham Ashcraft,668933,Road,1,2,7,0.778,2024-2026,9
 Grant Holman,680880,Road,1,0,1,1.0,2024-2026,1
 Grant Holmes,656550,Road,1,6,12,0.667,2024-2026,18
 Grant Taylor,691799,Road,1,0,2,1.0,2024-2026,2
-Grayson Rodriguez,680570,Road,1,4,6,0.6,2024-2026,10
+Grayson Rodriguez,680570,Road,1,4,7,0.636,2024-2026,11
 Griffin Canning,656288,Road,1,9,13,0.591,2024-2026,22
 Griffin Jax,643377,Road,1,0,4,1.0,2024-2026,4
 Gunnar Hoglund,680684,Road,1,2,1,0.333,2024-2026,3
@@ -17176,7 +17182,7 @@ PJ Poulin,676571,Road,1,1,4,0.8,2024-2026,5
 Pablo Lopez,641154,Road,1,7,18,0.72,2024-2026,25
 Paolo Espino,502179,Road,1,1,0,0.0,2024-2026,1
 Parker Messick,800048,Road,1,2,7,0.778,2024-2026,9
-Patrick Corbin,571578,Road,1,11,26,0.703,2024-2026,37
+Patrick Corbin,571578,Road,1,11,27,0.711,2024-2026,38
 Patrick Sandoval,663776,Road,1,3,5,0.625,2024-2026,8
 Paul Blackburn,621112,Road,1,5,6,0.545,2024-2026,11
 Paul Skenes,694973,Road,1,5,28,0.848,2024-2026,33
@@ -17244,11 +17250,11 @@ Shawn Dubin,681869,Road,1,0,2,1.0,2024-2026,2
 Shinnosuke Ogasawara,829272,Road,1,0,1,1.0,2024-2026,1
 Shohei Ohtani,660271,Road,1,1,10,0.909,2024-2026,11
 Shota Imanaga,684007,Road,1,10,20,0.667,2024-2026,30
-Simeon Woods Richardson,680573,Road,1,4,26,0.867,2024-2026,30
+Simeon Woods Richardson,680573,Road,1,5,26,0.839,2024-2026,31
 Sixto Sanchez,664350,Road,1,2,2,0.5,2024-2026,4
 Slade Cecconi,677944,Road,1,5,22,0.815,2024-2026,27
 Sonny Gray,543243,Road,1,10,18,0.643,2024-2026,28
-Spencer Arrighetti,681293,Road,1,9,14,0.609,2024-2026,23
+Spencer Arrighetti,681293,Road,1,9,15,0.625,2024-2026,24
 Spencer Bivens,702352,Road,1,0,1,1.0,2024-2026,1
 Spencer Howard,675921,Road,1,2,0,0.0,2024-2026,2
 Spencer Schwellenbach,680885,Road,1,2,15,0.882,2024-2026,17
@@ -17428,11 +17434,11 @@ Chase Dollander,801403,Total,1,9,15,0.625,2024-2026,24
 Chase Petty,695534,Total,1,1,3,0.75,2024-2026,4
 Chase Silseth,681217,Total,1,1,1,0.5,2024-2026,2
 Chayce McDermott,694646,Total,1,1,1,0.5,2024-2026,2
-Chris Bassitt,605135,Total,1,22,48,0.686,2024-2026,70
+Chris Bassitt,605135,Total,1,22,49,0.69,2024-2026,71
 Chris Devenski,606965,Total,1,0,1,1.0,2024-2026,1
 Chris Flexen,623167,Total,1,10,21,0.677,2024-2026,31
 Chris Paddack,663978,Total,1,20,33,0.623,2024-2026,53
-Chris Sale,519242,Total,1,16,43,0.729,2024-2026,59
+Chris Sale,519242,Total,1,16,44,0.733,2024-2026,60
 Christian Scott,681035,Total,1,4,11,0.733,2024-2026,15
 Clarke Schmidt,657376,Total,1,7,23,0.767,2024-2026,30
 Clay Holmes,605280,Total,1,9,31,0.775,2024-2026,40
@@ -17446,7 +17452,7 @@ Cole Ragans,666142,Total,1,13,40,0.755,2024-2026,53
 Cole Sands,663485,Total,1,1,2,0.667,2024-2026,3
 Cole Sulser,642121,Total,1,0,3,1.0,2024-2026,3
 Coleman Crow,689441,Total,1,0,2,1.0,2024-2026,2
-Colin Rea,607067,Total,1,23,39,0.629,2024-2026,62
+Colin Rea,607067,Total,1,23,40,0.635,2024-2026,63
 Colton Gordon,676467,Total,1,6,9,0.6,2024-2026,15
 Connelly Early,813349,Total,1,5,10,0.667,2024-2026,15
 Connor Gillispie,687362,Total,1,4,2,0.333,2024-2026,6
@@ -17472,7 +17478,7 @@ David Morgan,688158,Total,1,1,1,0.5,2024-2026,2
 David Peterson,656849,Total,1,12,46,0.793,2024-2026,58
 David Sandlin,689818,Total,1,1,0,0.0,2024-2026,1
 Davis Daniel,669721,Total,1,3,5,0.625,2024-2026,8
-Davis Martin,663436,Total,1,15,30,0.667,2024-2026,45
+Davis Martin,663436,Total,1,15,31,0.674,2024-2026,46
 Dean Kremer,665152,Total,1,14,41,0.745,2024-2026,55
 Didier Fuentes,800311,Total,1,3,2,0.4,2024-2026,5
 Dietrich Enns,608650,Total,1,2,1,0.333,2024-2026,3
@@ -17519,7 +17525,7 @@ Graham Ashcraft,668933,Total,1,3,12,0.8,2024-2026,15
 Grant Holman,680880,Total,1,0,2,1.0,2024-2026,2
 Grant Holmes,656550,Total,1,8,30,0.789,2024-2026,38
 Grant Taylor,691799,Total,1,1,5,0.833,2024-2026,6
-Grayson Rodriguez,680570,Total,1,7,15,0.682,2024-2026,22
+Grayson Rodriguez,680570,Total,1,7,16,0.696,2024-2026,23
 Griffin Canning,656288,Total,1,20,32,0.615,2024-2026,52
 Griffin Jax,643377,Total,1,1,7,0.875,2024-2026,8
 Gunnar Hoglund,680684,Total,1,2,4,0.667,2024-2026,6
@@ -17541,7 +17547,7 @@ JP Sears,676664,Total,1,13,46,0.78,2024-2026,59
 JR Ritchie,702275,Total,1,1,4,0.8,2024-2026,5
 JT Brubaker,664141,Total,1,0,1,1.0,2024-2026,1
 Jack Dreyer,676263,Total,1,4,1,0.2,2024-2026,5
-Jack Flaherty,656427,Total,1,14,56,0.8,2024-2026,70
+Jack Flaherty,656427,Total,1,14,57,0.803,2024-2026,71
 Jack Kochanowicz,686799,Total,1,17,28,0.622,2024-2026,45
 Jack Leiter,683004,Total,1,14,32,0.696,2024-2026,46
 Jack Perkins,678022,Total,1,1,3,0.75,2024-2026,4
@@ -17702,7 +17708,7 @@ Mitch Spence,687765,Total,1,9,23,0.719,2024-2026,32
 Mitchell Parker,680730,Total,1,20,39,0.661,2024-2026,59
 Nabil Crismatt,622503,Total,1,1,4,0.8,2024-2026,5
 Nate Pearson,663878,Total,1,0,1,1.0,2024-2026,1
-Nathan Eovaldi,543135,Total,1,17,44,0.721,2024-2026,61
+Nathan Eovaldi,543135,Total,1,18,44,0.71,2024-2026,62
 Nestor Cortes,641482,Total,1,13,25,0.658,2024-2026,38
 Nick Lodolo,666157,Total,1,17,36,0.679,2024-2026,53
 Nick Martinez,607259,Total,1,11,41,0.788,2024-2026,52
@@ -17718,12 +17724,12 @@ PJ Poulin,676571,Total,1,1,6,0.857,2024-2026,7
 Pablo Lopez,641154,Total,1,16,30,0.652,2024-2026,46
 Paolo Espino,502179,Total,1,1,0,0.0,2024-2026,1
 Parker Messick,800048,Total,1,4,14,0.778,2024-2026,18
-Patrick Corbin,571578,Total,1,17,54,0.761,2024-2026,71
+Patrick Corbin,571578,Total,1,17,55,0.764,2024-2026,72
 Patrick Sandoval,663776,Total,1,3,13,0.812,2024-2026,16
 Paul Blackburn,621112,Total,1,6,13,0.684,2024-2026,19
-Paul Skenes,694973,Total,1,11,55,0.833,2024-2026,66
+Paul Skenes,694973,Total,1,11,56,0.836,2024-2026,67
 Paxton Schultz,687606,Total,1,1,1,0.5,2024-2026,2
-Payton Tolle,801139,Total,1,4,5,0.556,2024-2026,9
+Payton Tolle,801139,Total,1,4,6,0.6,2024-2026,10
 Pete Fairbanks,664126,Total,1,1,0,0.0,2024-2026,1
 Peter Lambert,663567,Total,1,2,8,0.8,2024-2026,10
 Pierson Ohl,701487,Total,1,1,2,0.667,2024-2026,3
@@ -17793,11 +17799,11 @@ Shawn Dubin,681869,Total,1,0,2,1.0,2024-2026,2
 Shinnosuke Ogasawara,829272,Total,1,1,1,0.5,2024-2026,2
 Shohei Ohtani,660271,Total,1,3,20,0.87,2024-2026,23
 Shota Imanaga,684007,Total,1,17,48,0.738,2024-2026,65
-Simeon Woods Richardson,680573,Total,1,10,49,0.831,2024-2026,59
+Simeon Woods Richardson,680573,Total,1,11,49,0.817,2024-2026,60
 Sixto Sanchez,664350,Total,1,4,3,0.429,2024-2026,7
 Slade Cecconi,677944,Total,1,9,38,0.809,2024-2026,47
 Sonny Gray,543243,Total,1,16,53,0.768,2024-2026,69
-Spencer Arrighetti,681293,Total,1,14,28,0.667,2024-2026,42
+Spencer Arrighetti,681293,Total,1,14,29,0.674,2024-2026,43
 Spencer Bivens,702352,Total,1,0,2,1.0,2024-2026,2
 Spencer Howard,675921,Total,1,2,1,0.333,2024-2026,3
 Spencer Miles,693686,Total,1,0,1,1.0,2024-2026,1
@@ -17964,7 +17970,7 @@ Chase Dollander,801403,Home,2,4,7,0.636,2024-2026,11
 Chase Petty,695534,Home,2,2,0,0.0,2024-2026,2
 Chase Silseth,681217,Home,2,0,1,1.0,2024-2026,1
 Chayce McDermott,694646,Home,2,1,0,0.0,2024-2026,1
-Chris Bassitt,605135,Home,2,10,27,0.73,2024-2026,37
+Chris Bassitt,605135,Home,2,10,28,0.737,2024-2026,38
 Chris Devenski,606965,Home,2,0,1,1.0,2024-2026,1
 Chris Flexen,623167,Home,2,1,16,0.941,2024-2026,17
 Chris Paddack,663978,Home,2,5,20,0.8,2024-2026,25
@@ -18002,7 +18008,7 @@ David Morgan,688158,Home,2,0,1,1.0,2024-2026,1
 David Peterson,656849,Home,2,10,18,0.643,2024-2026,28
 David Sandlin,689818,Home,2,0,1,1.0,2024-2026,1
 Davis Daniel,669721,Home,2,1,4,0.8,2024-2026,5
-Davis Martin,663436,Home,2,3,18,0.857,2024-2026,21
+Davis Martin,663436,Home,2,3,19,0.864,2024-2026,22
 Dean Kremer,665152,Home,2,6,18,0.75,2024-2026,24
 Didier Fuentes,800311,Home,2,0,1,1.0,2024-2026,1
 Dietrich Enns,608650,Home,2,0,2,1.0,2024-2026,2
@@ -18063,7 +18069,7 @@ JP Sears,676664,Home,2,12,16,0.571,2024-2026,28
 JR Ritchie,702275,Home,2,1,1,0.5,2024-2026,2
 JT Brubaker,664141,Home,2,0,1,1.0,2024-2026,1
 Jack Dreyer,676263,Home,2,1,2,0.667,2024-2026,3
-Jack Flaherty,656427,Home,2,9,25,0.735,2024-2026,34
+Jack Flaherty,656427,Home,2,9,26,0.743,2024-2026,35
 Jack Kochanowicz,686799,Home,2,3,17,0.85,2024-2026,20
 Jack Leiter,683004,Home,2,3,19,0.864,2024-2026,22
 Jack Perkins,678022,Home,2,2,0,0.0,2024-2026,2
@@ -18196,7 +18202,7 @@ Mitch Keller,656605,Home,2,5,33,0.868,2024-2026,38
 Mitch Spence,687765,Home,2,4,11,0.733,2024-2026,15
 Mitchell Parker,680730,Home,2,9,23,0.719,2024-2026,32
 Nabil Crismatt,622503,Home,2,0,1,1.0,2024-2026,1
-Nathan Eovaldi,543135,Home,2,7,23,0.767,2024-2026,30
+Nathan Eovaldi,543135,Home,2,7,24,0.774,2024-2026,31
 Nestor Cortes,641482,Home,2,2,17,0.895,2024-2026,19
 Nick Lodolo,666157,Home,2,10,16,0.615,2024-2026,26
 Nick Martinez,607259,Home,2,8,17,0.68,2024-2026,25
@@ -18212,8 +18218,8 @@ Parker Messick,800048,Home,2,1,8,0.889,2024-2026,9
 Patrick Corbin,571578,Home,2,10,24,0.706,2024-2026,34
 Patrick Sandoval,663776,Home,2,4,4,0.5,2024-2026,8
 Paul Blackburn,621112,Home,2,1,6,0.857,2024-2026,7
-Paul Skenes,694973,Home,2,2,31,0.939,2024-2026,33
-Payton Tolle,801139,Home,2,1,3,0.75,2024-2026,4
+Paul Skenes,694973,Home,2,2,32,0.941,2024-2026,34
+Payton Tolle,801139,Home,2,1,4,0.8,2024-2026,5
 Peter Lambert,663567,Home,2,3,3,0.5,2024-2026,6
 Pierson Ohl,701487,Home,2,0,2,1.0,2024-2026,2
 Quinn Priester,682990,Home,2,4,9,0.692,2024-2026,13
@@ -18433,7 +18439,7 @@ Chayce McDermott,694646,Road,2,0,1,1.0,2024-2026,1
 Chris Bassitt,605135,Road,2,9,24,0.727,2024-2026,33
 Chris Flexen,623167,Road,2,5,9,0.643,2024-2026,14
 Chris Paddack,663978,Road,2,12,16,0.571,2024-2026,28
-Chris Sale,519242,Road,2,6,25,0.806,2024-2026,31
+Chris Sale,519242,Road,2,6,26,0.812,2024-2026,32
 Christian Scott,681035,Road,2,2,7,0.778,2024-2026,9
 Clarke Schmidt,657376,Road,2,0,14,1.0,2024-2026,14
 Clay Holmes,605280,Road,2,5,16,0.762,2024-2026,21
@@ -18445,7 +18451,7 @@ Cole Irvin,608344,Road,2,3,4,0.571,2024-2026,7
 Cole Ragans,666142,Road,2,6,19,0.76,2024-2026,25
 Cole Sulser,642121,Road,2,0,1,1.0,2024-2026,1
 Coleman Crow,689441,Road,2,0,2,1.0,2024-2026,2
-Colin Rea,607067,Road,2,9,17,0.654,2024-2026,26
+Colin Rea,607067,Road,2,9,18,0.667,2024-2026,27
 Colton Gordon,676467,Road,2,2,5,0.714,2024-2026,7
 Connelly Early,813349,Road,2,1,7,0.875,2024-2026,8
 Connor Gillispie,687362,Road,2,1,2,0.667,2024-2026,3
@@ -18505,7 +18511,7 @@ Gerson Garabito,642520,Road,2,0,1,1.0,2024-2026,1
 Graham Ashcraft,668933,Road,2,3,6,0.667,2024-2026,9
 Grant Holmes,656550,Road,2,5,13,0.722,2024-2026,18
 Grant Taylor,691799,Road,2,0,1,1.0,2024-2026,1
-Grayson Rodriguez,680570,Road,2,4,6,0.6,2024-2026,10
+Grayson Rodriguez,680570,Road,2,5,6,0.545,2024-2026,11
 Griffin Canning,656288,Road,2,8,14,0.636,2024-2026,22
 Griffin Jax,643377,Road,2,2,1,0.333,2024-2026,3
 Gunnar Hoglund,680684,Road,2,2,1,0.333,2024-2026,3
@@ -18672,7 +18678,7 @@ PJ Poulin,676571,Road,2,1,1,0.5,2024-2026,2
 Pablo Lopez,641154,Road,2,5,20,0.8,2024-2026,25
 Paolo Espino,502179,Road,2,1,0,0.0,2024-2026,1
 Parker Messick,800048,Road,2,3,6,0.667,2024-2026,9
-Patrick Corbin,571578,Road,2,15,22,0.595,2024-2026,37
+Patrick Corbin,571578,Road,2,15,23,0.605,2024-2026,38
 Patrick Sandoval,663776,Road,2,1,7,0.875,2024-2026,8
 Paul Blackburn,621112,Road,2,4,7,0.636,2024-2026,11
 Paul Skenes,694973,Road,2,2,30,0.938,2024-2026,32
@@ -18731,11 +18737,11 @@ Shawn Dubin,681869,Road,2,1,1,0.5,2024-2026,2
 Shinnosuke Ogasawara,829272,Road,2,0,1,1.0,2024-2026,1
 Shohei Ohtani,660271,Road,2,3,8,0.727,2024-2026,11
 Shota Imanaga,684007,Road,2,6,24,0.8,2024-2026,30
-Simeon Woods Richardson,680573,Road,2,10,20,0.667,2024-2026,30
+Simeon Woods Richardson,680573,Road,2,10,21,0.677,2024-2026,31
 Sixto Sanchez,664350,Road,2,2,2,0.5,2024-2026,4
 Slade Cecconi,677944,Road,2,4,23,0.852,2024-2026,27
 Sonny Gray,543243,Road,2,8,20,0.714,2024-2026,28
-Spencer Arrighetti,681293,Road,2,2,20,0.909,2024-2026,22
+Spencer Arrighetti,681293,Road,2,3,20,0.87,2024-2026,23
 Spencer Bivens,702352,Road,2,0,1,1.0,2024-2026,1
 Spencer Howard,675921,Road,2,1,1,0.5,2024-2026,2
 Spencer Schwellenbach,680885,Road,2,3,14,0.824,2024-2026,17
@@ -18906,11 +18912,11 @@ Chase Dollander,801403,Total,2,6,18,0.75,2024-2026,24
 Chase Petty,695534,Total,2,2,2,0.5,2024-2026,4
 Chase Silseth,681217,Total,2,0,2,1.0,2024-2026,2
 Chayce McDermott,694646,Total,2,1,1,0.5,2024-2026,2
-Chris Bassitt,605135,Total,2,19,51,0.729,2024-2026,70
+Chris Bassitt,605135,Total,2,19,52,0.732,2024-2026,71
 Chris Devenski,606965,Total,2,0,1,1.0,2024-2026,1
 Chris Flexen,623167,Total,2,6,25,0.806,2024-2026,31
 Chris Paddack,663978,Total,2,17,36,0.679,2024-2026,53
-Chris Sale,519242,Total,2,8,51,0.864,2024-2026,59
+Chris Sale,519242,Total,2,8,52,0.867,2024-2026,60
 Christian Scott,681035,Total,2,3,12,0.8,2024-2026,15
 Clarke Schmidt,657376,Total,2,1,29,0.967,2024-2026,30
 Clay Holmes,605280,Total,2,7,33,0.825,2024-2026,40
@@ -18924,7 +18930,7 @@ Cole Ragans,666142,Total,2,12,40,0.769,2024-2026,52
 Cole Sands,663485,Total,2,0,2,1.0,2024-2026,2
 Cole Sulser,642121,Total,2,0,2,1.0,2024-2026,2
 Coleman Crow,689441,Total,2,0,2,1.0,2024-2026,2
-Colin Rea,607067,Total,2,16,46,0.742,2024-2026,62
+Colin Rea,607067,Total,2,16,47,0.746,2024-2026,63
 Colton Gordon,676467,Total,2,4,11,0.733,2024-2026,15
 Connelly Early,813349,Total,2,3,12,0.8,2024-2026,15
 Connor Gillispie,687362,Total,2,2,4,0.667,2024-2026,6
@@ -18948,7 +18954,7 @@ David Morgan,688158,Total,2,0,2,1.0,2024-2026,2
 David Peterson,656849,Total,2,13,45,0.776,2024-2026,58
 David Sandlin,689818,Total,2,0,1,1.0,2024-2026,1
 Davis Daniel,669721,Total,2,4,4,0.5,2024-2026,8
-Davis Martin,663436,Total,2,10,35,0.778,2024-2026,45
+Davis Martin,663436,Total,2,10,36,0.783,2024-2026,46
 Dean Kremer,665152,Total,2,15,40,0.727,2024-2026,55
 Didier Fuentes,800311,Total,2,1,4,0.8,2024-2026,5
 Dietrich Enns,608650,Total,2,1,2,0.667,2024-2026,3
@@ -18994,7 +19000,7 @@ Graham Ashcraft,668933,Total,2,5,10,0.667,2024-2026,15
 Grant Holman,680880,Total,2,0,1,1.0,2024-2026,1
 Grant Holmes,656550,Total,2,5,33,0.868,2024-2026,38
 Grant Taylor,691799,Total,2,0,1,1.0,2024-2026,1
-Grayson Rodriguez,680570,Total,2,8,14,0.636,2024-2026,22
+Grayson Rodriguez,680570,Total,2,9,14,0.609,2024-2026,23
 Griffin Canning,656288,Total,2,18,34,0.654,2024-2026,52
 Griffin Jax,643377,Total,2,2,4,0.667,2024-2026,6
 Gunnar Hoglund,680684,Total,2,3,3,0.5,2024-2026,6
@@ -19014,7 +19020,7 @@ JP Sears,676664,Total,2,21,38,0.644,2024-2026,59
 JR Ritchie,702275,Total,2,2,3,0.6,2024-2026,5
 JT Brubaker,664141,Total,2,0,1,1.0,2024-2026,1
 Jack Dreyer,676263,Total,2,1,3,0.75,2024-2026,4
-Jack Flaherty,656427,Total,2,18,52,0.743,2024-2026,70
+Jack Flaherty,656427,Total,2,18,53,0.746,2024-2026,71
 Jack Kochanowicz,686799,Total,2,14,31,0.689,2024-2026,45
 Jack Leiter,683004,Total,2,9,37,0.804,2024-2026,46
 Jack Perkins,678022,Total,2,2,2,0.5,2024-2026,4
@@ -19163,7 +19169,7 @@ Mitch Keller,656605,Total,2,11,63,0.851,2024-2026,74
 Mitch Spence,687765,Total,2,11,21,0.656,2024-2026,32
 Mitchell Parker,680730,Total,2,15,43,0.741,2024-2026,58
 Nabil Crismatt,622503,Total,2,3,2,0.4,2024-2026,5
-Nathan Eovaldi,543135,Total,2,12,49,0.803,2024-2026,61
+Nathan Eovaldi,543135,Total,2,12,50,0.806,2024-2026,62
 Nestor Cortes,641482,Total,2,7,31,0.816,2024-2026,38
 Nick Lodolo,666157,Total,2,14,39,0.736,2024-2026,53
 Nick Martinez,607259,Total,2,14,38,0.731,2024-2026,52
@@ -19177,12 +19183,12 @@ PJ Poulin,676571,Total,2,1,2,0.667,2024-2026,3
 Pablo Lopez,641154,Total,2,11,35,0.761,2024-2026,46
 Paolo Espino,502179,Total,2,1,0,0.0,2024-2026,1
 Parker Messick,800048,Total,2,4,14,0.778,2024-2026,18
-Patrick Corbin,571578,Total,2,25,46,0.648,2024-2026,71
+Patrick Corbin,571578,Total,2,25,47,0.653,2024-2026,72
 Patrick Sandoval,663776,Total,2,5,11,0.688,2024-2026,16
 Paul Blackburn,621112,Total,2,5,13,0.722,2024-2026,18
-Paul Skenes,694973,Total,2,4,61,0.938,2024-2026,65
+Paul Skenes,694973,Total,2,4,62,0.939,2024-2026,66
 Paxton Schultz,687606,Total,2,1,1,0.5,2024-2026,2
-Payton Tolle,801139,Total,2,3,6,0.667,2024-2026,9
+Payton Tolle,801139,Total,2,3,7,0.7,2024-2026,10
 Peter Lambert,663567,Total,2,4,6,0.6,2024-2026,10
 Pierson Ohl,701487,Total,2,1,2,0.667,2024-2026,3
 Quinn Priester,682990,Total,2,10,21,0.677,2024-2026,31
@@ -19240,11 +19246,11 @@ Shawn Dubin,681869,Total,2,1,1,0.5,2024-2026,2
 Shinnosuke Ogasawara,829272,Total,2,0,2,1.0,2024-2026,2
 Shohei Ohtani,660271,Total,2,4,17,0.81,2024-2026,21
 Shota Imanaga,684007,Total,2,13,52,0.8,2024-2026,65
-Simeon Woods Richardson,680573,Total,2,19,40,0.678,2024-2026,59
+Simeon Woods Richardson,680573,Total,2,19,41,0.683,2024-2026,60
 Sixto Sanchez,664350,Total,2,2,5,0.714,2024-2026,7
 Slade Cecconi,677944,Total,2,8,39,0.83,2024-2026,47
 Sonny Gray,543243,Total,2,11,58,0.841,2024-2026,69
-Spencer Arrighetti,681293,Total,2,7,34,0.829,2024-2026,41
+Spencer Arrighetti,681293,Total,2,8,34,0.81,2024-2026,42
 Spencer Bivens,702352,Total,2,0,2,1.0,2024-2026,2
 Spencer Howard,675921,Total,2,2,1,0.333,2024-2026,3
 Spencer Miles,693686,Total,2,0,1,1.0,2024-2026,1
@@ -19402,7 +19408,7 @@ Chase Dollander,801403,Home,3,8,3,0.273,2024-2026,11
 Chase Petty,695534,Home,3,1,1,0.5,2024-2026,2
 Chase Silseth,681217,Home,3,1,0,0.0,2024-2026,1
 Chayce McDermott,694646,Home,3,0,1,1.0,2024-2026,1
-Chris Bassitt,605135,Home,3,8,29,0.784,2024-2026,37
+Chris Bassitt,605135,Home,3,9,29,0.763,2024-2026,38
 Chris Flexen,623167,Home,3,7,10,0.588,2024-2026,17
 Chris Paddack,663978,Home,3,8,17,0.68,2024-2026,25
 Chris Sale,519242,Home,3,4,24,0.857,2024-2026,28
@@ -19436,7 +19442,7 @@ David Festa,701581,Home,3,4,8,0.667,2024-2026,12
 David Peterson,656849,Home,3,2,26,0.929,2024-2026,28
 David Sandlin,689818,Home,3,0,1,1.0,2024-2026,1
 Davis Daniel,669721,Home,3,1,4,0.8,2024-2026,5
-Davis Martin,663436,Home,3,7,14,0.667,2024-2026,21
+Davis Martin,663436,Home,3,7,15,0.682,2024-2026,22
 Dean Kremer,665152,Home,3,9,15,0.625,2024-2026,24
 Didier Fuentes,800311,Home,3,0,1,1.0,2024-2026,1
 Dietrich Enns,608650,Home,3,0,2,1.0,2024-2026,2
@@ -19491,7 +19497,7 @@ J.T. Ginn,669372,Home,3,3,12,0.8,2024-2026,15
 JP Sears,676664,Home,3,7,20,0.741,2024-2026,27
 JR Ritchie,702275,Home,3,1,1,0.5,2024-2026,2
 JT Brubaker,664141,Home,3,1,0,0.0,2024-2026,1
-Jack Flaherty,656427,Home,3,13,21,0.618,2024-2026,34
+Jack Flaherty,656427,Home,3,13,22,0.629,2024-2026,35
 Jack Kochanowicz,686799,Home,3,6,14,0.7,2024-2026,20
 Jack Leiter,683004,Home,3,4,17,0.81,2024-2026,21
 Jack Perkins,678022,Home,3,1,1,0.5,2024-2026,2
@@ -19620,7 +19626,7 @@ Mitch Keller,656605,Home,3,10,28,0.737,2024-2026,38
 Mitch Spence,687765,Home,3,4,11,0.733,2024-2026,15
 Mitchell Parker,680730,Home,3,10,21,0.677,2024-2026,31
 Nabil Crismatt,622503,Home,3,1,0,0.0,2024-2026,1
-Nathan Eovaldi,543135,Home,3,10,19,0.655,2024-2026,29
+Nathan Eovaldi,543135,Home,3,11,19,0.633,2024-2026,30
 Nestor Cortes,641482,Home,3,7,12,0.632,2024-2026,19
 Nick Lodolo,666157,Home,3,8,18,0.692,2024-2026,26
 Nick Martinez,607259,Home,3,8,17,0.68,2024-2026,25
@@ -19635,8 +19641,8 @@ Parker Messick,800048,Home,3,1,8,0.889,2024-2026,9
 Patrick Corbin,571578,Home,3,9,25,0.735,2024-2026,34
 Patrick Sandoval,663776,Home,3,4,4,0.5,2024-2026,8
 Paul Blackburn,621112,Home,3,3,4,0.571,2024-2026,7
-Paul Skenes,694973,Home,3,7,26,0.788,2024-2026,33
-Payton Tolle,801139,Home,3,1,3,0.75,2024-2026,4
+Paul Skenes,694973,Home,3,7,27,0.794,2024-2026,34
+Payton Tolle,801139,Home,3,1,4,0.8,2024-2026,5
 Peter Lambert,663567,Home,3,3,3,0.5,2024-2026,6
 Pierson Ohl,701487,Home,3,2,0,0.0,2024-2026,2
 Quinn Priester,682990,Home,3,0,13,1.0,2024-2026,13
@@ -19837,7 +19843,7 @@ Chayce McDermott,694646,Road,3,0,1,1.0,2024-2026,1
 Chris Bassitt,605135,Road,3,9,23,0.719,2024-2026,32
 Chris Flexen,623167,Road,3,6,7,0.538,2024-2026,13
 Chris Paddack,663978,Road,3,10,18,0.643,2024-2026,28
-Chris Sale,519242,Road,3,7,24,0.774,2024-2026,31
+Chris Sale,519242,Road,3,7,25,0.781,2024-2026,32
 Christian Scott,681035,Road,3,2,7,0.778,2024-2026,9
 Clarke Schmidt,657376,Road,3,4,10,0.714,2024-2026,14
 Clay Holmes,605280,Road,3,6,15,0.714,2024-2026,21
@@ -19848,7 +19854,7 @@ Cody Poteet,547001,Road,3,1,2,0.667,2024-2026,3
 Cole Irvin,608344,Road,3,5,2,0.286,2024-2026,7
 Cole Ragans,666142,Road,3,5,20,0.8,2024-2026,25
 Coleman Crow,689441,Road,3,0,2,1.0,2024-2026,2
-Colin Rea,607067,Road,3,8,18,0.692,2024-2026,26
+Colin Rea,607067,Road,3,8,19,0.704,2024-2026,27
 Colton Gordon,676467,Road,3,4,3,0.429,2024-2026,7
 Connelly Early,813349,Road,3,0,8,1.0,2024-2026,8
 Connor Gillispie,687362,Road,3,1,1,0.5,2024-2026,2
@@ -19903,7 +19909,7 @@ Gerrit Cole,543037,Road,3,2,7,0.778,2024-2026,9
 Gerson Garabito,642520,Road,3,0,1,1.0,2024-2026,1
 Graham Ashcraft,668933,Road,3,1,8,0.889,2024-2026,9
 Grant Holmes,656550,Road,3,6,12,0.667,2024-2026,18
-Grayson Rodriguez,680570,Road,3,2,8,0.8,2024-2026,10
+Grayson Rodriguez,680570,Road,3,2,9,0.818,2024-2026,11
 Griffin Canning,656288,Road,3,9,12,0.571,2024-2026,21
 Griffin Jax,643377,Road,3,0,2,1.0,2024-2026,2
 Gunnar Hoglund,680684,Road,3,1,2,0.667,2024-2026,3
@@ -20059,7 +20065,7 @@ Osvaldo Bido,674370,Road,3,3,4,0.571,2024-2026,7
 Pablo Lopez,641154,Road,3,9,16,0.64,2024-2026,25
 Paolo Espino,502179,Road,3,1,0,0.0,2024-2026,1
 Parker Messick,800048,Road,3,0,9,1.0,2024-2026,9
-Patrick Corbin,571578,Road,3,12,25,0.676,2024-2026,37
+Patrick Corbin,571578,Road,3,12,26,0.684,2024-2026,38
 Patrick Sandoval,663776,Road,3,1,6,0.857,2024-2026,7
 Paul Blackburn,621112,Road,3,1,9,0.9,2024-2026,10
 Paul Skenes,694973,Road,3,3,28,0.903,2024-2026,31
@@ -20114,11 +20120,11 @@ Shawn Dubin,681869,Road,3,1,1,0.5,2024-2026,2
 Shinnosuke Ogasawara,829272,Road,3,0,1,1.0,2024-2026,1
 Shohei Ohtani,660271,Road,3,2,8,0.8,2024-2026,10
 Shota Imanaga,684007,Road,3,5,25,0.833,2024-2026,30
-Simeon Woods Richardson,680573,Road,3,9,21,0.7,2024-2026,30
+Simeon Woods Richardson,680573,Road,3,10,21,0.677,2024-2026,31
 Sixto Sanchez,664350,Road,3,0,4,1.0,2024-2026,4
 Slade Cecconi,677944,Road,3,4,23,0.852,2024-2026,27
 Sonny Gray,543243,Road,3,13,15,0.536,2024-2026,28
-Spencer Arrighetti,681293,Road,3,6,16,0.727,2024-2026,22
+Spencer Arrighetti,681293,Road,3,6,17,0.739,2024-2026,23
 Spencer Bivens,702352,Road,3,0,1,1.0,2024-2026,1
 Spencer Howard,675921,Road,3,1,1,0.5,2024-2026,2
 Spencer Schwellenbach,680885,Road,3,4,13,0.765,2024-2026,17
@@ -20270,10 +20276,10 @@ Chase Dollander,801403,Total,3,11,12,0.522,2024-2026,23
 Chase Petty,695534,Total,3,2,2,0.5,2024-2026,4
 Chase Silseth,681217,Total,3,1,1,0.5,2024-2026,2
 Chayce McDermott,694646,Total,3,0,2,1.0,2024-2026,2
-Chris Bassitt,605135,Total,3,17,52,0.754,2024-2026,69
+Chris Bassitt,605135,Total,3,18,52,0.743,2024-2026,70
 Chris Flexen,623167,Total,3,13,17,0.567,2024-2026,30
 Chris Paddack,663978,Total,3,18,35,0.66,2024-2026,53
-Chris Sale,519242,Total,3,11,48,0.814,2024-2026,59
+Chris Sale,519242,Total,3,11,49,0.817,2024-2026,60
 Christian Scott,681035,Total,3,6,8,0.571,2024-2026,14
 Clarke Schmidt,657376,Total,3,8,22,0.733,2024-2026,30
 Clay Holmes,605280,Total,3,12,28,0.7,2024-2026,40
@@ -20285,7 +20291,7 @@ Cody Poteet,547001,Total,3,1,3,0.75,2024-2026,4
 Cole Irvin,608344,Total,3,6,10,0.625,2024-2026,16
 Cole Ragans,666142,Total,3,12,39,0.765,2024-2026,51
 Coleman Crow,689441,Total,3,0,2,1.0,2024-2026,2
-Colin Rea,607067,Total,3,18,44,0.71,2024-2026,62
+Colin Rea,607067,Total,3,18,45,0.714,2024-2026,63
 Colton Gordon,676467,Total,3,6,9,0.6,2024-2026,15
 Connelly Early,813349,Total,3,1,14,0.933,2024-2026,15
 Connor Gillispie,687362,Total,3,2,3,0.6,2024-2026,5
@@ -20307,7 +20313,7 @@ David Festa,701581,Total,3,6,17,0.739,2024-2026,23
 David Peterson,656849,Total,3,11,46,0.807,2024-2026,57
 David Sandlin,689818,Total,3,0,1,1.0,2024-2026,1
 Davis Daniel,669721,Total,3,1,7,0.875,2024-2026,8
-Davis Martin,663436,Total,3,14,31,0.689,2024-2026,45
+Davis Martin,663436,Total,3,14,32,0.696,2024-2026,46
 Dean Kremer,665152,Total,3,16,39,0.709,2024-2026,55
 Didier Fuentes,800311,Total,3,2,2,0.5,2024-2026,4
 Dietrich Enns,608650,Total,3,0,3,1.0,2024-2026,3
@@ -20347,7 +20353,7 @@ Gerson Garabito,642520,Total,3,0,2,1.0,2024-2026,2
 Gordon Graceffo,700669,Total,3,1,0,0.0,2024-2026,1
 Graham Ashcraft,668933,Total,3,2,13,0.867,2024-2026,15
 Grant Holmes,656550,Total,3,13,25,0.658,2024-2026,38
-Grayson Rodriguez,680570,Total,3,3,19,0.864,2024-2026,22
+Grayson Rodriguez,680570,Total,3,3,20,0.87,2024-2026,23
 Griffin Canning,656288,Total,3,13,38,0.745,2024-2026,51
 Griffin Jax,643377,Total,3,0,5,1.0,2024-2026,5
 Gunnar Hoglund,680684,Total,3,2,4,0.667,2024-2026,6
@@ -20364,7 +20370,7 @@ J.T. Ginn,669372,Total,3,7,23,0.767,2024-2026,30
 JP Sears,676664,Total,3,14,44,0.759,2024-2026,58
 JR Ritchie,702275,Total,3,1,4,0.8,2024-2026,5
 JT Brubaker,664141,Total,3,1,0,0.0,2024-2026,1
-Jack Flaherty,656427,Total,3,21,48,0.696,2024-2026,69
+Jack Flaherty,656427,Total,3,21,49,0.7,2024-2026,70
 Jack Kochanowicz,686799,Total,3,9,36,0.8,2024-2026,45
 Jack Leiter,683004,Total,3,11,34,0.756,2024-2026,45
 Jack Perkins,678022,Total,3,1,3,0.75,2024-2026,4
@@ -20502,7 +20508,7 @@ Mitch Keller,656605,Total,3,23,50,0.685,2024-2026,73
 Mitch Spence,687765,Total,3,10,22,0.688,2024-2026,32
 Mitchell Parker,680730,Total,3,19,38,0.667,2024-2026,57
 Nabil Crismatt,622503,Total,3,3,2,0.4,2024-2026,5
-Nathan Eovaldi,543135,Total,3,20,40,0.667,2024-2026,60
+Nathan Eovaldi,543135,Total,3,21,40,0.656,2024-2026,61
 Nestor Cortes,641482,Total,3,13,25,0.658,2024-2026,38
 Nick Lodolo,666157,Total,3,9,43,0.827,2024-2026,52
 Nick Martinez,607259,Total,3,14,38,0.731,2024-2026,52
@@ -20515,12 +20521,12 @@ Osvaldo Bido,674370,Total,3,9,9,0.5,2024-2026,18
 Pablo Lopez,641154,Total,3,13,33,0.717,2024-2026,46
 Paolo Espino,502179,Total,3,1,0,0.0,2024-2026,1
 Parker Messick,800048,Total,3,1,17,0.944,2024-2026,18
-Patrick Corbin,571578,Total,3,21,50,0.704,2024-2026,71
+Patrick Corbin,571578,Total,3,21,51,0.708,2024-2026,72
 Patrick Sandoval,663776,Total,3,5,10,0.667,2024-2026,15
 Paul Blackburn,621112,Total,3,4,13,0.765,2024-2026,17
-Paul Skenes,694973,Total,3,10,54,0.844,2024-2026,64
+Paul Skenes,694973,Total,3,10,55,0.846,2024-2026,65
 Paxton Schultz,687606,Total,3,0,1,1.0,2024-2026,1
-Payton Tolle,801139,Total,3,2,6,0.75,2024-2026,8
+Payton Tolle,801139,Total,3,2,7,0.778,2024-2026,9
 Peter Lambert,663567,Total,3,4,6,0.6,2024-2026,10
 Pierson Ohl,701487,Total,3,3,0,0.0,2024-2026,3
 Quinn Priester,682990,Total,3,5,26,0.839,2024-2026,31
@@ -20575,11 +20581,11 @@ Shawn Dubin,681869,Total,3,1,1,0.5,2024-2026,2
 Shinnosuke Ogasawara,829272,Total,3,0,2,1.0,2024-2026,2
 Shohei Ohtani,660271,Total,3,4,15,0.789,2024-2026,19
 Shota Imanaga,684007,Total,3,13,52,0.8,2024-2026,65
-Simeon Woods Richardson,680573,Total,3,14,44,0.759,2024-2026,58
+Simeon Woods Richardson,680573,Total,3,15,44,0.746,2024-2026,59
 Sixto Sanchez,664350,Total,3,0,7,1.0,2024-2026,7
 Slade Cecconi,677944,Total,3,11,36,0.766,2024-2026,47
 Sonny Gray,543243,Total,3,25,44,0.638,2024-2026,69
-Spencer Arrighetti,681293,Total,3,11,29,0.725,2024-2026,40
+Spencer Arrighetti,681293,Total,3,11,30,0.732,2024-2026,41
 Spencer Bivens,702352,Total,3,0,2,1.0,2024-2026,2
 Spencer Howard,675921,Total,3,2,1,0.333,2024-2026,3
 Spencer Miles,693686,Total,3,0,1,1.0,2024-2026,1
@@ -20722,7 +20728,7 @@ Chase Burns,695505,Home,4,3,6,0.667,2024-2026,9
 Chase Dollander,801403,Home,4,3,6,0.667,2024-2026,9
 Chase Petty,695534,Home,4,0,1,1.0,2024-2026,1
 Chase Silseth,681217,Home,4,0,1,1.0,2024-2026,1
-Chris Bassitt,605135,Home,4,12,24,0.667,2024-2026,36
+Chris Bassitt,605135,Home,4,12,25,0.676,2024-2026,37
 Chris Flexen,623167,Home,4,6,10,0.625,2024-2026,16
 Chris Paddack,663978,Home,4,14,9,0.391,2024-2026,23
 Chris Sale,519242,Home,4,7,21,0.75,2024-2026,28
@@ -20755,7 +20761,7 @@ David Festa,701581,Home,4,4,8,0.667,2024-2026,12
 David Peterson,656849,Home,4,9,18,0.667,2024-2026,27
 David Sandlin,689818,Home,4,0,1,1.0,2024-2026,1
 Davis Daniel,669721,Home,4,1,4,0.8,2024-2026,5
-Davis Martin,663436,Home,4,5,15,0.75,2024-2026,20
+Davis Martin,663436,Home,4,5,16,0.762,2024-2026,21
 Dean Kremer,665152,Home,4,9,14,0.609,2024-2026,23
 Didier Fuentes,800311,Home,4,0,1,1.0,2024-2026,1
 Dietrich Enns,608650,Home,4,0,1,1.0,2024-2026,1
@@ -20806,7 +20812,7 @@ J.T. Ginn,669372,Home,4,4,11,0.733,2024-2026,15
 JP Sears,676664,Home,4,15,12,0.444,2024-2026,27
 JR Ritchie,702275,Home,4,0,2,1.0,2024-2026,2
 JT Brubaker,664141,Home,4,0,1,1.0,2024-2026,1
-Jack Flaherty,656427,Home,4,9,24,0.727,2024-2026,33
+Jack Flaherty,656427,Home,4,9,25,0.735,2024-2026,34
 Jack Kochanowicz,686799,Home,4,8,10,0.556,2024-2026,18
 Jack Leiter,683004,Home,4,9,12,0.571,2024-2026,21
 Jack Perkins,678022,Home,4,0,1,1.0,2024-2026,1
@@ -20933,7 +20939,7 @@ Mitch Keller,656605,Home,4,12,26,0.684,2024-2026,38
 Mitch Spence,687765,Home,4,5,9,0.643,2024-2026,14
 Mitchell Parker,680730,Home,4,8,22,0.733,2024-2026,30
 Nabil Crismatt,622503,Home,4,1,0,0.0,2024-2026,1
-Nathan Eovaldi,543135,Home,4,4,23,0.852,2024-2026,27
+Nathan Eovaldi,543135,Home,4,4,24,0.857,2024-2026,28
 Nestor Cortes,641482,Home,4,2,16,0.889,2024-2026,18
 Nick Lodolo,666157,Home,4,6,19,0.76,2024-2026,25
 Nick Martinez,607259,Home,4,7,16,0.696,2024-2026,23
@@ -20948,8 +20954,8 @@ Parker Messick,800048,Home,4,1,8,0.889,2024-2026,9
 Patrick Corbin,571578,Home,4,7,26,0.788,2024-2026,33
 Patrick Sandoval,663776,Home,4,4,4,0.5,2024-2026,8
 Paul Blackburn,621112,Home,4,1,6,0.857,2024-2026,7
-Paul Skenes,694973,Home,4,5,28,0.848,2024-2026,33
-Payton Tolle,801139,Home,4,0,4,1.0,2024-2026,4
+Paul Skenes,694973,Home,4,6,28,0.824,2024-2026,34
+Payton Tolle,801139,Home,4,1,4,0.8,2024-2026,5
 Peter Lambert,663567,Home,4,1,3,0.75,2024-2026,4
 Quinn Priester,682990,Home,4,5,8,0.615,2024-2026,13
 Randy Vasquez,681190,Home,4,6,22,0.786,2024-2026,28
@@ -21129,7 +21135,7 @@ Chayce McDermott,694646,Road,4,1,0,0.0,2024-2026,1
 Chris Bassitt,605135,Road,4,7,23,0.767,2024-2026,30
 Chris Flexen,623167,Road,4,5,8,0.615,2024-2026,13
 Chris Paddack,663978,Road,4,6,22,0.786,2024-2026,28
-Chris Sale,519242,Road,4,4,27,0.871,2024-2026,31
+Chris Sale,519242,Road,4,5,27,0.844,2024-2026,32
 Christian Scott,681035,Road,4,3,6,0.667,2024-2026,9
 Clarke Schmidt,657376,Road,4,2,11,0.846,2024-2026,13
 Clay Holmes,605280,Road,4,3,18,0.857,2024-2026,21
@@ -21140,7 +21146,7 @@ Cody Poteet,547001,Road,4,0,3,1.0,2024-2026,3
 Cole Irvin,608344,Road,4,1,6,0.857,2024-2026,7
 Cole Ragans,666142,Road,4,4,20,0.833,2024-2026,24
 Coleman Crow,689441,Road,4,1,1,0.5,2024-2026,2
-Colin Rea,607067,Road,4,5,21,0.808,2024-2026,26
+Colin Rea,607067,Road,4,5,22,0.815,2024-2026,27
 Colton Gordon,676467,Road,4,2,5,0.714,2024-2026,7
 Connelly Early,813349,Road,4,1,7,0.875,2024-2026,8
 Connor Gillispie,687362,Road,4,1,1,0.5,2024-2026,2
@@ -21193,7 +21199,7 @@ Gerrit Cole,543037,Road,4,3,6,0.667,2024-2026,9
 Gerson Garabito,642520,Road,4,1,0,0.0,2024-2026,1
 Graham Ashcraft,668933,Road,4,4,5,0.556,2024-2026,9
 Grant Holmes,656550,Road,4,5,12,0.706,2024-2026,17
-Grayson Rodriguez,680570,Road,4,2,8,0.8,2024-2026,10
+Grayson Rodriguez,680570,Road,4,2,9,0.818,2024-2026,11
 Griffin Canning,656288,Road,4,3,18,0.857,2024-2026,21
 Griffin Jax,643377,Road,4,0,2,1.0,2024-2026,2
 Gunnar Hoglund,680684,Road,4,0,3,1.0,2024-2026,3
@@ -21343,7 +21349,7 @@ Osvaldo Bido,674370,Road,4,1,6,0.857,2024-2026,7
 Pablo Lopez,641154,Road,4,7,18,0.72,2024-2026,25
 Paolo Espino,502179,Road,4,0,1,1.0,2024-2026,1
 Parker Messick,800048,Road,4,1,8,0.889,2024-2026,9
-Patrick Corbin,571578,Road,4,12,23,0.657,2024-2026,35
+Patrick Corbin,571578,Road,4,13,23,0.639,2024-2026,36
 Patrick Sandoval,663776,Road,4,0,6,1.0,2024-2026,6
 Paul Blackburn,621112,Road,4,3,6,0.667,2024-2026,9
 Paul Skenes,694973,Road,4,6,25,0.806,2024-2026,31
@@ -21395,7 +21401,7 @@ Simeon Woods Richardson,680573,Road,4,7,23,0.767,2024-2026,30
 Sixto Sanchez,664350,Road,4,1,2,0.667,2024-2026,3
 Slade Cecconi,677944,Road,4,5,20,0.8,2024-2026,25
 Sonny Gray,543243,Road,4,9,19,0.679,2024-2026,28
-Spencer Arrighetti,681293,Road,4,6,15,0.714,2024-2026,21
+Spencer Arrighetti,681293,Road,4,6,16,0.727,2024-2026,22
 Spencer Bivens,702352,Road,4,0,1,1.0,2024-2026,1
 Spencer Howard,675921,Road,4,0,1,1.0,2024-2026,1
 Spencer Schwellenbach,680885,Road,4,4,13,0.765,2024-2026,17
@@ -21536,10 +21542,10 @@ Chase Dollander,801403,Total,4,4,16,0.8,2024-2026,20
 Chase Petty,695534,Total,4,1,2,0.667,2024-2026,3
 Chase Silseth,681217,Total,4,0,1,1.0,2024-2026,1
 Chayce McDermott,694646,Total,4,1,0,0.0,2024-2026,1
-Chris Bassitt,605135,Total,4,19,47,0.712,2024-2026,66
+Chris Bassitt,605135,Total,4,19,48,0.716,2024-2026,67
 Chris Flexen,623167,Total,4,11,18,0.621,2024-2026,29
 Chris Paddack,663978,Total,4,20,31,0.608,2024-2026,51
-Chris Sale,519242,Total,4,11,48,0.814,2024-2026,59
+Chris Sale,519242,Total,4,12,48,0.8,2024-2026,60
 Christian Scott,681035,Total,4,4,10,0.714,2024-2026,14
 Clarke Schmidt,657376,Total,4,8,21,0.724,2024-2026,29
 Clay Holmes,605280,Total,4,12,28,0.7,2024-2026,40
@@ -21550,7 +21556,7 @@ Cody Poteet,547001,Total,4,0,4,1.0,2024-2026,4
 Cole Irvin,608344,Total,4,6,10,0.625,2024-2026,16
 Cole Ragans,666142,Total,4,13,35,0.729,2024-2026,48
 Coleman Crow,689441,Total,4,1,1,0.5,2024-2026,2
-Colin Rea,607067,Total,4,20,42,0.677,2024-2026,62
+Colin Rea,607067,Total,4,20,43,0.683,2024-2026,63
 Colton Gordon,676467,Total,4,6,9,0.6,2024-2026,15
 Connelly Early,813349,Total,4,2,13,0.867,2024-2026,15
 Connor Gillispie,687362,Total,4,2,3,0.6,2024-2026,5
@@ -21571,7 +21577,7 @@ David Festa,701581,Total,4,11,12,0.522,2024-2026,23
 David Peterson,656849,Total,4,16,40,0.714,2024-2026,56
 David Sandlin,689818,Total,4,0,1,1.0,2024-2026,1
 Davis Daniel,669721,Total,4,1,7,0.875,2024-2026,8
-Davis Martin,663436,Total,4,13,31,0.705,2024-2026,44
+Davis Martin,663436,Total,4,13,32,0.711,2024-2026,45
 Dean Kremer,665152,Total,4,18,35,0.66,2024-2026,53
 Didier Fuentes,800311,Total,4,1,2,0.667,2024-2026,3
 Dietrich Enns,608650,Total,4,1,1,0.5,2024-2026,2
@@ -21608,7 +21614,7 @@ Gerson Garabito,642520,Total,4,1,0,0.0,2024-2026,1
 Gordon Graceffo,700669,Total,4,0,1,1.0,2024-2026,1
 Graham Ashcraft,668933,Total,4,6,9,0.6,2024-2026,15
 Grant Holmes,656550,Total,4,15,22,0.595,2024-2026,37
-Grayson Rodriguez,680570,Total,4,7,15,0.682,2024-2026,22
+Grayson Rodriguez,680570,Total,4,7,16,0.696,2024-2026,23
 Griffin Canning,656288,Total,4,7,41,0.854,2024-2026,48
 Griffin Jax,643377,Total,4,0,3,1.0,2024-2026,3
 Gunnar Hoglund,680684,Total,4,1,5,0.833,2024-2026,6
@@ -21625,7 +21631,7 @@ J.T. Ginn,669372,Total,4,7,22,0.759,2024-2026,29
 JP Sears,676664,Total,4,22,36,0.621,2024-2026,58
 JR Ritchie,702275,Total,4,2,3,0.6,2024-2026,5
 JT Brubaker,664141,Total,4,0,1,1.0,2024-2026,1
-Jack Flaherty,656427,Total,4,16,49,0.754,2024-2026,65
+Jack Flaherty,656427,Total,4,16,50,0.758,2024-2026,66
 Jack Kochanowicz,686799,Total,4,18,25,0.581,2024-2026,43
 Jack Leiter,683004,Total,4,15,30,0.667,2024-2026,45
 Jack Perkins,678022,Total,4,1,2,0.667,2024-2026,3
@@ -21758,7 +21764,7 @@ Mitch Keller,656605,Total,4,24,48,0.667,2024-2026,72
 Mitch Spence,687765,Total,4,11,19,0.633,2024-2026,30
 Mitchell Parker,680730,Total,4,14,42,0.75,2024-2026,56
 Nabil Crismatt,622503,Total,4,1,4,0.8,2024-2026,5
-Nathan Eovaldi,543135,Total,4,9,47,0.839,2024-2026,56
+Nathan Eovaldi,543135,Total,4,9,48,0.842,2024-2026,57
 Nestor Cortes,641482,Total,4,8,28,0.778,2024-2026,36
 Nick Lodolo,666157,Total,4,11,40,0.784,2024-2026,51
 Nick Martinez,607259,Total,4,11,38,0.776,2024-2026,49
@@ -21771,11 +21777,11 @@ Osvaldo Bido,674370,Total,4,2,14,0.875,2024-2026,16
 Pablo Lopez,641154,Total,4,13,33,0.717,2024-2026,46
 Paolo Espino,502179,Total,4,0,1,1.0,2024-2026,1
 Parker Messick,800048,Total,4,2,16,0.889,2024-2026,18
-Patrick Corbin,571578,Total,4,19,49,0.721,2024-2026,68
+Patrick Corbin,571578,Total,4,20,49,0.71,2024-2026,69
 Patrick Sandoval,663776,Total,4,4,10,0.714,2024-2026,14
 Paul Blackburn,621112,Total,4,4,12,0.75,2024-2026,16
-Paul Skenes,694973,Total,4,11,53,0.828,2024-2026,64
-Payton Tolle,801139,Total,4,0,7,1.0,2024-2026,7
+Paul Skenes,694973,Total,4,12,53,0.815,2024-2026,65
+Payton Tolle,801139,Total,4,1,7,0.875,2024-2026,8
 Peter Lambert,663567,Total,4,2,6,0.75,2024-2026,8
 Quinn Priester,682990,Total,4,8,23,0.742,2024-2026,31
 Randy Vasquez,681190,Total,4,14,39,0.736,2024-2026,53
@@ -21827,7 +21833,7 @@ Simeon Woods Richardson,680573,Total,4,14,44,0.759,2024-2026,58
 Sixto Sanchez,664350,Total,4,2,4,0.667,2024-2026,6
 Slade Cecconi,677944,Total,4,15,30,0.667,2024-2026,45
 Sonny Gray,543243,Total,4,14,53,0.791,2024-2026,67
-Spencer Arrighetti,681293,Total,4,7,31,0.816,2024-2026,38
+Spencer Arrighetti,681293,Total,4,7,32,0.821,2024-2026,39
 Spencer Bivens,702352,Total,4,0,2,1.0,2024-2026,2
 Spencer Howard,675921,Total,4,0,1,1.0,2024-2026,1
 Spencer Schwellenbach,680885,Total,4,9,29,0.763,2024-2026,38
@@ -21960,7 +21966,7 @@ Chase Burns,695505,Home,5,3,6,0.667,2024-2026,9
 Chase Dollander,801403,Home,5,3,3,0.5,2024-2026,6
 Chase Petty,695534,Home,5,0,1,1.0,2024-2026,1
 Chase Silseth,681217,Home,5,0,1,1.0,2024-2026,1
-Chris Bassitt,605135,Home,5,6,29,0.829,2024-2026,35
+Chris Bassitt,605135,Home,5,6,30,0.833,2024-2026,36
 Chris Flexen,623167,Home,5,4,11,0.733,2024-2026,15
 Chris Paddack,663978,Home,5,4,17,0.81,2024-2026,21
 Chris Sale,519242,Home,5,4,23,0.852,2024-2026,27
@@ -21992,7 +21998,7 @@ David Festa,701581,Home,5,2,6,0.75,2024-2026,8
 David Peterson,656849,Home,5,7,17,0.708,2024-2026,24
 David Sandlin,689818,Home,5,0,1,1.0,2024-2026,1
 Davis Daniel,669721,Home,5,1,3,0.75,2024-2026,4
-Davis Martin,663436,Home,5,2,16,0.889,2024-2026,18
+Davis Martin,663436,Home,5,3,16,0.842,2024-2026,19
 Dean Kremer,665152,Home,5,5,16,0.762,2024-2026,21
 Dietrich Enns,608650,Home,5,0,1,1.0,2024-2026,1
 Drew Anderson,623454,Home,5,0,1,1.0,2024-2026,1
@@ -22040,7 +22046,7 @@ J.P. France,641585,Home,5,2,0,0.0,2024-2026,2
 J.T. Ginn,669372,Home,5,3,9,0.75,2024-2026,12
 JP Sears,676664,Home,5,3,21,0.875,2024-2026,24
 JR Ritchie,702275,Home,5,0,2,1.0,2024-2026,2
-Jack Flaherty,656427,Home,5,9,23,0.719,2024-2026,32
+Jack Flaherty,656427,Home,5,10,23,0.697,2024-2026,33
 Jack Kochanowicz,686799,Home,5,1,16,0.941,2024-2026,17
 Jack Leiter,683004,Home,5,4,16,0.8,2024-2026,20
 Jack Perkins,678022,Home,5,1,0,0.0,2024-2026,1
@@ -22156,7 +22162,7 @@ Mitch Keller,656605,Home,5,10,23,0.697,2024-2026,33
 Mitch Spence,687765,Home,5,2,12,0.857,2024-2026,14
 Mitchell Parker,680730,Home,5,6,21,0.778,2024-2026,27
 Nabil Crismatt,622503,Home,5,0,1,1.0,2024-2026,1
-Nathan Eovaldi,543135,Home,5,8,19,0.704,2024-2026,27
+Nathan Eovaldi,543135,Home,5,8,20,0.714,2024-2026,28
 Nestor Cortes,641482,Home,5,5,12,0.706,2024-2026,17
 Nick Lodolo,666157,Home,5,5,18,0.783,2024-2026,23
 Nick Martinez,607259,Home,5,6,17,0.739,2024-2026,23
@@ -22171,8 +22177,8 @@ Parker Messick,800048,Home,5,2,7,0.778,2024-2026,9
 Patrick Corbin,571578,Home,5,6,25,0.806,2024-2026,31
 Patrick Sandoval,663776,Home,5,1,6,0.857,2024-2026,7
 Paul Blackburn,621112,Home,5,0,6,1.0,2024-2026,6
-Paul Skenes,694973,Home,5,5,26,0.839,2024-2026,31
-Payton Tolle,801139,Home,5,1,3,0.75,2024-2026,4
+Paul Skenes,694973,Home,5,5,27,0.844,2024-2026,32
+Payton Tolle,801139,Home,5,1,4,0.8,2024-2026,5
 Peter Lambert,663567,Home,5,1,3,0.75,2024-2026,4
 Quinn Priester,682990,Home,5,4,9,0.692,2024-2026,13
 Randy Vasquez,681190,Home,5,3,22,0.88,2024-2026,25
@@ -22340,7 +22346,7 @@ Chase Petty,695534,Road,5,0,1,1.0,2024-2026,1
 Chris Bassitt,605135,Road,5,4,23,0.852,2024-2026,27
 Chris Flexen,623167,Road,5,4,5,0.556,2024-2026,9
 Chris Paddack,663978,Road,5,4,19,0.826,2024-2026,23
-Chris Sale,519242,Road,5,6,25,0.806,2024-2026,31
+Chris Sale,519242,Road,5,6,26,0.812,2024-2026,32
 Christian Scott,681035,Road,5,1,5,0.833,2024-2026,6
 Clarke Schmidt,657376,Road,5,0,12,1.0,2024-2026,12
 Clay Holmes,605280,Road,5,2,18,0.9,2024-2026,20
@@ -22351,7 +22357,7 @@ Cody Poteet,547001,Road,5,2,1,0.333,2024-2026,3
 Cole Irvin,608344,Road,5,2,5,0.714,2024-2026,7
 Cole Ragans,666142,Road,5,4,19,0.826,2024-2026,23
 Coleman Crow,689441,Road,5,0,2,1.0,2024-2026,2
-Colin Rea,607067,Road,5,6,17,0.739,2024-2026,23
+Colin Rea,607067,Road,5,6,18,0.75,2024-2026,24
 Colton Gordon,676467,Road,5,4,3,0.429,2024-2026,7
 Connelly Early,813349,Road,5,2,5,0.714,2024-2026,7
 Connor Gillispie,687362,Road,5,0,1,1.0,2024-2026,1
@@ -22403,7 +22409,7 @@ German Marquez,608566,Road,5,2,13,0.867,2024-2026,15
 Gerrit Cole,543037,Road,5,0,8,1.0,2024-2026,8
 Graham Ashcraft,668933,Road,5,1,6,0.857,2024-2026,7
 Grant Holmes,656550,Road,5,2,12,0.857,2024-2026,14
-Grayson Rodriguez,680570,Road,5,2,8,0.8,2024-2026,10
+Grayson Rodriguez,680570,Road,5,2,9,0.818,2024-2026,11
 Griffin Canning,656288,Road,5,4,15,0.789,2024-2026,19
 Griffin Jax,643377,Road,5,0,1,1.0,2024-2026,1
 Gunnar Hoglund,680684,Road,5,2,1,0.333,2024-2026,3
@@ -22546,7 +22552,7 @@ Nolan McLean,690997,Road,5,1,7,0.875,2024-2026,8
 Osvaldo Bido,674370,Road,5,1,5,0.833,2024-2026,6
 Pablo Lopez,641154,Road,5,4,19,0.826,2024-2026,23
 Parker Messick,800048,Road,5,2,6,0.75,2024-2026,8
-Patrick Corbin,571578,Road,5,7,23,0.767,2024-2026,30
+Patrick Corbin,571578,Road,5,7,24,0.774,2024-2026,31
 Patrick Sandoval,663776,Road,5,2,4,0.667,2024-2026,6
 Paul Blackburn,621112,Road,5,0,7,1.0,2024-2026,7
 Paul Skenes,694973,Road,5,5,24,0.828,2024-2026,29
@@ -22591,7 +22597,7 @@ Simeon Woods Richardson,680573,Road,5,5,17,0.773,2024-2026,22
 Sixto Sanchez,664350,Road,5,0,2,1.0,2024-2026,2
 Slade Cecconi,677944,Road,5,10,14,0.583,2024-2026,24
 Sonny Gray,543243,Road,5,7,17,0.708,2024-2026,24
-Spencer Arrighetti,681293,Road,5,5,12,0.706,2024-2026,17
+Spencer Arrighetti,681293,Road,5,5,13,0.722,2024-2026,18
 Spencer Bivens,702352,Road,5,1,0,0.0,2024-2026,1
 Spencer Howard,675921,Road,5,0,1,1.0,2024-2026,1
 Spencer Schwellenbach,680885,Road,5,4,13,0.765,2024-2026,17
@@ -22724,10 +22730,10 @@ Chase Burns,695505,Total,5,4,13,0.765,2024-2026,17
 Chase Dollander,801403,Total,5,6,11,0.647,2024-2026,17
 Chase Petty,695534,Total,5,0,2,1.0,2024-2026,2
 Chase Silseth,681217,Total,5,0,1,1.0,2024-2026,1
-Chris Bassitt,605135,Total,5,10,52,0.839,2024-2026,62
+Chris Bassitt,605135,Total,5,10,53,0.841,2024-2026,63
 Chris Flexen,623167,Total,5,8,16,0.667,2024-2026,24
 Chris Paddack,663978,Total,5,8,36,0.818,2024-2026,44
-Chris Sale,519242,Total,5,10,48,0.828,2024-2026,58
+Chris Sale,519242,Total,5,10,49,0.831,2024-2026,59
 Christian Scott,681035,Total,5,2,9,0.818,2024-2026,11
 Clarke Schmidt,657376,Total,5,1,27,0.964,2024-2026,28
 Clay Holmes,605280,Total,5,4,33,0.892,2024-2026,37
@@ -22738,7 +22744,7 @@ Cody Poteet,547001,Total,5,2,2,0.5,2024-2026,4
 Cole Irvin,608344,Total,5,3,11,0.786,2024-2026,14
 Cole Ragans,666142,Total,5,7,39,0.848,2024-2026,46
 Coleman Crow,689441,Total,5,0,2,1.0,2024-2026,2
-Colin Rea,607067,Total,5,13,43,0.768,2024-2026,56
+Colin Rea,607067,Total,5,13,44,0.772,2024-2026,57
 Colton Gordon,676467,Total,5,5,9,0.643,2024-2026,14
 Connelly Early,813349,Total,5,3,9,0.75,2024-2026,12
 Connor Gillispie,687362,Total,5,1,3,0.75,2024-2026,4
@@ -22759,7 +22765,7 @@ David Festa,701581,Total,5,4,13,0.765,2024-2026,17
 David Peterson,656849,Total,5,14,38,0.731,2024-2026,52
 David Sandlin,689818,Total,5,0,1,1.0,2024-2026,1
 Davis Daniel,669721,Total,5,2,3,0.6,2024-2026,5
-Davis Martin,663436,Total,5,7,34,0.829,2024-2026,41
+Davis Martin,663436,Total,5,8,34,0.81,2024-2026,42
 Dean Kremer,665152,Total,5,14,35,0.714,2024-2026,49
 Didier Fuentes,800311,Total,5,0,1,1.0,2024-2026,1
 Dietrich Enns,608650,Total,5,0,2,1.0,2024-2026,2
@@ -22794,7 +22800,7 @@ German Marquez,608566,Total,5,7,19,0.731,2024-2026,26
 Gerrit Cole,543037,Total,5,2,16,0.889,2024-2026,18
 Graham Ashcraft,668933,Total,5,4,9,0.692,2024-2026,13
 Grant Holmes,656550,Total,5,6,25,0.806,2024-2026,31
-Grayson Rodriguez,680570,Total,5,5,16,0.762,2024-2026,21
+Grayson Rodriguez,680570,Total,5,5,17,0.773,2024-2026,22
 Griffin Canning,656288,Total,5,12,34,0.739,2024-2026,46
 Griffin Jax,643377,Total,5,0,2,1.0,2024-2026,2
 Gunnar Hoglund,680684,Total,5,5,1,0.167,2024-2026,6
@@ -22810,7 +22816,7 @@ J.P. France,641585,Total,5,2,2,0.5,2024-2026,4
 J.T. Ginn,669372,Total,5,5,18,0.783,2024-2026,23
 JP Sears,676664,Total,5,6,46,0.885,2024-2026,52
 JR Ritchie,702275,Total,5,0,4,1.0,2024-2026,4
-Jack Flaherty,656427,Total,5,13,48,0.787,2024-2026,61
+Jack Flaherty,656427,Total,5,14,48,0.774,2024-2026,62
 Jack Kochanowicz,686799,Total,5,8,30,0.789,2024-2026,38
 Jack Leiter,683004,Total,5,10,28,0.737,2024-2026,38
 Jack Perkins,678022,Total,5,1,2,0.667,2024-2026,3
@@ -22933,7 +22939,7 @@ Mitch Keller,656605,Total,5,18,45,0.714,2024-2026,63
 Mitch Spence,687765,Total,5,3,25,0.893,2024-2026,28
 Mitchell Parker,680730,Total,5,10,38,0.792,2024-2026,48
 Nabil Crismatt,622503,Total,5,1,3,0.75,2024-2026,4
-Nathan Eovaldi,543135,Total,5,11,45,0.804,2024-2026,56
+Nathan Eovaldi,543135,Total,5,11,46,0.807,2024-2026,57
 Nestor Cortes,641482,Total,5,8,26,0.765,2024-2026,34
 Nick Lodolo,666157,Total,5,11,37,0.771,2024-2026,48
 Nick Martinez,607259,Total,5,11,38,0.776,2024-2026,49
@@ -22945,11 +22951,11 @@ Nolan McLean,690997,Total,5,1,16,0.941,2024-2026,17
 Osvaldo Bido,674370,Total,5,4,11,0.733,2024-2026,15
 Pablo Lopez,641154,Total,5,10,32,0.762,2024-2026,42
 Parker Messick,800048,Total,5,4,13,0.765,2024-2026,17
-Patrick Corbin,571578,Total,5,13,48,0.787,2024-2026,61
+Patrick Corbin,571578,Total,5,13,49,0.79,2024-2026,62
 Patrick Sandoval,663776,Total,5,3,10,0.769,2024-2026,13
 Paul Blackburn,621112,Total,5,0,13,1.0,2024-2026,13
-Paul Skenes,694973,Total,5,10,50,0.833,2024-2026,60
-Payton Tolle,801139,Total,5,1,6,0.857,2024-2026,7
+Paul Skenes,694973,Total,5,10,51,0.836,2024-2026,61
+Payton Tolle,801139,Total,5,1,7,0.875,2024-2026,8
 Peter Lambert,663567,Total,5,1,6,0.857,2024-2026,7
 Quinn Priester,682990,Total,5,7,23,0.767,2024-2026,30
 Randy Vasquez,681190,Total,5,6,44,0.88,2024-2026,50
@@ -22992,7 +22998,7 @@ Simeon Woods Richardson,680573,Total,5,13,33,0.717,2024-2026,46
 Sixto Sanchez,664350,Total,5,0,3,1.0,2024-2026,3
 Slade Cecconi,677944,Total,5,17,22,0.564,2024-2026,39
 Sonny Gray,543243,Total,5,19,43,0.694,2024-2026,62
-Spencer Arrighetti,681293,Total,5,8,25,0.758,2024-2026,33
+Spencer Arrighetti,681293,Total,5,8,26,0.765,2024-2026,34
 Spencer Bivens,702352,Total,5,2,0,0.0,2024-2026,2
 Spencer Howard,675921,Total,5,0,1,1.0,2024-2026,1
 Spencer Schwellenbach,680885,Total,5,10,27,0.73,2024-2026,37
@@ -23114,7 +23120,7 @@ Charlie Morton,450203,Home,6,4,15,0.789,2024-2026,19
 Chase Burns,695505,Home,6,1,6,0.857,2024-2026,7
 Chase Dollander,801403,Home,6,0,2,1.0,2024-2026,2
 Chase Petty,695534,Home,6,0,1,1.0,2024-2026,1
-Chris Bassitt,605135,Home,6,7,18,0.72,2024-2026,25
+Chris Bassitt,605135,Home,6,7,19,0.731,2024-2026,26
 Chris Flexen,623167,Home,6,0,8,1.0,2024-2026,8
 Chris Paddack,663978,Home,6,0,10,1.0,2024-2026,10
 Chris Sale,519242,Home,6,4,18,0.818,2024-2026,22
@@ -23143,7 +23149,7 @@ David Festa,701581,Home,6,0,3,1.0,2024-2026,3
 David Peterson,656849,Home,6,3,13,0.812,2024-2026,16
 David Sandlin,689818,Home,6,0,1,1.0,2024-2026,1
 Davis Daniel,669721,Home,6,0,1,1.0,2024-2026,1
-Davis Martin,663436,Home,6,3,11,0.786,2024-2026,14
+Davis Martin,663436,Home,6,3,12,0.8,2024-2026,15
 Dean Kremer,665152,Home,6,3,14,0.824,2024-2026,17
 Drew Rasmussen,656876,Home,6,0,11,1.0,2024-2026,11
 Drew Thorpe,689672,Home,6,2,0,0.0,2024-2026,2
@@ -23182,7 +23188,7 @@ J.P. France,641585,Home,6,0,1,1.0,2024-2026,1
 J.T. Ginn,669372,Home,6,2,5,0.714,2024-2026,7
 JP Sears,676664,Home,6,3,10,0.769,2024-2026,13
 JR Ritchie,702275,Home,6,0,1,1.0,2024-2026,1
-Jack Flaherty,656427,Home,6,1,23,0.958,2024-2026,24
+Jack Flaherty,656427,Home,6,1,24,0.96,2024-2026,25
 Jack Kochanowicz,686799,Home,6,2,10,0.833,2024-2026,12
 Jack Leiter,683004,Home,6,4,9,0.692,2024-2026,13
 Jackson Jobe,695549,Home,6,1,0,0.0,2024-2026,1
@@ -23284,7 +23290,7 @@ Mitch Keller,656605,Home,6,8,19,0.704,2024-2026,27
 Mitch Spence,687765,Home,6,1,8,0.889,2024-2026,9
 Mitchell Parker,680730,Home,6,4,18,0.818,2024-2026,22
 Nabil Crismatt,622503,Home,6,0,1,1.0,2024-2026,1
-Nathan Eovaldi,543135,Home,6,1,21,0.955,2024-2026,22
+Nathan Eovaldi,543135,Home,6,1,22,0.957,2024-2026,23
 Nestor Cortes,641482,Home,6,0,13,1.0,2024-2026,13
 Nick Lodolo,666157,Home,6,3,13,0.812,2024-2026,16
 Nick Martinez,607259,Home,6,3,13,0.812,2024-2026,16
@@ -23299,7 +23305,7 @@ Parker Messick,800048,Home,6,1,5,0.833,2024-2026,6
 Patrick Corbin,571578,Home,6,7,16,0.696,2024-2026,23
 Patrick Sandoval,663776,Home,6,1,4,0.8,2024-2026,5
 Paul Blackburn,621112,Home,6,1,4,0.8,2024-2026,5
-Paul Skenes,694973,Home,6,5,20,0.8,2024-2026,25
+Paul Skenes,694973,Home,6,5,21,0.808,2024-2026,26
 Payton Tolle,801139,Home,6,0,3,1.0,2024-2026,3
 Peter Lambert,663567,Home,6,0,3,1.0,2024-2026,3
 Quinn Priester,682990,Home,6,3,5,0.625,2024-2026,8
@@ -23459,7 +23465,7 @@ Cody Poteet,547001,Road,6,1,1,0.5,2024-2026,2
 Cole Irvin,608344,Road,6,0,3,1.0,2024-2026,3
 Cole Ragans,666142,Road,6,4,12,0.75,2024-2026,16
 Coleman Crow,689441,Road,6,0,2,1.0,2024-2026,2
-Colin Rea,607067,Road,6,3,7,0.7,2024-2026,10
+Colin Rea,607067,Road,6,4,7,0.636,2024-2026,11
 Colton Gordon,676467,Road,6,1,2,0.667,2024-2026,3
 Connelly Early,813349,Road,6,1,3,0.75,2024-2026,4
 Cooper Criswell,681867,Road,6,0,3,1.0,2024-2026,3
@@ -23630,7 +23636,7 @@ Nolan McLean,690997,Road,6,0,8,1.0,2024-2026,8
 Osvaldo Bido,674370,Road,6,0,4,1.0,2024-2026,4
 Pablo Lopez,641154,Road,6,0,14,1.0,2024-2026,14
 Parker Messick,800048,Road,6,1,5,0.833,2024-2026,6
-Patrick Corbin,571578,Road,6,4,18,0.818,2024-2026,22
+Patrick Corbin,571578,Road,6,4,19,0.826,2024-2026,23
 Patrick Sandoval,663776,Road,6,1,2,0.667,2024-2026,3
 Paul Blackburn,621112,Road,6,0,4,1.0,2024-2026,4
 Paul Skenes,694973,Road,6,5,17,0.773,2024-2026,22
@@ -23672,7 +23678,7 @@ Shota Imanaga,684007,Road,6,3,19,0.864,2024-2026,22
 Simeon Woods Richardson,680573,Road,6,1,5,0.833,2024-2026,6
 Slade Cecconi,677944,Road,6,5,13,0.722,2024-2026,18
 Sonny Gray,543243,Road,6,3,13,0.812,2024-2026,16
-Spencer Arrighetti,681293,Road,6,0,9,1.0,2024-2026,9
+Spencer Arrighetti,681293,Road,6,0,10,1.0,2024-2026,10
 Spencer Schwellenbach,680885,Road,6,2,11,0.846,2024-2026,13
 Spencer Strider,675911,Road,6,1,9,0.9,2024-2026,10
 Spencer Turnbull,605513,Road,6,0,2,1.0,2024-2026,2
@@ -23781,7 +23787,7 @@ Charlie Morton,450203,Total,6,7,29,0.806,2024-2026,36
 Chase Burns,695505,Total,6,3,11,0.786,2024-2026,14
 Chase Dollander,801403,Total,6,2,8,0.8,2024-2026,10
 Chase Petty,695534,Total,6,0,2,1.0,2024-2026,2
-Chris Bassitt,605135,Total,6,13,27,0.675,2024-2026,40
+Chris Bassitt,605135,Total,6,13,28,0.683,2024-2026,41
 Chris Flexen,623167,Total,6,2,10,0.833,2024-2026,12
 Chris Paddack,663978,Total,6,0,19,1.0,2024-2026,19
 Chris Sale,519242,Total,6,8,37,0.822,2024-2026,45
@@ -23794,7 +23800,7 @@ Cody Poteet,547001,Total,6,1,1,0.5,2024-2026,2
 Cole Irvin,608344,Total,6,1,6,0.857,2024-2026,7
 Cole Ragans,666142,Total,6,6,28,0.824,2024-2026,34
 Coleman Crow,689441,Total,6,0,2,1.0,2024-2026,2
-Colin Rea,607067,Total,6,8,28,0.778,2024-2026,36
+Colin Rea,607067,Total,6,9,28,0.757,2024-2026,37
 Colton Gordon,676467,Total,6,2,3,0.6,2024-2026,5
 Connelly Early,813349,Total,6,2,6,0.75,2024-2026,8
 Connor Gillispie,687362,Total,6,0,1,1.0,2024-2026,1
@@ -23813,7 +23819,7 @@ David Festa,701581,Total,6,1,5,0.833,2024-2026,6
 David Peterson,656849,Total,6,5,30,0.857,2024-2026,35
 David Sandlin,689818,Total,6,0,1,1.0,2024-2026,1
 Davis Daniel,669721,Total,6,1,1,0.5,2024-2026,2
-Davis Martin,663436,Total,6,4,24,0.857,2024-2026,28
+Davis Martin,663436,Total,6,4,25,0.862,2024-2026,29
 Dean Kremer,665152,Total,6,6,31,0.838,2024-2026,37
 Domingo German,593334,Total,6,0,1,1.0,2024-2026,1
 Drew Rasmussen,656876,Total,6,0,17,1.0,2024-2026,17
@@ -23856,7 +23862,7 @@ J.P. France,641585,Total,6,0,2,1.0,2024-2026,2
 J.T. Ginn,669372,Total,6,2,10,0.833,2024-2026,12
 JP Sears,676664,Total,6,9,24,0.727,2024-2026,33
 JR Ritchie,702275,Total,6,0,3,1.0,2024-2026,3
-Jack Flaherty,656427,Total,6,8,35,0.814,2024-2026,43
+Jack Flaherty,656427,Total,6,8,36,0.818,2024-2026,44
 Jack Kochanowicz,686799,Total,6,3,23,0.885,2024-2026,26
 Jack Leiter,683004,Total,6,5,18,0.783,2024-2026,23
 Jack Perkins,678022,Total,6,0,1,1.0,2024-2026,1
@@ -23970,7 +23976,7 @@ Mitch Keller,656605,Total,6,16,38,0.704,2024-2026,54
 Mitch Spence,687765,Total,6,4,13,0.765,2024-2026,17
 Mitchell Parker,680730,Total,6,7,28,0.8,2024-2026,35
 Nabil Crismatt,622503,Total,6,0,2,1.0,2024-2026,2
-Nathan Eovaldi,543135,Total,6,7,40,0.851,2024-2026,47
+Nathan Eovaldi,543135,Total,6,7,41,0.854,2024-2026,48
 Nestor Cortes,641482,Total,6,0,22,1.0,2024-2026,22
 Nick Lodolo,666157,Total,6,7,31,0.816,2024-2026,38
 Nick Martinez,607259,Total,6,9,27,0.75,2024-2026,36
@@ -23982,10 +23988,10 @@ Nolan McLean,690997,Total,6,1,14,0.933,2024-2026,15
 Osvaldo Bido,674370,Total,6,1,10,0.909,2024-2026,11
 Pablo Lopez,641154,Total,6,1,26,0.963,2024-2026,27
 Parker Messick,800048,Total,6,2,10,0.833,2024-2026,12
-Patrick Corbin,571578,Total,6,11,34,0.756,2024-2026,45
+Patrick Corbin,571578,Total,6,11,35,0.761,2024-2026,46
 Patrick Sandoval,663776,Total,6,2,6,0.75,2024-2026,8
 Paul Blackburn,621112,Total,6,1,8,0.889,2024-2026,9
-Paul Skenes,694973,Total,6,10,37,0.787,2024-2026,47
+Paul Skenes,694973,Total,6,10,38,0.792,2024-2026,48
 Payton Tolle,801139,Total,6,1,4,0.8,2024-2026,5
 Peter Lambert,663567,Total,6,0,4,1.0,2024-2026,4
 Quinn Priester,682990,Total,6,5,13,0.722,2024-2026,18
@@ -24025,7 +24031,7 @@ Shota Imanaga,684007,Total,6,8,41,0.837,2024-2026,49
 Simeon Woods Richardson,680573,Total,6,2,14,0.875,2024-2026,16
 Slade Cecconi,677944,Total,6,8,19,0.704,2024-2026,27
 Sonny Gray,543243,Total,6,10,31,0.756,2024-2026,41
-Spencer Arrighetti,681293,Total,6,4,19,0.826,2024-2026,23
+Spencer Arrighetti,681293,Total,6,4,20,0.833,2024-2026,24
 Spencer Schwellenbach,680885,Total,6,6,24,0.8,2024-2026,30
 Spencer Strider,675911,Total,6,2,16,0.889,2024-2026,18
 Spencer Turnbull,605513,Total,6,0,3,1.0,2024-2026,3
@@ -24242,7 +24248,7 @@ Mitch Keller,656605,Home,7,0,11,1.0,2024-2026,11
 Mitch Spence,687765,Home,7,1,2,0.667,2024-2026,3
 Mitchell Parker,680730,Home,7,2,7,0.778,2024-2026,9
 Nabil Crismatt,622503,Home,7,0,1,1.0,2024-2026,1
-Nathan Eovaldi,543135,Home,7,0,9,1.0,2024-2026,9
+Nathan Eovaldi,543135,Home,7,0,10,1.0,2024-2026,10
 Nestor Cortes,641482,Home,7,0,7,1.0,2024-2026,7
 Nick Lodolo,666157,Home,7,0,2,1.0,2024-2026,2
 Nick Martinez,607259,Home,7,0,3,1.0,2024-2026,3
@@ -24751,7 +24757,7 @@ Mitch Keller,656605,Total,7,2,16,0.889,2024-2026,18
 Mitch Spence,687765,Total,7,1,3,0.75,2024-2026,4
 Mitchell Parker,680730,Total,7,3,9,0.75,2024-2026,12
 Nabil Crismatt,622503,Total,7,0,1,1.0,2024-2026,1
-Nathan Eovaldi,543135,Total,7,0,25,1.0,2024-2026,25
+Nathan Eovaldi,543135,Total,7,0,26,1.0,2024-2026,26
 Nestor Cortes,641482,Total,7,1,9,0.9,2024-2026,10
 Nick Lodolo,666157,Total,7,1,9,0.9,2024-2026,10
 Nick Martinez,607259,Total,7,2,8,0.8,2024-2026,10
